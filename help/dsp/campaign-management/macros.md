@@ -3,9 +3,9 @@ title: Advertising Cloud DSP宏
 description: 引用可用的宏以进行常规跟踪和跟踪第三方显示广告的点击量。
 feature: Ads
 exl-id: e31cc2e5-ad1f-4555-a87b-0e4c3731fe5f
-source-git-commit: 185fc7d79798a0a3a9ad5829b701aeb53a4a47c1
+source-git-commit: e0166dbad4fec41fdc64a65cb3a8ac97496c681f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ DSP会在您执行以下操作时自动在显示标记中插入显示点击宏�
 >[!MORELIKETHIS]
 >
 >* [音频广告设置](/help/dsp/campaign-management/ads/ad-settings-audio.md)
->* [音频广告设置](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [音频广告设置](/help/dsp/campaign-management/ads/ad-settings-display.md)
->* [音频广告设置](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
->* [音频广告设置](/help/dsp/campaign-management/ads/ad-settings-native.md)
->* [音频广告设置](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+>* [连接的电视广告设置](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [显示广告设置](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [移动设备广告设置](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+>* [本机广告设置](/help/dsp/campaign-management/ads/ad-settings-native.md)
+>* [前置广告设置](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
 

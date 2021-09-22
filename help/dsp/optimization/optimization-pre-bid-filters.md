@@ -1,9 +1,9 @@
 ---
 title: 版面级别的预竞价过滤器及其使用方法
 description: 引用可用的版面级别的预竞价过滤器，并了解如何使用它们。
-feature: Optimization
+feature: DSP Optimization
 exl-id: c699e970-84ca-429b-8062-81804e6c9f21
-source-git-commit: 185fc7d79798a0a3a9ad5829b701aeb53a4a47c1
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%

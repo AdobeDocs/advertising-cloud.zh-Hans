@@ -1,9 +1,9 @@
 ---
 title: Adobe Advertising Cloud对《加州消费者隐私法案》和#58；的支持消费者选择退出销售支持
 description: 了解对捕获消费者选择退出销售请求的支持。
-feature: CCPA, CCPA Opt-out-of-sale Segments
+feature: CCPA
 exl-id: 2c0cd4f5-798f-479a-99cd-f555cd676766
-source-git-commit: 185fc7d79798a0a3a9ad5829b701aeb53a4a47c1
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 0%

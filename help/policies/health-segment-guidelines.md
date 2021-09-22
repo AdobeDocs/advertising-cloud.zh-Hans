@@ -2,10 +2,10 @@
 title: Adobe Advertising Cloud可接受的运行状况区段
 description: 请参阅与健康相关的可接受受众区段和策略的准则，以作为定位与健康相关的受众区段的替代方法。
 feature: Policies
-exl-id: c3f68457-92c6-472a-93f4-cce9aeaecc53
-source-git-commit: f4e87cc6ad39338f5df0b14d2aa9e43e6016cf8e
+exl-id: null
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---

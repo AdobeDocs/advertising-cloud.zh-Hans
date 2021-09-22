@@ -1,9 +1,9 @@
 ---
 title: 关于Campaign管理的常见问题解答
 description: 进一步了解营销活动管理，包括更改的延迟期以及在投放期间进行预算更改时所发生的情况。
-feature: Packages, Placements
+feature: DSP Packages, DSP Placements
 exl-id: 9034ab2c-b8b0-4759-bc87-5f73857bb062
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%

@@ -1,9 +1,9 @@
 ---
 title: 对数据列排序
 description: 了解如何对任何营销活动管理视图中的数据列进行排序。
-feature: Campaign Data Views
+feature: DSP Campaign Data Views
 exl-id: ed27246a-a31e-4ad2-bc30-446478fc58d1
-source-git-commit: 00b9049833dcf610fd1f4140ea26e40dbb02fd56
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%

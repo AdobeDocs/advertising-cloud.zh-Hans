@@ -1,11 +1,11 @@
 ---
 title: 关于自定义报表
 description: 了解手动创建自定义报表或使用预配置报表模板的选项。
-feature: Custom Reports
+feature: DSP Custom Reports
 exl-id: 59fc1894-1c9d-451d-b644-5640dd311547
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---

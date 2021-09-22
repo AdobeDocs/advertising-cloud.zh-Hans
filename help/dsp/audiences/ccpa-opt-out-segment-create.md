@@ -1,11 +1,11 @@
 ---
 title: 创建和实施CCPA选择退出销售区段
 description: 了解如何创建和实施区段以跟踪用户ID，使其免受消费者选择退出销售请求的影响。
-feature: CCPA, Segments
+feature: CCPA, DSP Segments
 exl-id: aebe0c5b-382f-4e4a-b145-c32f32d216ca
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---

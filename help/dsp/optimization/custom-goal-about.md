@@ -1,9 +1,9 @@
 ---
 title: 关于自定义目标
 description: 了解自定义目标，以在针对最低CPA或最高ROAS优化的资源包中定义成功事件。
-feature: Optimization
+feature: DSP Optimization
 exl-id: 623cb1ef-85ab-4535-aa3a-8e6ec8ae15ee
-source-git-commit: 0f0a2e907d39900968b29c3b59c8034b604911ce
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%

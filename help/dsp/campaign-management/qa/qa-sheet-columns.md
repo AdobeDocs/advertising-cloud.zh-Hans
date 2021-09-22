@@ -1,9 +1,9 @@
 ---
 title: 已下载/已上载电子表格中的列
 description: 引用下载和上传的Excel QA电子表格中的列。
-feature: Placements
+feature: DSP Placements
 exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: fcd55f882f56c9eacd82d554d30364400b99555c
+source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 0%

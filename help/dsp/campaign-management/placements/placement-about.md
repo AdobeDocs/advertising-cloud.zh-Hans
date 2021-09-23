@@ -3,9 +3,9 @@ title: 关于Advertising Cloud DSP中的版面管理
 description: 了解位置管理。
 feature: DSP Placements
 exl-id: 1d1382d9-b6c8-44bf-a708-8458769a39c6
-source-git-commit: 9d35b366122cab460e8d563b36597926ed71b6b0
+source-git-commit: 4a30463e9cb5783beab0ea3fa6989089e7f90457
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 默认情况下，功能板还会按位置显示步调和投放量度。 您可以选择查看版面的性能量度，并创建自定义列集。 您可以将整个数据表下载到浏览器的默认下载文件夹中，作为XLSM（启用宏的Excel电子表格）格式的报表。
 
-对于每个版面，您可以打开一个详细视图([[!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md))，其中包括性能量度、步调和交付量度，以及按网站、广告和库存划分的自定义列集；和频度量度。 您还可以对包含的网站、广告和库存执行快速操作，例如排除网站、暂停广告或编辑交易。 要打开检查器，请将光标悬停在放置行上，单击&#x200B;**[!UICONTROL More]**，然后单击&#x200B;**[!UICONTROL Sites]**、**[!UICONTROL Ads]**、**[!UICONTROL Frequency]**&#x200B;或&#x200B;**[!UICONTROL Inventory]**。 您可以将[!UICONTROL Sites]、[!UICONTROL Ads]、[!UICONTROL Frequency]或[!UICONTROL Inventory]选项卡上的数据导出为XLSM格式的报表，并将其导出到浏览器的默认下载文件夹中。
+对于每个版面，您可以打开一个详细视图([[!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md))，其中包括性能量度、步调和投放量度，以及按网站和按广告的自定义列集；和频度量度。 您还可以对包含的网站和广告执行快速操作，例如排除网站或暂停广告。 要打开检查器，请将光标悬停在放置行上，单击&#x200B;**[!UICONTROL More]**，然后单击&#x200B;**[!UICONTROL Sites]**、**[!UICONTROL Ads]**&#x200B;或&#x200B;**[!UICONTROL Frequency]**。 可以将[!UICONTROL Sites]、[!UICONTROL Ads]或[!UICONTROL Frequency]选项卡上的数据导出到浏览器的默认下载文件夹，作为XLSM格式的报表。
 
 >[!NOTE]
 >

@@ -3,16 +3,16 @@ title: 查看版面的网站、广告和频度详细信息
 description: 了解如何查看投放的目标网站、广告和频度数据。
 feature: DSP Placements
 exl-id: 99bb4a4e-dc52-4130-87c4-5458e25bbc1e
-source-git-commit: b91255255d2718b56f41aabd8c1babe52aa32abc
+source-git-commit: 14c484de177a6c5e3d4976076ecdbc4fa9086606
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# 查看版面的网站、广告、频度和库存详细信息
+# 查看版面的网站、广告和频度详细信息
 
-版面[!UICONTROL Inspector]列出了版面中的所有目标网站、广告和交易。 它还包含用于放置的频率数据。
+版面[!UICONTROL Inspector]列出了版面中的所有目标网站和所有广告。 它还包含用于放置的频率数据。
 
 1. 打开父营销活动或营销策划包的版面视图：
 
@@ -31,7 +31,6 @@ ht-degree: 0%
    * 要查看版面所定位的所有网站，请单击&#x200B;**[!UICONTROL Sites]**。
    * 要查看版面中的所有广告，请单击&#x200B;**[!UICONTROL Ads]**。
    * 要查看投放的频率数据，请单击&#x200B;**[!UICONTROL Frequency]**。
-   * 要查看版面定位的所有交易，请单击&#x200B;**[!UICONTROL Inventory]**。
 
 1. （可选）[根据需要更改列视图](column-view-change.md)以查看所需量度。
 

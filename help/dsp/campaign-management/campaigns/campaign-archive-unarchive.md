@@ -3,7 +3,7 @@ title: 存档或取消存档营销活动
 description: 了解如何存档或取消存档营销活动。
 feature: DSP Campaigns
 exl-id: 9a6822c5-9d93-490a-9a2e-37afb1591028
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 9c92b882fb35874bf7dc8747b121ea3650f8a82d
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->要查看存档的营销活动，请过滤[!UICONTROL Campaigns]视图：单击![过滤器按钮](/help/dsp/assets/filter.png)，单击&#x200B;**[!UICONTROL Campaign status]**&#x200B;并选择&#x200B;**[!UICONTROL Archived]**，然后单击&#x200B;**[!UICONTROL Apply]。**
+>要查看已存档的营销活动，请过滤[!UICONTROL Campaigns]视图：单击![过滤器按钮](/help/dsp/assets/filter.png)，单击&#x200B;**[!UICONTROL Campaign status]**&#x200B;并选择&#x200B;**[!UICONTROL Archived]**，然后单击&#x200B;**[!UICONTROL Apply]。**
 
 ## 取消存档营销活动
 

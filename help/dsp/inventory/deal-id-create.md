@@ -3,9 +3,9 @@ title: 手动创建交易ID详细信息
 description: 了解如何手动输入交易ID的详细信息。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: cd9763a7-99d4-4881-9df9-b4e24c55be0f
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 7e2a52e7b0d91f9206cd6e9a6ffb41a8399abf00
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    1. 在[!UICONTROL Ad & Campaign Selection]设置中，选择要用于交易的广告：
 
-      1. 选择广告商、营销活动和广告类型。
+      1. 选择广告商、营销活动和广告类型。 （可选）选择用于筛选广告的广告状态。
 
       1. 从可用广告列表中，选中将用于交易的每个广告旁边的复选框。
 
@@ -69,3 +69,4 @@ ht-degree: 0%
 >* [为程序化保证交易提交广告 [!DNL FreeWheel]](freewheel-submit.md)
 >* [关于程序化保证交易](programmatic-guaranteed-about.md)
 
+<!-- >* [Specify Placements and Ads for a Private Deal](private-deal-attach-placements.md)-->

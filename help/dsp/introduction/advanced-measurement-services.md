@@ -2,9 +2,9 @@
 title: 可用 [!DNL Advanced Measurement Solutions]
 description: 请参阅可用于高级测量的解决方案列表。
 exl-id: 1a8b76ee-d38d-4ee4-981b-e29497fa4095
-source-git-commit: 209dfce05228be879d9ba744590ff52ce572a807
+source-git-commit: d25e768fe5d277ef8d1c9ae7531b7a7d3c563622
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -77,4 +77,4 @@ ht-degree: 0%
 
 ## 更多信息
 
-要了解有关利用高级测量服务为您的促销活动创建自定义学习议程（包括区域限制和定价）的更多信息，请通过[!DNL asg@adobe.com]联系[!DNL Adobe Strategic Advertising Consultants]团队。
+要了解有关利用高级测量解决方案为您的活动创建自定义学习议程（包括每个活动包的可衡量格式、区域限制和定价）的更多信息，请在[!DNL asg@adobe.com]与[!DNL Adobe Strategic Advertising Consultants]团队联系。

@@ -3,7 +3,7 @@ title: 创建版面
 description: 了解如何创建版面。
 feature: DSP Placements
 exl-id: 4e37b571-9af4-4897-bff2-035a5f2600a5
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 608774723f865c22bfdd5c911ac818600a495114
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 1%
@@ -29,7 +29,8 @@ ht-degree: 1%
    1. 指定[!UICONTROL Basics]设置。
 
    1. 在[!UICONTROL Goals]部分中，指定[!UICONTROL Gross Budget]，或者，指定其他版面目标。
-某些字段具有可覆盖的默认值。
+
+      某些字段具有可覆盖的默认值。
 
       如果向其分配投放的资源包具有资源包级别的步调，则您的目标和步调设置将反映资源包设置。
 

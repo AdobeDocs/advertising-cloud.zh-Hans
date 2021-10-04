@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: ebb8c99da206fe17d5a15f4343b5ddd8485a59af
+source-git-commit: fddfd66f96f14bc72a8a7d4ed4e681c750b1af9e
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 有关详细信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2021年9月30日 | 品牌安全 | （9月22日发布）[!DNL DoubleVerify]品牌安全投标前产品已更新为[!DNL Brand Suitability Tiers]，这允许广告商在特定区段的三个风险级别（低、中、高）之间进行选择，而无需避免特定主题的所有实例。 以前，区段不包含任何容差级别。 | — |
+| 2021年9月30日 | 品牌安全 | （9月22日发布）[!DNL DoubleVerify]品牌安全投标前产品已更新为[!DNL Brand Suitability Tiers]，这允许广告商在特定区段的三个风险级别（低、中、高）之间进行选择，而无需避免特定主题的所有实例。 以前，区段不包含任何容差级别。<br><br>为了与新的区段结 [!DNL DoubleVerify] 构保持一致，DSP将您现有的品牌安全区段迁移到推荐的新 *中级*&#x200B;区段。您可以选择将区段层调整为&#x200B;*low*&quot;*或&#x200B;*high*。<br><br>**注意：** 少量区段列表没有层，但具有新名称，如“骚扰/间谍软件/恶意软件、Warez” — >激励/恶意软件/混乱。” | — |
 |  | 优化 | 已弃用以下优化目标和竞价前过滤器：<ul><li>优化目标：<ul><li>[!UICONTROL Always Max Bid & Highest Viewability Rate (Moat – GroupM)]</li><li>[!UICONTROL Always Max Bid & Highest Viewability Rate (Moat – MRC)]</li></ul><li>竞价筛选器目标：<ul><li>[!UICONTROL Viewability IAS]</li><li>[!UICONTROL Viewability Moat]</li></ul></ul> | 请参阅“[优化目标和如何使用它们](/help/dsp/optimization/optimization-goals.md)”和“[版面级别的预竞价过滤器以及如何使用它们](/help/dsp/optimization/optimization-pre-bid-filters.md)”。 |
 | 2021年9月28日 | 促销活动管理视图 | “[!UICONTROL Creation date]”列现在在[!UICONTROL Campaigns]、[!UICONTROL Packages]、[!UICONTROL Placements]和[!UICONTROL Ads]视图的自定义列集中可用。 您还可以按[!UICONTROL Creation date]过滤[!UICONTROL Placements]和[!UICONTROL Ads]视图。 | 请参阅“[创建自定义列视图](/help/dsp/campaign-management/reports/column-view-create.md)”和“[过滤营销活动数据](/help/dsp/campaign-management/reports/campaign-data-filter.md)”。 |
 |  | 程序化保证交易 | （9月8日版）现在，您可以编辑[!UICONTROL Max Bid]以获取程序化保证(PG)交易的默认位置。 但是，由于PG交易始终具有固定的CPM，因此只有国际客户才应编辑[!UICONTROL Max Bid]以考虑货币兑换费用。 | — |

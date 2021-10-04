@@ -3,9 +3,9 @@ title: 手动交易ID设置
 description: 请参阅手动输入的交易ID设置的描述。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 0cd5e9e8-2b13-4b1e-a2e0-b8b492f75acf
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: c3d0783078adc8afafb55d6b6e7e48cdc875ce7c
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 |  | [!UICONTROL External deal ID] | 发布者和SSP用于标识此交易的ID。 | 是 | 否 |
 |  | [!UICONTROL Publisher] | 销售此库存的发布者的名称。 | 是 | 否 |
 |  | [!UICONTROL SSP] | 此交易将通过的供应方平台(SSP)。 | 是 | 否 |
-|  | [!UICONTROL Media type] | 将通过此交易购买的媒体类型：[!UICONTROL Desktop video]、[!UICONTROL Mobile video]、[!UICONTROL Connected TV]、[!UICONTROL Display]或[!UICONTROL Audio]。 选项因SSP而异。 | 是 | 否 |
+|  | [!UICONTROL Media type] | 将通过此交易购买的媒体类型：[!UICONTROL Desktop video]、[!UICONTROL Mobile video]、[!UICONTROL Connected TV]、[!UICONTROL Display]或[!UICONTROL Audio]。 选项因SSP而异。<br><br> 如果交易允许多种媒体类型，请在创建交易时为默认版面选择媒体类型。之后，您可以选择其他媒体类型，以使用附加的媒体类型创建新版面。<!-- It would be ideal if this field was multi-select rather than a radio button, so you don't have to "change" the value later. --> | 是 | 否 |
 |  | [!UICONTROL Deal type] | 交易承诺和定价结构：<br><ul><li>*[!UICONTROL Non guaranteed (floor)]*:您和发布者未承诺投放固定数量的展示投放。该交易规定了库存的最低价格，尽管CPM可能会根据市场情况而波动和上升。</li><li>*[!UICONTROL Non guaranteed (fixed)]*:您和发布者未承诺投放固定数量的展示投放。定价按议定固定利率计算。</li><li>*[!UICONTROL Guaranteed (fixed)]*:您和发布商已就预定义的展示次数、定位、投放日期和固定价格达成了一致。<br><br><b>注意：</b> 保证交易要求投放日期和部分中的指定展示 [!UICONTROL Tracking] 次数。您还需要为交易创建一个默认的程序化保证(PG)投放，并且您可以选择将该交易用于其他投放。</li></ul> | 是 | 否 |
 |  | [!UICONTROL CPM] | 每千次展示次数的协商成本(CPM)。 | 是 | 是 |
 |  | [货币] | 交易的货币。<br><br>所有南苏丹镑都接受以美元计价的交易。当SSP接受您的DSP帐户的货币时，该货币也可用。 | 是 | 否 |

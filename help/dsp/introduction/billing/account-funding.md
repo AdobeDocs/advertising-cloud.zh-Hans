@@ -3,9 +3,9 @@ title: 帐户资金
 description: 了解DSP的帐户资金。
 feature: DSP Introduction
 exl-id: c90e88a7-78dd-402c-baba-9bac360093a4
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 4d3020701caae4218aff2ecb7e7c063afebac4d5
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -26,3 +26,8 @@ Adobe Advertising Cloud DSP基金客户通过以下两种方式之一购买媒�
 ![帐户的可用资金](/help/dsp/assets/account-usable-funds.png)
 
 Adobe保留阻止您的帐户在DSP上花费的权利，其原因包括违反DSP [广告要求政策](/help/policies/ad-requirements-policy.md)或隐私条款。 如果Adobe阻止您的帐户，则您的帐户设置将包含一则被阻止的通知。 与您的Advertising Cloud [!DNL Client Services]代表合作，确定块的原因以及如何更正错误。
+
+>[!MORELIKETHIS]
+>
+>* [支持的货币](/help/dsp/currency.md)
+

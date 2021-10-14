@@ -3,9 +3,9 @@ title: 手动交易ID设置
 description: 请参阅手动输入的交易ID设置的描述。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 0cd5e9e8-2b13-4b1e-a2e0-b8b492f75acf
-source-git-commit: c3d0783078adc8afafb55d6b6e7e48cdc875ce7c
+source-git-commit: 5f39608155f9237fb6d69a7b31c007d1b8d0306f
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 | [!UICONTROL Advertisers] | [!UICONTROL Account email] | 可访问交易的用户帐户的电子邮件地址。 | 否 | 是 |
 |  | [!UICONTROL Advertisers that can access this deal] | 帐户中可访问此交易的特定广告商。<br><br><b>注意：</b> 您可以从视图与其他帐户中的广告商共享该 [!UICONTROL Deals] 交易。在交易行中，单击&#x200B;**[!UICONTROL #]**，单击&#x200B;**[!UICONTROL share]**，然后与电子邮件地址共享交易。 | 是 | 是 |
 | [!UICONTROL Tracking] | [!UICONTROL Flight Dates] | 使用此交易的流量的开始和结束日期。 这些日期仅供跟踪之用，不会影响广告投放。<br><br><b>提示：</b> 在>视 [!UICONTROL Inventory] 图 [!UICONTROL Deals] 中，列将 [!UICONTROL Pacing & Budget] 显示交易在指定的投放日期和展示目标中的步调。如果投放进度缓慢或过于紧张，请联系您的发布者以调整通过交易发送的量。 | 有保证的交易：是<br>无担保交易：否 | 是 |
-|  | [!UICONTROL Impressions] | （对于无保证交易而言，它是可选项）使用此交易预计要运行的预计展示次数。 此值仅用于跟踪目的；发布者控制广告投放。 | 有保证的交易：是<br>无担保交易：否 | 是 |
+|  | [!UICONTROL Impressions] | （对于无保证交易而言，它是可选项）使用此交易预计要运行的预计展示次数。 此值仅用于跟踪；发布者控制广告投放。 | 有保证的交易：是<br>无担保交易：否 | 是 |
 
 {style=&quot;table-layout:auto&quot;}
 

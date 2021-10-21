@@ -3,9 +3,9 @@ title: 营销活动启动核对清单
 description: 了解在启动营销活动之前需要执行的操作。
 feature: DSP Placements, DSP Ads
 exl-id: bf0147d0-0b58-435d-a2de-5b98e0d3488c
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## 帐户资金
 
-确保您的帐户具有足够的信用来运行整个营销活动。 您可以在[!UICONTROL Settings] > [!UICONTROL Account]中检查并填充帐户资金，或联系您的Adobe客户经理。
+确保您的帐户具有足够的信用来运行整个营销活动。 您可以在 [!UICONTROL Settings] > [!UICONTROL Account] 或联系 [!DNL Adobe] 客户经理。
 
 ## 营销活动状态
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 版面状态
 
-确保版面状态为“[!UICONTROL Active]”或“[!UICONTROL Scheduled]”。 此外，还应验证其他版面参数（如网站列表、预算、目标、投放日期和频度）是否正确。
+确保版面状态为“[!UICONTROL Active]&quot;或&quot;[!UICONTROL Scheduled].&quot; 此外，还应验证其他版面参数（如网站列表、预算、目标、投放日期和频度）是否正确。
 
 ## 广告状态
 

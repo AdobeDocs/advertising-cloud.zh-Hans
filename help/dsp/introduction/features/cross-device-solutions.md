@@ -3,16 +3,16 @@ title: 跨设备解决方案
 description: 进一步了解跨设备功能。
 feature: DSP Introduction
 exl-id: 29f8ec41-35a6-4a29-a638-82a2929a8fe6
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
 
 # 跨设备解决方案
 
-通过与[!DNL LiveRamp]和[!DNL Adobe Device Co-op]的Advertising Cloud DSP集成，您可以将受众扩展到用户的所有已知设备，而不仅仅是品牌跟踪的设备。 这些集成还提供跨所有设备的频率上限和归因测量。
+Advertising Cloud DSP集成 [!DNL LiveRamp] 和 [!DNL Adobe Device Co-op] 允许您将受众扩展到用户的所有已知设备，而不仅仅是品牌跟踪的设备。 这些集成还提供跨所有设备的频率上限和归因测量。
 
 使用受支持的基于人员的设备图时，您可以：
 
@@ -33,7 +33,7 @@ ht-degree: 0%
    * 在Cookie ID和移动设备ID之间提供均匀的覆盖范围
    * 包括主要来自美国的数据
    * 免费进行频度上限和归因测量
-   * 延长展示次数（展示次数仅通过[!DNL LiveRamp]设备图提供，而不是在目标受众区段内的设备上提供）的定价为0.35 CPM
+   * 延长展示次数(仅通过使用 [!DNL LiveRamp] 设备图，而不是目标受众区段内的设备图)
 
       费率会反映在您的帐户费率卡上。
 
@@ -43,15 +43,15 @@ ht-degree: 0%
 
 ### 激活基于人员的频率管理
 
-* **营销活动：** 创建新营销活动时，您可以指定一个 [!UICONTROL Cross-Device Level] 设置。启用“[!UICONTROL Same Device]” — >“[!UICONTROL People]”并选择设备图。 指定的设备图既可用于位置级别的跨设备定位，也可用于营销策划、包和位置级别的基于人员的频率管理。 频率上限适用于人员的所有已知设备。
+* **营销活动：** 创建新营销活动时，您可以指定 [!UICONTROL Cross-Device Level] 设置。 启用“[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]，然后选择一个设备图。 指定的设备图既可用于位置级别的跨设备定位，也可用于营销策划、包和位置级别的基于人员的频率管理。 频率上限适用于人员的所有已知设备。
 
-有关更多信息，请参阅[营销活动设置](/help/dsp/campaign-management/campaigns/campaign-settings.md)。
+有关更多信息，请参阅 [营销活动设置](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
-保存营销活动后，便无法更改其[!UICONTROL Cross Device Level]设置。
+保存营销活动后，便无法更改其 [!UICONTROL Cross Device Level] 设置。
 
-* **资源包：**  您可以选择在资源包级别设置其他频率上限。DSP将遵循营销活动层级中最严格的频率上限。
+* **包：**  您可以选择在资源包级别设置附加频率上限。 DSP将遵循营销活动层级中最严格的频率上限。
 
-* **版面：** 您可以选择在版面级别设置其他频率上限。DSP将遵循营销活动层级中最严格的频率上限。
+* **版面：** 您可以选择在放置级别设置附加频率上限。 DSP将遵循营销活动层级中最严格的频率上限。
 
 ## 基于人员的定位
 
@@ -59,23 +59,23 @@ ht-degree: 0%
 
 ### 激活基于人员的定位
 
-* **营销活动：** 创建新营销活动时，您可以指定一个 [!UICONTROL Cross-Device Level] 设置。启用“[!UICONTROL Same Device]” — >“[!UICONTROL People]”并选择设备图。 指定的设备图用于在放置级别跨设备定位和基于人员的频率管理。
+* **营销活动：** 创建新营销活动时，您可以指定 [!UICONTROL Cross-Device Level] 设置。 启用“[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]，然后选择一个设备图。 指定的设备图用于在放置级别跨设备定位和基于人员的频率管理。
 
-有关更多信息，请参阅[营销活动设置](/help/dsp/campaign-management/campaigns/campaign-settings.md)。
+有关更多信息，请参阅 [营销活动设置](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
-* **版面：** 当您使用指定的设备图为营销活动中的版面选择受众目标时，利用 [!UICONTROL Cross-Device Targeting] 选项，可将定位扩展到人员的所有已知设备（根据营销活动设置中指定的设备图），甚至是不在指定区段的设备。
+* **版面：** 在具有指定设备图的营销活动中为版面选择受众目标时， [!UICONTROL Cross-Device Targeting] 选项允许您扩展定位到人员所有已知设备（根据促销活动设置中指定的设备图），甚至是不在指定区段的设备。
 
 ### 设置基于人员的定位报表
 
 您可以在自定义报表中包含以下量度：
 
-* **扩展展示次数：** (在 [!UICONTROL Build Your Report] 下方 [!UICONTROL Metrics] >  [!UICONTROL Std. Metrics]部分中)利用设备图（在原始受众区段中未找到）交付的增量展示次数量。此量度还用于计算与使用第三方设备图相关的适用费用。
+* **延长展示次数：** (在 [!UICONTROL Build Your Report] 部分 [!UICONTROL Metrics] > [!UICONTROL Std. Metrics])利用设备图（在原始受众区段中未找到）交付的增量展示次数量。 此量度还用于计算与使用第三方设备图相关的适用费用。
 
-   要确定某个时段内延长展示次数的成本，请运行包含[!UICONTROL Extended Impressions]列的自定义报表，然后将扩展展示次数总数乘以$0.00035($0.35/1000展示次数)。
+   要确定某个时段内的延长展示次数的成本，请运行一个包含 [!UICONTROL Extended Impressions] 列，然后将扩展展示次数总数乘以0.00035美元(0.35/1000展示次数)。
 
-   虽然该量度还包含您可能添加的其他促销活动费用，但该累计成本也包含在[!UICONTROL Billable Other Net Spend]列（在[!UICONTROL Metrics] > [!UICONTROL Spend]下）中。
+   综合成本亦计入综合 [!UICONTROL Billable Other Net Spend] 列（下） [!UICONTROL Metrics] > [!UICONTROL Spend])，但该量度也包含您可能添加的其他促销活动费用。
 
-* **设备图：** (在> [!UICONTROL Build Your Report] 下的 [!UICONTROL Dimensions] 部分中) [!UICONTROL Campaign]特定促销活动、包或版面的选定设备图。
+* **设备图：** (在 [!UICONTROL Build Your Report] 部分 [!UICONTROL Dimensions] > [!UICONTROL Campaign])特定促销活动、包或版面的选定设备图。
 
 ## 基于人员的归因测量
 
@@ -85,13 +85,13 @@ ht-degree: 0%
 
 ### 启用基于人员的归因测量
 
-如果要激活跨设备归因测量，请联系您的Adobe客户经理。 对于[!DNL Adobe Device Co-op]帐户，您需要提供已签署的[!DNL Adobe Device Co-op]合同和Experience Cloud[!DNL Organization ID]（以前称为[!DNL IMS org ID]）。
+如果要激活跨设备归因测量，请联系您的 [!DNL Adobe] 客户经理。 对于 [!DNL Adobe Device Co-op] 帐户，您需要提供您的已签名 [!DNL Adobe Device Co-op] 合同和Experience Cloud [!DNL Organization ID] (以前称为 [!DNL IMS org ID])。
 
 要查看广告商帐户是否配置为使用设备图进行归因测量，请执行以下操作：
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Settings]>[!UICONTROL Advertiser]**。
-1. 将光标悬停在广告商行上，然后单击&#x200B;**[!UICONTROL Edit]**。
-1. 在广告商设置的[!UICONTROL Integrations]部分中，查看[!UICONTROL Cross-Device Attribution]设置是否处于活动状态。
+1. 在主菜单中，单击 **[!UICONTROL Settings]>[!UICONTROL Advertiser]**.
+1. 将光标悬停在广告商行上并单击 **[!UICONTROL Edit]**.
+1. 在 [!UICONTROL Integrations] 广告商设置的部分，查看 [!UICONTROL Cross-Device Attribution] 设置处于活动状态。
 
    对于活动集成，会显示设备图。
 
@@ -99,17 +99,17 @@ ht-degree: 0%
 
 #### 转化报表设置
 
-在启用设备图进行归因测量后，[!UICONTROL Conversion]报表包含[!UICONTROL Cross-Device Breakout]设置，该设置允许您为每个转化量度最多包含三个单独的列，包括：
+启用设备图进行归因测量后， [!UICONTROL Conversion] 报表包含 [!UICONTROL Cross-Device Breakout] 设置，以便您为每个转化量度最多包含三个单独的列，包括：
 
-* &lt;>转化&#x200B;*> [!UICONTROL (tp)]:包括总转化（总人员），其中包括相同设备转化和跨设备转化（如果适用）。*&#x200B;在报表中，“[!UICONTROL (tp)]”会附加到转化路径中转化量度名称、规则类型和转化类型(例如，“Responses(le)(tl)(tp)”)的后面。
+* &lt;*转化*>[!UICONTROL (tp)]:包括总转化（总人员），其中包括相同设备转化和跨设备转化（如果适用）。 在报表中， &quot;[!UICONTROL (tp)]“ ”会附加到转化路径中的转化量度名称、规则类型和转化类型(例如“响应(le)(tl)(tp)”)。
 
-* &lt;>转化&#x200B;*> [!UICONTROL (sd)]:（可选）仅包括转化路径中仅跟踪了单个设备的转化。*&#x200B;在报表中，“[!UICONTROL (sd)]”会附加到转化路径中转化量度名称、规则类型和转化类型(例如，“Responses(le)(tl)(sd)”)的后面。
+* &lt;*转化*>[!UICONTROL (sd)]:（可选）仅包括转化路径中仅跟踪了单个设备的转化。 在报表中， &quot;[!UICONTROL (sd)]“ ”会附加到转化路径中的转化量度名称、规则类型和转化类型(例如“响应(le)(tl)(sd)”)。
 
-* &lt;>转化&#x200B;*> [!UICONTROL (xd)]:（可选）仅包括转化路径中跟踪了多个设备的转化。*&#x200B;在报表中，“[!UICONTROL (xd)]”会附加到转化路径中转化量度名称、规则类型和转化类型(例如，“Responses(le)(tl)(xd)”)的后面。
+* &lt;*转化*>[!UICONTROL (xd)]:（可选）仅包括转化路径中跟踪了多个设备的转化。 在报表中， &quot;[!UICONTROL (xd)]“ ”会附加到转化路径中的转化量度名称、规则类型和转化类型(例如“响应(le)(tl)(xd)”)。
 
 #### 如何解释转化报表
 
-如果按从高到低的跨设备([!UICONTROL (xd)]/[!UICONTROL (tl)])转化总数百分比进行排序，您将了解什么因素会推动高于平均水平的跨设备转化。 您可以使用此信息来告知您的创意或定位策略，以便将消息传递和渠道投资与用户行为相匹配。
+如果您对跨设备转化总数的百分比([!UICONTROL (xd)]/[!UICONTROL (tl)])从高到低，您将了解什么因素促成了高于平均的跨设备转化。 您可以使用此信息来告知您的创意或定位策略，以便将消息传递和渠道投资与用户行为相匹配。
 
 * 包 — 查看哪些包促成的总转化最多，以及哪些包在跨设备转化中的百分比较高。 这有助于您了解在何处集中支出。
 

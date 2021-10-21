@@ -2,7 +2,7 @@
 title: 高级测量解决方案
 description: 请参阅可用于高级测量的解决方案列表。
 exl-id: 1a8b76ee-d38d-4ee4-981b-e29497fa4095
-source-git-commit: 1f1dc0b4b38652beb9bc7392ee17fa4eefad987b
+source-git-commit: b4976cdce6b4d5870c5cc3a1a09c1b5545cd3200
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ## 找到完美的测量拟合：按垂直划分的解决方案
 
-* 任意垂直
+* **任何垂直：**
 
    * 实验设计人员（安慰剂和A/B测试）
 
@@ -79,13 +79,13 @@ ht-degree: 0%
 
       任何希望跨多个屏幕衡量品牌认知度和认知度的客户；最适合利基受众
 
-* QSR，零售（实体）
+* **QSR，零售（实体）：**
 
    * 交易测量
 
    * 足部交通测量
 
-* QSR、零售、旅游
+* **QSR，零售，旅游：**
 
    * 交易分析
 

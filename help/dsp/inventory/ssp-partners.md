@@ -3,7 +3,7 @@ title: SSP合作伙伴
 description: 请参阅可用供应方平台(SSP)和开放式交换合作伙伴的列表。
 feature: DSP Private Inventory
 exl-id: 8487f4ce-0232-4145-ad8b-b0631fd0ab7f,None
-source-git-commit: 3833f3339adbdd3c41750ff168de93bd2196949b
+source-git-commit: fb78f6d590f7a5c407788ce025800cbbe5842eb1
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -20,8 +20,8 @@ ht-degree: 0%
 
 | 列出SSP | 公司 | 座位ID | 程序化保证支持 | 地区 | 支持的货币 | 视频桌面 | 视频移动设备 | 视频CTV | 显示桌面 | 显示移动设备 | 本机显示 | 音频桌面和移动设备 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| [!DNL Adap.tv] | [!DNL Verizon Media Group] | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 全球 | USD | X | X | X |  |  |  |  |
-| [!DNL AdColony] (先前 [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | 否 | Global | USD |  | x |  |  |  |  |  |
+| [!DNL Adap.tv] | [!DNL Verizon Media Group] | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 全球 | 美元 | X | X | X |  |  |  |  |
+| [!DNL AdColony] (先前 [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | 否 | 全球 | 美元 |  | x |  |  |  |  |  |
 | [!DNL AdsWizz] | [!DNL Sirius XM Pandora] | Adobe Advertising Cloud | 否 | 全球 | 美元、欧元、英镑 |  |  |  |  |  |  | x |
 | [!DNL Ambient Digital] | n/a | [!DNL TubeMogul] | 是 | SEA | 美元 |  | x |  | x |  |  | x |
 | [!DNL AppNexus] | [!DNL Xandr] | 视频座位ID:9094<br>显示座位ID:3939 | 否 | 全球 | 美元 | x | x | x | x | x |  |  |
@@ -29,8 +29,8 @@ ht-degree: 0%
 | [!DNL DistrictM] |  | Adobe | 否 | 美国/加利福尼亚州 | 美元 |  |  |  | x | x |  |  |
 | [!DNL EMX Digital] |  | Adobe Advertising Cloud | 否 | 美国/加利福尼亚州 | 美元 | x | x | x |  |  |  |  |
 | [!DNL FreeWheel] (以前 [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] 或Adobe Advertising Cloud | 是 | 全球 | 美元、欧元、澳元、英镑 | x | x | x |  |  |  |  |
-| [!DNL Fyber]/[!DNL Inneractive] |  | [!DNL TubeMogul] | 否 | 全球 | USD | x | x |  |  |  |  |  |
-| [!DNL Google AdX] （现在） [!DNL Google Authorized Buyers]) | [!DNL Google] | AdobeNA - 44912714<br>Adobe欧盟 — 94893418<br>AdobeAPAC - 89185975 | Yes | 全球 | 美元、巴西雷亚尔 | x | x | x | x | x |  | x |
+| [!DNL Fyber]/[!DNL Inneractive] |  | [!DNL TubeMogul] | 否 | 全球 | 美元 | x | x |  |  |  |  |  |
+| [!DNL Google AdX] （现在） [!DNL Google Authorized Buyers]) | [!DNL Google] | AdobeNA - 44912714<br>Adobe欧盟 — 94893418<br>AdobeAPAC - 89185975 | 是 | 全球 | 美元、巴西雷亚尔 | x | x | x | x | x |  | x |
 | [!DNL GumGum] |  | Adobe Advertising Cloud | 否 | 美国/加利福尼亚州 | 美元 | x | x |  | x | x |  |  |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | 否 | 全球 | 美元 | x | x | x | x | x |  |  |
 | [!DNL MoPub] | [!DNL Twitter] | [!DNL TubeMogul] | 否 | 全球 | 美元 |  | x |  |  |  |  |  |
@@ -48,10 +48,10 @@ ht-degree: 0%
 | [!DNL Taboola] |  | Adobe Advertising Cloud | 否 | 美国/加利福尼亚州 | 美元 | x | x |  |  |  |  |  |
 | [!DNL Teads] |  | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 流视频=全局<br>显示= NA + EMEA | 美元 | x | x |  | x | x |  |  |
 | [!DNL Magnite CTV] | [!DNL Magnite] (以前 [!DNL Telaria] 和 [!DNL Tremor]) | [!DNL TubeMogul] 或Adobe Advertising Cloud | 是 | 全球 | 澳元、美元 | x | x | x |  |  |  |  |
-| [!DNL Tremor] | [!DNL Rhythm One] | Adobe Advertising Cloud | 否 | 美国+欧洲、中东和非洲 | 美元 | x | x |  |  |  |  |  |
 | [!DNL TripleLift] |  | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 全球 | 美元 |  |  |  |  |  | x |  |
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 全球 | 美元 | x | x |  | x | x |  |  |
 | [!DNL Triton] |  | Adobe Advertising Cloud | 否 | 全球 | 美元 |  |  |  |  |  |  | x |
+| [!DNL Unruly] | [!DNL Tremor] | Adobe Advertising Cloud | 否 | 美国+欧洲、中东和非洲 | 美元 | x | x |  |  |  |  |  |
 | [!DNL Yahoo] | [!DNL Verizon Media Group] | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 全球 | 美元 |  |  |  | x | x |  |  |
 
 {style=&quot;table-layout:auto&quot;}

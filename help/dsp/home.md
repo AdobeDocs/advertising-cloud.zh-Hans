@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 202b537dba5af3e8926584ae2d5df04df0763a70
+source-git-commit: 4e09e4afe0befb40518c847b99d35689ed2f87a8
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -50,3 +50,5 @@ ht-degree: 0%
 | 2020年10月15日 | 专用清单 | 现在，所有用户都可以使用新的交易ID表单来设置和编辑交易ID详细信息，该表单是旧版的简化版 [!UICONTROL Smart Ad Serving] 表单。 要设置新的交易ID详细信息，请转到 [!UICONTROL Inventory] > [!UICONTROL Deals]，单击 [!UICONTROL Create]，然后单击 [!UICONTROL Deal ID Beta]. | 请参阅“[手动创建交易ID详细信息](/help/dsp/inventory/deal-id-create.md)&quot;和&quot;[手动交易ID设置](/help/dsp/inventory/deal-id-settings.md).&quot; |
 |  | 版面预测 | 对于具有投放级别步调的版面， [!UICONTROL Forecast] 版面设置的部分包含一个新 [!UICONTROL Estimated Maximums] 部分，指示当前定位配置中的可用容量。 | — |
 | 2020年9月2日 | 报告 | 具有多个DSP帐户的任何组织都可以根据组织的需要，选择在自定义报表中启用跨帐户数据。 | 请参阅“[关于自定义报表](/help/dsp/reports/report-about.md#cross-account-reporting).&quot; |
+
+{style=&quot;table-layout:auto&quot;}

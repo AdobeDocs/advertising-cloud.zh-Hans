@@ -3,9 +3,9 @@ user-guide-title: 与Adobe Experience Cloud集成
 user-guide-description: 了解Advertising Cloud DSP和Advertising Cloud Search与其他Adobe Experience Cloud产品和服务的集成。
 breadcrumb-title: 与Experience Cloud集成
 index: true
-source-git-commit: cd5d62f26b9277608b99705fa46f0d2bf26b6cfd
+source-git-commit: a4c8c2e0d50442e872b48577bde9c3fae7da18d5
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,19 @@ ht-degree: 0%
 
 + [新增功能](/help/integrations/home.md)
 + [!DNL Analytics for Advertising Cloud] {#analytics}
-   + [ [!DNL Analytics for Advertising Cloud]概述](/help/integrations/analytics/overview.md)
-   + [Advertising Cloud [!DNL Analytics]使用的ID](/help/integrations/analytics/ids.md)
-   + 规划实施{#planning}
-      + [实施 [!DNL Analytics for Advertising Cloud]的先决条件和关键信息](/help/integrations/analytics/prerequisites.md)
-      + [ [!DNL Analytics for Advertising Cloud]的JavaScript代码](/help/integrations/analytics/javascript.md)
-   + 交换的数据{#data}
+   + [概述 [!DNL Analytics for Advertising Cloud]](/help/integrations/analytics/overview.md)
+   + [Advertising Cloud ID使用者 [!DNL Analytics]](/help/integrations/analytics/ids.md)
+   + 规划实施 {#planning}
+      + [实施的先决条件和关键信息 [!DNL Analytics for Advertising Cloud]](/help/integrations/analytics/prerequisites.md)
+      + [适用于的JavaScript代码 [!DNL Analytics for Advertising Cloud]](/help/integrations/analytics/javascript.md)
+      + [使用 [!DNL Last Event Service] 包含Adobe Experience Platform的JavaScript库 [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)
+   + 交换的数据 {#data}
       + [Advertising Cloud量度在Analysis Workspace中](/help/integrations/analytics/advertising-cloud-metrics-in-analytics.md)
       + [[!DNL Analytics] Advertising Cloud中的数据](/help/integrations/analytics/analytics-data-in-advertising-cloud.md)
-      + [ [!DNL Analytics] 和Advertising Cloud之间的预期数据差异](/help/integrations/analytics/data-variances.md)
-   + 在[!DNL Analytics Marketing Channels]] {#mc}中工作
-      + [ [!DNL Marketing Channels]的基础知识](/help/integrations/analytics/marketing-channels/mc-overview.md)
+      + [之间的预期数据差异 [!DNL Analytics] 和Advertising Cloud](/help/integrations/analytics/data-variances.md)
+   + 使用 [!DNL Analytics Marketing Channels]] {#mc}
+      + [的基本原理 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-overview.md)
       + [使用Advertising Cloud ID创建 [!DNL Marketing Channels] 处理规则](/help/integrations/analytics/marketing-channels/mc-ids.md)
-      + [将 [!DNL Marketing Channels] 与Advertising Cloud数据一起使用](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
-      + [为何Advertising Cloud和 [!DNL Marketing Channels]之间的渠道数据可能有所不同](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
+      + [使用 [!DNL Marketing Channels] 使用Advertising Cloud数据](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
+      + [为何渠道数据在Advertising Cloud和 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
 + [视频Tutorials关于Advertising Cloud集成](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->

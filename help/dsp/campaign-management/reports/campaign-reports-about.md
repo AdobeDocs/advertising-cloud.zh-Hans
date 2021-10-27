@@ -3,9 +3,9 @@ title: 关于平台内报表
 description: 了解营销活动管理视图中包含的报表数据。
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: b2393d5e66ba5d3d2dc9816825c05eda076eaad1
+source-git-commit: 0b0f5df3ae9180dcbc2aeb5d7833956934767915
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 您可以 [自定义趋势图](campaign-data-visualization-manage.md) 按营销活动，并且同一量度会保留在营销活动的所有趋势图表中。
 
-### 版面检查器
+### 版面 [!UICONTROL Inspector] {#placement-inspector}
 
 对于每个版面，您可以 [打开（详细信息视图） [!UICONTROL Inspector])](placement-details-view.md)，其中包括以下深入数据：
 
@@ -63,7 +63,25 @@ ht-degree: 0%
    * 在指定频率级别的预计展示次数
    * 指定频率级别的估计平均频率。 此值等于（预计展示次数）/（预计独特数）。
 
-![版面检查器](/help/dsp/assets/placement-inspector-sites.png)
+* **[!UICONTROL Inventory]:** 有关投放所定向的所有交易的信息。
+
+   的 [!UICONTROL Inventory] 选项卡包含搜索和过滤功能、主页上提供的相同标准和自定义列视图选项以及每行中的快速操作按钮，如 [!UICONTROL Edit] 和 [!UICONTROL View Report]. 的 [!UICONTROL Inventory] 选项卡，可通过显示性能统计信息(如 [!UICONTROL Auctions], [!UICONTROL Bids]和 [!UICONTROL Win Rate].
+
+#### 清单疑难解答
+
+| 问题 | 可能的原因 | 要采取的操作 |
+| -----------| ---------- | ---------- |
+| [!UICONTROL Zero Auctions] | 发布者尚未开始发送竞价请求。 | 联系发布者以激活交易。 |
+|  | 交易设置不正确，例如输入了不正确的外部交易ID。 | 确认交易详细信息并编辑交易。 |
+| [!UICONTROL Auctions but no Bids] | 版面定位与交易的传入竞价请求不匹配。 <br><br> 例如，版面可能会定位不符合交易条件的地理位置。 | 根据需要编辑版面定位以避免定位不匹配。 |
+|  | 投放没有具有交易所需媒体类型的活动广告。 | 创建具有正确媒体类型的广告并将其附加到投放。 |
+|  | 这个职位没有足够的预算。 | 增加投放预算，以允许对传入的请求进行竞价。 |
+|  | 版面投放日期与交易的展示投放日期不重叠。 | 根据需要编辑版面的投放日期。 |
+| [!UICONTROL Low Win Rate] | 配售的最高出价（下限或固定）低于交易所要求的最低价。 | 增加投放 [!UICONTROL Max Bid] 根据需要。 |
+|  | 版面使用限制竞价的预竞价过滤器。 | 降低投标前过滤器的阈值以允许进行更多投标。 |
+|  | 投放的受众定位限制过大。 | 检查指定的受众目标是否具有足够的活动用户，并尽可能展开受众。 |
+
+![版面检查器](/help/dsp/assets/placement-inspector.png)
 
 您可以在 [!UICONTROL Sites], [!UICONTROL Ads]或 [!UICONTROL Frequency] 选项卡，以XLSM格式的报表形式显示浏览器的默认下载文件夹。
 

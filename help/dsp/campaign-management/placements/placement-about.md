@@ -3,9 +3,9 @@ title: 关于Advertising Cloud DSP中的版面管理
 description: 了解位置管理。
 feature: DSP Placements
 exl-id: 1d1382d9-b6c8-44bf-a708-8458769a39c6
-source-git-commit: 4a30463e9cb5783beab0ea3fa6989089e7f90457
+source-git-commit: 0d6d5e807053f042e0da1da65fed5e33a34dd4a9
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,9 @@ ht-degree: 0%
 * 音频
 * 连接的电视
 
-## [!UICONTROL Placements]功能板
+## 的 [!UICONTROL Placements] 功能板
 
-[!UICONTROL Placements]功能板可集中显示所有版面的性能和经济报表，从而提供版面在指定日期范围内的表现的快速快照。
+的 [!UICONTROL Placements] 功能板可集中显示所有版面的性能和经济报表，从而提供版面在指定日期范围内的表现快速快照。
 
 ![版面功能板](/help/dsp/assets/placement-dashboard.png)
 
@@ -37,11 +37,11 @@ ht-degree: 0%
 
 默认情况下，功能板还会按位置显示步调和投放量度。 您可以选择查看版面的性能量度，并创建自定义列集。 您可以将整个数据表下载到浏览器的默认下载文件夹中，作为XLSM（启用宏的Excel电子表格）格式的报表。
 
-对于每个版面，您可以打开一个详细视图([[!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md))，其中包括性能量度、步调和投放量度，以及按网站和按广告的自定义列集；和频度量度。 您还可以对包含的网站和广告执行快速操作，例如排除网站或暂停广告。 要打开检查器，请将光标悬停在放置行上，单击&#x200B;**[!UICONTROL More]**，然后单击&#x200B;**[!UICONTROL Sites]**、**[!UICONTROL Ads]**&#x200B;或&#x200B;**[!UICONTROL Frequency]**。 可以将[!UICONTROL Sites]、[!UICONTROL Ads]或[!UICONTROL Frequency]选项卡上的数据导出到浏览器的默认下载文件夹，作为XLSM格式的报表。
+对于每个版面，您可以打开一个详细视图([the [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md))，包括性能量度、步调和交付量度，以及按网站、广告和清单的自定义列集；以及频度量。 您还可以对包含的网站、广告和库存执行快速操作，例如排除网站、暂停广告或编辑交易。 要打开检查器，请将光标悬停在放置行上，单击 **[!UICONTROL More]**，然后单击 **[!UICONTROL Sites]**, **[!UICONTROL Ads]**, **[!UICONTROL Frequency]** 或 **[!UICONTROL Inventory]**. 您可以在 [!UICONTROL Sites], [!UICONTROL Ads], [!UICONTROL Frequency]或 [!UICONTROL Inventory]  选项卡，以XLSM格式的报表形式显示浏览器的默认下载文件夹。
 
 >[!NOTE]
 >
->您可以通过[自定义报表](/help/dsp/reports/report-about.md)进一步自定义版面报表的内容和交付。
+>您可以通过 [自定义报表](/help/dsp/reports/report-about.md).
 
 >[!MORELIKETHIS]
 >

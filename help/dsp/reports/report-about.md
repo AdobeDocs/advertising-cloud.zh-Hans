@@ -3,9 +3,9 @@ title: 关于自定义报表
 description: 了解手动创建自定义报表或使用预配置报表模板的选项。
 feature: DSP Custom Reports
 exl-id: 59fc1894-1c9d-451d-b644-5640dd311547
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: ff14691fd2b6fa56c303dca3ac0e4c897c322f72
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,20 @@ ht-degree: 0%
 * 在粒度级别完全配置营销活动效果报表。
 * 从预配置的报表模板中进行选择，或者进一步自定义这些模板。
 
-您可以生成一次报表，或安排在指定时区的03:00每天、每周或每月生成报表。 生成报表后，将向每个指定的电子邮件收件人发送通知，并提供用于下载文件的链接。
+您可以生成一次报表，或安排在指定时区的03:00每天、每周或每月生成报表。 生成报表后，报表会提交给每个指定的电子邮件收件人或链接的 [报告目标](/help/dsp/reports/report-destinations/report-destination-about.md) 类型：
+
+* [!DNL Amazon Simple Storage Service] ([!DNL S3])
+* FTP
+* SFTP
+* FTP SSL（测试版）
 
 >[!NOTE]
 >
->您还可以在相关促销活动管理视图](/help/dsp/campaign-management/reports/campaign-reports-about.md)中查看促销活动所有级别（促销活动、包、版面或广告）[的按需数据。
+>您还可以查看营销活动所有级别的按需数据（营销活动、包、版面或广告） [在相关的促销活动管理视图中](/help/dsp/campaign-management/reports/campaign-reports-about.md).
 
 ## 可用报表类型
 
-* **[!UICONTROL Custom]:** 此报表是一个空白模板，您可以使用该模板创建大多数维度和量度的自定义报表。[!UICONTROL Conversion]、 、  [!UICONTROL Device]、和 [!UICONTROL Geo]报 [!UICONTROL Site] 表是此模板的变体，其中包含为其各自用例预先选定的列和维度。
+* **[!UICONTROL Custom]:** 此报表是一个空白模板，您可以使用该模板创建您自己的自定义报表，并使用大多数维度和量度。 [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo]和 [!UICONTROL Site] 报表是此模板的变体，其中包含预先选择的列和用于其各自用例的维度。
 
 * 预配置的报表模板
 
@@ -35,11 +40,11 @@ ht-degree: 0%
       >
       >此报表包含有关账单区段的数据。 如果向用户或设备提供属于多个区段的展示，则仅有一个可计费区段会计入展示。
 
-   * **[!UICONTROL Conversion]:** 使用此报表可了解您的促销活动如何根据使用Advertising Cloud转化跟踪捕获的转化量度执行。此报表包含多接触点归因。
+   * **[!UICONTROL Conversion]:** 使用此报表可了解您的促销活动如何根据使用Advertising Cloud转化跟踪捕获的转化量度执行。 此报表包含多接触点归因。
 
    * **[!UICONTROL Device]:** 使用此预填充模板可按设备相关维度查看关键量度。
 
-   * **[!UICONTROL Frequency (by Impression)]:** 使用此报表可了解展示次数对独特查看者的分布情况（例如，有多少独特查看者查看了一次展示、两次展示、三次展示等）。数据可按版面或营销活动使用。
+   * **[!UICONTROL Frequency (by Impression)]:** 使用此报表可了解展示给独特查看者的展示次数分布（例如，有多少独特查看者查看了一次展示、两次展示、三次展示等）。 数据可按版面或营销活动使用。
 
       >[!NOTE]
       >
@@ -48,7 +53,7 @@ ht-degree: 0%
       >* 对于某些内容库，发布者不会传递设备标识符，这会阻止频度跟踪。 此报表仅包含设备标识符可用的展示次数。
 
 
-   * **[!UICONTROL Frequency (by App/Site)]:** 使用此报表可了解按应用程序或按网站访问了多少个独特用户。您还可以查看仅通过特定应用程序或网站（“不同的独特用户”）访问了多少个独特用户。
+   * **[!UICONTROL Frequency (by App/Site)]:** 使用此报表可了解通过应用程序或网站访问了多少个独特用户。 您还可以查看仅通过特定应用程序或网站（“不同的独特用户”）访问了多少个独特用户。
 
       >[!NOTE]
       >
@@ -74,9 +79,9 @@ ht-degree: 0%
 
 具有多个DSP帐户的任何组织都可以根据组织的需要，选择在自定义报表中启用跨帐户数据。 例如，您可以授予帐户A访问帐户B数据的权限，并授予帐户B访问帐户C（但不授予帐户A）数据的权限。 要启用和配置此功能，请联系您的客户经理。
 
-为贵组织启用该功能后，您可以按帐户筛选](report-settings.md)以下任何报表类型： [!UICONTROL Custom]、[!UICONTROL Site]、[!UICONTROL Segment]、[!UICONTROL Geo]、[!UICONTROL Device]、[!UICONTROL Frequency (by Impression)]和[!UICONTROL Conversion]。[
+为贵组织启用该功能后，您可以 [过滤器](report-settings.md) 按帐户划分的以下任何报表类型：  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)]和 [!UICONTROL Conversion].
 
-您位于[!UICONTROL Settings] > [!UICONTROL Account]的帐户设置指示a)其数据可用于您帐户的其他帐户，以及b)可访问您帐户数据的其他帐户。
+您的帐户设置位于 [!UICONTROL Settings] > [!UICONTROL Account] 指示a)其数据可用于您的帐户的其他帐户，以及b)可访问您帐户数据的其他帐户。
 
 >[!MORELIKETHIS]
 >
@@ -84,4 +89,5 @@ ht-degree: 0%
 >* [自定义报表设置](/help/dsp/reports/report-settings.md)
 >* [关于平台内报表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [可用报表列](/help/dsp/reports/report-columns.md)
+>* [关于 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
 

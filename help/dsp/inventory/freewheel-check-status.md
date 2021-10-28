@@ -3,9 +3,9 @@ title: 检查广告的状态 [!DNL [!DNL FreeWheel]] PG交易
 description: 了解如何查找 [!DNL Freewheel] 程序化保证交易。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: null
-source-git-commit: 07b964aca7f634a29342e4d09a5e5352570f4d79
+source-git-commit: a0619f77aac5e6c527fc344570bbcedf17dcfe36
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -48,8 +48,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [在FreeWheel中设置程序化保证交易概述](freewheel-overview.md)
->* [向FreeWheel提交程序化保证交易的广告](freewheel-submit.md)
->* [FreeWheel广告提交的错误代码](freewheel-error-codes.md)
+>* [在中设置程序化保证交易概述 [!DNL Freewheel]](freewheel-overview.md)
+>* [为程序化保证交易提交广告 [!DNL Freewheel]](freewheel-submit.md)
+>* [的错误代码 [!DNL Freewheel] 广告提交](freewheel-error-codes.md)
 >* [在交易ID收件箱中接受交易](deal-id-inbox-accept.md)
 

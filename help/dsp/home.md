@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: e758e4e7cbe4c4fa0fd7e7e82e6e4e167a8ef37a
+source-git-commit: a0619f77aac5e6c527fc344570bbcedf17dcfe36
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 |  | [!UICONTROL Placements] | 版面 [!UICONTROL Inspector] 现在包含 [!UICONTROL Inventory] 选项卡，其中显示了该版面的所有交易及其相关量度。 无需生成自定义报告，即可使用信息进行快速调整或解决问题。 | 请参阅“[版面 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md#placement-inspector).&quot; |
 |  | [!UICONTROL Ads] | （有权在其广告中包含Clearcastclock编号的用户）如果您使用附加到其他广告的时钟编号，DSP不再显示错误。 **注意：**  最佳做法是为每个视频广告使用唯一的时钟号。 否则，发布者不会批准所有广告。 | — |
 |  | [!UICONTROL Deal IDs] | 的 [!UICONTROL Deal ID] 设置和用户界面中的其他位置反映了 [!DNL Magnite] SSP:<br><ul><li>SSP &quot;[!DNL Tremor]&quot;([!DNL Telaria])现在为“[!DNL Magnite CTV].&quot;</li><li>在接下来的几周里， [!DNL Rubicon]“ ”将更改为“ ”[!DNL Magnite DV+]，其中 [!DNL DV+] 表示显示、视频和其他格式，如音频。</li></ul> | 请参阅“[SSP合作伙伴](/help/dsp/inventory/ssp-partners.md).&quot; |
-|  | [!DNL Freewheel] 程序保证的交易 | 您现在可以找到 [!DNL Freewheel] 通过 [!UICONTROL Ads] 中。 以前，您只能从 [!UICONTROL Deals] 中。 | 请参阅“[检查广告的状态 [!DNL Freewheel] 程序化保证交易](/help/dsp/inventory/freewheel-check-status.md).&quot; |
+|  | [!DNL Freewheel] 程序保证的交易 | 您现在可以提交广告并检查广告的状态 [!DNL Freewheel] 通过 [!UICONTROL Ads] 中。 以前，您只能通过 [!UICONTROL Deals] 中。 | 请参阅“[检查广告的状态 [!DNL Freewheel] 程序化保证交易](/help/dsp/inventory/freewheel-check-status.md).&quot; |
 | 2021年10月7日 | 帮助 | 全部 [DSP和其他Advertising Cloud文档](https://experienceleague.adobe.com/docs/advertising-cloud.html) on [!DNL Experience League] 现在机器已翻译成所有可用语言。 要更改显示的语言，请使用任何页面左下角的“更改语言”菜单。<br>![更改语言](/help/dsp/assets/change-language.png) |
 | 2021年9月30日 | 品牌安全 | （9月22日发布） [!DNL DoubleVerify] 品牌安全预竞价产品已更新为 [!DNL Brand Suitability Tiers]，允许广告商在特定区段的三个风险级别（低、中、高）之间进行选择，而无需避免特定主题的所有实例。 以前，区段不包含任何容差级别。<br><br>与新 [!DNL DoubleVerify] 区段结构中， DSP将您现有的品牌安全区段迁移到新的、推荐的 *媒体* — 级别区段。 您可以选择将区段层调整为 *低* 或 *高*.<br><br>**注意：** 少量区段列表没有层，但具有新名称，如“骚扰/间谍软件/恶意软件、Warez”>激励/恶意软件/混乱。” | — |
 |  | 优化 | 已弃用以下优化目标和竞价前过滤器：<ul><li>优化目标：<ul><li>[!UICONTROL Always Max Bid & Highest Viewability Rate (Moat – GroupM)]</li><li>[!UICONTROL Always Max Bid & Highest Viewability Rate (Moat – MRC)]</li></ul><li>竞价筛选器目标：<ul><li>[!UICONTROL Viewability IAS]</li><li>[!UICONTROL Viewability Moat]</li></ul></ul> | 请参阅“[优化目标及其使用方法](/help/dsp/optimization/optimization-goals.md)&quot;和&quot;[版面级别的预竞价过滤器及其使用方法](/help/dsp/optimization/optimization-pre-bid-filters.md).&quot; |

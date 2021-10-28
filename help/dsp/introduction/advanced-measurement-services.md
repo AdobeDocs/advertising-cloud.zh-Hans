@@ -2,7 +2,7 @@
 title: 高级测量解决方案
 description: 请参阅可用于高级测量的解决方案列表。
 exl-id: 1a8b76ee-d38d-4ee4-981b-e29497fa4095
-source-git-commit: b4976cdce6b4d5870c5cc3a1a09c1b5545cd3200
+source-git-commit: 927fd18c39ff93fae6222c0376cbe41810c06ca2
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -93,4 +93,4 @@ ht-degree: 0%
 
 ## 更多信息
 
-有关 [!DNL Strategic Advertising Consulting]，概述定价信息以及每个解决方案的可用格式和区域，请联系您的客户成功经理。 特定于解决方案的案例研究也可应要求提供。
+有关所有高级测量解决方案的信息（概述定价信息以及每个解决方案的可用格式和区域），请联系您的 [!DNL Adobe] 客户成功经理。 特定于解决方案的案例研究也可应要求提供。

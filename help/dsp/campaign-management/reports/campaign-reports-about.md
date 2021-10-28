@@ -3,9 +3,9 @@ title: 关于平台内报表
 description: 了解营销活动管理视图中包含的报表数据。
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 0b0f5df3ae9180dcbc2aeb5d7833956934767915
+source-git-commit: 1ca7639fac40eb8d3fbc3b4f7e0f45b29368f49b
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 在每个实体选项卡中，每行默认包含步调和投放量度，但您可以 [更改列视图](column-view-change.md) 或 [创建自定义列视图](column-view-create.md) 以应用于营销活动的所有子选项卡。 您可以进一步 [自定义数据表](campaign-data-views-about.md) 以其他方式。 每个数据表都包括 [!UICONTROL Subtotals] 行，显示所有可见行中每个量度的总和或平均值。
 
-对于每个营销活动，您还可以使用三个量度自定义时间系列趋势图，这些量度在每个实体视图中可用。 默认情况下， [!UICONTROL Net Spend], [!UICONTROL Impressions]和 [!UICONTROL Net CPM] 包含在单独的图表（网格图）中。 您可以选择更改量度。
+对于每个营销活动，您还可以使用三个量度自定义时间系列趋势图，这些量度在每个实体视图中可用。 默认情况下， [!UICONTROL Net Spend], [!UICONTROL Impressions]和 [!UICONTROL Net CPM] 包含在单独的图表（网格图）中。 您可以选择更改量度。 要在时间系列趋势图中启用每小时数据，请将日期选择更改为一天([!UICONTROL Today], [!UICONTROL Yesterday]或特定日期)。
 
 ![三个量度的单独趋势图](/help/dsp/assets/trend-chart-separate.png)
 

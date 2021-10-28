@@ -3,7 +3,7 @@ title: 将PG交易的广告提交到 [!DNL FreeWheel]
 description: 了解如何通过FreeWheel与出版商就程序化保证交易请求广告批准。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: null
-source-git-commit: 99f1a9060aa90bb4110b4017573adb8e0effb989
+source-git-commit: a124f9cce3be5e68843c2d8df56640962644d5f4
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%

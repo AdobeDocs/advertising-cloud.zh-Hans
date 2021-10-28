@@ -3,9 +3,9 @@ title: 实施的先决条件和关键信息 [!DNL Analytics for Advertising Clou
 description: 实施的先决条件和关键信息 [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 08e54e2b-ed9b-4489-8de5-ab1379b7133c
-source-git-commit: 688aece01640647a61df730cbe464597b476b033
+source-git-commit: d4d743ade0e2dad2b967b8316ff2261d0a82d5b0
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,8 @@ ht-degree: 0%
 联系您的 [!DNL Adobe] 帐户管理器以了解每个渠道中最新支持的广告环境。
 
 ## 实施前注意事项
+
+* Advertising Cloud实施团队将设置集成。
 
 * 此集成不会产生额外费用，服务器调用也不会产生额外费用 [!DNL Analytics] 或Advertising Cloud费用。
 

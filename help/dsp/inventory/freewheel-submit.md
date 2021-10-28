@@ -3,9 +3,9 @@ title: 将PG交易的广告提交到 [!DNL FreeWheel]
 description: 了解如何通过FreeWheel与出版商就程序化保证交易请求广告批准。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: null
-source-git-commit: b149804bc3e9de5cd48a00f0611c09d1f2e7c7ca
+source-git-commit: c2caed80f0afc0cbe3572d01dc2c89f13ed13712
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -20,27 +20,41 @@ ht-degree: 0%
 >
 >使用 [!DNL Adobe] 帐户团队来确保 [!DNL DSP] 帐户有权使用 [!DNL FreeWheel] 程序化保证的工作流。
 
-1. 复制与FreeWheel交易一起使用的广告的广告键：
+## 复制广告键以用于 [!DNL FreeWheel] 交易 {#copy-ad-key}
 
-   1. 单击营销活动的名称。
+1. 单击营销活动的名称。
 
-   1. 在子菜单中，单击 **[!UICONTROL Ads]**.
+1. 在子菜单中，单击 **[!UICONTROL Ads]**.
 
-   1. 单击  **[!UICONTROL ...]>[!UICONTROL Edit]** 广告名称旁边。
+1. 单击  **[!UICONTROL ...]>[!UICONTROL Edit]** 广告名称旁边。
 
-   1. 打开广告设置后，复制URL中显示在浏览器地址栏中的字母数字广告键。
+1. 打开广告设置后，复制URL中显示在浏览器地址栏中的字母数字广告键。
 
-      例如，在以下URL中，广告键为 `3NtNC5ZbaGZtqbei8jD3`
+例如，在以下URL中，广告键为 `3NtNC5ZbaGZtqbei8jD3`
 
-      `https://advertising.adobe.com/configurator/ad/3NtNC5ZbaGZtqbei8jD3?referrer=/playtime/ads`
+`https://advertising.adobe.com/configurator/ad/3NtNC5ZbaGZtqbei8jD3?referrer=/playtime/ads`
 
-1. 将广告提交到FreeWheel:
+## 从 [!UICONTROL Ads] 查看
 
-   1. 在 [!UICONTROL Deals] 查看，找到交易。
+1. [复制广告的广告键](#copy-ad-key).
 
-   1. 在交易行中，单击 ![“选项”菜单](/help/dsp/assets/options-menu.png) **>[!UICONTROL submit to [!DNL FreeWheel]]**.
+1. 在广告名称旁边，单击  **[!UICONTROL ...]>[!UICONTROL submit to FreeWheel]**.
 
-   1. 验证交易ID，输入 **[!UICONTROL Ad Key]** 在步骤1中复制，然后单击 **[!UICONTROL Submit]**.
+1. 验证交易ID，输入 [the **[!UICONTROL Ad Key]**](#copy-ad-key)，然后单击&#x200B;**[!UICONTROL Submit]**.
+
+   必须先提交并批准广告，然后才能运行。
+
+1. [检查广告提交状态](freewheel-check-status.md).
+
+## 从 [!UICONTROL Deals] 查看
+
+1. [复制广告的广告键](#copy-ad-key).
+
+1. 在主菜单中，单击 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+
+1. 在交易行中，单击 ![“选项”菜单](/help/dsp/assets/options-menu.png) **>[!UICONTROL submit to FreeWheel]**.
+
+1. 验证交易ID，输入 [the **[!UICONTROL Ad Key]**](#copy-ad-key)，然后单击&#x200B;**[!UICONTROL Submit]**.
 
    必须先提交并批准广告，然后才能运行。
 

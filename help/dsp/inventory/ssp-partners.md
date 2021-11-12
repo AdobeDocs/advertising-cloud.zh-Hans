@@ -3,7 +3,7 @@ title: SSP合作伙伴
 description: 请参阅可用供应方平台(SSP)和开放式交换合作伙伴的列表。
 feature: DSP Private Inventory
 exl-id: 8487f4ce-0232-4145-ad8b-b0631fd0ab7f,None
-source-git-commit: fb78f6d590f7a5c407788ce025800cbbe5842eb1
+source-git-commit: d084b5350e1e90414ce34a8357be2ed47c5e25fe
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -33,10 +33,11 @@ ht-degree: 0%
 | [!DNL Google AdX] （现在） [!DNL Google Authorized Buyers]) | [!DNL Google] | AdobeNA - 44912714<br>Adobe欧盟 — 94893418<br>AdobeAPAC - 89185975 | 是 | 全球 | 美元、巴西雷亚尔 | x | x | x | x | x |  | x |
 | [!DNL GumGum] |  | Adobe Advertising Cloud | 否 | 美国/加利福尼亚州 | 美元 | x | x |  | x | x |  |  |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | 否 | 全球 | 美元 | x | x | x | x | x |  |  |
+| [!DNL Magnite CTV] | [!DNL Magnite] (以前 [!DNL Telaria] 和 [!DNL Tremor]) | [!DNL TubeMogul] 或Adobe Advertising Cloud | 是 | 全球 | 澳元、美元 | x | x | x |  |  |  |  |
+| [!DNL Magnite DV+] | [!DNL Magnite] (以前 [!DNL Telaria] 和 [!DNL Tremor]) | [!DNL TubeMogul] 或Adobe Advertising Cloud | 是 | 全球 | 美元 | x | x | x | x | x |  | x |
 | [!DNL MoPub] | [!DNL Twitter] | [!DNL TubeMogul] | 否 | 全球 | 美元 |  | x |  |  |  |  |  |
 | [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] 或Adobe Advertising Cloud | 是 | 全球 | 美元 | x |  |  | x | x |  |  |
 | [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 全球 | 美元 | x | x | x | x | x |  |  |
-| [!DNL Rubicon] | [!DNL Magnite] (以前 [!DNL Telaria] 和 [!DNL Tremor]) | [!DNL TubeMogul] 或Adobe Advertising Cloud | 是 | 全球 | 美元 | x | x | x | x | x |  | x |
 | [!DNL ShareThrough] |  | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 全球 | 美元 | x | x |  | x | x | x |  |
 | [!DNL Smart Ad Server] |  | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 全球 | 美元、欧元 | x | x |  | x | x |  |  |
 | [!DNL SmartClip] |  | Adobe Advertising Cloud | 否 | 欧洲、中东和非洲 | 所有货币 | x | x | x | x | x |  |  |
@@ -47,7 +48,6 @@ ht-degree: 0%
 | [!DNL Stroer] |  | Adobe Advertising Cloud | 否 | 欧洲、中东和非洲 | 美元 | x | x |  | x | x |  |  |
 | [!DNL Taboola] |  | Adobe Advertising Cloud | 否 | 美国/加利福尼亚州 | 美元 | x | x |  |  |  |  |  |
 | [!DNL Teads] |  | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 流视频=全局<br>显示= NA + EMEA | 美元 | x | x |  | x | x |  |  |
-| [!DNL Magnite CTV] | [!DNL Magnite] (以前 [!DNL Telaria] 和 [!DNL Tremor]) | [!DNL TubeMogul] 或Adobe Advertising Cloud | 是 | 全球 | 澳元、美元 | x | x | x |  |  |  |  |
 | [!DNL TripleLift] |  | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 全球 | 美元 |  |  |  |  |  | x |  |
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] 或Adobe Advertising Cloud | 否 | 全球 | 美元 | x | x |  | x | x |  |  |
 | [!DNL Triton] |  | Adobe Advertising Cloud | 否 | 全球 | 美元 |  |  |  |  |  |  | x |

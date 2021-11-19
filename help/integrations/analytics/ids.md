@@ -3,7 +3,7 @@ title: Advertising Cloud ID使用者 [!DNL Analytics]
 description: Advertising Cloud ID使用者 [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ed1aab7b-9bd0-4d42-9bfb-9c6fa6db76bc
-source-git-commit: bfbfc293ad04b294c813ce7c8a11200e70fc812f
+source-git-commit: 1ba45d789c4ad365166df829ac74e0200cdc8851
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 *适用于Advertising Cloud DSP和Advertising Cloud Search*
 
-Advertising Cloud使用两个ID进行现场性能跟踪：EF ID和AMO ID。
+Advertising Cloud使用两个ID进行现场性能跟踪：the *EF ID* 和 *AMO ID*.
 
-在出现广告展示时，Advertising Cloud会创建AMO ID和EF ID值并进行存储。 如果访客在未点击广告的情况下就进入了网站， [!DNL Analytics] 通过 [!DNL Analytics for Advertising Cloud] JavaScript代码。 对于显示到达流量， [!DNL Analytics] 生成补充ID(`SDID`)，用于将EF ID和AMO ID拼合到 [!DNL Analytics]. 对于点进流量，这些ID会使用 `s_kwcid` 和 `ef_id` 查询字符串参数。
+在出现广告展示时，Advertising Cloud会创建AMO ID和EF ID值并进行存储。 当访客在未点击广告的情况下进入网站时， [!DNL Analytics] 通过 [!DNL Analytics for Advertising Cloud] JavaScript代码。 对于显示到达流量， [!DNL Analytics] 生成补充ID(`SDID`)，用于将EF ID和AMO ID拼合到 [!DNL Analytics]. 对于点进流量，这些ID会使用 `s_kwcid` 和 `ef_id` 查询字符串参数。
 
 Advertising Cloud使用以下条件区分网站的点进或显示到达条目：
 

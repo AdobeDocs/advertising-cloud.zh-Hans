@@ -3,9 +3,9 @@ title: Advertising Cloud ID使用者 [!DNL Analytics]
 description: Advertising Cloud ID使用者 [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ed1aab7b-9bd0-4d42-9bfb-9c6fa6db76bc
-source-git-commit: 1ba45d789c4ad365166df829ac74e0200cdc8851
+source-git-commit: 143e8e756d13597bf923d0b6f5b2510f834e6e0f
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1157'
 ht-degree: 0%
 
 ---
@@ -69,13 +69,13 @@ EF ID是Advertising Cloud用于将活动与在线点击或广告曝光关联的�
 
 在 [!DNL Analytics] 报表，您可以通过搜索 [!UICONTROL EF ID] 维度和使用 [!UICONTROL EF ID Instance] 量度。
 
-`EF IDs` 受Analysis Workspace中50万个唯一标识符限制的约束。 达到500k值后，所有新跟踪代码都将报告在单行项目标题“[!UICONTROL Low Traffic].&quot; 由于报告保真度可能缺失， `EF IDs` 未进行分类，因此您不应将其用于 [!DNL Analytics].
+EF ID受Analysis Workspace中50万个唯一标识符限制的约束。 达到500k值后，所有新跟踪代码都将报告在单行项目标题“[!UICONTROL Low Traffic].&quot; 由于可能缺少报表保真度，因此不会对EF ID进行分类，您不应将它们用于中的区段或报表 [!DNL Analytics].
 
 ## Advertising Cloud AMO ID
 
 AMO ID可在较小粒度级别跟踪每个唯一广告组合，用于 [!DNL Analytics] 数据分类和广告量度摄取（如展示次数、点击次数和成本）从Advertising Cloud获取。 AMO ID存储在 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 或rVar维度(AMO ID)，专门用于 [!DNL Analytics].
 
-AMO ID也称为 `s_kwcid`，有时称为“squid”。
+AMO ID也称为 `s_kwcid`，有时发音为“[!DNL the squid].&quot;
 
 ### 的AMO ID格式 [!DNL DSP]
 

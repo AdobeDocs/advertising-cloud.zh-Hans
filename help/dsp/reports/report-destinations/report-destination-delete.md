@@ -2,10 +2,9 @@
 title: 删除报表目标
 description: 了解如何删除报表目标。
 feature: DSP Custom Reports
-exl-id: null
-source-git-commit: a4b37bf370dba3d3ec8406f4b86c1fa0c63ae5bb
+source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

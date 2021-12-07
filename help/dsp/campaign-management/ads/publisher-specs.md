@@ -2,21 +2,20 @@
 title: 特定于发布者的广告规范
 description: 引用受支持发布者的广告规范。
 feature: DSP Ads
-exl-id: null
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 特定于发布者的广告规范
 
-某些发布者的广告规范比Advertising Cloud的[常规广告规范](/help/dsp/assets/ad-specs.pdf)更严格。  当发布者规范比Advertising Cloud的更严格时，请确保遵循发布者规范。
+一些发布者的广告规范比Advertising Cloud的更严格 [一般广告规范](/help/dsp/assets/ad-specs.pdf).  当发布者规范比Advertising Cloud的更严格时，请确保遵循发布者规范。
 
 以下链接将引导您查看一些要求更严格的发布者的广告规范。
 
-* [!DNL Channel 10] ([!DNL Viacom])仅限AU):https://www.10viacomcbs.com.au/wp-content/uploads/2020/10/Network-10-Digita-Ad-Specs.pdf
+* [!DNL Channel 10] ([!DNL Viacom];仅限AU):https://www.10viacomcbs.com.au/wp-content/uploads/2020/10/Network-10-Digita-Ad-Specs.pdf
 * 
    [!DNL CBS Interactive Advanced Media]: https://cbsinteractive.com/advertising/ad-specs/list/cbs-interactive-advanced-media
 * 

@@ -2,8 +2,7 @@
 title: 编辑自定义报表
 description: 了解如何编辑自定义报表设置。
 feature: DSP Custom Reports
-exl-id: null
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 1%
@@ -13,11 +12,11 @@ ht-degree: 1%
 
 # 编辑自定义报表
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Reports]**。
+1. 在主菜单中，单击 **[!UICONTROL Reports]**.
 1. 执行以下任一操作：
    * 单击报表名称。
-   * 在报表行的[!UICONTROL Options]列中，单击&#x200B;**[!UICONTROL options]>[!UICONTROL Edit]**。
-1. 编辑[报表设置](/help/dsp/reports/report-settings.md)。
+   * 在 [!UICONTROL Options] 列，单击 **[!UICONTROL options]>[!UICONTROL Edit]**.
+1. 编辑 [报表设置](/help/dsp/reports/report-settings.md).
 1. 单击 **[!UICONTROL Edit Custom Report]**.
 
 >[!MORELIKETHIS]

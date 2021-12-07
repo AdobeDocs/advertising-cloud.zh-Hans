@@ -2,8 +2,7 @@
 title: 复制自定义报表
 description: 了解如何通过复制现有报表来创建自定义报表。
 feature: DSP Custom Reports
-exl-id: null
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 1%
@@ -15,11 +14,11 @@ ht-degree: 1%
 
 复制自定义报表以创建具有类似设置的新报表。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Reports]**。
-1. 在报表行的“选项”列中，单击&#x200B;**[!UICONTROL options]>[!UICONTROL Copy]**。
-1. （可选）根据需要编辑[报表设置](/help/dsp/reports/report-settings.md)。
+1. 在主菜单中，单击 **[!UICONTROL Reports]**.
+1. 在报表行的“选项”列中，单击 **[!UICONTROL options]>[!UICONTROL Copy]**.
+1. （可选）编辑 [报表设置](/help/dsp/reports/report-settings.md) 根据需要。
 
-   默认情况下，报表名称为“\*现有报表名称*\> \#2”（或序列中的下一个编号）。
+   默认情况下，报表名称为“\&lt;*现有报表名称*\> \#2&quot;（或序列中的下一个数字）。
 
 1. 单击 **[!UICONTROL Copy Custom Report]**
 

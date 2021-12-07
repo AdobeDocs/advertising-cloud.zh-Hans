@@ -2,8 +2,7 @@
 title: 运行自定义报表
 description: 了解如何立即运行自定义报表。
 feature: DSP Custom Reports
-exl-id: null
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 0%
@@ -15,11 +14,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在[创建](report-create.md)或[编辑](report-edit.md)自定义报表时，也可以运行该报表。
+>您还可以在 [创建](report-create.md) 或 [编辑](report-edit.md) 它。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Reports]**。
-1. 在报表行的[!UICONTROL Options]列中，单击&#x200B;**[!UICONTROL options]>[!UICONTROL Run Now]**。
-1. 在确认消息中，单击&#x200B;**[!UICONTROL OK]**。
+1. 在主菜单中，单击 **[!UICONTROL Reports]**.
+1. 在 [!UICONTROL Options] 列，单击 **[!UICONTROL options]>[!UICONTROL Run Now]**.
+1. 在确认消息中，单击 **[!UICONTROL OK]**.
 
    完成报表后，该报表会发送到报表设置中指定的所有电子邮件地址。
 

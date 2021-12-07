@@ -2,8 +2,7 @@
 title: 的错误代码 [!DNL FreeWheel] 广告提交
 description: 引用为广告提交返回的错误代码 [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: null
-source-git-commit: a0619f77aac5e6c527fc344570bbcedf17dcfe36
+source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 2%

@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: a0e841c1de7d2dd1b8bbb3dcefed9b0c01d6c464
+source-git-commit: 99179eab681332ef1e8dc835aab10e113c4b3e0b
 workflow-type: tm+mt
-source-wordcount: '1460'
+source-wordcount: '1438'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 有关详细信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2021年12月10日 | 视频教程 | 提供了其他视频教程：“Advertising Cloud DSP简介”、“帐户结构和用户界面”、“如何创建包”、“如何批量上传第三方广告标签”和“如何使用批量编辑工具编辑版面”。 | 请参阅“[Advertising CloudTutorials](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/overview.html).&quot; |
+| 2021年12月10日 | 视频教程 | 提供了新的视频教程：“Advertising Cloud DSP简介”、“帐户结构和用户界面”、“如何创建包”、“如何批量上传第三方广告标签”和“如何使用批量编辑工具编辑版面”。 | 请参阅“[Advertising CloudTutorials](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/overview.html).&quot; |
 | 2021年11月12日 | [!UICONTROL Deal IDs] | 在 [!UICONTROL Deal ID] 设置， &quot;[!DNL Rubicon]“(“)”已更改为“[!DNL Magnite DV+]，其中 [!DNL DV+] 表示显示、视频和其他格式，如音频。 这反映了 [!DNL Magnite] SSP. **注意：** [!DNL Magnite DV+] 仍列为“[!DNL Rubicon]“ [!UICONTROL Deal ID Inbox]. | 请参阅“[SSP合作伙伴](/help/dsp/inventory/ssp-partners.md).&quot; |
 | 2021年10月27日 | 自定义报表 | 您现在可以创建和管理 [!DNL Amazon S3] 和不同类型的FTP交付位置(称为 *[!DNL report destinations]*，用于自定义报表。 配置报表目标后，您可以设置每个新的自定义报表，以将其提交到单个目标类型的一个或多个位置，或电子邮件收件人。 更新了 [!DNL Amazon S3] 和FTP凭据不会中断报表交付。<br><br>您的现有报表仍会发送到指定的电子邮件收件人。 要配置到其他报表目标的投放，请使用新目标创建新报表。 | 请参阅“[关于 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md), &quot;[创建 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md), &quot;[[!UICONTROL Report Destination] 设置](/help/dsp/reports/report-destinations/report-destination-settings.md)、和[自定义报表设置](/help/dsp/reports/report-settings.md).&quot; |
 |  | [!UICONTROL Packages], [!UICONTROL Placements]和 [!UICONTROL Ads] 视图 | 当您查看某一天的数据时，趋势图现在包含每小时数据。 将光标悬停在任意点上可查看该小时的数据。 | 请参阅“[单个营销活动报告](/help/dsp/campaign-management/reports/campaign-reports-about.md#single-campaign-reporting).&quot; |
 |  | [!UICONTROL Placements] | 版面 [!UICONTROL Inspector] 现在包含 [!UICONTROL Inventory] 选项卡，其中显示了该版面的所有交易及其相关量度。 无需生成自定义报告，即可使用信息进行快速调整或解决问题。 | 请参阅“[版面 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md#placement-inspector).&quot; |
 |  | [!UICONTROL Ads] | (有权包含 [!DNL Clearcast] 时钟编号)如果您使用附加到其他广告的时钟编号，则DSP不再显示错误。 **注意：**  最佳做法是为每个视频广告使用唯一的时钟号。 否则，发布者不会批准所有广告。 | — |
 |  | [!UICONTROL Deal IDs] | 的 [!UICONTROL Deal ID] 设置和用户界面中的其他位置反映了 [!DNL Magnite] SSP:<br><ul><li>SSP &quot;[!DNL Tremor]&quot;([!DNL Telaria])现在为“[!DNL Magnite CTV].&quot;</li><li>在接下来的几周里， [!DNL Rubicon]“ ”将更改为“ ”[!DNL Magnite DV+]，其中 [!DNL DV+] 表示显示、视频和其他格式，如音频。</li></ul> | 请参阅“[SSP合作伙伴](/help/dsp/inventory/ssp-partners.md).&quot; |
-|  | [!DNL Freewheel] 程序保证的交易 | 您现在可以提交广告并检查广告的状态 [!DNL Freewheel] 通过 [!UICONTROL Ads] 中。 以前，您只能通过 [!UICONTROL Deals] 中。 | 请参阅“[为程序化保证交易提交广告 [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)&quot;和&quot;[检查广告的状态 [!DNL Freewheel] 程序化保证交易](/help/dsp/inventory/freewheel-check-status.md).&quot; |
+|  | [!DNL Freewheel] 程序保证的交易 | 您现在可以提交广告并检查广告的状态 [!DNL Freewheel] 通过 [!UICONTROL Ads] 中。 以前，您只能通过 [!UICONTROL Deals] 中。 | 请参阅“[为程序化保证交易提交广告 [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] 程序化保证交易](/help/dsp/inventory/freewheel-check-status.md).&quot; |
 | 2021年10月7日 | 帮助 | 全部 [DSP和其他Advertising Cloud文档](https://experienceleague.adobe.com/docs/advertising-cloud.html) on [!DNL Experience League] 现在机器已翻译成所有可用语言。 要更改显示的语言，请使用任何页面左下角的“更改语言”菜单。<br>![更改语言](/help/dsp/assets/change-language.png) |
 | 2021年9月30日 | 品牌安全 | （9月22日发布） [!DNL DoubleVerify] 品牌安全预竞价产品已更新为 [!DNL Brand Suitability Tiers]，允许广告商在特定区段的三个风险级别（低、中、高）之间进行选择，而无需避免特定主题的所有实例。 以前，区段不包含任何容差级别。<br><br>与新 [!DNL DoubleVerify] 区段结构中， DSP将您现有的品牌安全区段迁移到新的、推荐的 *媒体* — 级别区段。 您可以选择将区段层调整为 *低* 或 *高*.<br><br>**注意：** 少量区段列表没有层，但具有新名称，如“骚扰/间谍软件/恶意软件、Warez”>激励/恶意软件/混乱。” | — |
 |  | 优化 | 已弃用以下优化目标和竞价前过滤器：<ul><li>优化目标：<ul><li>[!UICONTROL Always Max Bid & Highest Viewability Rate (Moat – GroupM)]</li><li>[!UICONTROL Always Max Bid & Highest Viewability Rate (Moat – MRC)]</li></ul><li>竞价筛选器目标：<ul><li>[!UICONTROL Viewability IAS]</li><li>[!UICONTROL Viewability Moat]</li></ul></ul> | 请参阅“[优化目标及其使用方法](/help/dsp/optimization/optimization-goals.md)&quot;和&quot;[版面级别的预竞价过滤器及其使用方法](/help/dsp/optimization/optimization-pre-bid-filters.md).&quot; |
@@ -35,7 +35,7 @@ ht-degree: 0%
 | 2021年8月11日 | 竞价前可见性 | 竞价前可见性过滤器 [!DNL Oracle Advertising (Moat)] 现在可用于您的版面。 | 有关 [第三方集成以实现竞价前可见性](/help/dsp/introduction/features/brand-safety-media-quality.md#pre-bid-viewability) 和&quot;[版面级别的预竞价过滤器及其使用方法](/help/dsp/optimization/optimization-pre-bid-filters.md).&quot; |
 | 7月15日 | 帮助 | 添加了关于Advertising Cloud DSP基金客户如何将购买媒体和服务的帐户记录在案的详细信息。 | 请参阅“[帐户资金](/help/dsp/introduction/billing/account-funding.md).&quot; |
 | 2021年6月12日 | 帮助 | 广告策略已更新。 | 请参阅“[Adobe Advertising Cloud广告要求政策](/help/policies/ad-requirements-policy.md).&quot; |
-| 2021年6月7日 | 帮助 | 有关如何通过编程保证的交易与 [!DNL FreeWheel]. | 请参阅“[在中设置程序化保证交易概述 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md), &quot;[为程序化保证交易提交广告 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md), &quot;[检查广告的状态 [!DNL Freewheel] 程序化保证交易](/help/dsp/inventory/freewheel-check-status.md)、和[的错误代码 [!DNL FreeWheel] 广告提交](/help/dsp/inventory/freewheel-error-codes.md).&quot; |
+| 2021年6月7日 | 帮助 | 有关如何通过编程保证的交易与 [!DNL FreeWheel]. | 请参阅“[在中设置程序化保证交易概述 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)," "[Submit an Ad for a Programmatic Guaranteed Deal to [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)," "[Check the Status of Ads for [!DNL Freewheel] 程序化保证交易](/help/dsp/inventory/freewheel-check-status.md)、和[的错误代码 [!DNL FreeWheel] 广告提交](/help/dsp/inventory/freewheel-error-codes.md).&quot; |
 | 2021年5月27日 | 帮助 | 可接受的与健康相关的受众区段和策略提供准则，以用作定位与健康相关的受众区段的替代方法。 | 请参阅“[可接受的健康区段指南](/help/policies/health-segment-guidelines.md).&quot; |
 | 2021年5月26日 | 帮助 | 章节“与Adobe Experience Cloud集成”现在是单独的指南，可从 [Advertising Cloud文档主页](https://experienceleague.adobe.com/docs/advertising-cloud.html). 新指南包含新的子章节“在 [!DNL Analytics Marketing Channels].&quot;<br>本DSP指南的目录包含指向新指南的链接。 | 请参阅“[与Adobe Experience Cloud集成](/help/integrations/home.md).&quot; |
 | 2021年5月24日 | 帮助 | 在“营销活动管理”一章中，提供了有关如何使用Excel QA电子表格查看和编辑营销活动关键版面设置的新主题。 | 请参阅“[关于使用电子表格更正促销活动的版面设置](/help/dsp/campaign-management/qa/qa-about.md), &quot;[下载营销活动的版面设置](/help/dsp/campaign-management/qa/qa-sheet-download.md), &quot;[营销活动的上传版面设置](/help/dsp/campaign-management/qa/qa-sheet-upload.md)和“[已下载/已上载电子表格中的列](/help/dsp/campaign-management/qa/qa-sheet-columns.md). |

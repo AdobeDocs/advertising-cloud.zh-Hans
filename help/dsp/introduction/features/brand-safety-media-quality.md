@@ -3,9 +3,9 @@ title: 品牌安全与媒体质量
 description: 进一步了解品牌安全和媒体质量功能。
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
+source-git-commit: 6a0b863d1cdf31eb8a659196a83e9636a3a49ff5
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Advertising Cloud DSP提供一套品牌保护功能，以确保您的每个营�
 
 ### 库存验证 [!DNL Ads.txt] 支持
 
-[[!DNL Ads.txt], which stands for [!DNL Authorized Digital Sellers]](https://iabtechlab.com/ads-txt) 是由 [!DNL Interactive Advertising Bureau] ([!DNL IAB])，以促进在公开市场上正确呈现库存，从而打击非法的流量来源和域欺骗。 参与的出版商和分销商通过维护 `ads.txt` 页面(例如 `example.com/ads.txt`)。
+[[!DNL Ads.txt]，表示 [!DNL Authorized Digital Sellers]](https://iabtechlab.com/ads-txt) 是由 [!DNL Interactive Advertising Bureau] ([!DNL IAB])，以促进在公开市场上正确呈现库存，从而打击非法的流量来源和域欺骗。 参与的出版商和分销商通过维护 `ads.txt` 页面(例如 `example.com/ads.txt`)。
 
 DSP支持 [!DNL ads.txt] 阅读每位出版商的 `ads.txt` 文件，并允许您选择仅从已验证的 [!DNL ads.txt] 卖家。 例如，通过匹配我们看到访问的卖家 `nytimes.com` 到《纽约时报》 `ads.txt` 文件中，我们可以识别哪些是合法的，哪些是不合法的，并且如果该职位配置为仅向经验证的卖家购买，我们将阻止违规者。 <!-- can we actually mention NY Times? -->
 
@@ -88,7 +88,7 @@ Advertising Cloud DSP维护一个在全球被阻止的网站列表，其中列�
 
 ### 上下文过滤
 
-上下文过滤允许您根据广告所在页面的上下文来定位或阻止广告机会。 Adobe通过与业内领先供应商的集成提供上下文筛选： [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science]和 [!DNL Peer39]. 当前过滤器的示例包括 [!UICONTROL Adult Content], [!UICONTROL Natural Disasters], [!UICONTROL Legal Drinking Age], [!UICONTROL MANGA], [!UICONTROL Epidemics]和 [!UICONTROL G-rated Sites].
+上下文筛选允许您根据广告所在页面的上下文来定位或阻止广告机会。 Adobe通过与业内领先供应商的集成提供上下文筛选： [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science]和 [!DNL Peer39]. 当前过滤器的示例包括 [!UICONTROL Adult Content], [!UICONTROL Natural Disasters], [!UICONTROL Legal Drinking Age], [!UICONTROL MANGA], [!UICONTROL Epidemics]和 [!UICONTROL G-rated Sites].
 
 您可以为每个广告商设置默认的上下文过滤器控件<!-- [default contextual filter controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->，然后（可选） [自定义每个版面的设置](/help/dsp/campaign-management/placements/placement-settings.md). 使用此功能时，可能需要支付额外费用。
 
@@ -114,13 +114,15 @@ Advertising Cloud DSP维护一个在全球被阻止的网站列表，其中列�
 
 ### 主题定位
 
-DSP主题定位允许您通过利用我们行业领先的情境合作伙伴来定位或阻止关键词列表 [!DNL Comscore] 和 [!DNL Oracle Data Cloud] ([!DNL Grapeshot])。
+DSP主题定位允许您通过利用我们行业领先的情境合作伙伴来定位或阻止关键词列表 [!DNL Comscore] 和 [!DNL Oracle Data Cloud] ([!DNL Grapeshot])。 主题定位可帮助您确保广告始终在与您的品牌保持一致的环境中提供，无论这包括阻止有害内容，还是确保在可确保更好结果的上下文中花费。
 
-主题定位可帮助您确保广告始终在与您的品牌保持一致的环境中提供，无论这包括阻止有害内容，还是确保在可确保更好结果的上下文中花费。
+主题定位要求您直接使用 [!DNL Comscore] 或 [!DNL Grapeshot] (使用 [!DNL Oracle Data Cloud])。 在合作伙伴平台中创建这些组件后，您可以 [在 [!UICONTROL Audience Targeting] 每个版面的部分](/help/dsp/campaign-management/placements/placement-settings.md). 此功能可能需要额外付费。
 
-主题定位要求您直接使用 [!DNL Comscore] 或 [!DNL Grapeshot] (使用 [!DNL Oracle Data Cloud])。 在合作伙伴平台中创建这些组件后，您可以 [在[!UICONTROL  Audience Targeting] 每个版面的部分](/help/dsp/campaign-management/placements/placement-settings.md). 此功能可能需要额外付费。
+要创建自定义主题区段，请执行以下操作：
 
-要开始使用，请联系首选供应商或 [!DNL Adobe] 客户经理。
+* 创建 [!DNL Comscore] 帐户并创建自定义区段，则可以请求登录 [!DNL Activation Segment Manager] at [http://agents.comscore.com](http://agents.comscore.com). 请参阅 [[!DNL Comscore] 帮助中心](https://comscoreactivation.zendesk.com/hc/) ，以了解有关设置自定义区段的完整说明。 自定义区段的费用可在 [!DNL Segment Manager] 创建时。
+
+* 开始使用 [!DNL Oracle Data Cloud]，联系 [!DNL Oracle Data Cloud] 或 [!DNL Adobe] 客户经理。
 
 ![Comscore徽标](/help/dsp/assets/comscore-logo.png) ![Grapeshot徽标](/help/dsp/assets/oracle-grapeshot-logo.png)
 

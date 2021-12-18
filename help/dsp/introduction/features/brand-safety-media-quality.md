@@ -3,7 +3,7 @@ title: 品牌安全与媒体质量
 description: 进一步了解品牌安全和媒体质量功能。
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: 6a0b863d1cdf31eb8a659196a83e9636a3a49ff5
+source-git-commit: fac152a5e3d040bcfacda97f05f3990fd17f677d
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 0%
@@ -72,7 +72,7 @@ DSP已构建了强大的内部工具和系统来管理我们整个平台中的�
 
 Advertising Cloud DSP提供了全局阻止的网站列表以及为广告商和帐户创建自定义阻止的网站列表的选项。
 
-#### Advertising Cloud DSP全局阻止的站点列表
+#### Advertising Cloud DSP全局阻止的站点列表 {#global-blocked-sites}
 
 Advertising Cloud DSP维护一个在全球被阻止的网站列表，其中列出了在上运行广告时被认为不安全的网站。 此列表包含具有令人反感的内容（如仇恨或恐怖）的网站，以及受机器人、假前置、不匹配的域和其他欺诈活动感染的网站。
 

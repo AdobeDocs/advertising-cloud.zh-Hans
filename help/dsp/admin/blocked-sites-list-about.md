@@ -1,7 +1,7 @@
 ---
 title: 关于帐户级别和广告商级别的阻止网站列表
 description: 进一步了解帐户或广告商的阻止网站列表。
-source-git-commit: 32988f3bd4e4b63304f6b2a53949eda7842a60f0
+source-git-commit: 490147fb8479474ce95c17d59b512254596746c2
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 除了Advertising Cloud DSP之外，还会应用帐户级别和广告商级别的阻止网站列表 [全局阻止的站点列表](/help/dsp/introduction/features/brand-safety-media-quality.md)，包括认为对广告不安全的网站。
+>* 除了Advertising Cloud DSP之外，还会应用帐户级别和广告商级别的阻止网站列表 [全局阻止的站点列表](/help/dsp/introduction/features/brand-safety-media-quality.md#global-blocked-sites)，包括认为对广告不安全的网站。
 >* 用户还可以将目标网站添加到任何版面。
 >* 阻止的站点列表始终会覆盖目标站点列表。 如果版面同时排除和包含广告的相同目标，则会排除该目标。
 

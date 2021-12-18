@@ -1,7 +1,7 @@
 ---
 title: 编辑帐户级别或广告商级别的阻止的网站列表
 description: 了解如何管理帐户或广告商的阻止网站列表。
-source-git-commit: bfed4856e9b67537a84bd3169b284e6e027ca957
+source-git-commit: 4a5c4a2f180eba26818137bf9c31f212b342543a
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [关于帐户级别和广告商级别的阻止的网站列表](/help/dsp/admin/blocked-sites-list-about.md)
+>* [关于帐户级别和广告商级别的阻止网站列表](/help/dsp/admin/blocked-sites-list-about.md)
    > [品牌安全与媒体质量](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [版面设置](/help/dsp/campaign-management/placements/placement-settings.md)
 

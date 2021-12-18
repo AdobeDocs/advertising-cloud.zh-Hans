@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 99179eab681332ef1e8dc835aab10e113c4b3e0b
+source-git-commit: 5c7eab5f3bc1d8fc4a437e8f5b498caafed9a30f
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: '1464'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 有关详细信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2021年12月17日 | 帮助 | 有关已阻止站点的信息现已可用。 | 请参阅“[关于帐户级别和广告商级别的阻止网站列表](/help/dsp/admin/blocked-sites-list-about.md)&quot;和&quot;[编辑帐户级别或广告商级别的阻止的网站列表](/help/dsp/admin/blocked-sites-list-edit.md).&quot; |
 | 2021年12月10日 | 视频教程 | 提供了新的视频教程：“Advertising Cloud DSP简介”、“帐户结构和用户界面”、“如何创建包”、“如何批量上传第三方广告标签”和“如何使用批量编辑工具编辑版面”。 | 请参阅“[Advertising CloudTutorials](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/overview.html).&quot; |
 | 2021年11月12日 | [!UICONTROL Deal IDs] | 在 [!UICONTROL Deal ID] 设置， &quot;[!DNL Rubicon]“(“)”已更改为“[!DNL Magnite DV+]，其中 [!DNL DV+] 表示显示、视频和其他格式，如音频。 这反映了 [!DNL Magnite] SSP. **注意：** [!DNL Magnite DV+] 仍列为“[!DNL Rubicon]“ [!UICONTROL Deal ID Inbox]. | 请参阅“[SSP合作伙伴](/help/dsp/inventory/ssp-partners.md).&quot; |
 | 2021年10月27日 | 自定义报表 | 您现在可以创建和管理 [!DNL Amazon S3] 和不同类型的FTP交付位置(称为 *[!DNL report destinations]*，用于自定义报表。 配置报表目标后，您可以设置每个新的自定义报表，以将其提交到单个目标类型的一个或多个位置，或电子邮件收件人。 更新了 [!DNL Amazon S3] 和FTP凭据不会中断报表交付。<br><br>您的现有报表仍会发送到指定的电子邮件收件人。 要配置到其他报表目标的投放，请使用新目标创建新报表。 | 请参阅“[关于 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md), &quot;[创建 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md), &quot;[[!UICONTROL Report Destination] 设置](/help/dsp/reports/report-destinations/report-destination-settings.md)、和[自定义报表设置](/help/dsp/reports/report-settings.md).&quot; |

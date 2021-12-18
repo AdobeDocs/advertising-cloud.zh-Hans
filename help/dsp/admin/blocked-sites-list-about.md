@@ -1,14 +1,14 @@
 ---
-title: 关于帐户级别和广告商级别的阻止的网站列表
+title: 关于帐户级别和广告商级别的阻止网站列表
 description: 进一步了解帐户或广告商的阻止网站列表。
-source-git-commit: fd111b2d11b409b40aacde3cfd94a8865b7bc289
+source-git-commit: 32988f3bd4e4b63304f6b2a53949eda7842a60f0
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
 
 ---
 
-# 关于帐户级别和广告商级别的阻止的网站列表
+# 关于帐户级别和广告商级别的阻止网站列表
 
 您可以编辑用于整个Advertising Cloud帐户的阻止的网站列表以及该帐户中各个广告商的其他列表。
 

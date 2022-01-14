@@ -3,7 +3,7 @@ title: 品牌安全与媒体质量
 description: 进一步了解品牌安全和媒体质量功能。
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: fac152a5e3d040bcfacda97f05f3990fd17f677d
+source-git-commit: 3bca3d5b4a1ec0bf9bb23946248de350b8bbf2a6
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 0%
@@ -120,7 +120,7 @@ DSP主题定位允许您通过利用我们行业领先的情境合作伙伴来�
 
 要创建自定义主题区段，请执行以下操作：
 
-* 创建 [!DNL Comscore] 帐户并创建自定义区段，则可以请求登录 [!DNL Activation Segment Manager] at [http://agents.comscore.com](http://agents.comscore.com). 请参阅 [[!DNL Comscore] 帮助中心](https://comscoreactivation.zendesk.com/hc/) ，以了解有关设置自定义区段的完整说明。 自定义区段的费用可在 [!DNL Segment Manager] 创建时。
+* 创建 [!DNL Comscore] 帐户并创建自定义区段，则可以请求登录 [!DNL Activation Segment Manager] at [https://agents.comscore.com](https://agents.comscore.com). 请参阅 [[!DNL Comscore] 帮助中心](https://comscoreactivation.zendesk.com/hc/) ，以了解有关设置自定义区段的完整说明。 自定义区段的费用可在 [!DNL Segment Manager] 创建时。
 
 * 开始使用 [!DNL Oracle Data Cloud]，联系 [!DNL Oracle Data Cloud] 或 [!DNL Adobe] 客户经理。
 

@@ -2,9 +2,10 @@
 title: 为何渠道数据在Advertising Cloud和 [!DNL Marketing Channels]
 description: 了解为何AMO ID跟踪的渠道数据会因跟踪的渠道数据而有所不同 [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 4605dc7d-43d7-414f-a509-6096c6cf5fd2
+source-git-commit: b99d0ce78dc2adc16e555ef618393ef2fc11067d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 * Advertising Cloud AMO ID:Advertising Cloud AMO ID数据的主要用例是为Advertising Cloud的高级 [!DNL Adobe Sensei]竞价算法。 这些算法会自动做出每天成千上万个微观层面的竞价决策，以最大化广告支出并实现 [!DNL DSP] 营销活动或 [!DNL Search] 组合。 算法可以将促销活动连接到的转化数据越多，算法就越能做出这些竞价决策。
 
-   要收集此数据，请 [!DNL Analytics for Advertising Cloud] 集成会传递原始AMO ID，这些ID可在Adobe Analytics的AMO ID维度中转换为点进和显示跟踪代码，该维度存储为自定义变量(eVar)或保留变量(rVar)。 AMO ID维度中未设置其他渠道的点进次数，因此AMO ID维度无法跟踪来自这些其他渠道的登入。 结果，AMO ID会在 [!DNL Marketing Channes]l入口点。
+   要收集此数据，请 [!DNL Analytics for Advertising Cloud] 集成会传递原始AMO ID，这些ID可在Adobe Analytics的AMO ID维度中转换为点进和显示跟踪代码，该维度存储为自定义变量(eVar)或保留变量(rVar)。 AMO ID维度中未设置其他渠道的点进次数，因此AMO ID维度无法跟踪来自这些其他渠道的登入。 结果，AMO ID会在 [!DNL Marketing Channels] 入口点。
 
 有关Advertising Cloud跟踪的数据与 [!DNL Analytics] — 跟踪数据，请参阅“[之间的预期数据差异 [!DNL Analytics] 和Advertising Cloud](../data-variances.md).&quot;
 

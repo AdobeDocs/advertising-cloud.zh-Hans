@@ -3,9 +3,9 @@ title: Adobe Advertising Cloud对《加州消费者隐私法案》的支持：�
 description: 了解对捕获消费者选择退出销售请求的支持。
 feature: CCPA
 exl-id: 2c0cd4f5-798f-479a-99cd-f555cd676766
-source-git-commit: e00f87009fb36a057069caa53f30c7414a2ee444
+source-git-commit: adb3118d291d110e653a62cc1a323410b1a596b2
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ### 方法2:使用Adobe Experience Platform Privacy Service API传达CCPA选择退出销售请求
 
-*广告商仅分配了Experience Cloud组织ID（IMS组织ID）*
+*广告商分配了一个Adobe Experience Cloud [!DNL Organization ID] ([!DNL IMS Org ID]仅限)*
 
 1. 部署JavaScript库以检索客户的Cookie。 同一个图书馆， `AdobePrivacy.js`，用于所有Adobe Experience Cloud解决方案。
 

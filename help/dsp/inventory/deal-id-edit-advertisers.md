@@ -2,7 +2,8 @@
 title: 编辑具有交易ID访问权限的广告商
 description: 了解如何指定哪些广告商可以访问交易ID。
 feature: DSP Private Inventory, DSP Deal IDs
-source-git-commit: 22f5d8279fadfcf79e2cd41566321f423d63eb16
+exl-id: 6efbc5dc-90d8-46a5-88fe-218990c6336d
+source-git-commit: 3e47fec28a17cb64de42309c0368293e1ef1cdea
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -27,5 +28,4 @@ ht-degree: 0%
 >* [关于专用清单](private-inventory-about.md)
 >* [编辑具有交易ID访问权限的帐户](/help/dsp/inventory/deal-id-share.md)
 >* [手动交易ID设置](deal-id-settings.md)
-
 

@@ -3,7 +3,7 @@ title: 之间的预期数据差异 [!DNL Analytics] 和Advertising Cloud
 description: 之间的预期数据差异 [!DNL Analytics] 和Advertising Cloud
 feature: Integration with Adobe Analytics
 exl-id: 34685e04-d4f9-4e27-b83e-b56164244b2b
-source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '3282'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ### 可能不同的回顾窗口和归因模型
 
-的 [!DNL Analytics for Advertising Cloud] 集成使用两个变量（eVar或rVars \[保留的eVars]\）来捕获 [EF ID和AMO ID](ids.md). 这些变量配置了单个回顾窗口（点进次数和显示到达次数归因的时间）和归因模型。 除非另有指定，否则这些变量将配置为匹配Advertising Cloud中的默认广告商级别点击回顾窗口和归因模型。
+的 [!DNL Analytics for Advertising Cloud] 集成使用两个变量（eVar或rVars \[保留的eVars]\）来捕获 [EF ID和AMO ID](ids.md). 这些变量配置了单个回顾窗口（点进次数和显示到达次数归因的时间）和归因模型。 除非另有指定，否则这些变量将配置为匹配Advertising Cloud中默认的广告商级别点击回顾窗口和归因模型。
 
 但是，回顾窗口和归因模型可在Analytics（通过eVar）和Advertising Cloud中进行配置。 此外，在Advertising Cloud中，归因模型不仅可以在广告商级别（用于竞价优化）进行配置，还可以在单个数据视图和报表中（仅用于报告目的）进行配置。 例如，组织可能倾向于使用均匀分配归因模型进行优化，但将最近联系归因用于Advertising Cloud DSP或 [!DNL Search]. 更改归因模型会更改归因转化的数量。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->最佳实践是在Advertising Cloud和 [!DNL Analytics]. 使用 [!DNL Adobe] 客户经理，以确定当前设置并保持配置同步。
+>最佳实践是在Advertising Cloud和 [!DNL Analytics]. 使用 [!DNL Adobe] 帐户团队以确定当前设置并保持配置同步。
 
 这些相同概念适用于使用不同回顾窗口或归因模型的任何其他类似渠道。
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 ## 归因于 [!DNL Analytics Marketing Channels]
 
-[[!DNL Analytics Marketing Channels] 报告](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/marketing-channels-admin.html) 允许您配置规则，以便根据点击信息的不同方面来识别不同的营销渠道。 您可以跟踪Advertising Cloud跟踪的渠道([!UICONTROL Display Click Through], [!UICONTROL Display View Through]和 [!UICONTROL Paid Search])作为 [!DNL Marketing Channels] 使用 `ef_id` 查询字符串参数来标识渠道。 <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> 但是，即使 [!DNL Marketing Channels] 报表可以跟踪Advertising Cloud渠道，因此数据可能因多种原因与Advertising Cloud报表不匹配。 有关更多信息，请参阅以下部分。
+[[!DNL Analytics Marketing Channels] 报告](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/marketing-channels-admin.html) 允许您配置规则，以便根据点击信息的不同方面来识别不同的营销渠道。 您可以跟踪Advertising Cloud跟踪的渠道([!UICONTROL Display Click Through], [!UICONTROL Display View Through]和 [!UICONTROL Paid Search])作为 [!DNL Marketing Channels] 使用 `ef_id` 查询字符串参数来标识渠道。 <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> 但是，即使 [!DNL Marketing Channels] 报表可以跟踪Advertising Cloud渠道，因此数据可能与Advertising Cloud报表不匹配，原因有多种。 有关更多信息，请参阅以下部分。
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ Advertising Cloud报表仅捕获通过Advertising Cloud贩运的付费媒体(Adv
 
 例如，付费搜索和免费搜索渠道通常具有共生关系，其中每个渠道可相互协助。 的 [!DNL Marketing Channels] 报表会将一些转化归因到免费搜索，而Advertising Cloud不会这样做，因为它不会跟踪免费搜索。
 
-另外，还可以考虑查看展示广告、点击付费搜索广告、点击电子邮件内部，然后下30美元订单的客户。 即使Advertising Cloud和 [!DNL Marketing Channels] 这两种方法都使用最近联系归因模型，则转化仍会以不同的方式归因到每个属性。 Advertising Cloud无权访问 [!UICONTROL Email] 渠道，因此它将对转化的付费搜索进行信用评分。 [!DNL Marketing Channels]但是，具有所有三个渠道的访问权限，因此将 [!UICONTROL Email] 中。
+另外，还可以考虑查看展示广告、点击付费搜索广告、点击电子邮件内部，然后下30美元订单的客户。 即使Advertising Cloud和 [!DNL Marketing Channels] 这两种方法都使用最近联系归因模型，则转化仍会以不同的方式归因到每个属性。 Advertising Cloud无权访问 [!UICONTROL Email] 渠道，因此它将对转化的付费搜索进行计数。 [!DNL Marketing Channels]但是，具有所有三个渠道的访问权限，因此将 [!UICONTROL Email] 中。
 
 ![Advertising Cloud中与 [!DNL Analytics Marketing Channels]](/help/integrations/assets/a4adc-channel-example.png)
 
@@ -161,7 +161,7 @@ Advertising Cloud报表仅捕获通过Advertising Cloud贩运的付费媒体(Adv
 
 ```Clicks to [!UICONTROL EF ID Instances] = (ef_id_instances / Clicks)```
 
-虽然您应该期望AMO ID与EF ID之间的匹配率较高，但不希望出现100%的对等性，因为AMO ID和EF ID会从根本上跟踪不同的数据，这种差异可能会导致总数略有差异 [!UICONTROL AMO ID Instances] 和 [!UICONTROL EF ID Instances]. 如果总计 [!UICONTROL AMO ID Instances] in [!DNL Analytics] 不同 [!UICONTROL EF ID Instances] 但是，在Advertising Cloud中超过1%的流量会与 [!DNL Adobe] 客户经理以寻求帮助。
+虽然您应该期望AMO ID与EF ID之间的匹配率较高，但不希望出现100%的对等性，因为AMO ID和EF ID会从根本上跟踪不同的数据，这种差异可能会导致总数略有差异 [!UICONTROL AMO ID Instances] 和 [!UICONTROL EF ID Instances]. 如果总计 [!UICONTROL AMO ID Instances] in [!DNL Analytics] 不同 [!UICONTROL EF ID Instances] 但是，在Advertising Cloud中超过1%的流量会与 [!DNL Adobe] 客户团队寻求帮助。
 
 有关AMO ID和EF ID的更多信息，请参阅 [Advertising Cloud Analytics使用的ID](ids.md).
 
@@ -187,7 +187,7 @@ Advertising Cloud报表仅捕获通过Advertising Cloud贩运的付费媒体(Adv
 
 在此示例中，添加锚点标记会向AMO ID中添加意外字符，从而导致Analytics无法识别值。 此AMO ID不会进行分类，因此与其关联的转化将位于“[!UICONTROL unspecified]&quot;或&quot;[!UICONTROL none]&quot; [!DNL Analytics] 报表。
 
-幸运的是，尽管此类问题很常见，但通常不会导致高比例的差异。 但是，如果您发现 [!DNL Analytics] 和EF ID在Advertising Cloud中，请联系您的 [!DNL Adobe] 客户经理以寻求帮助。
+幸运的是，尽管此类问题很常见，但通常不会导致高比例的差异。 但是，如果您发现 [!DNL Analytics] 和EF ID在Advertising Cloud中，请联系您的 [!DNL Adobe] 客户团队寻求帮助。
 
 ## 其他量度注意事项
 
@@ -215,11 +215,11 @@ Advertising Cloud报表仅捕获通过Advertising Cloud贩运的付费媒体(Adv
 
 * **点进次数：** [!DNL Analytics] 当访客登陆目标网站、登陆页面加载和 [!DNL Analytics] 页面底部的请求会将数据发送到 [!DNL Analytics].
 
-点击次数和点进次数可能因意外广告点击而有很大差异。 我们观察到，展示广告的大多数点击都是意外点击，这些意外访客在登陆页面加载前点击了“返回”按钮，因此 [!DNL Analytics] 无法记录点进。 对于意外点击更有可能发生的广告，例如移动广告、视频广告和填充屏幕且必须在用户查看页面之前关闭的广告，尤其如此。
+点击次数和点进次数可能因意外广告点击而有很大差异。 我们发现，展示广告的大多数点击都是意外点击，这些意外访客在登陆页面加载前点击了“返回”按钮，因此 [!DNL Analytics] 无法记录点进。 对于意外点击更有可能发生的广告，例如移动广告、视频广告和填充屏幕且必须在用户查看页面之前关闭的广告，尤其如此。
 
 由于带宽较低或处理能力较强，在移动设备上加载的网站也不太可能产生点进次数，这会导致登陆页面加载所需的时间较长。 50%至70%的点击不会产生点进次数的情况并不罕见。 在移动设备环境中，差异可能高达90%，因为浏览器速度较慢，并且用户在浏览页面或尝试关闭广告时意外点击广告的可能性较高。
 
-点击数据也可能会记录在无法使用当前跟踪机制记录点进次数（例如进入或从移动设备应用程序进行点击）的环境中，或者广告商仅为其部署了一种跟踪方法（例如，使用直通JavaScript方法时，阻止第三方Cookie的浏览器将跟踪点进次数，但不会跟踪点进次数）的环境中。 Adobe建议同时部署点击URL跟踪和显示JavaScript跟踪方法的一个关键原因是，可跟踪点进次数的覆盖范围最大。
+点击数据也可能会记录在无法使用当前跟踪机制记录点进次数（例如进入或从移动设备应用程序进行点击）的环境中，或者广告商仅为其部署了一种跟踪方法（例如，使用“显示到达JavaScript”方法时，阻止第三方Cookie的浏览器将跟踪点进次数，但不会跟踪点进次数）的环境中。 Adobe建议同时部署点击URL跟踪和显示到达JavaScript跟踪方法的一个关键原因是，要最大限度地覆盖可跟踪的点进。
 
 ### 将Advertising Cloud流量量度用于非Advertising CloudDimension
 

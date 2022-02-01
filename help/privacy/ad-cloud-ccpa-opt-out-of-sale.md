@@ -3,7 +3,7 @@ title: Adobe Advertising Cloud对《加州消费者隐私法案》的支持：�
 description: 了解对捕获消费者选择退出销售请求的支持。
 feature: CCPA
 exl-id: 2c0cd4f5-798f-479a-99cd-f555cd676766
-source-git-commit: adb3118d291d110e653a62cc1a323410b1a596b2
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Advertising Cloud会生成客户为帐户的选择退出销售请求提交的ID�
 
 此功能适用于使用 [!DNL Trafficking API]. 请参阅 [!DNL Trafficking API] 以了解更多信息。
 
-如果贵组织不使用 [!DNL Trafficking API] 但有兴趣了解更多信息，请联系 [!DNL Adobe] 客户经理。
+如果贵组织不使用 [!DNL Trafficking API] 但有兴趣了解更多信息，请联系 [!DNL Adobe] 客户团队。
 
 ## 附录：示例 [!UICONTROL CCPA Opt-Out-of-Sale] 请求Privacy ServiceAPI用户
 

@@ -3,7 +3,7 @@ title: 性能疑难解答
 description: 参考常见性能问题并了解如何对其进行故障诊断。
 feature: DSP Optimization
 exl-id: adb32257-dede-4623-9840-33221c218443
-source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 | 在职位上没有支出 | 版面不包括广告，和/或广告不活动。 | 验证所有预期广告是否已附加到版面并且已获得批准和激活。<br><br>此外，查看版面是否包含自定义广告时间表，这可能会限制每个广告的投放期限。 要从版面视图查看版面的广告计划，请单击  **[!UICONTROL ...]>[!UICONTROL Ad schedule]** 版面名称旁边。 |
 |  | 受影响的日期不在配置的飞行日期之内。 | 检查投放日期在营销活动、包和版面级别是否&#x200B;有效。 |
 |  | 预算目标已达到和/或不够高。 | 在营销活动、资源包和版面级别查看预算设置。 |
-|  | 账户资金不够。 | 要查看您的帐户是否有充足资金，请转至 **[!UICONTROL Settings]>[!UICONTROL Account]** 看看 [!UICONTROL Usable Funds]. 如果需要添加更多资金，请联系 [!DNL Adobe] 客户经理。 |
+|  | 账户资金不够。 | 要查看您的帐户是否有充足资金，请转至 **[!UICONTROL Settings]>[!UICONTROL Account]** 看看 [!UICONTROL Usable Funds]. 如果需要添加更多资金，请联系 [!DNL Adobe] 客户团队。 |
 |  | 没有可用的库存。 | 验证是否指定的库存源([!UICONTROL Public], [!UICONTROL Private]或 [!UICONTROL On Demand])包括：<ul><li>正确设置。</li><li>通过拍卖进行活动和发送。</li><li>与适用的广告和版面类型兼容。</li></ul><br>如果库存来源全部有效且有效，则尽可能定位其他或所有库存来源。 |
 |  | 没有可用用户。 | 检查指定的受众目标是否包含足够的活动用户。 如果没有，请通过添加更多受众来扩展目标。 |
 | 在职位上的低支出 | 的 [!UICONTROL Non Bids] 版面诊断报告的部分显示了版面未竞价的可能原因。 | [查看 [!UICONTROL Non Bids] 报告](/help/dsp/campaign-management/reports/placement-diagnostics.md) 以了解投资为何没有出价。  <!-- add link/edit text when file available: See the [in-depth guide to possible Non-Bid Reasons (NBR)](link) for more information. --> |

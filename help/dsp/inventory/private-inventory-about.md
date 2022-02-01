@@ -2,7 +2,7 @@
 title: 关于专用清单
 description: 关于专用清单
 feature: DSP Private Inventory
-source-git-commit: 22f5d8279fadfcf79e2cd41566321f423d63eb16
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ### 交易ID
 
-如果您与出版商有直接关系，则可以在Advertising Cloud DSP版面中使用您自己的私人交易（包括议定的库存和定价）来简化媒体购买流程和工作流程。 在您设置帐户时，DSP将与您的所有发布者集成。 如果您希望稍后访问其他发布者，请联系 [!DNL Adobe] 帐户管理器来设置访问权限。 <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
+如果您与出版商有直接关系，则可以在Advertising Cloud DSP版面中使用您自己的私人交易（包括议定的库存和定价）来简化媒体购买流程和工作流程。 在您设置帐户时，DSP将与您的所有发布者集成。 如果您希望稍后访问其他发布者，请联系 [!DNL Adobe] 帐户团队以设置访问权限。 <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
 
 您所有与交易ID的私人交易均由 [!DNL Adobe].
 

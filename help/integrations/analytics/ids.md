@@ -3,7 +3,7 @@ title: Advertising Cloud ID使用者 [!DNL Analytics]
 description: Advertising Cloud ID使用者 [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ed1aab7b-9bd0-4d42-9bfb-9c6fa6db76bc
-source-git-commit: 143e8e756d13597bf923d0b6f5b2510f834e6e0f
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 0%
@@ -120,7 +120,7 @@ AMO ID示例：AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 * `{ef_userid}` 是Advertising Cloud分配给广告商的唯一数字用户ID。
 * `{ef_sid}` 是Advertising Cloud用于指定搜索引擎的数字ID，例如 `3` 表示 [!DNL Google Ads] 或 `10` 表示 [!DNL Microsoft Advertising].
 
-以下是几个搜索引擎的完整AMO ID格式。 有关其他搜索引擎的AMO ID格式，请联系您的 [!DNL Adobe] 客户经理。
+以下是几个搜索引擎的完整AMO ID格式。 有关其他搜索引擎的AMO ID格式，请联系您的 [!DNL Adobe] 客户团队。
 
 的AMO ID格式 [!DNL Google Ads]:
 

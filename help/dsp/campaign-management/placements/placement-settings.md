@@ -3,7 +3,7 @@ title: 版面设置
 description: 请参阅可用版面设置的描述。
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '3280'
 ht-degree: 0%
@@ -304,7 +304,7 @@ ht-degree: 0%
    * 要手动选择间隔，请在单元格内单击，然后（可选）拖动以选择间隔。
 1. 单击 **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (可选；可用于配置了 [!DNL Comscore] 和 [!DNL Grapeshot] 区段)特定区段名称或ID [!DNL Comscore] 和 [!DNL Grapeshot] 作为目标。 此功能可能需要额外付费。 要激活此功能并设置主题区段，请联系 [!DNL Adobe] 客户经理。
+**[!UICONTROL Topic Targeting]:** (可选；可用于配置了 [!DNL Comscore] 和 [!DNL Grapeshot] 区段)特定区段名称或ID [!DNL Comscore] 和 [!DNL Grapeshot] 作为目标。 此功能可能需要额外付费。 要激活此功能并设置主题区段，请联系 [!DNL Adobe] 客户团队。
 
 要指定主题定位，请执行以下操作：
 
@@ -388,7 +388,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ads.txt filtering]:**
 
-哪个级别 [Ads.txt](https://iabtechlab.com/ads-txt-about/) 竞价前过滤，以便通过利用每个出版商的授权数字销售商列表来使用。 为新版面选择了广告商级别的默认设置，但您可以更改以下设置：
+哪个级别 [Ads.txt](https://iabtechlab.com/ads-txt-about/) 竞价前过滤，以便通过利用每个出版商的授权数字销售商列表来使用。 已为新版面选择广告商级别的默认设置，但您可以更改以下设置：
 
 * *[!UICONTROL Opt out of ads.txt (default)]*:从所有卖家处购买库存。
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*:优先从域的授权直销商和转销商购买库存。

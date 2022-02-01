@@ -3,7 +3,7 @@ title: 重新请求 [!DNL On Demand] 高级库存交易
 description: 了解如何重新请求 [!DNL On Demand] 此前被拒绝的交易。
 feature: DSP On Demand Inventory
 exl-id: db5a5708-16e3-4304-8bd0-f1aa8ecd0e3c
-source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 您可以重新请求 [!DNL On Demand] 您被拒绝的库存交易，包括您订阅的出版商的交易。 在提交新请求之前，请按照以下步骤操作，确保所有适用的帐户设置均正确无误。
 
-如果您重新请求后未批准交易，请联系您的 [!DNL Adobe] 帐户管理员，以查看发布者是否有其他限制禁止您的帐户访问交易。
+如果您重新请求后未批准交易，请联系您的 [!DNL Adobe] 帐户团队查看发布者是否有其他限制禁止您的帐户访问交易。
 
 一旦交易成功 [已批准](/help/dsp/inventory/on-demand-inventory-view-status.md)，默认情况下会将其作为定位所有 [!DNL On Demand] 库存。 新交易也可用作现有投放的目标，但您需要手动编辑投放设置以将交易添加为目标。
 
-1. 通过 [!DNL Adobe] 客户经理： [!UICONTROL Account Type] 的DSP帐户正确。
+1. 通过 [!DNL Adobe] 客户团队 [!UICONTROL Account Type] 的DSP帐户正确。
 
 1. 确认适用的广告商帐户的广告商类别正确：
 

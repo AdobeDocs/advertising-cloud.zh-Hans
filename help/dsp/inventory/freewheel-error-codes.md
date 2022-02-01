@@ -2,9 +2,10 @@
 title: 的错误代码 [!DNL FreeWheel] 广告提交
 description: 引用为广告提交返回的错误代码 [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 2eb93971-ba82-4de8-96c5-48524d628b70
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '679'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 | 错误消息 | 描述 | 后续步骤 |
 |--- |--- |--- |
-| [!DNL等待来自的状态响应 [!DNL FreeWheel]] | [!DNL FreeWheel] 尚未答复提交是成功还是失败。 | 在10分钟内再次检查状态。 |
+| [!DNL Awaiting status response from [!DNL FreeWheel]] | [!DNL FreeWheel] 尚未答复提交是成功还是失败。 | 在10分钟内再次检查状态。 |
 | [!DNL The submitted ad does not have a clock number assigned.] | [!DNL FreeWheel] 不接受未分配时钟号的英国广告。 | 为广告分配一个时钟号，然后重新提交该广告。 |
 | [!DNL The ad you are attempting to submit has not yet finished transcoding. Please wait ten minutes then try again.] | 在您尝试提交广告时，转码器未完成广告转码。 | 等待10分钟，然后重新提交广告。 |
 | [!DNL The deal id you input is not setup as a guaranteed feed. Please submit guaranteed deals only.] | 提交的交易不是作为程序化保证交易而设置的。 [!DNL FreeWheel] 仅接受有保证的交易。 | 将交易ID设置为程序化保证交易。 广告会自动提交到 [!DNL FreeWheel] 在交易ID工作流程结束时，保存程序化保证的默认放置时，您会看到以下信息： |
@@ -32,13 +33,13 @@ ht-degree: 2%
 
 | 代码 | 含义 | 描述 | 后续步骤 |
 |--- |--- |--- |--- |
-| 401 | 未授权 | 访问凭据不正确、缺失或无效。 | 联系您的 [!DNL Adobe] 客户经理。 |
-| 403 | 禁止 | 服务器理解请求，但拒绝授权。 | 联系您的 [!DNL Adobe] 客户经理。 |
-| 404 | 未找到 | 您请求的资源不可用。 如果在PUT操作中未找到创作ID，则返回404。 | 联系您的 [!DNL Adobe] 客户经理。 |
-| 405 | 不允许的方法 | 使用该资源不支持的请求方法对资源发出请求(例如，使用方法上的GET要求POST发送数据，或使用只读资源上的PUT)。 | 联系您的 [!DNL Adobe] 客户经理。 |
-| 408 | 请求超时 | 处理此请求时出现超时。 超时通常由对特定资源的独占访问的并发请求引起。 | 在收到此状态时重新提交请求。 如果问题仍然存在，请联系 [!DNL Adobe] 客户经理。 |
-| 422 | 不可处理的实体 | 资源无效。 当请求正文无效或创建/更新的资源无效（例如，如果未找到交易ID）时，会发生此错误。 请参阅 [FreeWheel API 422错误](#freewheel-422-errors) 以了解更多信息。 | 联系您的 [!DNL Adobe] 客户经理。 |
-| 500 | 内部服务器错误 | API系统错误。 | 联系您的 [!DNL Adobe] 客户经理。 |
+| 401 | 未授权 | 访问凭据不正确、缺失或无效。 | 联系您的 [!DNL Adobe] 客户团队。 |
+| 403 | 禁止 | 服务器理解请求，但拒绝授权。 | 联系您的 [!DNL Adobe] 客户团队。 |
+| 404 | 未找到 | 您请求的资源不可用。 如果在PUT操作中未找到创作ID，则返回404。 | 联系您的 [!DNL Adobe] 客户团队。 |
+| 405 | 不允许的方法 | 使用该资源不支持的请求方法对资源发出请求(例如，使用方法上的GET要求POST发送数据，或使用只读资源上的PUT)。 | 联系您的 [!DNL Adobe] 客户团队。 |
+| 408 | 请求超时 | 处理此请求时出现超时。 超时通常由对特定资源的独占访问的并发请求引起。 | 在收到此状态时重新提交请求。 如果问题仍然存在，请联系 [!DNL Adobe] 客户团队。 |
+| 422 | 不可处理的实体 | 资源无效。 当请求正文无效或创建/更新的资源无效（例如，如果未找到交易ID）时，会发生此错误。 请参阅 [FreeWheel API 422错误](#freewheel-422-errors) 以了解更多信息。 | 联系您的 [!DNL Adobe] 客户团队。 |
+| 500 | 内部服务器错误 | API系统错误。 | 联系您的 [!DNL Adobe] 客户团队。 |
 
 {style=&quot;table-layout:auto&quot;}
 

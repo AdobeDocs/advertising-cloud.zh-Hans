@@ -3,7 +3,7 @@ title: 概述 [!DNL Analytics for Advertising Cloud]
 description: 概述 [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 31367c8b-3410-4110-9ae6-11defe625355
-source-git-commit: bfbfc293ad04b294c813ce7c8a11200e70fc812f
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 使用 [!DNL Analytics] 作为您的付费媒体报告工具，您的组织需要Experience Cloud登录才能访问Analysis Workspace。 您的Advertising Cloud团队将帮助您将Advertising Cloud数据映射到Analysis Workspace中的各个报表包。 您可以将Advertising Cloud数据发送到任何报表包，但您应该了解已映射到Advertising Cloud的报表包和尚未映射的报表包。根据报表包的不同，这可能会更改报告的数据。
 
-[Advertising Cloud ID(位于 [!DNL Analytics]](ids.md) 与其他eVar类似，具有自定义的永久过期时间。 默认情况下，归因回顾窗口会在Advertising Cloud实施期间设置为60天。 要更改此设置，请使用 [!DNL Adobe] 客户经理。
+[Advertising Cloud ID(位于 [!DNL Analytics]](ids.md) 与其他eVar类似，具有自定义的永久过期时间。 默认情况下，归因回顾窗口会在Advertising Cloud实施期间设置为60天。 要更改此设置，请使用 [!DNL Adobe] 客户团队。
 
 Advertising Cloud维度会附加后缀“(AMO ID)”(例如“广告类型(AMO ID)”)。 请参阅“[Advertising Cloud量度在Analysis Workspace中](advertising-cloud-metrics-in-analytics.md)“ ”，以查看可用维度的列表。
 

@@ -3,7 +3,7 @@ title: 查看 [!DNL On Demand] 交易请求和订阅
 description: 了解如何查看 [!DNL On Demand] 交易请求和订阅。
 feature: DSP On Demand Inventory
 exl-id: 8dd6d922-c4a3-4ddb-bca9-f6f782da1320
-source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
 
    要了解为何每个广告商的请求被拒绝，请单击 ![拒绝](/help/dsp/assets/denied.png). 如果拒绝的原因是一些可以解决的问题，那么您就可以 [重新请求交易](/help/dsp/inventory/on-demand-inventory-rerequest.md).
 
-如果您对批准流程有任何疑问，请联系您的 [!DNL Adobe] 客户经理。
+如果您对批准流程有任何疑问，请联系您的 [!DNL Adobe] 客户团队。
 
 >[!MORELIKETHIS]
 >

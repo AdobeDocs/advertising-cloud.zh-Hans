@@ -3,9 +3,9 @@ title: 实施的先决条件和关键信息 [!DNL Analytics for Advertising Clou
 description: 实施的先决条件和关键信息 [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 08e54e2b-ed9b-4489-8de5-ab1379b7133c
-source-git-commit: d4d743ade0e2dad2b967b8316ff2261d0a82d5b0
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ## Advertising Cloud数据 [!DNL Analytics]
 
-[!DNL Analytics] 在Analytics点击中设置Advertising Cloud ID(AMO ID)，但受广告商的eVar持久性设置的约束，该设置同时适用于点进次数和显示到达次数。 持久性设置在Advertising Cloud后端配置，并且 [!DNL Adobe] 客户经理可以更改。
+[!DNL Analytics] 在Analytics点击中设置Advertising Cloud ID(AMO ID)，但受广告商的eVar持久性设置的约束，该设置同时适用于点进次数和显示到达次数。 持久性设置在Advertising Cloud后端配置，并且 [!DNL Adobe] 客户团队可以更改。
 
 * [!DNL Analytics for Advertising Cloud] eVar过期：AMO ID默认为60天
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 * 在线视频
 * 本机
 
-联系您的 [!DNL Adobe] 帐户管理器以了解每个渠道中最新支持的广告环境。
+联系您的 [!DNL Adobe] 帐户团队以了解每个渠道中最新受支持的广告环境。
 
 ## 实施前注意事项
 

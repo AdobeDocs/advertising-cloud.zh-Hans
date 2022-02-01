@@ -3,7 +3,7 @@ title: 音频广告设置
 description: 请参阅音频广告的可用广告设置的描述。
 feature: DSP Ads
 exl-id: 746b6f40-ff59-4bbe-bfc0-3579d4461e4a
-source-git-commit: e0713f3717a684fb5ef2808d7de769424b8972d2
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL Final VAST Tag]:** （仅使用VAST标记的广告）第三方广告源的URL，其中必需 [Advertising Cloud DSP跟踪宏](/help/dsp/campaign-management/macros.md) 插入（如果适用）。
 
-**[!UICONTROL Select Rate]:** （仅限具有权限的用户）通过Adobe计费的预协商费率，或您已协商并将通过供应商计费的费率之一。 要添加费率，请联系您的 [!DNL Adobe] 客户经理。
+**[!UICONTROL Select Rate]:** （仅限具有权限的用户）通过Adobe计费的预协商费率，或您已协商并将通过供应商计费的费率之一。 要添加费率，请联系您的 [!DNL Adobe] 客户团队。
 
 ### [!UICONTROL Companion]
 

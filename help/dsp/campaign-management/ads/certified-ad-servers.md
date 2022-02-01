@@ -2,9 +2,10 @@
 title: 经认证的广告服务合作伙伴
 description: 查看所有经认证的广告服务器和广告单元。
 feature: DSP Ads
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 084b4c04-a876-4770-9efc-57268c333aa6
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -40,7 +41,7 @@ ht-degree: 0%
 | [!DNL Innovid] | X | X |  | X |  |
 | [!DNL InSkin] |  |  | X |  | 在整个Inskin库存网络中，必须从180x150显示交易ID中提供高影响皮肤。 |
 | [!DNL Jivox] |  | X |  |  |  |
-| [!DNL Kargo] |  | X |  |  | 320x50锚点、BYOC、悬停、分组讨论和Sidekick;300x250输出流 </br></br>联系您的 [!DNL Adobe] 客户经理，以协助设置广告单位。 |
+| [!DNL Kargo] |  | X |  |  | 320x50锚点、BYOC、悬停、分组讨论和Sidekick;300x250输出流 </br></br>联系您的 [!DNL Adobe] 帐户团队，以协助设置广告单位。 |
 | [!DNL Linkstorm] |  |  | X |  |  |
 | [!DNL mCanvas] |  |  | X |  |  |
 | [!DNL Medialets] |  | X |  |  |  |

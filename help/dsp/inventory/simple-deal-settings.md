@@ -2,7 +2,7 @@
 title: '[!UICONTROL Simple Ad Serving] 交易设置'
 description: 了解 [!UICONTROL Simple Ad Serving] 交易。
 feature: DSP Simple Ad Serving
-source-git-commit: 22f5d8279fadfcf79e2cd41566321f423d63eb16
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 | 参数 | 描述 |
 |-----------|-------------|
 | **[!UICONTROL Serving Type]** | 此交易的媒体类型： *[!UICONTROL Video],* *[!UICONTROL Display],* 或 *[!UICONTROL Audio].* |
-| **[!UICONTROL Publisher Site Served On]** | 销售此库存的发布者的名称。 通过在名称中至少输入前两个字符来搜索发布者。 要添加未列出的发布者，请与 [!DNL Adobe] 客户经理。 |
+| **[!UICONTROL Publisher Site Served On]** | 销售此库存的发布者的名称。 通过在名称中至少输入前两个字符来搜索发布者。 要添加未列出的发布者，请与 [!DNL Adobe] 客户团队。 |
 | **[!UICONTROL Advertiser]** | 帐户中可访问此交易的单个广告商。 另外，选择可用交易的促销活动和（可选）包。 |
 | **[!UICONTROL Media Quality Assessment?]** | （某些用户）允许广告在其他DSP上运行以进行第三方验证。 <!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
 | **[!UICONTROL Ad Source]** | 唯一的选项是 *[!UICONTROL Site Serve (Event Pixels)]*. |
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 | 参数 | 描述 |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | 每千次展示次数成本(CPM)，反映在合同的费率卡中。 联系您的 [!DNL Adobe] 帐户管理员。 <br><br>还指定交易的货币。 所有用户都可以选择USD，或者，如果SSP支持其他货币，则选择DSP帐户的货币。 |
+| **[!UICONTROL Media CPM]** | 每千次展示次数成本(CPM)，反映在合同的费率卡中。 联系您的 [!DNL Adobe] 帐户团队获取此值。 <br><br>还指定交易的货币。 所有用户都可以选择USD，或者，如果SSP支持其他货币，则选择DSP帐户的货币。 |
 | **[!UICONTROL Third Party Billed Fees]** | （可选）要作为不可计费成本和交易币种进行跟踪的静态第三方费用。<br><br>所有用户都可以选择USD，或者，如果SSP支持其他货币，则选择DSP帐户的货币。 **注意：** 计费费用反映在 [!UICONTROL Net CPM] 量度。 |
 | **[!UICONTROL Third Party Fee Description]** | （可选）第三方费用的描述。 |
 | **[!UICONTROL Flight Dates]** | 使用此交易的流量的开始和结束日期。 投放日期必须包含在营销活动投放日期中。 广告标记仅在指定的投放期间返回响应。<br><br> 创建持续时间为一年的单独简单广告服务促销活动并在其中构建跟踪像素的最佳实践。 |

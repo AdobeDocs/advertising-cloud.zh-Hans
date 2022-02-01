@@ -3,7 +3,7 @@ title: DSP如何优化您的营销活动
 description: 了解DSP如何优化营销活动中的包。
 feature: DSP Optimization
 exl-id: 054582ef-b677-4725-b25c-b82bf3e5b43e
-source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # DSP如何优化您的营销活动
 
-本页概述了Advertising Cloud DSP优化引擎(由 [!DNL Adobe Sensei]，可优化营销策划中的包。 有关如何手动优化促销活动的提示和技巧，请与 [!DNL Adobe] 客户经理。 <!-- add link to trading playbook if we add it to help -->
+本页概述了Advertising Cloud DSP优化引擎(由 [!DNL Adobe Sensei]，可优化营销策划中的包。 有关如何手动优化促销活动的提示和技巧，请与 [!DNL Adobe] 客户团队。 <!-- add link to trading playbook if we add it to help -->
 
 包优化目标在两个级别运行：
 

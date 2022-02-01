@@ -3,7 +3,7 @@ title: 设置效果促销活动的最佳实践
 description: 了解设置注重效果的促销活动的最佳实践，包括针对最低CPA或最高ROAS优化的版面。
 feature: DSP Optimization, DSP Best Practices
 exl-id: fc64680d-9d1c-4f74-a8b9-2e9b670c00eb
-source-git-commit: d2ad7d47d9cf13411fc831526a6fa4ff698b0a15
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 0%
@@ -71,9 +71,9 @@ Advertising Cloud可以以最低的每次客户获取成本(CPA)或最高的广�
 
 * **步调和上限：** 要选择CPA或ROAS优化目标，包必须使用包级别步调。 这可确保优化包内的所有版面，以根据绩效和规模来分配支出，从而达到选定的目标。
 
-* **投放日期：** （潜在客户包）当您的营销活动运行时间超过25天时，请使用 [!UICONTROL Activate Custom Flighting] 功能。 首先，将前10天的定制航班定为所需每日预算的75%左右，以减少在 *学习阶段*. 然后，在预算的剩余时间内设置第二次自定义飞行。
+* **投放日期：** （潜在客户包）当您的营销活动运行时间超过25天时，请使用 [!UICONTROL Activate Custom Flighting] 功能。 首先，将前10天的定制航班定为所需每日预算的75%左右，以减少在 *学习阶段*. 然后在预算的剩余时间设置第二次自定义飞行。
 
-   例如，如果您有$100,000，要在30天内花费，则将第1次飞行（第1-10天）的预算设置为$25,000(75% x 100,000/30天= $2,500每天)。 用剩余预算75 000美元用于2号航班（第11-30天）。
+   例如，如果您有$100,000的时间在30天内花费，则将第1次飞行（第1-10天）的预算设置为$25,000(75% x 100,000/30天= $2,500每天)。 用剩余预算75 000美元用于2号航班（第11-30天）。
 
 * **预算：** DSP将始终尝试在包中的所有版面之间平均分配100%的包预算。 如果职位安排的支出较低或没有支出，我们建议为职位安排设置预算上限，以允许将更多预算按比例分配给职位安排。 允许24-48小时进行预算更改校准。
 
@@ -140,7 +140,7 @@ Advertising Cloud可以以最低的每次客户获取成本(CPA)或最高的广�
 
 * **[!UICONTROL Device Targeting]**:
    * 包括 [!UICONTROL Computer], [!UICONTROL Mobile]和 [!UICONTROL Tablet].
-   * 不定位 [!UICONTROL Firefox] 和 [!UICONTROL Safari] 因为定位和测量限制。 联系您的 [!DNL Adobe] 帐户管理器，以了解有关 [!DNL Adobe] 支持 [!DNL Safari ITP].
+   * 不定位 [!UICONTROL Firefox] 和 [!UICONTROL Safari] 因为定位和测量限制。 联系您的 [!DNL Adobe] 帐户团队以了解有关 [!DNL Adobe] 支持 [!DNL Safari ITP].
    * 如果您定位移动Web流量，则应禁用除 [!UICONTROL Chrome] 和 [!UICONTROL Edge].
 
 ### 品牌安全与媒体质量

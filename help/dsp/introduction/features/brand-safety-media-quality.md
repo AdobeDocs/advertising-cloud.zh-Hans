@@ -3,7 +3,7 @@ title: 品牌安全与媒体质量
 description: 进一步了解品牌安全和媒体质量功能。
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: 3bca3d5b4a1ec0bf9bb23946248de350b8bbf2a6
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 0%
@@ -100,7 +100,7 @@ Advertising Cloud DSP维护一个在全球被阻止的网站列表，其中列�
 
 您可以为每个广告商设置默认的投标前欺诈阻止控制<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->，然后（可选） [自定义每个版面的设置](/help/dsp/campaign-management/placements/placement-settings.md). 使用此功能时，可能需要支付额外费用。
 
-有关功能的更多信息，请直接联系首选供应商，或联系您的 [!DNL Adobe] 客户经理。
+有关功能的更多信息，请直接联系首选供应商，或联系您的 [!DNL Adobe] 客户团队。
 
 ![Comscore徽标](/help/dsp/assets/comscore-logo.png) ![DoubleVerify徽标](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science徽标](/help/dsp/assets/ias-logo.png) ![Peer39徽标](/help/dsp/assets/peer39-logo.png)
 
@@ -122,7 +122,7 @@ DSP主题定位允许您通过利用我们行业领先的情境合作伙伴来�
 
 * 创建 [!DNL Comscore] 帐户并创建自定义区段，则可以请求登录 [!DNL Activation Segment Manager] at [https://agents.comscore.com](https://agents.comscore.com). 请参阅 [[!DNL Comscore] 帮助中心](https://comscoreactivation.zendesk.com/hc/) ，以了解有关设置自定义区段的完整说明。 自定义区段的费用可在 [!DNL Segment Manager] 创建时。
 
-* 开始使用 [!DNL Oracle Data Cloud]，联系 [!DNL Oracle Data Cloud] 或 [!DNL Adobe] 客户经理。
+* 开始使用 [!DNL Oracle Data Cloud]，联系 [!DNL Oracle Data Cloud] 或 [!DNL Adobe] 客户团队。
 
 ![Comscore徽标](/help/dsp/assets/comscore-logo.png) ![Grapeshot徽标](/help/dsp/assets/oracle-grapeshot-logo.png)
 
@@ -134,7 +134,7 @@ DSP与 [!DNL DoubleVerify] 提供 [!DNL Authentic Brand Safety] 定位解决方�
 
 您可以指定 [!DNL DoubleVerify] 每个广告商的区段ID<!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) -->，然后（可选） [启用或禁用 [!UICONTROL Authentic Brand Safety] 对于每个版面](/help/dsp/campaign-management/placements/placement-settings.md). DSP会向您的帐户收取区段ID的使用情况帐单。
 
-有关功能的更多信息，请联系 [!DNL DoubleVerify] 直接联系，或 [!DNL Adobe] 客户经理。
+有关功能的更多信息，请联系 [!DNL DoubleVerify] 直接联系，或 [!DNL Adobe] 客户团队。
 
 ![DoubleVerify徽标](/help/dsp/assets/doubleverify-logo.png)
 

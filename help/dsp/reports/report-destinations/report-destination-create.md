@@ -2,13 +2,13 @@
 title: 创建报表目标
 description: 了解如何创建用于交付自定义报表的目标。
 feature: DSP Custom Reports
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 33c58a98-a7d3-4d05-99e7-5e55ba3e625a
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '87'
+ht-degree: 2%
 
 ---
-
 
 # 创建报表目标
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 如果将报表配置为提交到任何类型的FTP或 [!DNL Amazon S3] 位置，则当报表因错误而取消时，您将不会收到通知。 如果您未收到预期的报表，请联系 [!DNL Adobe] 客户经理，了解原因。
+> 如果将报表配置为提交到任何类型的FTP或 [!DNL Amazon S3] 位置，则当报表因错误而取消时，您将不会收到通知。 如果您未收到预期的报表，请联系 [!DNL Adobe] 客户团队，找出原因。
 
 >[!MORELIKETHIS]
 >

@@ -1,10 +1,11 @@
 ---
-title: 检查广告的状态 [!DNL [!DNL FreeWheel]] PG交易
+title: 检查[!DNL的广告状态 [!DNL FreeWheel]] PG交易
 description: 了解如何查找 [!DNL Freewheel] 程序化保证交易。
 feature: DSP Private Inventory, DSP Deal IDs
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 57c365f6-41cf-4ab6-b71d-fe9984eaf115
+source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 查看是否将广告提交到 [!DNL Freewheel] 成功了。 您可以根据需要重新提交任何广告。
 
-如果您对重新提交有其他疑问或问题，请联系您的 [!DNL Adobe] 客户经理。
+如果您对重新提交有其他疑问或问题，请联系您的 [!DNL Adobe] 客户团队。
 
 ## 从 [!UICONTROL Ads] 查看
 

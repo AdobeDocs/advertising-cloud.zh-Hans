@@ -3,9 +3,9 @@ title: 适用于的JavaScript代码 [!DNL Analytics for Advertising Cloud]
 description: 适用于的JavaScript代码 [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 184508ce-df8d-4fa0-b22b-ca0546a61d58
-source-git-commit: 7bf8f3524954b17d9da336a2210a098bf571399e
+source-git-commit: ac7f6110a523d63482f6c2e1a7d0bd5a12a0bab1
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,11 @@ ht-degree: 0%
 
 ## 部署JavaScript代码
 
-JavaScript库包含两行，允许 [!DNL Analytics] 和Advertising Cloud互相沟通。 如果 [!DNL Analytics for Advertising Cloud] 集成在Advertising Cloud实施期间完成，您应该已收到此代码，其中包含有关如何部署该代码的说明。
+JavaScript库包含两行，允许 [!DNL Analytics] 和Advertising Cloud互相沟通。 如果 [!DNL Analytics for Advertising Cloud] 集成在Advertising Cloud实施期间完成，则您应该已经收到此代码，其中包含有关如何部署该代码的说明。
 
-**(使用Experience Cloud标识服务的实施 `visitorAPI.js` code)**
+### 代码
+
+#### 使用Experience Cloud标识服务的实施 `visitorAPI.js` 代码
 
 ```
 <script>
@@ -41,7 +43,7 @@ JavaScript库包含两行，允许 [!DNL Analytics] 和Advertising Cloud互相�
 </script>
 ```
 
-**(使用Experience Platform的实施 [!DNL Web SDK] `alloy.js`code)**
+#### 使用Experience Platform的实施 [!DNL Web SDK] `alloy.js`代码
 
 ```
 <script>

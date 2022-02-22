@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: b4d8b30ca4563b3b0d2ea1b03b8ef5f2810964a2
+source-git-commit: 3a4f9bf2d2889acde67a10ab0b5895a2c1024b56
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 有关详细信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2022年2月17日 | 视频教程 | 新增了有关“如何创建标准显示版面”的视频。 | 请参阅 [Advertising CloudTutorials](https://video.tv.adobe.com/v/340454). |
+| 2022年2月17日 | 视频教程 | 新增了有关“如何创建标准显示版面”的视频。 | 请参阅 [Advertising CloudTutorials](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/placement-create.html). |
 | 2022年1月31日 | 帮助 | 有关 [!DNL Deal IDs] 和 [!DNL Simple Ad Serving] 现已可用。 | 请参阅“库存”>“专用库存”的子章节。 |
 | 2021年12月10日 | 视频教程 | 提供了新的视频教程：“Advertising Cloud DSP简介”、“帐户结构和用户界面”、“如何创建包”、“如何批量上传第三方广告标签”和“如何使用批量编辑工具编辑版面”。 | 请参阅“[Advertising CloudTutorials](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/overview.html).&quot; |
 | 2021年11月12日 | [!UICONTROL Deal IDs] | 在 [!UICONTROL Deal ID] 设置， &quot;[!DNL Rubicon]“(“)”已更改为“[!DNL Magnite DV+]，其中 [!DNL DV+] 表示显示、视频和其他格式，如音频。 这反映了 [!DNL Magnite] SSP. **注意：** [!DNL Magnite DV+] 仍列为“[!DNL Rubicon]“ [!UICONTROL Deal ID Inbox]. | 请参阅“[SSP合作伙伴](/help/dsp/inventory/ssp-partners.md).&quot; |

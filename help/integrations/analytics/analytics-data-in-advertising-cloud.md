@@ -1,11 +1,11 @@
 ---
-title: '[!DNL Analytics] Advertising Cloud中的数据'
-description: '[!DNL Analytics] Advertising Cloud中的数据'
+title: '"[!DNL Analytics] Advertising Cloud中的数据”'
+description: '"[!DNL Analytics] Advertising Cloud中的数据”'
 feature: Integration with Adobe Analytics
 exl-id: 79fbc809-9965-41c1-971f-3652cc78fee3
-source-git-commit: 185fc7d79798a0a3a9ad5829b701aeb53a4a47c1
+source-git-commit: 2c94b6c02b4e24878639dd9edbc0455e1751f679
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Analytics区段
 
-在[!DNL Analytics]中创建并发布到Experience Cloud的所有区段。
+在中创建的所有区段 [!DNL Analytics] 和发布到Experience Cloud。
 
 新区段需要24-48小时才能在Advertising Cloud中显示。 现有区段的更新将在大约八小时内同步。
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* [!DNL Analytics] 将EF IDeVar的事件传递到Advertising Cloud。默认集成不支持将计算量度或其他维度(eVar)发送到Advertising Cloud。 但是，如果计算量度可以在自定义事件中完全捕获，则Advertising Cloud可以摄取自定义事件。
+>* [!DNL Analytics] 将EF IDeVar的事件传递到Advertising Cloud。  默认集成不支持将计算量度或其他维度(eVar)发送到Advertising Cloud。 但是，如果计算量度可以在自定义事件中完全捕获，则Advertising Cloud可以摄取自定义事件。
 >* [!DNL Analytics] 每小时将数据传递到Advertising Cloud。
 
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 * [!UICONTROL Pageviews_total]:点击回顾窗口内所有访问中网站上的页面查看总数。
 * [[!UICONTROL Bounces] 量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html)
 * [[!UICONTROL Visits] 量度](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)
-* [!UICONTROL ef_id_instances]:收集的 [!DNL Analytics] 次 [!UICONTROL EF ID]数。
+* [!UICONTROL ef_id_instances]:该 [!DNL Analytics] 收集 [!UICONTROL EF ID].
 
 ## 转化量度
 

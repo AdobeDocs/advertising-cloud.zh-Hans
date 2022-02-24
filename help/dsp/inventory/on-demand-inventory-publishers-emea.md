@@ -1,9 +1,9 @@
 ---
-title: '[!DNL On Demand] 欧洲、中东和非洲的Premium Inventory Publishers'
-description: '[!DNL On Demand] 欧洲、中东和非洲的Premium Inventory Publishers'
+title: '"[!DNL On Demand] 欧洲、中东和非洲的Premium Inventory Publishers”'
+description: '"[!DNL On Demand] 欧洲、中东和非洲的Premium Inventory Publishers”'
 feature: DSP On Demand Inventory
 exl-id: e56fd637-fb01-4bc0-9125-aa6844eeccc4
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 2c94b6c02b4e24878639dd9edbc0455e1751f679
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -227,7 +227,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ [!DNL On Demand] 关于Premium Inventory](on-demand-inventory-about.md)
+>* [关于 [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
 >* [订阅并请求访问 [!DNL On Demand] Premium Inventory](on-demand-inventory-subscribe.md)
 >* [[!DNL On Demand] 亚太地区的Premium Inventory Publishers](on-demand-inventory-publishers-apac.md)
 >* [[!DNL On Demand] 澳大利亚和新西兰的Premium Inventory出版商](on-demand-inventory-publishers-anz.md)

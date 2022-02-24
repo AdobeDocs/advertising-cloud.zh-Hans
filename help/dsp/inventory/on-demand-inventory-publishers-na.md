@@ -1,9 +1,9 @@
 ---
-title: '[!DNL On Demand] 北美的Premium Inventory Publishers'
-description: 请参阅北美地区可用的 [!DNL On Demand] 优质库存发布器。
+title: '"[!DNL On Demand] Premium Inventory Publishers in North America”（北美的Premium Inventory Publishers）'
+description: 查看可用 [!DNL On Demand] 北美的优质库存发布者。
 feature: DSP On Demand Inventory
 exl-id: 47136e55-aab9-4112-8317-1aafca0b1c49
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 2c94b6c02b4e24878639dd9edbc0455e1751f679
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 | [!DNL Cue Digital Media] | 加拿大 |
 | [!DNL DAX] | 加拿大 |
 | [!DNL DAZN] ([!DNL Perform Media]) | 加拿大 |
-| [!DNL Dotdash] (以前称 [!DNL About.com]为) | 加拿大 |
+| [!DNL Dotdash] (以前 [!DNL About.com]) | 加拿大 |
 | [!DNL EA] | 加拿大 |
 | [!DNL evite] | 加拿大 |
 | [!DNL Expedia] | 加拿大 |
@@ -76,7 +76,7 @@ ht-degree: 0%
 | [!DNL BBC] | U.S. |
 | [!DNL Billboard] | U.S. |
 | [!DNL Bloomberg] | U.S. |
-| [!DNL Broadcasters on Hulu] ([!DNL Discovery]、  [!DNL NBC Universal]、  [!DNL FOX]) | U.S. |
+| [!DNL Broadcasters on Hulu] ([!DNL Discovery], [!DNL NBC Universal], [!DNL FOX]) | U.S. |
 | [!DNL Business Insider] | U.S. |
 | [!DNL Buzzfeed] | U.S. |
 | [!DNL CBS Interactive] | U.S. |
@@ -90,7 +90,7 @@ ht-degree: 0%
 | [!DNL DAZN] ([!DNL Perform Media]) | U.S. |
 | [!DNL Discovery] | U.S. |
 | [!DNL Disney Digital Network] | U.S. |
-| [!DNL Dotdash] (以前称 [!DNL About.com]为) | U.S. |
+| [!DNL Dotdash] (以前 [!DNL About.com]) | U.S. |
 | [!DNL EA] | U.S. |
 | [!DNL ebay] | U.S. |
 | [!DNL ESI Media] | U.S. |
@@ -177,7 +177,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ [!DNL On Demand] 关于Premium Inventory](on-demand-inventory-about.md)
+>* [关于 [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
 >* [订阅并请求访问 [!DNL On Demand] Premium Inventory](on-demand-inventory-subscribe.md)
 >* [[!DNL On Demand] 亚太地区的Premium Inventory Publishers](on-demand-inventory-publishers-apac.md)
 >* [[!DNL On Demand] 澳大利亚和新西兰的Premium Inventory出版商](on-demand-inventory-publishers-anz.md)

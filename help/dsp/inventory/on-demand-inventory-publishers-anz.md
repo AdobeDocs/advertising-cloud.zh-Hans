@@ -1,9 +1,9 @@
 ---
-title: '[!DNL On Demand] 澳大利亚和新西兰的Premium Inventory出版商'
-description: 请参阅澳大利亚和新西兰的可用 [!DNL On Demand] 优质库存发布器。
+title: '"[!DNL On Demand] 澳大利亚和新西兰的Premium Inventory Publishers”'
+description: 查看可用 [!DNL On Demand] 澳大利亚和新西兰的优质库存出版商。
 feature: DSP On Demand Inventory
 exl-id: e46ec570-38a7-4ea6-8c4c-d173971c48b7
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 2c94b6c02b4e24878639dd9edbc0455e1751f679
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ [!DNL On Demand] 关于Premium Inventory](on-demand-inventory-about.md)
+>* [关于 [!DNL On Demand] Premium Inventory](on-demand-inventory-about.md)
 >* [订阅并请求访问 [!DNL On Demand] Premium Inventory](on-demand-inventory-subscribe.md)
 >* [[!DNL On Demand] 亚太地区的Premium Inventory Publishers](on-demand-inventory-publishers-apac.md)
 >* [[!DNL On Demand Premium] 欧洲、中东和非洲的库存出版商](on-demand-inventory-publishers-emea.md)

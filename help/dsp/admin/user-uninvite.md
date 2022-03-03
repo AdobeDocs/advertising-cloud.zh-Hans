@@ -1,7 +1,7 @@
 ---
 title: 取消邀请待定用户
 description: 了解如何撤销待决的用户邀请。
-source-git-commit: 93006a63b5d0298d9bd866c2ffd79da67ef11811
+source-git-commit: baa351de79532352f28d2dc5691c2e425a8e3207
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%
@@ -17,6 +17,7 @@ ht-degree: 0%
 1. 执行以下任一操作：
 
    * 在主菜单中，单击 **[!UICONTROL Settings]>[!UICONTROL Users]**.
+
    * 在主菜单中，单击 **[!UICONTROL Settings]>[!UICONTROL Account]**，然后单击 **[!UICONTROL Edit users]**.
 
 1. 在 **[!UICONTROL Invitations]** ，单击 **[!UICONTROL X]** 邀请旁边。

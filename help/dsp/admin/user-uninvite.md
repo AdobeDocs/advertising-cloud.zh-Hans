@@ -1,9 +1,9 @@
 ---
 title: 取消邀请待定用户
 description: 了解如何撤销待决的用户邀请。
-source-git-commit: baa351de79532352f28d2dc5691c2e425a8e3207
+source-git-commit: 315fd6189e1805f9f1f4184cc0aa47d12740616a
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [为您的组织帐户邀请新用户](user-invite.md)
->* [为您的组织帐户重新发送待决用户邀请](user-resend-invite.md)
+>* [重新发送待决用户邀请](user-resend-invite.md)
 
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

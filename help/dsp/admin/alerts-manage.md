@@ -1,9 +1,9 @@
 ---
 title: 管理警报订阅
 description: 了解如何管理自动电子邮件警报。
-source-git-commit: 86987ec2c5d572b5328cb04fc7120609c6c79d26
+source-git-commit: 1cce72f4cd898034c7bf7bfeee8c5b37f43c0a59
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -26,12 +26,9 @@ ht-degree: 0%
 
       设置因警报类型而异。
 
-   1. （可选）要立即运行警报，请选择 **[!UICONTROL Alert immediately]**. 默认情况下，将运行警报 <!-- at what time? -->.
+   1. （可选）要立即运行警报，请选择 **[!UICONTROL Alert immediately]**. 默认情况下，警报在帐户时区的08:00运行。
 
    1. （可选）要向订阅添加其他警报，请单击 **[!UICONTROL Add Alert]** 并创建警报。
-
-      <!-- You can add up to NN alerts per subscription. -->
-      <!-- You can add quite a few, many unlimited -->
 
 1. 在 **[!UICONTROL Add Subscriber Email Addresses]** 字段，输入接收警报的每个电子邮件地址，然后按 **[!UICONTROL Enter]** 键。
 

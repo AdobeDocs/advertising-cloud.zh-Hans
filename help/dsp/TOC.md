@@ -8,9 +8,9 @@ user-guide-title: Advertising Cloud DSP 指南
 user-guide-description: 了解使用 Advertising Cloud DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 18ae0e34f518e58f045c123cfe75f65b12b46fb7
+source-git-commit: d4537714e884eb1ce1b62d4097b7ad6f30767edf
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '871'
 ht-degree: 6%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 6%
 + 营销活动管理 {#campaign-management}
    + [营销活动管理结构概述](/help/dsp/campaign-management/campaign-management-overview.md)
    + 促销活动 {#campaigns}
-      + [关于营销活动管理](/help/dsp/campaign-management/campaigns/campaign-about.md)
+      + [关于Campaign Management](/help/dsp/campaign-management/campaigns/campaign-about.md)
       + [创建营销活动](/help/dsp/campaign-management/campaigns/campaign-create.md)
       + [编辑营销活动](/help/dsp/campaign-management/campaigns/campaign-edit.md)
       + [复制营销活动](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
@@ -205,6 +205,9 @@ ht-degree: 6%
    + 阻止的站点 {#sites}
       + [关于帐户级别和广告商级别的阻止网站列表](/help/dsp/admin/blocked-sites-list-about.md)
       + [编辑帐户级别或广告商级别的阻止的网站列表](/help/dsp/admin/blocked-sites-list-edit.md)
+   + 通知 {#notifications}
+      + [关于警报订阅](/help/dsp/admin/alerts-about.md)
+      + [管理警报订阅](/help/dsp/admin/alerts-manage.md)
 + [与 Adobe Experience Cloud 的集成](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/home.html)<!-- Dupe link to this file, so need to use an absolute link in one of the listings -->
 + [客户支持](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html)
 + [Adobe Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)

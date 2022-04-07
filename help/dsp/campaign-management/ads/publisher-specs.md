@@ -2,9 +2,9 @@
 title: 特定于发布者的广告规范
 description: 引用受支持发布者的广告规范。
 feature: DSP Ads
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+source-git-commit: 3eb63e9d7161c354736ce53ee21518882c541884
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于广告管理](ad-about.md)
->* [创建广告](ad-create.md)
+>* [创建多个第三方广告](ad-create-multiple.md)
 >* [广告规范](/help/dsp/assets/ad-specs.pdf)
 

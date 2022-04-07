@@ -1,16 +1,16 @@
 ---
-title: Advertising Cloud DSP中的促销活动管理概述
+title: Campaign Management在Advertising Cloud DSP概述
 description: 了解营销活动管理层次结构和组件。
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: c94e08d0-0dd5-4cf9-8df2-9eb4c591375c
-source-git-commit: 19d6a2edf07eecf874537dd9d356737ed9156bd9
+source-git-commit: d180b91f7bf5ae72a51e5335638a98c5fc4b4e86
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
-# Advertising Cloud DSP中的促销活动管理概述
+# Campaign Management在Advertising Cloud DSP概述
 
 Advertising Cloud DSP营销活动具有以下层次结构：
 
@@ -18,9 +18,7 @@ Advertising Cloud DSP营销活动具有以下层次结构：
    * 包
       * 版面
          * 广告
-            * 创意
 
-<!-- Add "Feature: DSP Creatives" once we have other topics on creatives; get Bob to update the feature list. -->
 <!-- Do clients think in terms of insertion orders? If yes, then work in the following info.:
 In Advertising Cloud DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package will include placements, which can use different strategies and tactics to deliver the line item requirements.
 -->
@@ -43,22 +41,15 @@ A [投放](/help/dsp/campaign-management/placements/placement-about.md) 存储�
 
 ## [!UICONTROL Ads]
 
-[广告](/help/dsp/campaign-management/ads/ad-about.md) 包括创意资产和跟踪URL。 您可以上传创意资产，并且DSP将免费提供使用这些资产的广告，也可以上传第三方广告投放标记。
+[广告](/help/dsp/campaign-management/ads/ad-about.md) 包括创意资产和跟踪URL。 您可以使用合作伙伴标签表或批量标签模板单独或批量上传第三方广告服务标签。 您还可以手动创建本机显示广告，以便DSP提供。
 
 设置广告后，您需要将每个广告附加到版面。 您可以将单个广告附加到一个或多个版面。
 
 在活动营销活动中的活动投放中，所有活动的已批准广告都有资格根据投放定位参数运行。
 
-## [!UICONTROL Creatives]
-
-您可以上传音频和视频文件，以在指定促销活动的广告中使用。
-<!-- add link to [About Creative Management](/help/dsp/campaign-management/creatives/creative-about.md) when it's available-->
-
-您可以立即使用上传的创意创建广告，也可以稍后从创意视图或广告视图创建广告。
-
 >[!MORELIKETHIS]
 >
->* [关于营销活动管理](/help/dsp/campaign-management/campaigns/campaign-about.md)
+>* [关于Campaign Management](/help/dsp/campaign-management/campaigns/campaign-about.md)
 >* [关于包管理](/help/dsp/campaign-management/packages/package-about.md)
 >* [关于版面管理](/help/dsp/campaign-management/placements/placement-about.md)
 >* [关于广告管理](/help/dsp/campaign-management/ads/ad-about.md)

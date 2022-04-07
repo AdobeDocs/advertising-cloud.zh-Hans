@@ -3,9 +3,9 @@ title: 存档或取消存档广告
 description: 了解如何存档或取消存档广告。
 feature: DSP Ads
 exl-id: f3dfc92c-e99b-4a72-9a91-65ae0d5f2419
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: b538a4a8792122f5640ae38279a3f243abade7a1
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -18,26 +18,27 @@ ht-degree: 0%
 
 ## 存档广告
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
+1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
 1. 单击营销活动的名称。
-1. 在子菜单中，单击&#x200B;**[!UICONTROL Ads]**。
-1. 在广告名称旁边，单击&#x200B;**... >[!UICONTROL Archive]**。
-1. 在确认消息中，单击&#x200B;**[!UICONTROL Archive]**。
+1. 在子菜单中，单击 **[!UICONTROL Ads]**.
+1. 在广告名称旁边，单击  **... >[!UICONTROL Archive]**.
+1. 在确认消息中，单击 **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->要查看已存档的广告，请筛选[!UICONTROL Ads]视图：单击![[!UICONTROL Filter]按钮](/help/dsp/assets/filter.png)，单击&#x200B;**[!UICONTROL Ad status]**&#x200B;并选择&#x200B;**[!UICONTROL Archived]**，然后单击&#x200B;**[!UICONTROL Apply]。**
+>要查看已存档的广告，请过滤 [!UICONTROL Ads] 视图：单击 ![[!UICONTROL Filter] 按钮](/help/dsp/assets/filter.png)，单击 **[!UICONTROL Ad status]** 选择 **[!UICONTROL Archived]**，然后单击 **[!UICONTROL Apply].**
 
 ## 取消存档广告
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
+1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
 1. 单击营销活动的名称。
-1. 在子菜单中，单击&#x200B;**[!UICONTROL Ads]**。
-1. 在广告名称旁边，单击&#x200B;**... >[!UICONTROL Unarchive]**。
-1. 在确认消息中，单击&#x200B;**[!UICONTROL Unarchive]**。
+1. 在子菜单中，单击 **[!UICONTROL Ads]**.
+1. 在广告名称旁边，单击  **... >[!UICONTROL Unarchive]**.
+1. 在确认消息中，单击 **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
 >
->* [创建广告](ad-create.md)
+>* [创建单个广告](ad-create.md)
+>* [创建多个第三方广告](ad-create-multiple.md)
 >* [编辑广告](ad-edit.md)
 

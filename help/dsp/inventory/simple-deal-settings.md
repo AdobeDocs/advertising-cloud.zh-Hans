@@ -1,10 +1,11 @@
 ---
-title: '"[!UICONTROL Simple Ad Serving] 交易设置”'
+title: '''[!UICONTROL Simple Ad Serving] 交易设置”'
 description: 了解 [!UICONTROL Simple Ad Serving] 交易。
 feature: DSP Simple Ad Serving
-source-git-commit: 2c94b6c02b4e24878639dd9edbc0455e1751f679
+exl-id: 1a8f215c-c52b-4099-a55f-99c4232b7a22
+source-git-commit: 3eb63e9d7161c354736ce53ee21518882c541884
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Select & Upload [Media Type]]
 
-（仅限新广告）用于创建新广告的屏幕 [第一方广告](/help/dsp/campaign-management/ads/ad-create.md) 或 [第三方广告](/help/dsp/campaign-management/ads/ad-create-third-party.md).
+（仅限新广告）用于创建新广告的屏幕 [第三方广告](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
 ### [!UICONTROL Feed Details]
 

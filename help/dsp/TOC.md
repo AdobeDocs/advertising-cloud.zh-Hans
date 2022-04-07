@@ -8,9 +8,9 @@ user-guide-title: Advertising Cloud DSP 指南
 user-guide-description: 了解使用 Advertising Cloud DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: d4537714e884eb1ce1b62d4097b7ad6f30767edf
+source-git-commit: e77f70e414a1c8d2fe4937766ecddca9fdb6893e
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '859'
 ht-degree: 6%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 6%
       + [[!DNL DSP] 数据使用指南](https://experienceleague.adobe.com/docs/advertising-cloud/policies/data-usage-guidelines.html)
    + [高级测量解决方案](/help/dsp/introduction/advanced-measurement-services.md)
 + 营销活动管理 {#campaign-management}
-   + [营销活动管理结构概述](/help/dsp/campaign-management/campaign-management-overview.md)
+   + [Campaign Management结构概述](/help/dsp/campaign-management/campaign-management-overview.md)
    + 促销活动 {#campaigns}
       + [关于Campaign Management](/help/dsp/campaign-management/campaigns/campaign-about.md)
       + [创建营销活动](/help/dsp/campaign-management/campaigns/campaign-create.md)
@@ -70,27 +70,23 @@ ht-degree: 6%
       + [版面设置](/help/dsp/campaign-management/placements/placement-settings.md)
    + 广告 {#ads}
       + [关于广告管理](/help/dsp/campaign-management/ads/ad-about.md)
-      + [可用广告类型](/help/dsp/campaign-management/ads/ad-types.md)
-      + Advertising Cloud提供的广告 {#advertising-cloud-served}
-         + [创建广告](/help/dsp/campaign-management/ads/ad-create.md)
-         + 广告设置 {#ad-settings}
-            + [音频广告设置](/help/dsp/campaign-management/ads/ad-settings-audio.md)
-            + [连接的电视设置](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
-            + [显示广告设置](/help/dsp/campaign-management/ads/ad-settings-display.md)
-            + [移动设备广告设置](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
-            + [本机广告设置](/help/dsp/campaign-management/ads/ad-settings-native.md)
-            + [前置广告设置](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
-         + [设计叠加图的最佳实践](/help/dsp/campaign-management/ads/ad-best-practices-overlays.md)
-      + 批量第三方广告 {#bulk-third-party}
-         + [创建多个第三方广告](/help/dsp/campaign-management/ads/ad-create-third-party.md)
-         + [创建广告 [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
-         + [经认证的广告服务合作伙伴](/help/dsp/campaign-management/ads/certified-ad-servers.md)
-      + [将广告附加到版面](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [经认证的广告服务合作伙伴](/help/dsp/campaign-management/ads/certified-ad-servers.md)
+      + [创建单个广告](/help/dsp/campaign-management/ads/ad-create.md)
+      + [创建多个第三方广告](/help/dsp/campaign-management/ads/ad-create-multiple.md)
+      + [创建广告 [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [编辑广告](/help/dsp/campaign-management/ads/ad-edit.md)
       + [复制广告](/help/dsp/campaign-management/ads/ad-duplicate.md)
+      + [将广告附加到版面](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [列出与广告关联的版面](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [查看广告的详细报表](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [存档或取消存档广告](/help/dsp/campaign-management/ads/ad-archive-unarchive.md)
+      + 广告设置 {#ad-settings}
+         + [音频广告设置](/help/dsp/campaign-management/ads/ad-settings-audio.md)
+         + [连接的电视设置](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+         + [显示广告设置](/help/dsp/campaign-management/ads/ad-settings-display.md)
+         + [Mobile广告设置](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+         + [本机显示广告设置](/help/dsp/campaign-management/ads/ad-settings-native.md)
+         + [前置广告设置](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
       + [支持的广告类型的规范](/help/dsp/assets/ad-specs.pdf)
    + 促销活动报表 {#campaign-reports}
       + [关于平台内报表](/help/dsp/campaign-management/reports/campaign-reports-about.md)

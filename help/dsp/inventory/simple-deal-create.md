@@ -3,9 +3,9 @@ title: '"创建 [!UICONTROL Simple Ad Serving] 交易”'
 description: “了解如何为 [!UICONTROL Simple Ad Serving] 交易。”
 feature: DSP Simple Ad Serving
 exl-id: d8de85ec-616c-44ed-9a1a-cc25713ad4a4
-source-git-commit: 05578e9252f0eec6dd4e003d317742007edb3351
+source-git-commit: 3eb63e9d7161c354736ce53ee21518882c541884
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
          * 对于现有广告，请选择要使用的广告。
 
-         * 对于新广告，请创建代理 [第一方广告](/help/dsp/campaign-management/ads/ad-create.md) 或 [第三方广告](/help/dsp/campaign-management/ads/ad-create-third-party.md).
+         * 对于新广告，请创建代理 [第三方广告](/help/dsp/campaign-management/ads/ad-create-multiple.md).
       >[!NOTE]
       > DSP实际上不会提供您指定的广告。 发布者将提供该广告。
 

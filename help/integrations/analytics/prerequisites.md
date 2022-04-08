@@ -3,9 +3,9 @@ title: 实施的先决条件和关键信息 [!DNL Analytics for Advertising Clou
 description: 实施的先决条件和关键信息 [!DNL Analytics for Advertising Cloud]
 feature: Integration with Adobe Analytics
 exl-id: 08e54e2b-ed9b-4489-8de5-ab1379b7133c
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 11a13816ccd2ef0c47efa615c54c0f7ce2f83734
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 * 的 [!DNL Analytics] 报表包ID，用于报告付费媒体活动并提供网站活动，以在Advertising Cloud中优化和报告
 * 公司的Experience Cloud组织ID（组织ID）。
 
-您可以在 [Adobe Experience Cloud Debugger的“摘要”屏幕](https://experienceleague.adobe.com/docs/debugger/using/run-debugger.html).
+您可以在 [Adobe Experience Cloud Debugger的“摘要”选项卡](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
 
 ![Experience Cloud Debugger摘要屏幕](/help/integrations/assets/a4adc-debugger-summary.png)
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 为了实现准确的数据集成， [!DNL Analytics for Advertising Cloud] 用于交付内容或记录目标量度的活动必须具有相应的 [!DNL Analytics] 点击，以共享相同的补充ID。
 
-当您在 [!DNL Analytics]，请确保确认 [!DNL Analytics] 点击量。 在 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)，您可以在“Advertising Cloud”选项卡中将此ID视为 `sdid` 参数。
+当您在 [!DNL Analytics]，请确保确认 [!DNL Analytics] 点击量。 在 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)，您可以在“Advertising Cloud”选项卡中将此ID视为 `sdid` 参数。
 
 >[!NOTE]
 >

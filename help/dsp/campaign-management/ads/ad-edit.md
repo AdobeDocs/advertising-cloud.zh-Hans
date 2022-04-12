@@ -1,9 +1,9 @@
 ---
-title: 编辑广告
+title: Edit an Ad
 description: 了解如何编辑广告。
 feature: DSP Ads
 exl-id: ef140d61-f04e-4c1c-acdd-9985730dfb07
-source-git-commit: 8d6bb45d90f56331ff52e6514e4732f1ac32d022
+source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 0%
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 # 编辑广告
 
-1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
-1. 单击营销活动的名称。
+1. In the main menu, click **[!UICONTROL Campaigns]**.
+1. Click the name of the campaign.
 1. 在子菜单中，单击 **[!UICONTROL Ads]**.
 1. 在广告名称旁边，单击  **... >[!UICONTROL Edit]**.
 1. 编辑的广告设置 [音频广告](ad-settings-audio.md), [连接电视](ad-settings-connected-tv.md), [展示广告](ad-settings-display.md), [移动广告](ad-settings-mobile.md), [本机广告](ad-settings-native.md)或 [前置广告](ad-settings-pre-roll.md).
@@ -24,18 +24,18 @@ ht-degree: 0%
 
 1. 单击 **[!UICONTROL Save and Close]**.
 
-   经过编辑的广告将经历一个新 [广告审阅](ad-about.md)，需要24-48小时并包含对敏感类别的检查、单击URL功能和预览渲染。 的 [!UICONTROL Status] 列指示DSP是否批准了广告。 断开的广告可能具有超过24-48小时的挂起状态，因此您有时间修复错误，然后才能拒绝它们。
+   The edited ad goes through a new [ad review](ad-about.md), which takes 24-48 hours and includes checks for sensitive categories, click URL functionality, and preview rendering. The [!UICONTROL Status] column indicates whether DSP has approved the ad. 断开的广告可能具有超过24-48小时的挂起状态，因此您有时间修复错误，然后才能拒绝它们。
 
    >[!NOTE]
    >
-   >仅当DSP和SSP都批准了创作元素时，才会提供您的广告。 每个SSP都有自己的批准要求和流程。
+   >Your ad will only be served if both DSP and the SSP have approved the creative. Each SSP has its own approval requirements and process.
 
 >[!MORELIKETHIS]
 >
 >* [关于广告管理](ad-about.md)
->* [创建单个广告](ad-create.md)
+>* [Create a Single Ad](ad-create.md)
 >* [创建多个第三方广告](ad-create-multiple.md)
->* [复制广告](ad-duplicate.md)
+>* [Duplicate an Ad](ad-duplicate.md)
 >* [列出与广告关联的版面](ad-list-placements.md)
->* [广告规范](/help/dsp/assets/ad-specs.pdf)
+>* [Ad Specifications](ad-specs.md)
 

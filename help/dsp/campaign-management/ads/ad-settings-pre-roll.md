@@ -3,7 +3,7 @@ title: 前置广告设置
 description: 请参阅前置广告的可用广告设置的描述。
 feature: DSP Ads
 exl-id: 638d5a3d-3dff-40b6-a3ba-7ab3f08282b9
-source-git-commit: 68af6b1846a37689dce0ca13a05cc1611b1f35a9
+source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -87,6 +87,6 @@ ht-degree: 0%
 >* [关于广告管理](ad-about.md)
 >* [创建单个广告](ad-create.md)
 >* [列出与广告关联的版面](/help/dsp/campaign-management/ads/ad-list-placements.md)
->* [广告规范](/help/dsp/assets/ad-specs.pdf)
+>* [广告规范](ad-specs.md)
 >* [Advertising Cloud DSP宏](/help/dsp/campaign-management/macros.md)
 

@@ -3,7 +3,7 @@ title: 复制广告
 description: 了解如何复制广告。
 feature: DSP Ads
 exl-id: 65c29be7-ca88-4608-bde2-5f1267d095ef
-source-git-commit: 322823a1df355b687827544f5464d01093b94213
+source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 0%
@@ -35,5 +35,5 @@ ht-degree: 0%
 >* [创建单个广告](ad-create.md)
 >* [创建多个第三方广告](ad-create-multiple.md)
 >* [编辑广告](ad-edit.md)
->* [广告规范](/help/dsp/assets/ad-specs.pdf)
+>* [广告规范](ad-specs.md)
 

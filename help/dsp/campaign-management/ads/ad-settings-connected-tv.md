@@ -3,7 +3,7 @@ title: 连接的电视广告设置
 description: 请参阅连接的电视广告的可用广告设置描述。
 feature: DSP Ads
 exl-id: 4daae9e4-27eb-4496-9186-f33aebd8daae
-source-git-commit: 68af6b1846a37689dce0ca13a05cc1611b1f35a9
+source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -83,6 +83,6 @@ ht-degree: 0%
 >* [关于广告管理](ad-about.md)
 >* [创建单个广告](ad-create.md)
 >* [列出与广告关联的版面](/help/dsp/campaign-management/ads/ad-list-placements.md)
->* [广告规范](/help/dsp/assets/ad-specs.pdf)
+>* [广告规范](ad-specs.md)
 >* [Advertising Cloud DSP宏](/help/dsp/campaign-management/macros.md)
 

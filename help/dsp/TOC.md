@@ -8,7 +8,7 @@ user-guide-title: Advertising Cloud DSP 指南
 user-guide-description: 了解使用 Advertising Cloud DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: e77f70e414a1c8d2fe4937766ecddca9fdb6893e
+source-git-commit: 4dd819cd5feb47bce8ad56e5210c6d3c224389cb
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 6%
@@ -84,13 +84,13 @@ ht-degree: 6%
          + [音频广告设置](/help/dsp/campaign-management/ads/ad-settings-audio.md)
          + [连接的电视设置](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
          + [显示广告设置](/help/dsp/campaign-management/ads/ad-settings-display.md)
-         + [Mobile广告设置](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+         + [移动设备广告设置](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
          + [本机显示广告设置](/help/dsp/campaign-management/ads/ad-settings-native.md)
          + [前置广告设置](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
-      + [支持的广告类型的规范](/help/dsp/assets/ad-specs.pdf)
+      + [支持的广告类型的规范](/help/dsp/campaign-management/ads/ad-specs.md)
    + 促销活动报表 {#campaign-reports}
       + [关于平台内报表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
-      + [从营销活动管理视图导出数据](/help/dsp/campaign-management/reports/campaign-export-data.md)
+      + [从Campaign Management视图导出数据](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [查看版面的网站、广告和频度详细信息](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [查看版面诊断报告](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + 管理数据视图 {#data-views}

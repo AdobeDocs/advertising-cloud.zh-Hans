@@ -3,7 +3,7 @@ title: 本机显示广告设置
 description: 请参阅对本机显示广告的可用广告设置的描述。
 feature: DSP Ads
 exl-id: 3ae59e63-ae64-41b2-8734-3df2da020c7c
-source-git-commit: 68af6b1846a37689dce0ca13a05cc1611b1f35a9
+source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 在 [!UICONTROL Ads] 视图和报表中。 例如，描述设备类型和一些关键属性(例如“假日产品预览”：15秒本机”)。
+> 在 [!UICONTROL Ads] 视图和报表中。 For example, describe the unit type and some key attributes (such as Holiday Product Preview: 15sec Native”).
 
 **[!UICONTROL Native Creative]:** 1200x627图像，可最大限度地提供移动设备库存。 单击 **[!UICONTROL Browse]** 并在您的设备或网络上找到文件，然后单击 **[!UICONTROL Upload]**.
 
-**[!UICONTROL Title]:** 一个吸引观众眼球的标题。
+**[!UICONTROL Title]:** An eye-catching title to engage viewers.
 
-**[!UICONTROL Description]:** 广告的正文。 最大长度为100个字符。
+**[!UICONTROL Description]:** 广告的正文。 The maximum length is 100 characters.
 
 **[!UICONTROL Landing Page]:** 查看者单击广告后登陆的URL。
 
@@ -42,17 +42,17 @@ ht-degree: 0%
 
 ### [!UICONTROL Pixel]
 
-用于放置的所有现有事件跟踪像素都会自动附加。 您可以根据您对单个广告的跟踪需求，分离现有像素并根据需要创建新像素。
+All existing event tracking pixels for the placement are automatically attached. You can detach existing pixels and create new pixels as needed, based on your tracking needs for the individual ad.
 
-以下设置适用于您创建或编辑的每个像素。
+The following settings apply to each pixel that you create or edit.
 
-**[!UICONTROL Integration Event]:** 触发像素的事件。 对于此广告类型，请使用 *[!UICONTROL Impression]* 或 *[!UICONTROL Click-through]*.
+**[!UICONTROL Integration Event]:** The event that triggers the pixel to fire. 对于此广告类型，请使用 *[!UICONTROL Impression]* 或 *[!UICONTROL Click-through]*.
 
 **[!UICONTROL Pixel Type]:** 像素是否为 *[!UICONTROL IMG URL]* （1x1像素图像文件）， *[!UICONTROL HTML]*&#x200B;或 *[!UICONTROL JavaScript URL]*.
 
-**[!UICONTROL Pixel URL or Code]:** 像素图像的URL，格式与指定的 [!UICONTROL Pixel Type].
+**[!UICONTROL Pixel URL or Code]:** The URL of the pixel image, in the appropriate format for the specified [!UICONTROL Pixel Type].
 
-**[!UICONTROL Pixel Name]:** 像素名称。 使用有助于您轻松识别像素的名称。
+**[!UICONTROL Pixel Name]:** The pixel name. 使用有助于您轻松识别像素的名称。
 
 **[!UICONTROL Pixel Provider]:** 像素提供程序： *[!UICONTROL None]*, *[!UICONTROL Nielsen]*&#x200B;或 *[!UICONTROL Comscore]*.
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 >
 >* [关于广告管理](ad-about.md)
 >* [创建单个广告](ad-create.md)
->* [列出与广告关联的版面](/help/dsp/campaign-management/ads/ad-list-placements.md)
->* [广告规范](/help/dsp/assets/ad-specs.pdf)
->* [Advertising Cloud DSP宏](/help/dsp/campaign-management/macros.md)
+>* [List the Placements Associated with an Ad](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [广告规范](ad-specs.md)
+>* [Advertising Cloud DSP Macros](/help/dsp/campaign-management/macros.md)
 

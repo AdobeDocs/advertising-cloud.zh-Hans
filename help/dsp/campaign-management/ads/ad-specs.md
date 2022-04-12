@@ -2,14 +2,14 @@
 title: 广告规范
 description: 参考常规和特定于发布者的广告规范。
 feature: DSP Ads
-source-git-commit: 212409be98cb6f48d5aaf13e3ba44e37d2c5342b
+source-git-commit: 2110a30cf41a5cc091ec6224a7cbaf9b170ef1db
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# 广告规范
+# 支持的广告类型的规范
 
 ## 视频广告（前置广告和CTV）
 
@@ -108,7 +108,9 @@ ht-degree: 0%
 
 台式机、移动设备、平板电脑、智能扬声器和连接的电视
 
-### [支持的第三方广告服务器](certified-ad-servers.md)
+### 支持的第三方广告服务器
+
+有关受支持供应商的完整列表，请参阅[经认证的广告服务合作伙伴](certified-ad-servers.md).&quot;
 
 ### 音频资产要求（必需）
 

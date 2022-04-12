@@ -2,9 +2,10 @@
 title: 广告规范
 description: 参考常规和特定于发布者的广告规范。
 feature: DSP Ads
-source-git-commit: 2110a30cf41a5cc091ec6224a7cbaf9b170ef1db
+exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
+source-git-commit: f3d4dcfdaaaa4b9546e92ac6d1087e73e5054a26
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -110,7 +111,7 @@ ht-degree: 0%
 
 ### 支持的第三方广告服务器
 
-有关受支持供应商的完整列表，请参阅[经认证的广告服务合作伙伴](certified-ad-servers.md).&quot;
+您可以使用 [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]和 [!DNL Sizmek]. 有关受支持供应商的完整列表，请参阅[经认证的广告服务合作伙伴](certified-ad-servers.md).&quot;
 
 ### 音频资产要求（必需）
 

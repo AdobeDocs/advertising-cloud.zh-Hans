@@ -3,7 +3,7 @@ title: 关于 [!UICONTROL Simple Ad Serving]
 description: 了解 [!UICONTROL Simple Ad Serving] 使用事件跟踪像素的交易。
 feature: DSP Simple Ad Serving
 exl-id: d65d1d8e-4d10-4d1d-86d3-f4457c29ae8d
-source-git-commit: 05578e9252f0eec6dd4e003d317742007edb3351
+source-git-commit: 5a8aaa3fba6cca33915fc9720c78493f98244b61
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [!UICONTROL Simple Ad Serving] 通过单个专用版面，为指定的发布者和单个广告类型提供有保证的、非决策的广告投放和报告。 使用 [!DNL Simple Ad Serving] 当您的发布者无法通过交易ID执行交易时。 所有定位、预算步调和上限以及频率上限都由发布者处理。 通过事件跟踪像素执行这些交易。
 
-With [!UICONTROL Simple Ad Serving], each ad is served directly by the publisher (site serve), and DSP provides an event-tracking pixel to send to the publisher, who needs to implement the pixel and traffic the DSP ads. 根据库存类型，事件像素可测量展示次数、点进次数和视频播放事件。
+使用 [!UICONTROL Simple Ad Serving]，则每个广告都由发布者（网站服务）直接提供，而DSP则提供一个事件跟踪像素，以发送给需要实施像素和流量DSP广告的发布者。 根据库存类型，事件像素可测量展示次数、点进次数和视频播放事件。
 
 可用的广告类型如下：
 

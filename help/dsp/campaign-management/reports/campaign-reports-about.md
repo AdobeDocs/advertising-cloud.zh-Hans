@@ -3,9 +3,9 @@ title: 关于平台内报表
 description: 了解营销活动管理视图中包含的报表数据。
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 1ca7639fac40eb8d3fbc3b4f7e0f45b29368f49b
+source-git-commit: 0adbb7876e38a8fc7b8c42e9897492bb6255e2c3
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 ### 营销活动级别的其他报表类型
 
-对于其他数据划分，请查看 [旧版营销活动级别的报告页面](/help/dsp/campaign-management/campaigns/campaign-view-report.md) 从 [!UICONTROL Campaigns Classic]. 旧版报表包含 [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability]和 [!UICONTROL Audience Performance] 数据。
+对于其他数据划分，请查看 [旧版营销活动级别的报告页面](/help/dsp/campaign-management/campaigns/campaign-view-report.md). 旧版报表包含 [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability]和 [!UICONTROL Audience Performance] 数据。
 
 >[!MORELIKETHIS]
 >
@@ -96,6 +96,6 @@ ht-degree: 0%
 >* [创建自定义列视图](column-view-create.md)
 >* [更改列视图](column-view-change.md)
 >* [管理数据可视化图表](campaign-data-visualization-manage.md)
->* [从营销活动管理视图导出数据](campaign-export-data.md)
+>* [从Campaign Management视图导出数据](campaign-export-data.md)
 >* [查看营销活动的详细报表](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
 

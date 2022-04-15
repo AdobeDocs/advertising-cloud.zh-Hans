@@ -3,9 +3,9 @@ title: 关于平台内报表
 description: 了解营销活动管理视图中包含的报表数据。
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 0adbb7876e38a8fc7b8c42e9897492bb6255e2c3
+source-git-commit: 1292f39cb2d7d690a46d4e943ed09d98c349ce41
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,21 @@ ht-degree: 0%
 <!-- rename "About Performance Reports in Campaign Management Views?" -->
 营销活动管理视图包含全面的报表数据。 可用报表可帮助您识别性能良好的包和版面，以及需要您注意的包和版面。 快速操作按钮还可提高工作效率。
 
-## 所有营销活动列表
+## 所有营销活动视图
 
-的 [!UICONTROL Campaigns] 查看打开帐户中所有营销活动的列表。 的 [!UICONTROL Subtotals] 行显示所有可见行中每个量度的总和或平均值。
+的 [!UICONTROL Campaigns] 查看打开帐户中所有营销活动的列表。 &lt;!— [!UICONTROL Subtotals] 行显示所有可见行中每个量度的总和或平均值。  — 是否仍有“小计”行？ 我没看到。—>
+
+### 图表视图 {#chart-view}
+
+您可以 [自定义时间系列趋势图](campaign-data-visualization-manage.md) 使用三个量度跨所有营销活动。 默认情况下， [!UICONTROL Net Spend], [!UICONTROL Impressions]和 [!UICONTROL Net CPM] 包含在单独的图表（网格图）中。 您可以选择更改量度。 要在时间系列趋势图中启用每小时数据，请将日期选择更改为一天([!UICONTROL Today], [!UICONTROL Yesterday]或特定日期)。
+
+![三个量度的单独趋势图](/help/dsp/assets/trend-chart-separate.png)
+
+您还可以选择覆盖这三个量度，以便轻松检测异常和提高规模或性能的区域。
+
+![带有叠加图的趋势图](/help/dsp/assets/trend-chart.png)
+
+### 表视图
 
 ![营销活动列表](/help/dsp/assets/campaigns-list.png)
 
@@ -33,17 +45,15 @@ ht-degree: 0%
 
 ![促销活动实体选项卡](/help/dsp/assets/campaign-subtabs.png)
 
+### 图表视图
+
+对于每个营销活动，您可以 [自定义时间系列趋势图](campaign-data-visualization-manage.md) 包含三个量度，每个实体视图中均提供这些量度。 营销活动的所有趋势图中都会保留相同的量度。
+
+请参阅 [关于跨促销活动量度的“图表视图”部分](#chart-view) 以了解更多信息。
+
+### 表视图
+
 在每个实体选项卡中，每行默认包含步调和投放量度，但您可以 [更改列视图](column-view-change.md) 或 [创建自定义列视图](column-view-create.md) 以应用于营销活动的所有子选项卡。 您可以进一步 [自定义数据表](campaign-data-views-about.md) 以其他方式。 每个数据表都包括 [!UICONTROL Subtotals] 行，显示所有可见行中每个量度的总和或平均值。
-
-对于每个营销活动，您还可以使用三个量度自定义时间系列趋势图，这些量度在每个实体视图中可用。 默认情况下， [!UICONTROL Net Spend], [!UICONTROL Impressions]和 [!UICONTROL Net CPM] 包含在单独的图表（网格图）中。 您可以选择更改量度。 要在时间系列趋势图中启用每小时数据，请将日期选择更改为一天([!UICONTROL Today], [!UICONTROL Yesterday]或特定日期)。
-
-![三个量度的单独趋势图](/help/dsp/assets/trend-chart-separate.png)
-
-您还可以选择覆盖这三个量度，以便轻松检测异常和提高规模或性能的区域。
-
-![带有叠加图的趋势图](/help/dsp/assets/trend-chart.png)
-
-您可以 [自定义趋势图](campaign-data-visualization-manage.md) 按营销活动，并且同一量度会保留在营销活动的所有趋势图表中。
 
 ### 版面 [!UICONTROL Inspector] {#placement-inspector}
 

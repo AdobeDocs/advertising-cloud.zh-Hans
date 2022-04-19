@@ -1,23 +1,23 @@
 ---
 title: 查看版面的详细报表
-description: 了解如何打开版面级别报表，其中包含有关[!UICONTROL Geography]、[!UICONTROL Device]、[!UICONTROL Viewability]、[!UICONTROL Audience Performance]、[!UICONTROL Notifications]和[!UICONTROL Ads]数据的部分。
+description: 了解如何打开版面级别报表，其中包含 [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], [!UICONTROL Audience Performance], [!UICONTROL Notifications]和 [!UICONTROL Ads] 数据。
 feature: DSP Placements, DSP Campaign Data Views
 exl-id: 90cd8030-73a6-4224-9a04-dcee91ce7d78
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 99db7ed5a7455907204d1387f6ddfe0a644db753
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
 
 # 查看版面的详细报表
 
-旧版置入级别报表包含有关[!UICONTROL Geography]、[!UICONTROL Device]、[!UICONTROL Viewability]、[!UICONTROL Audience Performance]、[!UICONTROL Notifications]和[!UICONTROL Ads]数据的概述和部分。
+的 <!--legacy --> 版面级别报表包括 [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], [!UICONTROL Audience Performance], [!UICONTROL Notifications]和 [!UICONTROL Ads] 数据。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
+1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
 1. 单击营销活动的名称。
-1. 在子菜单中，单击&#x200B;**[!UICONTROL Placements]**。
-1. 在版面名称旁边，单击&#x200B;**[!UICONTROL ...]>[!UICONTROL View report]**。
+1. 在子菜单中，单击 **[!UICONTROL Placements]**.
+1. 在版面名称旁边，单击  **[!UICONTROL ...]>[!UICONTROL View report]**.
 
 >[!MORELIKETHIS]
 >

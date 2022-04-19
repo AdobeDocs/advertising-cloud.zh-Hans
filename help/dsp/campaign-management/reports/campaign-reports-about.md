@@ -3,9 +3,9 @@ title: 关于平台内报表
 description: 了解营销活动管理视图中包含的报表数据。
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 1292f39cb2d7d690a46d4e943ed09d98c349ce41
+source-git-commit: 2f985d9ae8343ea0005f1aa9c33acd603d514f1d
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 ### 营销活动级别的其他报表类型
 
-对于其他数据划分，请查看 [旧版营销活动级别的报告页面](/help/dsp/campaign-management/campaigns/campaign-view-report.md). 旧版报表包含 [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability]和 [!UICONTROL Audience Performance] 数据。
+对于其他数据划分，请查看 [营销活动级别的报告页面](/help/dsp/campaign-management/campaigns/campaign-view-report.md). 的 <!--legacy --> 报表包含 [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability]和 [!UICONTROL Audience Performance] 数据。
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: 关于平台内报表
 description: 了解营销活动管理视图中包含的报表数据。
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 2f985d9ae8343ea0005f1aa9c33acd603d514f1d
+source-git-commit: 7d081583ff10675b515aafdd97ccb3053f19c32d
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 所有营销活动视图
 
-的 [!UICONTROL Campaigns] 查看打开帐户中所有营销活动的列表。 &lt;!— [!UICONTROL Subtotals] 行显示所有可见行中每个量度的总和或平均值。  — 是否仍有“小计”行？ 我没看到。—>
+的 [!UICONTROL Campaigns] 查看打开一组性能数据图表以及您帐户中所有营销活动的列表。
 
 ### 图表视图 {#chart-view}
 

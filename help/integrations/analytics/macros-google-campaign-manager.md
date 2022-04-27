@@ -2,9 +2,9 @@
 title: 附加 [!DNL Analytics for Advertising Cloud] 宏 [!DNL Google Campaign Manager 360] 广告标记
 description: 了解添加原因和方法 [!DNL Analytics for Advertising Cloud] 宏 [!DNL Google Campaign Manager 360] 广告标记
 feature: Integration with Adobe Analytics
-source-git-commit: fe61dcd97d5509784a20bf8f68bea0ab2699dcfd
+source-git-commit: 2ba5656704319584e475f8c6c68943f215196ae2
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 将宏附加到 [!DNL Google Campaign Manager 360] 广告
 
-在 [!DNL Google Campaign Manager 360]，将以下参数附加到登陆页面URL: `%pamo=!;`
+在 [!DNL Google Campaign Manager 360]，将以下参数附加到登陆页面URL中每个显示广告和视频广告的： `%pamo=!;`
 
 您可以通过多种方式指定登陆页面URL。 以下子部分中包含每个选项的说明。
 
@@ -46,20 +46,20 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 >* 如果在 `amo` 参数，然后在其后添加参数（例如&amp;a=b）。 示例：`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 
-## 配置广告商级别的登陆页面URL后缀
+### 配置广告商级别的登陆页面URL后缀
 
 1. 在主菜单中，单击 [!UICONTROL Advertisers] 选项卡。
 1. 单击广告商名称。
 1. 在 [!UICONTROL Landing page URL suffix] 设置，包括 `%pamo!;` 在 [!UICONTROL URL suffix] 字段。
 
-## 配置营销活动级别的登陆页面URL后缀
+### 配置营销活动级别的登陆页面URL后缀
 
 1. 在主菜单中，单击 [!UICONTROL Campaigns] 选项卡。
 1. 单击营销活动名称。
 1. 单击 [!UICONTROL Properties].
 1. 在 [!UICONTROL Landing page URL suffix] 设置，包括 `%pamo!;` 在 [!UICONTROL URL suffix] 字段。
 
-## 配置创意级别的登陆页面URL后缀
+### 配置创意级别的登陆页面URL后缀
 
 1. 在主菜单中，单击 [!UICONTROL Campaigns] 选项卡。
 1. 单击营销活动名称。

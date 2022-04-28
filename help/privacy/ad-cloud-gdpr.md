@@ -3,9 +3,9 @@ title: Adobe Advertising Cloud对《通用数据保护条例》的支持
 description: 了解支持的数据请求类型、必需的设置和字段值，以及使用旧版产品ID和返回的数据字段的API访问请求示例
 feature: GDPR
 exl-id: 304d88d0-d63d-4b32-8d4d-c61ba2409adc
-source-git-commit: 56ac178bf10d8c934297521ca3075783e1bc2c36
+source-git-commit: ca19836d5918c69161c4d850a65eaff311249225
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -24,43 +24,43 @@ Adobe Experience Cloud充当数据处理者，处理其代表客户接收和存�
 
 本文档介绍Advertising Cloud Search、Advertising Cloud Creative、Advertising Cloud DSP(Demand Side Platform)和Media Optimizer DCO如何通过Adobe Experience Platform Privacy Service API和Privacy ServiceUI支持数据主体的GDPR数据访问和删除权限。
 
-有关GDPR对您业务的意义的更多信息，请参阅[GDPR与您的业务](https://www.adobe.com/privacy/general-data-protection-regulation.html)。
+有关GDPR对您业务的意义的更多信息，请参阅 [GDPR与您的业务](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
 ## 支持的Advertising Cloud数据请求类型
 
 Adobe Experience Platform为企业提供了完成以下任务的功能：
 
-* 在[!DNL Search]、[!DNL Creative]、[!DNL DSP]或[!DNL DCO]中访问数据主体的Cookie级数据或设备ID级数据（适用于移动设备应用程序中的广告）。
-* 使用浏览器删除存储在[!DNL Search]、[!DNL Creative]、[!DNL DSP]或[!DNL DCO]中的数据主体的Cookie级数据；或者，对于使用移动设备上的应用程序的数据主体，删除存储在[!DNL DSP]中的ID级数据。
+* 在 [!DNL Search], [!DNL Creative], [!DNL DSP]或 [!DNL DCO].
+* 删除中存储的Cookie级数据 [!DNL Search], [!DNL Creative], [!DNL DSP]或 [!DNL DCO] 对于使用浏览器的数据主体；或删除存储在 [!DNL DSP] 适用于在移动设备上使用应用程序的数据主体。
 * 检查一个或多个现有请求的状态。
 
 ## 发送Advertising Cloud请求所需的设置
 
 要请求访问和删除Advertising Cloud的数据，您将需要：
 
-1. 部署JavaScript库以检索和删除数据主体Cookie。 所有Adobe Experience Cloud解决方案都使用相同的库`AdobePrivacy.js`。
+1. 部署JavaScript库以检索和删除数据主体Cookie。 同一个图书馆， `AdobePrivacy.js`，用于所有Adobe Experience Cloud解决方案。
 
    >[!IMPORTANT]
    >
    >对某些Adobe Experience Cloud解决方案的请求不需要JavaScript库，但对Advertising Cloud的请求需要它。
 
-   您应该在网页上部署库，数据主体可以从中提交访问和删除请求，例如您公司的隐私门户。 库可帮助您检索AdobeCookie(命名空间ID:`gsurferID`)，以便您能够通过Adobe Experience Platform Privacy Service API在访问和删除请求中提交这些身份。
+   您应该在网页上部署库，数据主体可以从中提交访问和删除请求，例如您公司的隐私门户。 库可帮助您检索AdobeCookie(命名空间ID: `gsurferID`)，以便您能够在访问和删除请求中通过Adobe Experience Platform Privacy Service API提交这些身份。
 
    当数据主体要求删除个人数据时，库还会从数据主体的浏览器中删除数据主体的Cookie。
 
    >[!NOTE]
    >
-   >删除个人数据与选择退出不同，选择退出会阻止使用受众区段的最终用户进行定位。 但是，当数据主体要求从[!DNL Creative]、[!DNL DSP]或[!DNL DCO]中删除个人数据时，库还会向Advertising Cloud发送请求，以选择退出区段定位中的数据主体。 对于具有[!DNL Search]的广告商，我们建议您为数据主体提供指向[https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html)的链接，该链接说明了如何选择退出受众区段定位。
+   >删除个人数据与选择退出不同，选择退出会阻止使用受众区段的最终用户进行定位。 但是，当数据主体要求从 [!DNL Creative], [!DNL DSP]或 [!DNL DCO]，库还会向Advertising Cloud发送请求，以选择退出区段定位中的数据主体。 对于具有 [!DNL Search]，我们建议您向数据主体提供一个链接 [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html)，其中说明了如何选择退出受众区段定位。
 
-1. 识别您的IMS组织ID，并确保它已关联到您的Advertising Cloud帐户。
+1. 识别您的Experience CloudID，并确保它已关联到您的Advertising Cloud帐户。
 
-   IMS组织ID是一个由24个字符组成的字母数字字符串，其后附加有@AdobeOrg。 大多数Adobe Experience Cloud客户都已分配IMS组织ID。 如果您的营销团队或内部Adobe系统管理员不知道您组织的IMS组织ID，或者不确定是否已配置，请通过gdprsupport@adobe.com联系Adobe客户关怀团队。 您需要IMS组织ID才能向隐私API提交请求。
+   Experience CloudID是由24个字符组成的字母数字字符串，其后附加有“@AdobeOrg”。 大多数Experience Cloud客户都已分配了ID。 如果您的营销团队或内部Adobe系统管理员不知道您组织的ID，或者不确定是否已配置，请通过gdprsupport@adobe.com联系Adobe客户关怀团队。 您需要ID才能使用 `imsOrgID` 命名空间。
 
    >[!IMPORTANT]
    >
-   >请联系贵公司的Advertising Cloud代表，以确认贵组织的所有Advertising Cloud帐户（包括[!DNL DSP]帐户或广告商、[!DNL Search]帐户和[!DNL Creative]或[!DNL DCO]帐户）均已关联到您的IMS组织ID。
+   >联系贵公司的Advertising Cloud代表以确认贵组织的所有Advertising Cloud帐户(包括 [!DNL DSP] 帐户或广告商， [!DNL Search] 帐户和 [!DNL Creative] 或 [!DNL DCO] 帐户 — 已关联到您的Experience CloudID。
 
-1. 使用[Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html)（对于自动请求）或[Privacy ServiceUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)（对于临时请求）代表数据主体向Advertising Cloud提交访问和删除请求，并检查现有请求的状态。
+1. 使用 [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （对于自动请求）或 [Privacy ServiceUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) （针对临时请求）代表数据主体向Advertising Cloud提交访问和删除请求，并检查现有请求的状态。
 
    对于拥有移动应用程序以与数据主体交互并通过DSP启动促销活动的广告商，您将需要下载隐私就绪型移动SDK以进行Experience Cloud。 Mobile SDK允许数据控制者设置选择退出状态标记，检索数据主体的设备ID(命名空间ID:设备ID)，并向Privacy ServiceAPI提交请求。 您的移动设备应用程序将需要SDK版本4.15.0或更高版本。
 
@@ -69,34 +69,34 @@ Adobe Experience Platform为企业提供了完成以下任务的功能：
    在您提交数据主体的删除请求时，将从服务器中删除Cookie ID或设备ID以及与Cookie关联的所有成本、点击和收入数据。
 
    >[!NOTE]
-   如果您的公司有多个Adobe Experience Cloud Identity Management服务组织ID（IMS组织ID），则您必须为每个API请求发送单独的API请求。 但是，您可以向多个Advertising Cloud子解决方案（[!DNL Search]、[!DNL Creative]、[!DNL DSP]和[!DNL DCO]）发出一个API请求，每个子解决方案具有一个帐户。
+   如果您的公司有多个Experience CloudID，则必须为每个IP发送单独的API请求。 但是，您可以向多个Advertising Cloud子解决方案([!DNL Search], [!DNL Creative], [!DNL DSP]和 [!DNL DCO])，每个子解决方案具有一个帐户。
 
-所有这些步骤对于Advertising Cloud都是必需的。 有关使用Adobe Experience Platform Privacy Service执行这些任务和其他相关任务以及在何处查找所需项目的更多信息，请参阅[www.adobe.io/apis/cloudplatform/gdpr.html](https://www.adobe.io/apis/experienceplatform/gdpr.html)。
+所有这些步骤对于Advertising Cloud都是必需的。 有关使用Adobe Experience Platform Privacy Service执行这些任务和其他相关任务以及在何处查找所需项目的更多信息，请参阅 [www.adobe.io/apis/cloudplatform/gdpr.html](https://www.adobe.io/apis/experienceplatform/gdpr.html).
 
 ## Advertising Cloud JSON请求中的必填字段值
 
 &quot;&quot;company context&quot;:
 
 * `"namespace": **imsOrgID**`
-* `"value":` &lt;>您的IMS组织ID值&#x200B;*>*
+* `"value":` &lt;*您的IMS组织ID值*>
 
 `"users":`
 
-* `"key":` &lt;>通常是数据主体的名称&#x200B;*>*
+* `"key":` &lt;*通常是数据主体的名称*>
 
-* `"action":`  `**access**` 或  `**delete**`
+* `"action":` e `**access**` 或 `**delete**`
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (表示Cookie [!DNL adcloud] 空间)
+   * `"namespace": **411**` (表示 [!DNL adcloud] cookie空间)
 
-   * `"value":` &lt;>实际数据主体的cookie ID值，检索自 `AdobePrivacy.js`*>*
+   * `"value":` &lt;*实际数据主体的Cookie ID值，检索自`AdobePrivacy.js`*>
 
 * `"include": **adCloud**` (即适用于请求的Adobe产品)
 
 * `"regulation": **gdpr**` （即适用于该请求的隐私法规）
 
-## 数据主体使用从`AdobePrivacy.js`检索的Advertising Cloud用户ID提交的请求示例
+## 数据主体使用从中检索的Advertising Cloud用户ID提交的请求示例 `AdobePrivacy.js`
 
 ```
 {

@@ -3,9 +3,9 @@ title: 跨设备解决方案
 description: 进一步了解跨设备功能。
 feature: DSP Introduction
 exl-id: 29f8ec41-35a6-4a29-a638-82a2929a8fe6
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: ca19836d5918c69161c4d850a65eaff311249225
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Advertising Cloud DSP集成 [!DNL LiveRamp] 和 [!DNL Adobe Device Co-op] 允许
 
 ### 启用基于人员的归因测量
 
-如果要激活跨设备归因测量，请联系您的 [!DNL Adobe] 客户团队。 对于 [!DNL Adobe Device Co-op] 帐户，您需要提供您的已签名 [!DNL Adobe Device Co-op] 合同和Experience Cloud [!DNL Organization ID] (以前称为 [!DNL IMS org ID])。
+如果要激活跨设备归因测量，请联系您的 [!DNL Adobe] 客户团队。 对于 [!DNL Adobe Device Co-op] 帐户，您需要提供您的已签名 [!DNL Adobe Device Co-op] 合同和组织的Experience CloudID(以前称为 [!DNL IMS org ID])。
 
 要查看广告商帐户是否配置为使用设备图进行归因测量，请执行以下操作：
 

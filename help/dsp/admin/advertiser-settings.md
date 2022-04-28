@@ -1,9 +1,9 @@
 ---
 title: 广告商帐户设置
 description: 请参阅可用广告商设置的描述。
-source-git-commit: ee5621329aacf54777d28fa1c1f3d50949824cee
+source-git-commit: ca19836d5918c69161c4d850a65eaff311249225
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,15 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-使用其他Adobe Experience Cloud产品的广告商可以使用公司独特的 [!DNL Organization ID] Experience Cloud。 您可以在 [!UICONTROL Integrations] 中。
+使用其他Adobe Experience Cloud产品的广告商可以使用组织的唯一ID在某些产品之间共享数据以进行Experience Cloud。 您可以在 [!UICONTROL Integrations] 中。
 
-**[!UICONTROL Account IMS org and ID]:** (具有额外Experience Cloud产品的广告商，这些产品是通过多个广告商的Experience Cloud帐户获得许可的；可选)帐户的Experience Cloud [!DNL Organization ID].
+**[!UICONTROL Account IMS org and ID]:** (具有额外Experience Cloud产品的广告商，这些产品是通过多个广告商的Experience Cloud帐户获得许可的；可选)组织的Experience CloudID。
 
-**[!UICONTROL Advertiser IMS org and ID]:** (直接获得其他Experience Cloud产品许可的广告商；可选)广告商的Experience Cloud [!DNL Organization ID].
+**[!UICONTROL Advertiser IMS org and ID]:** (直接获得其他Experience Cloud产品许可的广告商；可选)组织的Experience CloudID。
 
 ### [!UICONTROL Integrations]
 
-（可选）链接到DSP帐户的其他Experience Cloud产品。 产品必须与同一Experience Cloud关联 [!DNL Organization ID] 提供于 [!UICONTROL Adobe IMS IDs] 中。
+（可选）链接到DSP帐户的其他Experience Cloud产品。 产品必须与 [!UICONTROL Adobe IMS IDs] 中。
 
 **[!UICONTROL Adobe Media Optimizer]:** (使用Advertising Cloud Search或使用Advertising Cloud转化像素的广告商)A [!DNL Search] 将与DSP交换归因数据的帐户。
 

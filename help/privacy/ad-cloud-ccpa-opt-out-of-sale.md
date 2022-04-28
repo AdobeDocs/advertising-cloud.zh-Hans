@@ -3,9 +3,9 @@ title: Adobe Advertising Cloud对《加州消费者隐私法案》的支持：�
 description: 了解对捕获消费者选择退出销售请求的支持。
 feature: CCPA
 exl-id: 2c0cd4f5-798f-479a-99cd-f555cd676766
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: ca19836d5918c69161c4d850a65eaff311249225
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ### 方法2:使用Adobe Experience Platform Privacy Service API传达CCPA选择退出销售请求
 
-*广告商分配了一个Adobe Experience Cloud [!DNL Organization ID] ([!DNL IMS Org ID]仅限)*
+*广告商仅分配了Adobe Experience Cloud ID*
 
 1. 部署JavaScript库以检索客户的Cookie。 同一个图书馆， `AdobePrivacy.js`，用于所有Adobe Experience Cloud解决方案。
 
@@ -58,20 +58,20 @@ ht-degree: 0%
 
    您应该在网页上部署库，客户可从该网页提交选择退出销售请求，如您公司的隐私门户。 库可帮助您检索AdobeCookie(命名空间ID: `gsurferID`)，以便您能够通过Adobe Experience Platform Privacy Service API将这些身份作为选择退出销售请求的一部分提交。
 
-1. 识别您的IMS组织ID，并确保它已关联到您的Advertising Cloud帐户。
+1. 识别您的Experience CloudID，并确保它已关联到您的Advertising Cloud帐户。
 
-   IMS组织ID是一个由24个字符组成的字母数字字符串，其后附加有@AdobeOrg。 大多数Adobe Experience Cloud客户都已分配IMS组织ID。 如果您的营销团队或内部Adobe系统管理员不知道您组织的IMS组织ID，或者不确定是否已配置，请通过gdprsupport@adobe.com联系Adobe客户关怀团队。 您需要IMS组织ID才能向隐私API提交请求。
+   Experience CloudID是由24个字符组成的字母数字字符串，其后附加有“@AdobeOrg”。 大多数Experience Cloud客户都已分配了ID。 如果您的营销团队或内部Adobe系统管理员不知道您组织的ID，或者不确定是否已配置，请通过gdprsupport@adobe.com联系Adobe客户关怀团队。 您需要ID才能使用 `imsOrgID` 命名空间。
 
    >[!IMPORTANT]
    >
-   >联系贵公司的Advertising Cloud代表以确认贵组织的所有Advertising Cloud帐户(包括 [!DNL DSP] 帐户或广告商， [!DNL Search] 帐户和 [!DNL Creative] 或 [!DNL DCO] 帐户 — 已关联到您的IMS组织ID。
+   >联系贵公司的Advertising Cloud代表以确认贵组织的所有Advertising Cloud帐户(包括 [!DNL DSP] 帐户或广告商， [!DNL Search] 帐户和 [!DNL Creative] 或 [!DNL DCO] 帐户 — 已关联到您的Experience CloudID。
 
 1. 使用Adobe Experience Platform Privacy Service API [提交选择退出销售请求](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) 代表消费者向Advertising Cloud发送请求，并检查现有请求的状态。
 
    有关选择退出销售请求的示例，请参阅下面的附录。
 
    >[!NOTE]
-   如果您的企业具有多个Adobe Experience Cloud Identity Management服务组织ID（IMS组织ID），则必须为每个API请求发送单独的API请求。 但是，您可以向多个Advertising Cloud子解决方案([!DNL Search], [!DNL Creative], [!DNL DSP]和 [!DNL DCO])，每个子解决方案具有一个帐户。
+   如果您的企业有多个Experience CloudID，则必须为每个IP发送单独的API请求。 但是，您可以向多个Advertising Cloud子解决方案([!DNL Search], [!DNL Creative], [!DNL DSP]和 [!DNL DCO])，每个子解决方案具有一个帐户。
 
 要获得Advertising Cloud的支持，所有这些步骤都是必需的。 有关使用Adobe Experience Platform Privacy Service执行这些任务和其他相关任务以及在何处查找所需项目的更多信息，请参阅 [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 

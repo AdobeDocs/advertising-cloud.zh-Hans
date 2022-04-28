@@ -1,9 +1,9 @@
 ---
 title: 广告商帐户设置
 description: 请参阅可用广告商设置的描述。
-source-git-commit: ca19836d5918c69161c4d850a65eaff311249225
+source-git-commit: 2e0395dc1e5aa52adc83c1aaea49793fd5555390
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 使用其他Adobe Experience Cloud产品的广告商可以使用组织的唯一ID在某些产品之间共享数据以进行Experience Cloud。 您可以在 [!UICONTROL Integrations] 中。
 
-**[!UICONTROL Account IMS org and ID]:** (具有额外Experience Cloud产品的广告商，这些产品是通过多个广告商的Experience Cloud帐户获得许可的；可选)组织的Experience CloudID。
+**[!UICONTROL Account IMS org and ID]:** (具有额外Experience Cloud产品的广告商，这些产品是通过多个广告商的Experience Cloud帐户获得许可的；可选)广告商的Experience Cloud组织ID。
 
-**[!UICONTROL Advertiser IMS org and ID]:** (直接获得其他Experience Cloud产品许可的广告商；可选)组织的Experience CloudID。
+**[!UICONTROL Advertiser IMS org and ID]:** (直接获得其他Experience Cloud产品许可的广告商；可选)广告商的Experience Cloud组织ID。
 
 ### [!UICONTROL Integrations]
 

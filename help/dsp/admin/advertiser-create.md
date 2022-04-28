@@ -1,9 +1,9 @@
 ---
 title: 创建广告商帐户
 description: 了解如何创建广告商帐户。
-source-git-commit: ca19836d5918c69161c4d850a65eaff311249225
+source-git-commit: 2e0395dc1e5aa52adc83c1aaea49793fd5555390
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '102'
 ht-degree: 1%
 
 ---

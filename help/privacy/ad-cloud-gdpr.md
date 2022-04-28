@@ -3,9 +3,9 @@ title: Adobe Advertising Cloud对《通用数据保护条例》的支持
 description: 了解支持的数据请求类型、必需的设置和字段值，以及使用旧版产品ID和返回的数据字段的API访问请求示例
 feature: GDPR
 exl-id: 304d88d0-d63d-4b32-8d4d-c61ba2409adc
-source-git-commit: ca19836d5918c69161c4d850a65eaff311249225
+source-git-commit: 2e0395dc1e5aa52adc83c1aaea49793fd5555390
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -52,13 +52,13 @@ Adobe Experience Platform为企业提供了完成以下任务的功能：
    >
    >删除个人数据与选择退出不同，选择退出会阻止使用受众区段的最终用户进行定位。 但是，当数据主体要求从 [!DNL Creative], [!DNL DSP]或 [!DNL DCO]，库还会向Advertising Cloud发送请求，以选择退出区段定位中的数据主体。 对于具有 [!DNL Search]，我们建议您向数据主体提供一个链接 [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html)，其中说明了如何选择退出受众区段定位。
 
-1. 识别您的Experience CloudID，并确保它已关联到您的Advertising Cloud帐户。
+1. 识别您的Experience Cloud组织ID，并确保它已关联到您的Advertising Cloud帐户。
 
-   Experience CloudID是由24个字符组成的字母数字字符串，其后附加有“@AdobeOrg”。 大多数Experience Cloud客户都已分配了ID。 如果您的营销团队或内部Adobe系统管理员不知道您组织的ID，或者不确定是否已配置，请通过gdprsupport@adobe.com联系Adobe客户关怀团队。 您需要ID才能使用 `imsOrgID` 命名空间。
+   Experience Cloud组织ID是由24个字符组成的字母数字字符串，其后附加有“@AdobeOrg”。 大多数Experience Cloud客户都分配了组织ID。 如果您的营销团队或内部Adobe系统管理员不知道您的组织ID，或者不确定是否已配置，请通过gdprsupport@adobe.com联系Adobe客户关怀团队。 您需要组织ID才能使用 `imsOrgID` 命名空间。
 
    >[!IMPORTANT]
    >
-   >联系贵公司的Advertising Cloud代表以确认贵组织的所有Advertising Cloud帐户(包括 [!DNL DSP] 帐户或广告商， [!DNL Search] 帐户和 [!DNL Creative] 或 [!DNL DCO] 帐户 — 已关联到您的Experience CloudID。
+   >联系贵公司的Advertising Cloud代表以确认贵组织的所有Advertising Cloud帐户(包括 [!DNL DSP] 帐户或广告商， [!DNL Search] 帐户和 [!DNL Creative] 或 [!DNL DCO] 帐户 — 已关联到您的Experience Cloud组织ID。
 
 1. 使用 [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) （对于自动请求）或 [Privacy ServiceUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) （针对临时请求）代表数据主体向Advertising Cloud提交访问和删除请求，并检查现有请求的状态。
 
@@ -69,7 +69,7 @@ Adobe Experience Platform为企业提供了完成以下任务的功能：
    在您提交数据主体的删除请求时，将从服务器中删除Cookie ID或设备ID以及与Cookie关联的所有成本、点击和收入数据。
 
    >[!NOTE]
-   如果您的公司有多个Experience CloudID，则必须为每个IP发送单独的API请求。 但是，您可以向多个Advertising Cloud子解决方案([!DNL Search], [!DNL Creative], [!DNL DSP]和 [!DNL DCO])，每个子解决方案具有一个帐户。
+   如果您的公司有多个Experience Cloud组织ID，则必须为每个IP发送单独的API请求。 但是，您可以向多个Advertising Cloud子解决方案([!DNL Search], [!DNL Creative], [!DNL DSP]和 [!DNL DCO])，每个子解决方案具有一个帐户。
 
 所有这些步骤对于Advertising Cloud都是必需的。 有关使用Adobe Experience Platform Privacy Service执行这些任务和其他相关任务以及在何处查找所需项目的更多信息，请参阅 [www.adobe.io/apis/cloudplatform/gdpr.html](https://www.adobe.io/apis/experienceplatform/gdpr.html).
 

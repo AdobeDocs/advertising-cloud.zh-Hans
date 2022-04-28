@@ -1,9 +1,9 @@
 ---
 title: 常见问题解答
 description: xx
-source-git-commit: ca19836d5918c69161c4d850a65eaff311249225
+source-git-commit: 2e0395dc1e5aa52adc83c1aaea49793fd5555390
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -32,5 +32,5 @@ https://adobeadcloud.zendesk.com/agent/tickets/24323
 
 答：我们与我们的产品进行了核对，他们提到，相关像素的目的是提高Ad Cloud、特定库存/SSP合作伙伴(对于DSP)和AAM之间的Cookie匹配率。  如果删除了这些像素，客户可能会看到AAC/AAM与库存合作伙伴之间各自像素所对应的匹配率有所降低，但他们不认为匹配率会很大。
 
-对于Ad Cloud搜索，我们确实会看到组织的Experience CloudID已为Mathworks设置，但我们的产品团队没有看到Mathworks设置以在Ad Cloud中激活受众。 您是否使用Audience Manager将受众发送到Ad Cloud搜索？ 如果没有，则删除这些参数对当前工作流将不会产生影响。 AAM客户关怀团队可以帮助移除这些像素（如果您不希望触发这些像素）。
+对于Ad Cloud搜索，我们确实会看到已为Mathworks设置广告商的Experience Cloud组织ID，但我们的产品团队没有看到用于在Ad Cloud中激活受众的Mathwork设置。 您是否使用Audience Manager将受众发送到Ad Cloud搜索？ 如果没有，则删除这些参数对当前工作流将不会产生影响。 AAM客户关怀团队可以帮助移除这些像素（如果您不希望触发这些像素）。
 

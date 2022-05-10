@@ -3,9 +3,9 @@ title: 设置程序化保证交易
 description: 了解如何设置您与出版商协商的程序化保证(PG)交易。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 9e371606-5428-4635-9653-7dc43449e489
-source-git-commit: 81b1074f86685f863f89a07ecd33e892e4933512
+source-git-commit: 3c9822890e96035fc9e44f8832efcc2889a8cb5f
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,7 @@ ht-degree: 0%
 
 1. （可选）通过单击 ![“选项”菜单](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
 
->[!NOTE]
->
->可以附加支持不同类型（CTV、桌面、音频等）的多个版面 同一笔交易。
+   交易可以针对支持媒体类型任意组合（如连接的电视、桌面和音频）的多个投放。
 
 ## 手动设置程序化保证交易
 
@@ -56,10 +54,7 @@ ht-degree: 0%
 
 1. （可选）通过单击 ![“选项”菜单](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
 
->[!NOTE]
->
->可以附加支持不同类型（CTV、桌面、音频等）的多个版面 同一笔交易。
-
+   交易可以针对支持媒体类型任意组合（如连接的电视、桌面和音频）的多个投放。
 
 >[!MORELIKETHIS]
 >

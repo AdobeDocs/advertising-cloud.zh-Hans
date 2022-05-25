@@ -3,9 +3,9 @@ title: 广告规范
 description: 参考常规和特定于发布者的广告规范。
 feature: DSP Ads
 exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
-source-git-commit: f3d4dcfdaaaa4b9546e92ac6d1087e73e5054a26
+source-git-commit: 3c5a114339c2bf41637027c8580316626656fbba
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,22 @@ ht-degree: 0%
 #### 连接的电视广告的其他发布者要求
 
 * **斛律：** 参见斛律 [广告规范](https://advertising.hulu.com/ad-products/video-commercial/).
+
+* **派拉蒙：** 参见派拉蒙的 [广告规范](https://www.paramount.com/digital-ads).
+
+* **发现：** 请参阅Discovery的 [广告规范](/help/dsp/assets/discovery-networks-ad-specs.pdf).
+
+* **HBO Max:** 观看HBO Max的 [广告规范](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx).
+
+* **A+E网络：** 请参阅A+E网络的 [广告规范](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
+
+* **NBC通用：**
+
+   * [数字视频](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
+
+   * [实时流](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
+
+   * [孔雀](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
 * **迪士尼：**
 

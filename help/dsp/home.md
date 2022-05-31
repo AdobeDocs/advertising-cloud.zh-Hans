@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: e26d6efff8bae08b89ba4bd72748ddf7ef769a87
+source-git-commit: 611589fd6fa7067a6e5c6ddfb1f8bb5ed700a44b
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 有关详细信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2022年4月12日 | 营销活动管理 | 广告规范已更新，以反映当前支持。 | 请参阅“[支持的广告类型的规范](/help/dsp/campaign-management/ads/ad-specs.md).&quot; |
+| 2022年5月31日 | 受众源 | （测试版功能）Advertising Cloud DSP现在可以摄取由在客户数据平台(CDP)中构建的经过验证的信号组成的第一方区段。 | 请参阅“[关于从受众源激活经过身份验证的区段](/help/dsp/audiences/sources/source-about.md).&quot; |
+| 2022年4月12日 | Campaign Management | 广告规范已更新，以反映当前支持。 | 请参阅“[支持的广告类型的规范](/help/dsp/campaign-management/ads/ad-specs.md).&quot; |
 | 2022年2月17日 | 视频教程 | 新增了有关“如何创建标准显示版面”的视频。 | 请参阅 [Advertising CloudTutorials](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/placement-create.html). |
 | 2022年1月31日 | 帮助 | 有关 [!DNL Deal IDs] 和 [!DNL Simple Ad Serving] 现已可用。 | 请参阅“库存”>“专用库存”的子章节。 |
 | 2021年12月10日 | 视频教程 | 提供了新的视频教程：“Advertising Cloud DSP简介”、“帐户结构和用户界面”、“如何创建包”、“如何批量上传第三方广告标签”和“如何使用批量编辑工具编辑版面”。 | 请参阅“[Advertising CloudTutorials](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/overview.html).&quot; |
@@ -41,9 +42,9 @@ ht-degree: 0%
 | 2021年6月7日 | 帮助 | 有关如何通过编程保证的交易与 [!DNL FreeWheel]. | 请参阅“[在中设置程序化保证交易概述 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)," "[Submit an Ad for a Programmatic Guaranteed Deal to [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)," "[Check the Status of Ads for [!DNL Freewheel] 程序化保证交易](/help/dsp/inventory/freewheel-check-status.md)、和[的错误代码 [!DNL FreeWheel] 广告提交](/help/dsp/inventory/freewheel-error-codes.md).&quot; |
 | 2021年5月27日 | 帮助 | 可接受的与健康相关的受众区段和策略提供准则，以用作定位与健康相关的受众区段的替代方法。 | 请参阅“[可接受的健康区段指南](/help/policies/health-segment-guidelines.md).&quot; |
 | 2021年5月26日 | 帮助 | 章节“与Adobe Experience Cloud集成”现在是单独的指南，可从 [Advertising Cloud文档主页](https://experienceleague.adobe.com/docs/advertising-cloud.html). 新指南包含新的子章节“在 [!DNL Analytics Marketing Channels].&quot;<br>本DSP指南的目录包含指向新指南的链接。 | 请参阅“[与Adobe Experience Cloud集成](/help/integrations/home.md).&quot; |
-| 2021年5月24日 | 帮助 | 在“营销活动管理”一章中，提供了有关如何使用Excel QA电子表格查看和编辑营销活动关键版面设置的新主题。 | 请参阅“[关于使用电子表格更正促销活动的版面设置](/help/dsp/campaign-management/qa/qa-about.md), &quot;[下载营销活动的版面设置](/help/dsp/campaign-management/qa/qa-sheet-download.md), &quot;[营销活动的上传版面设置](/help/dsp/campaign-management/qa/qa-sheet-upload.md)和“[已下载/已上载电子表格中的列](/help/dsp/campaign-management/qa/qa-sheet-columns.md). |
+| 2021年5月24日 | 帮助 | 在“Campaign Management”一章中，提供了有关如何使用Excel QA电子表格查看和编辑营销活动关键版面设置的新主题。 | 请参阅“[关于使用电子表格更正促销活动的版面设置](/help/dsp/campaign-management/qa/qa-about.md), &quot;[下载营销活动的版面设置](/help/dsp/campaign-management/qa/qa-sheet-download.md), &quot;[营销活动的上传版面设置](/help/dsp/campaign-management/qa/qa-sheet-upload.md)和“[已下载/已上载电子表格中的列](/help/dsp/campaign-management/qa/qa-sheet-columns.md). |
 | 2021年5月5日 | 包设置 | 提供了新的步调填充策略选项“略微提前”，它是新包的默认选项。 此策略可加快投放速度，使其在飞行时长的一半完成55-65%。 | 请参阅“[包设置](/help/dsp/campaign-management/packages/package-settings.md).&quot; |
-| 2021年3月17日 | 帮助 | “促销活动管理”章节已扩展，包含更多程序和参考。 | 在目录中，打开“促销活动管理”章节和子部分。 |
+| 2021年3月17日 | 帮助 | &quot;Campaign Management&quot;一章已扩大，包括更多程序和参考。 | 在目录中，打开“Campaign Management”章节和子部分。 |
 | 2021年3月10日 | 库存 | 您无法再创建 [!UICONTROL Smart Ad Serving] 使用VAST标记的交易。 相反，请咨询您的发布者，他们是否可以通过交易ID运行您的私人交易。 您可以使用 [!UICONTROL Deal ID inbox] 或手动输入交易详细信息。<br><br>您现有的智能广告服务交易仍然可用，但今年晚些时候将停用。 | 请参阅“[关于 [!UICONTROL Deal ID inbox]](/help/dsp/inventory/deal-id-inbox-about.md)&quot;和&quot;[手动创建 [!UICONTROL Deal ID] 详细信息](/help/dsp/inventory/deal-id-create.md)&quot; |
 | 2021年2月25日 | 帮助 | 有关 [!DNL Analytics for Advertising Cloud]，它集成了Adobe Analytics和Adobe Advertising Cloud，可用。 | 有关集成的概述，请参阅[概述 [!DNL Analytics for Advertising Cloud]](/help/integrations/analytics/overview.md).&quot; 有关完整文档，请参阅“与Adobe Experience Cloud集成”>“[!DNL Analytics for Advertising Cloud].&quot; |
 | 2020年10月28日 | 新帮助 | 旧版帮助已替换为更新的页面，这些页面可从 [!DNL DSP] 主菜单，也可随时从 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html). | — |

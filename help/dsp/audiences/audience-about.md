@@ -3,9 +3,9 @@ title: 关于Advertising Cloud DSP中的受众管理
 description: 了解受众管理功能。
 feature: DSP Audiences, DSP Segments
 exl-id: 624d2211-59a2-4791-b8f1-a9a5cecd0b8e
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 3b44e8e019bfc4bab2ee65ac028313752cb4a0e0
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,11 @@ ht-degree: 0%
 
 ## 导入第一方和第三方数据区段
 
-Advertising Cloud DSP可以从数据管理平台(DMP)导入您自己的第一方数据区段，并根据需要提供给任意一组广告商。
+DSP可以从数据管理平台(DMP)导入您自己的第一方数据区段，并根据需要将其提供给任意一组广告商。
 
-Advertising Cloud DSP还可以导入自定义第三方区段，包括复杂的第三方区段组合。 您可以根据需要向任意一组广告商提供区段。
+DSP是 [the [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)，允许您与批准的广告商和用户共享经过身份验证的第一方区段，以激活促销活动。 要了解有关Real-Time CDP集成的更多信息，请参阅 [“源”部分](/help/dsp/audiences/sources/source-about.md).
+
+DSP还可以导入自定义第三方区段，包括复杂的第三方区段组合。 您可以根据需要向任意一组广告商提供区段。
 
 联系您的 [!DNL Adobe] 帐户团队以了解更多信息。
 
@@ -40,9 +42,9 @@ Advertising Cloud DSP还可以导入自定义第三方区段，包括复杂的�
 
 您可以将版面定位到以下所有类型的受众。
 
-* 保存在Advertising Cloud DSP中的所有用户创建的受众集。
+* 保存在DSP中的所有用户创建的受众集。
 
-* 之前在Advertising Cloud DSP中创建的所有用户创建的受众区段：
+* 之前在DSP中创建的所有用户创建的受众区段：
 
    * 访问特定网页的用户和展示特定广告展示次数的用户的自定义区段。
 
@@ -52,21 +54,21 @@ Advertising Cloud DSP还可以导入自定义第三方区段，包括复杂的�
 
 * 所有导入的自定义第三方数据区段。
 
-* （仅针对美国的版面） [来自30多家提供商的Advertising Cloud DSP客户可以使用的所有第三方数据区段](/help/dsp/audiences/third-party-data-providers.md)，包括 [!DNL Acxiom], [!DNL Datalogix], [!DNL eXelate] ([!DNL Nielsen])、 [!DNL Lotame], [!DNL Oracle], [!DNL Quantcast]，等等。
+* （仅针对美国的版面） [来自30多家提供商的DSP客户可以使用的所有第三方数据区段](/help/dsp/audiences/third-party-data-providers.md)，包括 [!DNL Acxiom], [!DNL Datalogix], [!DNL eXelate] ([!DNL Nielsen])、 [!DNL Lotame], [!DNL Oracle], [!DNL Quantcast]，等等。
 
    您可以定位特定区段，这些区段会根据受众数据（例如，具有特定人口统计、兴趣或意图的用户，以及/或行为配置文件）来定位用户。 您可以按数据提供程序和类别浏览，按名称或区段ID搜索区段，或按数据提供程序、总区段大小、Web浏览器计数或设备计数过滤结果。
 
    第三方区段会产生额外费用，每个区段名称旁边会显示这些费用。
 
-* (使用Adobe Experience Cloud、Adobe Audience Manager或Adobe Analytics(仅限使用Advertising Cloud JavaScript转化标签的广告商)您在Adobe Experience Cloud中创建、在Audience Manager中创建或从Audience Manager或发布到Adobe Experience Cloud的所有可用第一方、第二方或第三方受众区段 [!DNL Analytics].
+* (具有Adobe Experience Platform和 [!DNL Real-Time CDP]、Adobe Audience Manager或Adobe Analytics(仅使用Advertising Cloud JavaScript转化标记)在 [!DNL Real-Time CDP]、在Audience Manager中创建，或从Audience Manager或发布到Adobe Experience Cloud [!DNL Analytics].
 
-   区段使用的定价是预先协商的，在Advertising Cloud中不可见。  <!-- Verify -->
+   区段使用的定价是预先协商的，在DSP中不可见。
 
-   在Adobe Experience Cloud中创建或发布区段大约一小时后，即可使用这些区段。 直接来自Audience Manager的区段在您创建后大约24小时内可用。 <!-- Verify all -->
+   区段来源 [!DNL Analytics] 在创建或发布作为Experience Cloud受众大约一小时后可用。 区段直接来自Audience Manager或 [!DNL Real-Time CDP] 将在您共享它们后的24小时内提供。
 
    >[!NOTE]
    >
-   >请参阅相关文档 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html)和 [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) 以了解有关为这些解决方案中的区段设置和收集数据的信息。
+   >请参阅相关文档 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html)和 [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) 以了解有关为这些解决方案中的区段设置和收集数据的信息。
 
 ## 受众大小数据
 

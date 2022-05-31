@@ -8,9 +8,9 @@ user-guide-title: Advertising Cloud DSP 指南
 user-guide-description: 了解使用 Advertising Cloud DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 4dd819cd5feb47bce8ad56e5210c6d3c224389cb
+source-git-commit: b56bda435ef8a34b4dd695a45dea28cef2b51c85
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '886'
 ht-degree: 6%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 6%
       + [可接受的健康区段指南](https://experienceleague.adobe.com/docs/advertising-cloud/policies/health-segment-guidelines.html)
       + [[!DNL DSP] 数据使用指南](https://experienceleague.adobe.com/docs/advertising-cloud/policies/data-usage-guidelines.html)
    + [高级测量解决方案](/help/dsp/introduction/advanced-measurement-services.md)
-+ 营销活动管理 {#campaign-management}
++ Campaign Management {#campaign-management}
    + [Campaign Management结构概述](/help/dsp/campaign-management/campaign-management-overview.md)
    + 促销活动 {#campaigns}
       + [关于Campaign Management](/help/dsp/campaign-management/campaigns/campaign-about.md)
@@ -108,7 +108,7 @@ ht-degree: 6%
       + [已下载/已上载电子表格中的列](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [Advertising Cloud DSP宏](/help/dsp/campaign-management/macros.md)
    + [键盘快捷键](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-   + [关于Campaign管理的常见问题解答](/help/dsp/campaign-management/campaign-management-faq.md)
+   + [关于Campaign Management的常见问题解答](/help/dsp/campaign-management/campaign-management-faq.md)
 + 优化 {#optimization}
    + [如何 [!DNL DSP] 优化营销活动](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [优化目标及其使用方法](/help/dsp/optimization/optimization-goals.md)
@@ -131,6 +131,11 @@ ht-degree: 6%
       + [创建可重用受众](/help/dsp/audiences/reusable-audience-create.md)
       + [受众设置](/help/dsp/audiences/audience-settings.md)
       + [受众区段逻辑的语法](/help/dsp/audiences/audience-segment-logic-syntax.md)
+   + 管理源 {#sources}
+      + [关于从受众源激活经过身份验证的区段](/help/dsp/audiences/sources/source-about.md)
+      + [从持久ID合作伙伴激活经过身份验证的区段](/help/dsp/audiences/sources/source-durable-id.md)
+      + [创建受众源以激活第一方受众](/help/dsp/audiences/sources/source-create.md)
+      + [受众源设置](/help/dsp/audiences/sources/source-settings.md)
    + [可用的第三方数据提供商](/help/dsp/audiences/third-party-data-providers.md)
 + 库存 {#inventory}
    + [库存功能概述](/help/dsp/inventory/inventory-overview.md)

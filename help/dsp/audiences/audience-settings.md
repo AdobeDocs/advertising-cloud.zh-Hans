@@ -3,7 +3,7 @@ title: 受众设置
 description: 请参阅可用受众设置的描述。
 feature: DSP Audiences
 exl-id: 959c1e04-cb09-42f0-a261-580ff98b86be
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 505944d534e04da8f903c24e7899e7a80cb836e4
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Adobe区段
 
-（可选）要包含在受众配置中的任何Adobe Analytics或Adobe Audience Manager区段。
+（可选）任意 [!DNL Adobe Real-Time Customer Data Profile]、 Adobe Analytics或Adobe Audience Manager区段，以包含在受众配置中。
 
 ## 自定义区段
 
@@ -39,6 +39,6 @@ ht-degree: 0%
 >* [可用的第三方数据提供商](third-party-data-providers.md)
 >* [受众区段逻辑的语法](audience-segment-logic-syntax.md)
 >* [创建和实施自定义区段](custom-segment-create.md)
->* [创建和实施区 [!UICONTROL CCPA Opt-Out-of-Sale] 段](ccpa-opt-out-segment-create.md)
+>* [创建和实施 [!UICONTROL CCPA Opt-Out-of-Sale] 区段](ccpa-opt-out-segment-create.md)
 >* [版面设置](/help/dsp/campaign-management/placements/placement-settings.md)
 

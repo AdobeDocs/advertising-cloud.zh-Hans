@@ -2,7 +2,7 @@
 title: '从持久ID合作伙伴激活经过身份验证的区段 '
 description: 了解如何通过持久ID解决方案激活经过验证的受众。
 feature: DSP Audiences
-source-git-commit: 8550b539676588c3a6bc07abe088b38bd4251725
+source-git-commit: 155ab740084bebfba5fd992a23706129668fcc90
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->*[关于从受众源激活经过身份验证的区段](source-about.md)
+>* [关于从受众源激活经过身份验证的区段](source-about.md)
 >* [创建受众源以激活第一方受众](source-create.md)
 >* [受众源设置](source-settings.md)
 >* [Adobe Advertising Cloud DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)

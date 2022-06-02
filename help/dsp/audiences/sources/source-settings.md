@@ -2,9 +2,10 @@
 title: 受众源设置
 description: 了解受众源的设置。
 feature: DSP Audiences
-source-git-commit: 285ececc74373be4dee9d0a4bce2c82605082630
+exl-id: 8b17d5cc-488b-4bd2-bada-ef51b35faf92
+source-git-commit: 932b1ff979cb9b617502f9797af29e88ef77adf0
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 **[!UICONTROL Enter IMS Org Id]:** Experience Cloud组织ID [!DNL Adobe Experience Platform] 帐户。
 
-**[!UICONTROL AAC Source Key]:** (只读；在 [!UICONTROL Enter IMS Org Id] 字段)可用于 [在中创建目标连接 [!DNL Adobe Real-Time Customer Data Profile]](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-dsp-destination.html) 将受众推送到Advertising Cloud DSP。 您可以将值复制到剪贴板以粘贴到 [!DNL Adobe Real-Time CDP] 目标连接设置或输入到文件中。
+**[!UICONTROL AAC Source Key]:** (只读；在 [!UICONTROL Enter IMS Org Id] 字段)可用于 [在中创建目标连接 [!DNL Adobe Real-Time Customer Data Profile]](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html) 将受众推送到Advertising Cloud DSP。 您可以将值复制到剪贴板以粘贴到 [!DNL Adobe Real-Time CDP] 目标连接设置或输入到文件中。
 
 >[!MORELIKETHIS]
 >

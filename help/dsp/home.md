@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 611589fd6fa7067a6e5c6ddfb1f8bb5ed700a44b
+source-git-commit: 602d2dd36a83f5f438c444e8ccaaec92054f0186
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 0%
 | 日期 | 功能 | 描述 | 有关详细信息 |
 | ---- | ------- | ----------- | -------------------- |
 | 2022年5月31日 | 受众源 | （测试版功能）Advertising Cloud DSP现在可以摄取由在客户数据平台(CDP)中构建的经过验证的信号组成的第一方区段。 | 请参阅“[关于从受众源激活经过身份验证的区段](/help/dsp/audiences/sources/source-about.md).&quot; |
+| 2022年5月25日 | 优化目标 | 现在，视频和本机版面可以包含在具有自定义目标“最高ROAS”和“最低CPA”的包中。 | 请参阅“[优化目标及其使用方法](/help/dsp/optimization/optimization-goals.md).&quot; |
 | 2022年4月12日 | Campaign Management | 广告规范已更新，以反映当前支持。 | 请参阅“[支持的广告类型的规范](/help/dsp/campaign-management/ads/ad-specs.md).&quot; |
 | 2022年2月17日 | 视频教程 | 新增了有关“如何创建标准显示版面”的视频。 | 请参阅 [Advertising CloudTutorials](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/placement-create.html). |
 | 2022年1月31日 | 帮助 | 有关 [!DNL Deal IDs] 和 [!DNL Simple Ad Serving] 现已可用。 | 请参阅“库存”>“专用库存”的子章节。 |

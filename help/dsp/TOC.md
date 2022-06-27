@@ -8,7 +8,7 @@ user-guide-title: Advertising Cloud DSP 指南
 user-guide-description: 了解使用 Advertising Cloud DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: b56bda435ef8a34b4dd695a45dea28cef2b51c85
+source-git-commit: f4719ee56f340c5969795dfc482e2b409244757b
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 6%
@@ -165,10 +165,10 @@ ht-degree: 6%
             + [谈判程序化保证交易的提示](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [设置程序化保证交易](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
             + [!DNL FreeWheel] 程序化保证交易 {#freewheel}
-            + [在中设置程序化保证交易概述 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
-            + [为程序化保证交易提交广告 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
-            + [检查广告的状态 [!DNL FreeWheel] 程序化保证交易](/help/dsp/inventory/freewheel-check-status.md)
-            + [FreeWheel广告提交的错误代码](/help/dsp/inventory/freewheel-error-codes.md)
+               + [在中设置程序化保证交易概述 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
+               + [为程序化保证交易提交广告 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
+               + [检查广告的状态 [!DNL FreeWheel] 程序化保证交易](/help/dsp/inventory/freewheel-check-status.md)
+               + [FreeWheel广告提交的错误代码](/help/dsp/inventory/freewheel-error-codes.md)
          + [编辑交易ID设置](/help/dsp/inventory/deal-id-edit.md)
          + [指定交易ID的版面和广告](/help/dsp/inventory/deal-id-attach-placements.md)
          + [编辑具有交易ID访问权限的帐户](/help/dsp/inventory/deal-id-share.md)

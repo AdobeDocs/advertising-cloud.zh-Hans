@@ -3,9 +3,9 @@ title: 创建和实施自定义区段
 description: 了解如何创建和实施自定义区段，以跟踪展示给广告的用户或访问您网页的用户。
 feature: DSP Segments
 exl-id: 691903e2-773e-4205-837e-822f435f57a7
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: b6e77b91ad5626bb9ece45ec3f01126715dbe37b
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->要跟踪网站上消费者选择退出销售请求的用户ID，请根据《加州消费者隐私法案》(CCPA)，创建一个[CCPA选择退出销售区段](ccpa-opt-out-segment-create.md)。
+>要根据《加州消费者隐私法案》(CCPA)的规定，从您网站上的消费者选择退出销售请求中跟踪用户ID，请创建 [CCPA选择退出销售区段](ccpa-opt-out-segment-create.md).
 
 1. 创建区段：
 
-   1. 在主菜单中，单击&#x200B;**[!UICONTROL Audiences]>[!UICONTROL Segments]**。
+   1. 在主菜单中，单击 **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
 
-   1. 在数据表上方，单击&#x200B;**[!UICONTROL Create]**。
+   1. 在数据表上方，单击 **[!UICONTROL Create]**.
 
-   1. 输入唯一的&#x200B;**[!UICONTROL Segment Name]**。
+   1. 输入唯一 **[!UICONTROL Segment Name]**.
 
-   1. 对于[!UICONTROL Segment Type]，选择&#x200B;**[!UICONTROL Custom]**。
+   1. 对于 [!UICONTROL Segment Type]，选择 **[!UICONTROL Custom]**.
 
    1. 输入区段窗口，即用户的Cookie在区段中停留的天数。
 
@@ -36,22 +36,22 @@ ht-degree: 0%
 
 1. 根据需要复制并实施标记以跟踪区段：
 
-   1. 返回到&#x200B;**[!UICONTROL Audiences]>[!UICONTROL Segments]**。
+   1. 返回 **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
 
-   2. 将光标悬停在区段行上并单击&#x200B;**[!UICONTROL Get pixel]**。
+   2. 将光标悬停在区段行上并单击 **[!UICONTROL Get pixel]**.
 
       * 要跟踪网页的桌面和移动设备访客，请执行以下操作：
 
-         1. 复制标记为“[!UICONTROL Desktop or mobile websites]”的页面查看跟踪标记。
+         1. 复制标记为“[!UICONTROL Desktop or mobile websites].&quot;
 
          1. 向广告商或网站联系人提供标记以进行部署。
 
             广告商的IT部门或其他组可能需要安排或告知标记部署。
       * 要跟踪在桌面、移动设备或CTV设备上显示到广告单元的用户，请执行以下操作：
 
-         1. 复制标记为“[!UICONTROL Desktop or mobile ads]”的展示次数跟踪标记。
+         1. 复制标记为“[!UICONTROL Desktop or mobile ads].&quot;
 
-         1. 将标记添加到任何广告的[!UICONTROL Pixel]选项卡。<!-- I'll add cross-reference to ad settings later. -->
+         1. 将标记添加到 [!UICONTROL Pixel] 选项卡 [!UICONTROL Event Pixels] 部分 [[!UICONTROL Tracking] 每个相关版面的设置](/help/dsp/campaign-management/placements/placement-settings.html#placement-tracking).
 
 
 实施跟踪标记后，您可以在受众目标或排除项中将该区段用于任何版面。
@@ -63,7 +63,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于受众管理](audience-about.md)
->* [创建和实施区 [!UICONTROL CCPA Opt-Out-of-Sale] 段](ccpa-opt-out-segment-create.md)
+>* [创建和实施 [!UICONTROL CCPA Opt-Out-of-Sale] 区段](ccpa-opt-out-segment-create.md)
 >* [创建可重用受众](reusable-audience-create.md)
 >* [受众设置](audience-settings.md)
 >* [可用的第三方数据提供商](third-party-data-providers.md)

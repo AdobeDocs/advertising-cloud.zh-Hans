@@ -3,9 +3,9 @@ title: 版面设置
 description: 请参阅可用版面设置的描述。
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: c2fbaf3381ca4380c18d55931e9f4f662da892af
+source-git-commit: 8b1ae7385d7747f7073448aae5ad0a617f323562
 workflow-type: tm+mt
-source-wordcount: '3278'
+source-wordcount: '3277'
 ht-degree: 0%
 
 ---
@@ -397,7 +397,7 @@ ht-degree: 0%
 
 **[!UICONTROL DoubleVerify Authentic Brand Safety]:** (使用 [!UICONTROL DoubleVerify Authentic Brand Safety] 选项)启用 [!DNL DoubleVerify Authentic Brand Safety]，使用为指定的区段ID配置的自定义品牌安全规则阻止投标后展示次数。 DSP会向您的帐户收取账单，以了解在广告商设置中指定的区段ID的使用情况。
 
-## [!UICONTROL Tracking]
+## [!UICONTROL Tracking] {#placement-tracking}
 
 >[!NOTE]
 >
@@ -440,7 +440,7 @@ ht-degree: 0%
             广告商的IT部门或其他组可能需要安排或告知标记部署。
    1. 单击 **[!UICONTROL Save]**.
 
-**[!UICONTROL 3rd-party Fees]:** （可选）要作为每千次展示次数不可计费成本进行跟踪的第三方静态费用率。 除非您输入其他值，否则在适用时，将自动为新版面应用包级别的默认值。
+**[!UICONTROL 3rd-party Fees]:** （可选）要作为每1000次展示次数不可计费成本进行跟踪的第三方静态费用率。 除非您输入其他值，否则在适用时，将自动为新版面应用包级别的默认值。
 
 >[!NOTE]
 >

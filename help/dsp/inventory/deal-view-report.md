@@ -2,7 +2,8 @@
 title: 查看私人的详细报表， [!UICONTROL On Demand]或 [!UICONTROL Simple Ad Serving] 交易
 description: 了解如何打开交易级别的报表。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals, DSP On Demand Inventory, DSP Simple Ad Serving
-source-git-commit: 08b58c1d5c46761c7ab3ebf88ca87dddaadaaa47
+exl-id: cd39582e-0445-48ca-b2f6-90b410ce4a1c
+source-git-commit: f1fce966c8db2f4cde72ecf1cc900f3d5fb1a1a5
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%

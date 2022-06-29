@@ -3,9 +3,9 @@ title: 创建和实施自定义区段
 description: 了解如何创建和实施自定义区段，以跟踪展示给广告的用户或访问您网页的用户。
 feature: DSP Segments
 exl-id: 691903e2-773e-4205-837e-822f435f57a7
-source-git-commit: b6e77b91ad5626bb9ece45ec3f01126715dbe37b
+source-git-commit: bc8e476e1218681140a1748998c19f1f6c5c0866
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 0%
 
          1. 复制标记为“[!UICONTROL Desktop or mobile ads].&quot;
 
-         1. 将标记添加到 [!UICONTROL Pixel] 选项卡 [!UICONTROL Event Pixels] 部分 [[!UICONTROL Tracking] 每个相关版面的设置](/help/dsp/campaign-management/placements/placement-settings.html#placement-tracking).
+         1. 将标记添加到 [!UICONTROL Pixel] 选项卡 [!UICONTROL Event Pixels] 部分 [[!UICONTROL Tracking] 每个相关版面的设置](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 
 实施跟踪标记后，您可以在受众目标或排除项中将该区段用于任何版面。

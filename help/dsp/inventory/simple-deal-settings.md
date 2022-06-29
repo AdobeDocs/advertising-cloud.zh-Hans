@@ -3,7 +3,7 @@ title: '''[!UICONTROL Simple Ad Serving] 交易设置”'
 description: 了解 [!UICONTROL Simple Ad Serving] 交易。
 feature: DSP Simple Ad Serving
 exl-id: 1a8f215c-c52b-4099-a55f-99c4232b7a22
-source-git-commit: 3eb63e9d7161c354736ce53ee21518882c541884
+source-git-commit: 17a73b5177b3dd79a32cd0b03bfa28d8ac8bf996
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 | **[!UICONTROL Media Quality Assessment?]** | （某些用户）允许广告在其他DSP上运行以进行第三方验证。 <!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
 | **[!UICONTROL Ad Source]** | 唯一的选项是 *[!UICONTROL Site Serve (Event Pixels)]*. |
 | **[!UICONTROL Ad Creation]** | （仅限新交易）是否：<ul><li>*[!UICONTROL Create New]:* 为此交易创建广告。</li><li>*[!UICONTROL Select Ads]:* 用于此交易的现有广告。</li></ul> |
-| **[!UICONTROL Ad Type]** | 此交易的广告类型。 如果您要为交易创建新广告，请根据请求包括广告大小或持续时间。 可用选项因介质类型而异。 |
+| **[!UICONTROL Ad Type]** | 此交易的广告类型。 如果要为交易创建广告，请根据请求包括广告大小或持续时间。 可用选项因介质类型而异。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 | 参数 | 描述 |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | 每千次展示次数成本(CPM)，反映在合同的费率卡中。 联系您的 [!DNL Adobe] 帐户团队获取此值。 <br><br>还指定交易的货币。 所有用户都可以选择USD，或者，如果SSP支持其他货币，则选择DSP帐户的货币。 |
+| **[!UICONTROL Media CPM]** | 每1000次展示次数的成本(CPM)，反映在合同的费率卡中。 联系您的 [!DNL Adobe] 帐户团队获取此值。 <br><br>还指定交易的货币。 所有用户都可以选择USD，或者，如果SSP支持其他货币，则选择DSP帐户的货币。 |
 | **[!UICONTROL Third Party Billed Fees]** | （可选）要作为不可计费成本和交易币种进行跟踪的静态第三方费用。<br><br>所有用户都可以选择USD，或者，如果SSP支持其他货币，则选择DSP帐户的货币。 **注意：** 计费费用反映在 [!UICONTROL Net CPM] 量度。 |
 | **[!UICONTROL Third Party Fee Description]** | （可选）第三方费用的描述。 |
 | **[!UICONTROL Flight Dates]** | 使用此交易的流量的开始和结束日期。 投放日期必须包含在营销活动投放日期中。 广告标记仅在指定的投放期间返回响应。<br><br> 创建持续时间为一年的单独简单广告服务促销活动并在其中构建跟踪像素的最佳实践。 |
@@ -82,5 +82,10 @@ But I see:
 >
 >* [关于 [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
 >* [创建 [!UICONTROL Simple Ad Serving] 交易](simple-deal-create.md)
->* [查看事件跟踪像素 [!UICONTROL Simple Ad Serving] 交易](simple-deal-show-pixels.md)
+>* [编辑 [!UICONTROL Simple Ad Serving] 交易设置](simple-deal-edit.md)
+>* [查看交易的详细报表](/help/dsp/inventory/deal-view-report.md)
 
+
+<!-- add back when reimplemented:
+>* [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)
+-->

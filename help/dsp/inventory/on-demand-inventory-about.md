@@ -3,9 +3,9 @@ title: 关于 [!DNL On Demand] Premium Inventory
 description: 了解DSP与高级出版商合作伙伴预先协商的交易。
 feature: DSP On Demand Inventory
 exl-id: d23d4e4e-f29f-4dba-afe3-7198ef4ee544
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *对于具有帐户类型的用户不可用 [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension]和 [!UICONTROL Other];具有类别的广告商 [!UICONTROL Other];和转销商*
 
-的 [!DNL On Demand] Gallery是一款高级库存发现工具，用于探索Advertising Cloud DSP与我们的高级出版商合作伙伴策划的预先协商的交易。 它允许您从区域内顶级出版商访问无保证库存，而无需进行1:1谈判或合同。 您可以请求单笔交易，并且可以订阅发布者以同时请求发布者的所有交易。
+的 [!DNL On Demand] Gallery是一款高级库存发现工具，用于探索Advertising Cloud DSP与高级出版商合作伙伴策划的预先协商的交易。 它允许您从区域内顶级出版商访问无保证库存，而无需进行1:1谈判或合同。 您可以请求单笔交易，并且可以订阅发布者以同时请求发布者的所有交易。
 
 通过Advertising Cloud DSP Premium市场，您可以：
 

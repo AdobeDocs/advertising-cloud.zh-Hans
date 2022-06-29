@@ -1,24 +1,24 @@
 ---
-title: Overview of Inventory Features in Advertising Cloud DSP
+title: Advertising Cloud DSP中的库存功能概述
 description: 了解可用的清单功能。
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: b3d0b96e-e638-4bd2-ba14-d348a8fc030b
-source-git-commit: 3039557f4929b716d86840cd3cb4a5aa54125145
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
 
 # Advertising Cloud DSP中的库存功能概述
 
-Advertising Cloud DSP can support your inventory needs, whether you’re wanting to find scale with public inventory, find scale among premium publishers with [!DNL On Demand], or set up a 1:1 private marketplace (PMP) deal with a publisher to activate against specific audiences or sites. Your campaign goals will help dictate which type of inventory best suits your campaign’s performance needs. 与顶级供应方平台(SSP)的集成，可无缝设置和激活您的PMP。
+Advertising Cloud DSP可以支持您的库存需求，无论您是否希望通过公共库存来发现规模，还是在具有 [!DNL On Demand]，或与发布者设置1:1私有市场(PMP)交易以针对特定受众或网站激活。 营销活动目标有助于规定哪种类型的库存最适合营销活动的性能需求。 与顶级供应方平台(SSP)的集成，可无缝设置和激活您的PMP。
 
 在DSP中访问或确定库存交易后，即可将它们用作促销活动的版面目标。
 
 可用的库存类型包括：
 
-* **[!DNL On Demand]库存：** 探索Adobe与我们的优质出版商合作伙伴之间预先协商、无保证的交易。
+* **[!DNL On Demand]库存：** 探索Adobe与高级出版商合作伙伴共同策划的预先协商、无保证的交易。
 
 * **专用清单 [!DNL Deal IDs]:** 设置并管理您与发布者直接协商的私有市场交易(PMP)。
 
@@ -27,8 +27,8 @@ Advertising Cloud DSP can support your inventory needs, whether you’re wanting
 >[!MORELIKETHIS]
 >
 >* [关于按需库存](on-demand-inventory-about.md)
->* [About the Deal ID Inbox](deal-id-inbox-about.md)
->* [About Programmatic Guaranteed Deals](programmatic-guaranteed-about.md)
->* [SSP Partners](ssp-partners.md)
->* [About Private Inventory](private-inventory-about.md)
+>* [关于交易ID收件箱](deal-id-inbox-about.md)
+>* [关于程序化保证交易](programmatic-guaranteed-about.md)
+>* [SSP合作伙伴](ssp-partners.md)
+>* [关于专用清单](private-inventory-about.md)
 

@@ -1,10 +1,11 @@
 ---
 title: 在中设置PG交易概述 [!DNL Freewheel]
-description: '了解在以下方面运行广告所需的先决条件和额外步骤：与发布者进行编程保证交易 [!DNL Freewheel]. '
+description: 了解在以下方面运行广告所需的先决条件和额外步骤：与发布者进行编程保证交易 [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: acf8351b-88fb-4f18-8fca-9a2d6674cdec
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ ht-degree: 0%
 
    对于某些英国出版商，您必须包含 [!DNL Clearcast] 时钟号。
 
-1. [接受交易ID](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox) 你已经和一家出版商谈过 [!DNL Freewheel] 使用交易ID收件箱。
+1. [接受交易ID](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox) 你已经和出版商谈过 [!DNL Freewheel] 使用交易ID收件箱。
 
    接受交易后，按照提示操作： 1)选择要用于交易的广告； 2)创建程序化保证的默认投放以提供该广告。
 

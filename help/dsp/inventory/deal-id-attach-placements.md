@@ -1,20 +1,20 @@
 ---
-title: 指定交易ID的版面和广告
+title: 指定私人交易的版面和广告
 description: 了解如何对额外投放和广告使用私人交易。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 669cadcf-021b-4129-95d5-3d24af4a4b88
-source-git-commit: 3e47fec28a17cb64de42309c0368293e1ef1cdea
+source-git-commit: a29019ee7af0124ad9182f0578811c4d0e666937
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '283'
 ht-degree: 1%
 
 ---
 
-# 指定交易ID的版面和广告
+# 指定私人交易的版面和广告
 
 对于无担保交易，您可以将交易指定为 [!UICONTROL Placements] 中。
 
-对于程序化保证(PG)交易，您可以使用 [!UICONTROL Deals] 中。
+对于程序化保证(PG)交易，您可以通过 [!UICONTROL Deals] 中。
 
 您还可以 [将新广告附加到现有投放](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) 与PG和无担保交易相关联。
 
@@ -26,9 +26,9 @@ ht-degree: 1%
 
 1. 在主菜单中，单击 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
 
-1. 在交易行中，单击  ![“选项”菜单](/help/dsp/assets/options-menu.png) **>[!UICONTROL attach a placement]**.
+1. 在交易行中，单击  **[!UICONTROL ...]>[!UICONTROL Attach New Placement]**.
 
-1. 在 [!UICONTROL Ad & Campaign Selection] 设置时，选择要用于投放的广告：
+1. 在 [!UICONTROL Ad & Campaign Selection] 设置中，选择要用于版面的广告：
 
        1. 选择广告商、营销活动和广告类型。 （可选）选择用于筛选广告的广告状态。
        

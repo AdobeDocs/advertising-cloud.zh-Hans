@@ -3,9 +3,9 @@ title: 设置程序化保证交易
 description: 了解如何设置您与出版商协商的程序化保证(PG)交易。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 9e371606-5428-4635-9653-7dc43449e489
-source-git-commit: 3c9822890e96035fc9e44f8832efcc2889a8cb5f
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 使用 [!DNL Deal ID Inbox] {#pg-setup-deal-id-inbox}
 
-这是 [!DNL FreeWheel], [!DNL Google Authorized Buyers]和 [!DNL Magnite DV+].
+以下方法是 [!DNL FreeWheel], [!DNL Google Authorized Buyers]和 [!DNL Magnite DV+].
 
 1. [接受交易](deal-id-inbox-accept.md).
 

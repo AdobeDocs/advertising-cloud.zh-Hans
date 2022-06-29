@@ -3,9 +3,9 @@ title: 已下载/已上载电子表格中的列
 description: 引用下载和上传的Excel QA电子表格中的列。
 feature: DSP Placements
 exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: 15f1e22dbc742d372dcabf2c029f2f7d72ff1d2f
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 0%
 | [!UICONTROL Brand Safety] | [!UICONTROL Site Safety Block] | 是否启用“站点安全块”： *[!UICONTROL ON]* 或 *[!UICONTROL OFF]*.<!-- Whether or not the advertiser-level setting Enable Site Safety Block is enabled: *ON* or *OFF*.I don’t see this option at the placement level. Should there be one? --> | — |
 | [!UICONTROL Tracking] | [!UICONTROL Tracking Pixels #] | 附加到位置的第三方事件跟踪像素的数量，或 *[!UICONTROL None]*. | — |
 | [!UICONTROL Tracking] | [!UICONTROL Conversion Pixels #] | 附加到位置的转化跟踪像素的数量，或 *[!UICONTROL None]*. | — |
-| [!UICONTROL Tracking] | [!UICONTROL 3rd-party fees] | 要作为每千次展示次数不可计费成本进行跟踪的第三方静态费用率（如果适用）。 | — |
+| [!UICONTROL Tracking] | [!UICONTROL 3rd-party fees] | 要作为每1000次展示次数不可计费成本进行跟踪的第三方静态费用率（如果适用）。 | — |
 | [!UICONTROL Ads] | [!UICONTROL # of Ads Attached] | 附加到版面的广告数（如果有），或 *[!UICONTROL None]*. | — |
 | [!UICONTROL Ads] | [!UICONTROL Ad Names] | 附加到版面的广告名称（如果有），或 *[!UICONTROL None]*. | — |
 

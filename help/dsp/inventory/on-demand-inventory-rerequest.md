@@ -3,7 +3,7 @@ title: 重新请求 [!DNL On Demand] 高级库存交易
 description: 了解如何重新请求 [!DNL On Demand] 此前被拒绝的交易。
 feature: DSP On Demand Inventory
 exl-id: db5a5708-16e3-4304-8bd0-f1aa8ecd0e3c
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 如果您重新请求后未批准交易，请联系您的 [!DNL Adobe] 帐户团队查看发布者是否有其他限制禁止您的帐户访问交易。
 
-一旦交易成功 [已批准](/help/dsp/inventory/on-demand-inventory-view-status.md)，默认情况下会将其作为定位所有 [!DNL On Demand] 库存。 新交易也可用作现有投放的目标，但您需要手动编辑投放设置以将交易添加为目标。
+一旦交易成功 [已批准](/help/dsp/inventory/on-demand-inventory-view-status.md)，默认情况下会将其作为定位所有 [!DNL On Demand] 库存。 新交易也可用作现有投放的目标，但您必须手动编辑投放设置以将交易添加为目标。
 
 1. 通过 [!DNL Adobe] 客户团队 [!UICONTROL Account Type] 的DSP帐户正确。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    1. 过滤可用交易以包含您请求的交易(**[!UICONTROL Currently subscribed to]**)**。
 
-   1. （可选）在 [!UICONTROL Subscriptio] “视图”(view)，该视图将根据您的过滤器显示所有出版商的徽标，以及 [!UICONTROL Deal] 查看，该视图根据您的过滤器列出每个发布者的所有交易，方法是单击 **[!UICONTROL Subscription view]** 和 **[!UICONTROL Deal view]**，根据需要。
+   1. （可选）在 [!UICONTROL Subscription] “视图”(view)，该视图将根据您的过滤器显示所有出版商的徽标，以及 [!UICONTROL Deal] 查看，该视图根据您的过滤器列出每个发布者的所有交易，方法是单击 **[!UICONTROL Subscription view]** 和 **[!UICONTROL Deal view]**，根据需要。
 
    1. 重新请求单个交易：
    * 从 [!UICONTROL Deal] 查看，单击 **[!UICONTROL Rerequest]** 在 [!UICONTROL Action] 列。

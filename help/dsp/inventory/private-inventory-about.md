@@ -3,9 +3,9 @@ title: 关于专用清单
 description: 关于专用清单
 feature: DSP Private Inventory
 exl-id: 6b3923ca-ccd1-450e-bff0-139e3838c999
-source-git-commit: 3e47fec28a17cb64de42309c0368293e1ef1cdea
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ### 交易ID
 
-如果您与出版商有直接关系，则可以在Advertising Cloud DSP版面中使用您自己的私人交易（包括议定的库存和定价）来简化媒体购买流程和工作流程。 在您设置帐户时，DSP将与您的所有发布者集成。 如果您希望稍后访问其他发布者，请联系 [!DNL Adobe] 帐户团队以设置访问权限。 <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
+如果您与出版商有直接关系，则可以在Advertising Cloud DSP版面中使用您自己的私人交易（包括议定的库存和定价）来简化媒体购买流程和工作流程。 在您设置帐户时，DSP会与您的所有发布者集成。 如果您希望稍后访问其他发布者，请联系 [!DNL Adobe] 帐户团队以设置访问权限。 <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
 
 您所有与交易ID的私人交易均由 [!DNL Adobe].
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 [!UICONTROL Simple Ad Serving] 为Advertising Cloud DSP以外提供的媒体提供非决策、有保证的广告投放和报告。
 
-每个广告都由发布者直接提供，而DSP则提供一个事件跟踪像素以发送给发布者，发布者需要实施该像素并传输广告。
+每个广告都由发布者直接提供，而DSP则提供一个事件跟踪像素以发送给发布者，发布者必须实施该像素并传输广告。
 
 有关更多信息，请参阅[关于 [!UICONTROL Simple Ad Serving]](simple-deal-about.md).&quot;
 

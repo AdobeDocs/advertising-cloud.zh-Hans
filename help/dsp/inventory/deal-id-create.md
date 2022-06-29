@@ -3,9 +3,9 @@ title: 手动创建交易ID详细信息
 description: 了解如何手动输入交易ID的详细信息。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: cd9763a7-99d4-4881-9df9-b4e24c55be0f
-source-git-commit: 593bfc03d2dd182b817be9eac4792dfd690132a2
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 0%
 
 1. 输入 [交易设置](deal-id-settings.md):
 
-   1. 在 [!UICONTROL Deal ID basics] 部分，指定交易详细信息和可访问交易的广告商。 对于有保证的交易，您还必须指定计划的投放日期和预计的展示次数，以便仅用于跟踪。
+   1. 在 [!UICONTROL Deal ID basics] 部分，指定交易详细信息和可访问交易的广告商。 对于有保证的交易，您还必须指定计划的投放日期和预计展示次数，以便仅用于跟踪。
 
    1. (仅管理员用户；可选)在 [!UICONTROL Technical] 部分，根据需要编辑默认设置。
 
    1. 单击 **[!UICONTROL Save]**.
 
-1. （仅限保证交易）选择将用于交易的广告，并创建默认的程序化保证(PG)投放。
+1. （仅限保证交易）选择要用于交易的广告，并创建默认的程序化保证(PG)投放。
 
-   默认的PG投放可确保您的交易始终为每个竞价请求返回竞价。 如果您未创建默认的PG版面，则定位该交易的任何版面将不会进行投标，除非它们设置正确。 您应始终创建默认的PG版面。 在 [!UICONTROL Placements] 查看，默认PG版面具有 [!UICONTROL Sub-type] 列值为“[!UICONTROL PG Default].&quot;
+   默认的PG投放可确保您的交易始终为每个竞价请求返回竞价。 如果您未创建默认的PG版面，则定位该交易的任何版面均不会投标，除非它们设置正确。 您应始终创建默认的PG版面。 在 [!UICONTROL Placements] 查看，默认PG版面具有 [!UICONTROL Sub-type] 列值为“[!UICONTROL PG Default].&quot;
 
    您可以选择在附加版面中将交易用作库存目标，但必须正确设置交易才能进行竞价。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
       1. 选择广告商、营销活动和广告类型。 （可选）选择用于筛选广告的广告状态。
 
-      1. 从可用广告列表中，选中将用于交易的每个广告旁边的复选框。
+      1. 从可用广告列表中，选中用于交易的每个广告旁边的复选框。
 
       1. 单击 **[!UICONTROL Apply]**.
    1. 在版面设置屏幕中：

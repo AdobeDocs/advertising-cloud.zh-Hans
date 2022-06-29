@@ -3,9 +3,9 @@ title: 关于 [!UICONTROL Deal ID Inbox]
 description: 了解 [!UICONTROL Deal ID inbox] 功能，允许您接受已与 [!DNL FreeWheel], [!DNL Google Authorized Buyers] (以前称为 [!DNL AdX]), and [!DNL Magnite DV+] (以前 [!DNL Rubicon])。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 959ad1d4-4671-4967-9f73-ec5b0464d0cd
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---

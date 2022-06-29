@@ -3,9 +3,9 @@ title: 关于专用清单
 description: 关于专用清单
 feature: DSP Private Inventory
 exl-id: 6b3923ca-ccd1-450e-bff0-139e3838c999
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: ad4bdfdc637af34b02c42d6547c39301f2a0cf47
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,7 @@ ht-degree: 0%
 
 超出RTB的广告商可以使用私有库存促进独家媒体交易。 通过私人交易所，发布者可以创建专有的库存库，经批准的广告商可以利用这些库存通过实时平台购买。 私人交易可让直接购买与程序化优势（如效率、简化的工作流和集中的促销活动分析）相结合，从而获得信心。
 
-## 私人交易设置方法
-
-### 交易ID
+## 交易ID
 
 如果您与出版商有直接关系，则可以在Advertising Cloud DSP版面中使用您自己的私人交易（包括议定的库存和定价）来简化媒体购买流程和工作流程。 在您设置帐户时，DSP会与您的所有发布者集成。 如果您希望稍后访问其他发布者，请联系 [!DNL Adobe] 帐户团队以设置访问权限。 <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
 
@@ -34,25 +32,14 @@ ht-degree: 0%
 
 您可以将每个私人交易用作指定广告商中多个促销活动的版面目标。 对于有保证的交易，您必须在创建交易后创建一个默认版面，但您可以将相同的交易添加到其他版面中以忽略默认版面。
 
-### [!UICONTROL Simple Ad Serving]
-
-[!UICONTROL Simple Ad Serving] 为Advertising Cloud DSP以外提供的媒体提供非决策、有保证的广告投放和报告。
-
-每个广告都由发布者直接提供，而DSP则提供一个事件跟踪像素以发送给发布者，发布者必须实施该像素并传输广告。
-
-有关更多信息，请参阅[关于 [!UICONTROL Simple Ad Serving]](simple-deal-about.md).&quot;
-
 ## “交易”视图
 
-在 [!UICONTROL Inventory] > [!UICONTROL Deals] 视图，您可以创建私有交易设置。 您还可以列出任何私人交易的版面和广告，查看任何私人交易的报告，或存档或取消存档任何私人交易。
-
-对于交易ID，您还可以编辑交易设置、将投放和广告附加到交易、编辑可访问交易的广告商和帐户，以及编辑交易的属性标记。
-
-对于简单的广告投放交易，您可以查看交易的事件跟踪像素。
+在 [!UICONTROL Inventory] > [!UICONTROL Deals] 视图，您可以创建私有交易设置。 您还可以编辑一些交易设置；列出投放和广告，并在交易中附加额外的投放和广告；编辑能够访问交易的广告商和账户；查看私人交易报告；或存档或取消存档交易。<!-- ; or edit the attribute tags for a deal -->
 
 >[!MORELIKETHIS]
 >
 >* [库存功能概述](/help/dsp/inventory/inventory-overview.md)
 >* [关于 [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
->* [关于 [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
+>* [在交易ID收件箱中接受交易](deal-id-inbox-accept.md)
+>* [手动创建交易ID详细信息](deal-id-create.md)
 

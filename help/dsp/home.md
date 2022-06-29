@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 6d9c4db1b16a68217c6bc110cf3e0b9a93c2caa6
+source-git-commit: e29853b728cd3efbb374179ca6af8d095b77df43
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1611'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 有关详细信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2022年6月29日 | 库存 | 新 [!UICONTROL Inventory] > [!UICONTROL Deals] 视图包含与 [!UICONTROL Campaigns] 视图（包括过滤视图）、用于使用标准视图和自定义视图的选项、列排序以及表视图和图表视图。 通过单击 [!UICONTROL ...] 交易名称之后。 | — |
+| 2022年6月29日 | 库存 | 新 [!UICONTROL Inventory] > [!UICONTROL Deals] 视图包含与 [!UICONTROL Campaigns] 视图，包括其他过滤器、列自定义以及用于保存自定义视图、列排序和图表视图的选项。 通过单击 [!UICONTROL ...] 交易名称之后。 | 请参阅“[库存功能概述](/help/dsp/inventory/inventory-overview.md).&quot; |
 | 2022年5月31日 | 受众源 | （测试版功能）Advertising Cloud DSP现在可以摄取由在客户数据平台(CDP)中构建的经过验证的信号组成的第一方区段。 | 请参阅“[关于从受众源激活经过身份验证的区段](/help/dsp/audiences/sources/source-about.md).&quot; |
 | 2022年5月25日 | 优化目标 | 现在，视频和本机版面可以包含在具有自定义目标“最高ROAS”和“最低CPA”的包中。 | 请参阅“[优化目标及其使用方法](/help/dsp/optimization/optimization-goals.md).&quot; |
 | 2022年4月12日 | Campaign Management | 广告规范已更新，以反映当前支持。 | 请参阅“[支持的广告类型的规范](/help/dsp/campaign-management/ads/ad-specs.md).&quot; |

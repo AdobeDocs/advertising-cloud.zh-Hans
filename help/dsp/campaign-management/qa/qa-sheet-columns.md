@@ -3,9 +3,9 @@ title: 已下载/已上载电子表格中的列
 description: 引用下载和上传的Excel QA电子表格中的列。
 feature: DSP Placements
 exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: 0c3984d755131ad98b7ddecfd9567ff4be54b64e
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 | [!UICONTROL Sites] | [!UICONTROL Categories - Excluded #] | 排除的网站类别（如果已指定）的数量，或 *[!UICONTROL All]*. | — |
 | [!UICONTROL Sites] | [!UICONTROL Excluded Sites] | 排除的站点（如果已指定），或 *[!UICONTROL None]*. | — |
 | [!UICONTROL Sites] | [!UICONTROL Language] | 目标站点语言。 | — |
-| [!UICONTROL Sites] | [!UICONTROL Allow unscreened sites] | 是否允许在非审核网站上投放广告： *[!UICONTROL ON]* 或 *[!UICONTROL OFF]*. | — |
+| [!UICONTROL Sites] | [!UICONTROL Allow unscreened sites] | （仅限标准显示版面）是否允许在未审核的网站上投放广告： *[!UICONTROL ON]* 或 *[!UICONTROL OFF]*. 当投放目标为私有内容库时，此选项可能会在被阻止的网站上投放广告。 | — |
 | [!UICONTROL Sites] | [!UICONTROL Targeted Sites] | 目标站点的数量（如果已指定），或 *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Audience - Included] | 目标受众（如果已指定），或 *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Audience - Excluded] | 排除的受众（如果已指定），或 *[!UICONTROL None]*. | — |

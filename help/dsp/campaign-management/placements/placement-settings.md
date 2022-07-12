@@ -3,9 +3,9 @@ title: 版面设置
 description: 请参阅可用版面设置的描述。
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: 8b1ae7385d7747f7073448aae5ad0a617f323562
+source-git-commit: ef8e13dc5f94ead81191862dbb37c17ae762682d
 workflow-type: tm+mt
-source-wordcount: '3277'
+source-wordcount: '3301'
 ht-degree: 0%
 
 ---
@@ -253,7 +253,7 @@ ht-degree: 0%
 
 您可以选择将目标网站和阻止网站的列表导出为逗号分隔值(CSV)文件。 要导出列表，请单击 **[!UICONTROL Export full site list]**，然后根据浏览器的常规过程打开或保存文件。
 
-<!-- **[!UICONTROL Allow unscreened sites]:** (XXX placements only) Allows you to XXXX.   Optional available for https://advertising.adobe.com/configurator/placement/edit/2432022 -->
+**[!UICONTROL Allow unscreened sites]:** （仅限标准显示版面）在非审核网站上启用广告投放。 当投放目标为私有内容库时，此选项可能会在被阻止的网站上投放广告。
 
 **[!UICONTROL Paste list of targeted sites]:** 允许您仅定位特定站点。 启用此选项后，其他网站定位选项将被禁用。
 

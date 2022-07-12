@@ -3,9 +3,9 @@ title: 品牌安全与媒体质量
 description: 进一步了解品牌安全和媒体质量功能。
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: b436936e3a0edcb78497fadb6f3c4086412baaa5
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,10 @@ Advertising Cloud DSP维护一个在全球被阻止的网站列表，其中列�
 作为“品牌安全”计划的一部分，我们会使用阻止的网站列表中的措施来筛选所有网站，以根除欺骗广告商的活动。 未通过品牌安全检查的所有网站都会添加到全局阻止的网站列表中。 由于Advertising Cloud DSP会动态管理此列表，因此网站可能会根据最新的品牌安全分析随时在列表上移动或移出。
 
 当您在全局阻止的网站列表中将某个网站添加为版面目标时，该网站会带有红色的感叹号(!)。 这表示广告不会在标记网站上运行。
+
+>[!NOTE]
+>
+>您可以选择绕过全局阻止的站点列表，为附加到受信任的私有交易的标准显示广告提供支持，方法是启用“[!UICONTROL Allow unscreened sites]“ ”选项 [版面设置](/help/dsp/campaign-management/placements/placement-settings.md). 如有必要， [!DNL Adobe] 客户团队还可以选择在交易的发布者设置中，禁用公开（拍卖级别）交易的网站阻止。
 
 #### 帐户级别和广告商级别的阻止网站列表
 

@@ -3,9 +3,9 @@ title: 经认证的广告服务合作伙伴
 description: 查看所有经认证的广告服务器和广告单元。
 feature: DSP Ads
 exl-id: 084b4c04-a876-4770-9efc-57268c333aa6
-source-git-commit: 87c1325e05d1640666eb6d124af9a6c5ed7e8457
+source-git-commit: d3b2941af8d27447301fd6a4080ebab6352d503d
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 0%
 | [!DNL ADventori] |  | X |  |  |  |
 | [!DNL Artsai] |  | X |  | X |  |
 | [!DNL Atlas] |  |  |  | X |  |
+| [!DNL Big Ads] |  |  | X |  | 立方（桌面）、立方（移动）、卡（桌面）、大展示（桌面）。 在DSP中将所有这些广告类型设置为300x250。 仅通过 [!DNL Magnite DV+]. |
 | [!DNL Bonzai] |  |  | X |  |  |
 | [!DNL Contobox] |  |  | X |  |  |
 | [!DNL Conversant] |  | X |  |  |  |

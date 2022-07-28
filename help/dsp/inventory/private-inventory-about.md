@@ -3,9 +3,9 @@ title: 关于专用清单
 description: 关于专用清单
 feature: DSP Private Inventory
 exl-id: 6b3923ca-ccd1-450e-bff0-139e3838c999
-source-git-commit: 0fb8417ed6ed261077affd4db071e207731058f9
+source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## “交易”视图
 
-在 [!UICONTROL Inventory] > [!UICONTROL Deals] 视图，您可以创建私有交易设置。 您还可以编辑一些交易设置；列出投放和广告，并在交易中附加额外的投放和广告；编辑能够访问交易的广告商和账户；查看私人交易报告；或存档或取消存档交易。<!-- ; or edit the attribute tags for a deal -->
+在 [!UICONTROL Inventory] > [!UICONTROL Deals] 视图，您可以创建私有交易设置。 您还可以编辑一些交易设置；列出版面和广告，并在私人交易中附加额外版面和广告；编辑能够获取私人交易的广告商和账户；查看交易绩效报告；查看私人交易的拍卖分析，或存档或取消存档交易。<!-- ; or edit the attribute tags for a deal -->
 
 您可以通过应用过滤器、自定义可见列和（可选）保存自定义视图、对列进行排序以及将数据视为图表，进一步自定义现有交易数据的显示方式。
 

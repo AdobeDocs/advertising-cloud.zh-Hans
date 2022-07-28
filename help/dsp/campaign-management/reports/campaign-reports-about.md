@@ -3,9 +3,9 @@ title: 关于平台内报表
 description: 了解营销活动管理视图中包含的报表数据。
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 7d081583ff10675b515aafdd97ccb3053f19c32d
+source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Inventory]:** 有关投放所定向的所有交易的信息。
 
-   的 [!UICONTROL Inventory] 选项卡包含搜索和过滤功能、主页上提供的相同标准和自定义列视图选项以及每行中的快速操作按钮，如 [!UICONTROL Edit] 和 [!UICONTROL View Report]. 的 [!UICONTROL Inventory] 选项卡，可通过显示性能统计信息(如 [!UICONTROL Auctions], [!UICONTROL Bids]和 [!UICONTROL Win Rate].
+   的 [!UICONTROL Inventory] 选项卡，可通过显示性能统计信息(如 [!UICONTROL Auctions], [!UICONTROL Bids]和 [!UICONTROL Win Rate]. 选项卡包含搜索和过滤功能、主页上提供的相同标准和自定义列视图选项以及每行中的快速操作按钮，包括 [!UICONTROL Edit], [!UICONTROL View Report]和 [[!UICONTROL Auction Insights] 以进一步排除故障](/help/dsp/inventory/private-deal-auction-insights.md).
 
 #### 清单疑难解答
 

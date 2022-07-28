@@ -1,22 +1,18 @@
 ---
-title: 拍卖分析
-description: 了解如何将拍卖分析页面用于私人交易。
+title: 查看私人交易的拍卖分析
+description: 了解如何使用拍卖分析分析私人交易的交易构成。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: null
-source-git-commit: bea7de3fd5e6c5048b83e0eec2a88c0c9b422fc2
+source-git-commit: c2fe96c28004dee03ab94b4e5ed43bfbf3ee6e83
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
 
-# 私人交易的拍卖分析
+# 查看私人交易的拍卖分析
 
-拍卖分析是专用清单的故障诊断工具，它允许用户分析有保证和无保证的专用交易的交易构成。
-它通过为来自发布者的竞价请求数据提供透明度来避免耗时的故障诊断步骤。
-使用数据可视化，此工具有助于观察特定时间段内上述拍卖属性（如下所述）收到的值的趋势和相对比例。
-
-要访问私人交易的拍卖分析页面，请执行以下步骤：
+拍卖分析是一种疑难解答工具，它允许您分析有担保和无担保私人交易的交易构成。 使用数据可视化图表，此工具可显示 [关键拍卖属性](#auction-attributes) 在特定时间段内。
 
 1. 在主菜单中，单击 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
 
@@ -24,29 +20,31 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->拍卖分析页面也可通过版面检查器工具获取。 要访问，用户可以单击版面检查器的“清单”选项卡，然后单击 **[!UICONTROL ...]>[!UICONTROL Auction Insights]** 在交易行中
+>拍卖分析也可通过投放 [!UICONTROL Inspector] 工具。 打开它们， [打开版面 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) 到 [!UICONTROL Inventory tab]，然后单击 **[!UICONTROL ...]>[!UICONTROL Auction Insights]** 在交易行中。
 
-在“拍卖分析”页面中，用户可以查看以下拍卖属性的面积图数据可视化图表：
+## 拍卖属性 {#auction-attributes}
 
-* **广告类型：**	拍卖中请求的广告类型。 例如，显示、音频等。
+面积图可用于以下拍卖属性：
 
-* **浏览器：**	拍卖源自的浏览器。 例如，Chrome、Firefox等
+* **广告类型：** 在拍卖中请求的广告类型（如显示或音频）。
 
-* **操作系统：**	拍卖始发地的操作系统(OS)。 例如Android、iOS等
+* **浏览器：** 拍卖源自的浏览器（如Chrome或Firefox）。
 
-* **设备：** 类型拍卖源自的设备。 例如，移动电话、桌面等
+* **操作系统：** 拍卖源自的操作系统(OS)(如Android或iOS)。
 
-* **广告持续时间：**	拍卖中请求的最长广告时长。 例如15秒、30秒等。
+* **设备类型：** 拍卖源自的设备（如手机或桌面）。
 
-* **安全：**	指示拍卖是否需要安全的HTTPS URL创作资产。 例如，安全、非安全
+* **广告持续时间：** 拍卖中请求的最长广告时长（如15秒或30秒）。
 
-* **Mime类型：**	拍卖中请求的广告创作mime类型。 例如mp4、mov等。
+* **安全：** 指示拍卖是否需要安全的HTTPS URL创作资产。 值： <i>安全</i> 或 <i>非安全</i>.
 
-!![auction insights](/help/dsp/assets/Auction Insights.png)
+* **Mime类型：** 在拍卖中请求的广告创作MIME类型（如mp4或mov）。
+
+![拍卖洞察](/help/dsp/assets/auction-insights.png)
 
 >[!NOTE]
 >
->用户还可以在拍卖分析页面上应用过滤器，以通过隔离特定属性值来缩小分析范围。
+>您可以对特定属性值应用过滤器，以缩小结果范围。
 
 >[!MORELIKETHIS]
 >

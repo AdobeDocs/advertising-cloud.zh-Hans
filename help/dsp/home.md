@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 99c808d63e1d17d91832fdd38a2bce3fdf90aa44
+source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 有关详细信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2022年7月27日 | 库存 | 拍卖分析是一种新的故障诊断工具，它允许您分析有保证和无保证的私人交易的交易构成。 使用数据可视化图表，此工具显示在特定时间段内关键拍卖属性收到的值的趋势和相对比例。<br><br>借助发布者对竞价请求数据的透明度，您可以避免耗时的疑难解答步骤。 | 请参阅“[查看私人交易的拍卖分析](/help/dsp/inventory/private-deal-auction-insights.md).&quot; |
 | 2022年6月29日 | 库存 | 新 [!UICONTROL Inventory] > [!UICONTROL Deals] 视图包含与 [!UICONTROL Campaigns] 视图，包括其他过滤器、列自定义以及用于保存自定义视图、列排序和数据可视化（图表）视图的选项。 通过单击 [!UICONTROL ...] 交易名称之后。 | 请参阅“[库存功能概述](/help/dsp/inventory/inventory-overview.md).&quot; |
 |  | 库存 [!UICONTROL Inspector] | 的 [!UICONTROL Inventory] 选项卡 [!UICONTROL Inspector] 现在包括可自定义的数据可视化图表和扩展的性能量度，例如 [!UICONTROL Viewability Rate], [!UICONTROL Clicks]和 [!UICONTROL Yesterday's CPM]. | 请参阅“[查看版面的网站、广告、频度和库存详细信息](/help/dsp/campaign-management/reports/placement-details-view.md).&quot; |
 | 2022年5月31日 | 受众源 | （测试版功能）Advertising Cloud DSP现在可以摄取由在客户数据平台(CDP)中构建的经过验证的信号组成的第一方区段。 | 请参阅“[关于从受众源激活经过身份验证的区段](/help/dsp/audiences/sources/source-about.md).&quot; |

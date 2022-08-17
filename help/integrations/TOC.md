@@ -3,10 +3,10 @@ user-guide-title: 与 Adobe Experience Cloud 的集成
 user-guide-description: 了解 Advertising Cloud DSP 和 Advertising Cloud Search 与其他 Adobe Experience Cloud 产品和服务的集成。
 breadcrumb-title: 与 Experience Cloud 的集成
 index: true
-source-git-commit: 5884da8177dac1313f69ba67a46713b4fd047640
+source-git-commit: c047238f0d92b5218df6245c004607ac1e48e345
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 20%
+source-wordcount: '189'
+ht-degree: 14%
 
 ---
 
@@ -35,4 +35,12 @@ ht-degree: 20%
       + [使用Advertising Cloud ID创建 [!DNL Marketing Channels] 处理规则](/help/integrations/analytics/marketing-channels/mc-ids.md)
       + [使用 [!DNL Marketing Channels] 使用Advertising Cloud数据](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
       + [为何渠道数据在Advertising Cloud和 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
++ [与Adobe Audience Manager集成] {#audience-manager}
+   + [Advertising Cloud与Adobe Audience Manager集成](/help/integrations/audience-manager/overview.md)
+   + [将Audience Manager区段导入Advertising Cloud](/help/integrations/audience-manager/import-audiences.md)
+   + DSP媒体数据与Adobe Audience Manager集成 {#media-data-ingestion}
+      + [将DSP媒体曝光数据发送到Adobe Audience Manager概述](/help/integrations/audience-manager/media-data-integration/overview.md)
+      + [从DSP Campaigns中收集展示和点击数据](/help/integrations/audience-manager/media-data-integration/collect.md)
+      + [用例](/help/integrations/audience-manager/media-data-integration/use-cases.md)
+   + [面向Advertising Cloud客户的AdobeAudience Analytics](/help/integrations/audience-manager/audience-analytics.md)
 + [视频Tutorials关于Advertising Cloud集成](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->

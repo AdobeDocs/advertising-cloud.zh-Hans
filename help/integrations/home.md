@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 0808d101-3c6b-4671-b9e3-6f588427f8b5
-source-git-commit: b73abe16578069a0037cfb0a8520485a5d27790f
+source-git-commit: 5180665a7342d7222aa350298298d5bcc9b2e449
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 有关详细信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2022年8月17日 | 帮助 | 新章介绍了Advertising Cloud与Adobe Audience Manager集成的所有方式。 | 请参阅有关“与Adobe Audience Manager集成”的章节，包括“[Advertising Cloud与Adobe Audience Manager集成](/help/integrations/audience-manager/overview.md).&quot; |
 | 2021年4月27日 | [!DNL Analytics for Advertising Cloud] | 了解添加原因和方法 [!DNL Analytics for Advertising Cloud] 宏 [!DNL Google Campaign Manager 360] 用于将点击数据发送到Adobe Analytics的广告标记。 | 请参阅“[附加 [!DNL Analytics for Advertising Cloud] 宏 [!DNL Google Campaign Manager 360] 广告标记](/help/integrations/analytics/macros-google-campaign-manager.md).&quot; |
 | 2021年4月19日 | [!DNL Analytics for Advertising Cloud] | 了解为何以及如何将宏附加到 [!DNL Flashtalking] 用于将点击数据发送到Adobe Analytics的广告标记。 | 请参阅“[附加 [!DNL Analytics for Advertising Cloud] 宏 [!DNL Flashtalking] 广告标记](/help/integrations/analytics/macros-flashtalking.md).&quot; |
 | 2021年10月27日 | [!DNL Analytics for Advertising Cloud] | 如果贵组织希望从使用旧版Adobe Analytics `visitorAPI.js` 库 [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 库(`alloy.js`)，则需要进行一些更改才能启用ID拼合。 | 请参阅“[使用 [!DNL Last Event Service] 包含Adobe Experience Platform的JavaScript库 [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md).&quot; |

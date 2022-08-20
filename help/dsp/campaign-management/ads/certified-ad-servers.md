@@ -3,9 +3,9 @@ title: 经认证的广告服务合作伙伴
 description: 查看所有经认证的广告服务器和广告单元。
 feature: DSP Ads
 exl-id: 084b4c04-a876-4770-9efc-57268c333aa6
-source-git-commit: d3b2941af8d27447301fd6a4080ebab6352d503d
+source-git-commit: 2ef6a194f02748de3f8fee072a5c7eb65ecb80f8
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 | [!DNL ADventori] |  | X |  |  |  |
 | [!DNL Artsai] |  | X |  | X |  |
 | [!DNL Atlas] |  |  |  | X |  |
-| [!DNL Big Ads] |  |  | X |  | 立方（桌面）、立方（移动）、卡（桌面）、大展示（桌面）。 在DSP中将所有这些广告类型设置为300x250。 仅通过 [!DNL Magnite DV+]. |
+| [!DNL Big Ads] |  |  | X |  | 立方（桌面）、立方（移动）、卡（桌面）、大展示（桌面）、电影立方（桌面）、Cinematics（桌面）。 在DSP中将所有这些广告类型设置为300x250。 仅通过 [!DNL Magnite DV+]. |
 | [!DNL Bonzai] |  |  | X |  |  |
 | [!DNL Contobox] |  |  | X |  |  |
 | [!DNL Conversant] |  | X |  |  |  |
@@ -40,7 +40,7 @@ ht-degree: 0%
 | [!DNL IAS] | X | X |  | X |  |
 | [!DNL IBM] |  | X |  | X |  |
 | [!DNL Innovid] | X | X |  | X |  |
-| [!DNL InSkin] |  |  | X |  | 在整个Inskin库存网络中，必须从180x150显示交易ID中提供高影响皮肤。 |
+| [!DNL Inskin] |  |  | X |  | 在Inskin库存网络中，必须从180x150显示交易ID中提供高影响力皮肤（包括Cavai对话式广告）。 |
 | [!DNL Jivox] |  | X |  |  |  |
 | [!DNL Kargo] |  | X |  |  | 320x50锚点、BYOC、悬停、分组讨论和Sidekick;300x250外流；标准桌面显示（不需要特定的广告插件ID）。</br></br>联系您的 [!DNL Adobe] 帐户团队，以协助设置广告单位。 |
 | [!DNL Linkstorm] |  |  | X |  |  |

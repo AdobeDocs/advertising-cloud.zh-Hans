@@ -1,17 +1,18 @@
 ---
-title: '"[!DNL Adobe][!DNL Audience Analytics] (对于Advertising Cloud客户)”'
-description: 了解如何使用 [!DNL Adobe][!DNL Audience Analytics] 用于广告用例
+title: '''[!DNL Adobe] [!DNL Audience Analytics] (对于Advertising Cloud客户)'
+description: 了解如何使用 [!DNL Adobe] [!DNL Audience Analytics] 用于广告用例
 feature: Integration with Adobe Audience Manager
-source-git-commit: d83e36847d0e14bc7e83106c0a221680060c2e58
+exl-id: e05ba560-d3d5-4024-b1ba-956e878a2578
+source-git-commit: 4a7766e92ffaa8f32f0fe8941f6c85405bd2df3e
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe][!DNL Adobe] 对于Advertising Cloud客户
+# [!DNL Adobe] [!DNL Audience Analytics] 对于Advertising Cloud客户
 
-[[!DNL Adobe][!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) 是Adobe Audience Manager与Adobe Analytics的集成，允许Audience Manager客户将区段发送到 [!DNL Analytics] 以丰富有关网站活动的分析。
+[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) 是Adobe Audience Manager与Adobe Analytics的集成，允许Audience Manager客户将区段发送到 [!DNL Analytics] 以丰富有关网站活动的分析。
 
 Advertising Cloud客户可以通过使用 [!DNL Audience Analytics]. 该集成允许您：
 

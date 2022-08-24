@@ -3,9 +3,9 @@ title: Advertising Cloud ID使用者 [!DNL Analytics]
 description: Advertising Cloud ID使用者 [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ed1aab7b-9bd0-4d42-9bfb-9c6fa6db76bc
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 8f0765251234b09eddaee721018285aee6b44b6a
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,30 @@ EF ID是Advertising Cloud用于将活动与在线点击或广告曝光关联的�
 
 ### EF ID格式
 
+>[!NOTE]
+>
+>EF ID区分大小写。 如果 [!DNL Analytics] 实施会强制将URL跟踪设为小写，然后Advertising Cloud将无法识别EF ID。 这将影响Advertising Cloud的竞价和报告，但不会影响 [!DNL Analytics].
+
+#### [!DNL Google Ads] 搜索广告
+
+```{gclid}:G:s```
+
+其中：
+
+* `gclid` 是 [!DNL Google Click ID] (GCLID)。
+* `s` 是用于搜索的网络类型(“s”)。
+
+#### Microsoft广告搜索广告
+
+```{msclkid}:G:s```
+
+其中：
+
+* `msclkid` 是 [!DNL Microsoft Click ID] (MSCLKID)。
+* `s` 是用于搜索的网络类型(“s”)。
+
+#### 在其他搜索引擎上显示广告和搜索广告
+
 ```<Advertising Cloud visitor ID>:<timestamp>:<channel type>```
 
 <!-- <*Advertising Cloud visitor ID*>:<*timestamp*>:<*channel type*> -->
@@ -60,10 +84,6 @@ EF ID是Advertising Cloud用于将活动与在线点击或广告曝光关联的�
    * `s` 搜索广告的点击（搜索点进）。
 
 示例 `EF `ID:WcmibgAAAHJK1RyY:1551968087687:d
-
->[!NOTE]
->
->EF ID区分大小写。 如果 [!DNL Analytics] 实施会强制将URL跟踪设为小写，然后Advertising Cloud将无法识别EF ID。 这将影响Advertising Cloud的竞价和报告，但不会影响 [!DNL Analytics].
 
 ### 中的EF IDDimension [!DNL Analytics]
 

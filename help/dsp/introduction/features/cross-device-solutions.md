@@ -3,16 +3,16 @@ title: 跨设备解决方案
 description: 进一步了解跨设备功能。
 feature: DSP Introduction
 exl-id: 29f8ec41-35a6-4a29-a638-82a2929a8fe6
-source-git-commit: 2e0395dc1e5aa52adc83c1aaea49793fd5555390
+source-git-commit: d7afcc2200adc41e583d21712226cb25f35aab66
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 跨设备解决方案
 
-Advertising Cloud DSP集成 [!DNL LiveRamp] 和 [!DNL Adobe Device Co-op] 允许您将受众扩展到用户的所有已知设备，而不仅仅是品牌跟踪的设备。 这些集成还提供跨所有设备的频率上限和归因测量。
+Advertising Cloud DSP与 [!DNL LiveRamp] 允许您将受众扩展到用户的所有已知设备，而不仅是品牌跟踪的设备。 该集成还提供跨所有设备的频率上限和归因测量。
 
 使用受支持的基于人员的设备图时，您可以：
 
@@ -20,22 +20,19 @@ Advertising Cloud DSP集成 [!DNL LiveRamp] 和 [!DNL Adobe Device Co-op] 允许
 * 通过了解和限制个人的频度来平衡和暴露。
 * 测试跨渠道或设备展示受众与转化受众的策略。
 
-## 每个设备图的优势
+## 的好处 [!DNL LiveRamp] 设备图
 
-* [!DNL Adobe Device Co-op]:
-   * 提供参与Adobe广告商的确定性和可能性数据的选择加入池
-   * 提供由桌面和移动Web访客提供支持的强大Cookie ID连接
-   * 包括主要来自美国和加拿大的数据
-   * 无使用费
+* 提供确定性数据池，包括离线客户数据
 
-* [!DNL LiveRamp] 设备图：
-   * 提供确定性数据池，包括离线客户数据
-   * 在Cookie ID和移动设备ID之间提供均匀的覆盖范围
-   * 包括主要来自美国的数据
-   * 免费进行频度上限和归因测量
-   * 延长展示次数(仅通过使用 [!DNL LiveRamp] 设备图，而不是目标受众区段内的设备图)
+* 在Cookie ID和移动设备ID之间提供均匀的覆盖范围
 
-      费率会反映在您的帐户费率卡上。
+* 包括主要来自美国的数据
+
+* 免费进行频度上限和归因测量
+
+* 延长展示次数(仅通过使用 [!DNL LiveRamp] 设备图，而不是目标受众区段内的设备图)
+
+   费率会反映在您的帐户费率卡上。
 
 ## 基于人员的频率管理
 
@@ -85,15 +82,7 @@ Advertising Cloud DSP集成 [!DNL LiveRamp] 和 [!DNL Adobe Device Co-op] 允许
 
 ### 启用基于人员的归因测量
 
-如果要激活跨设备归因测量，请联系您的 [!DNL Adobe] 客户团队。 对于 [!DNL Adobe Device Co-op] 帐户，您需要提供您的已签名 [!DNL Adobe Device Co-op] 合同和您的Experience Cloud组织ID(以前称为 [!DNL IMS org ID])。
-
-要查看广告商帐户是否配置为使用设备图进行归因测量，请执行以下操作：
-
-1. 在主菜单中，单击 **[!UICONTROL Settings]>[!UICONTROL Advertiser]**.
-1. 将光标悬停在广告商行上并单击 **[!UICONTROL Edit]**.
-1. 在 [!UICONTROL Integrations] 广告商设置的部分，查看 [!UICONTROL Cross-Device Attribution] 设置处于活动状态。
-
-   对于活动集成，会显示设备图。
+如果要激活跨设备归因测量，请联系您的 [!DNL Adobe] 客户团队。
 
 ### 设置跨设备转化归因的转化报表
 

@@ -1,9 +1,9 @@
 ---
 title: 广告商帐户设置
 description: 请参阅可用广告商设置的描述。
-source-git-commit: 2e0395dc1e5aa52adc83c1aaea49793fd5555390
+source-git-commit: d7afcc2200adc41e583d21712226cb25f35aab66
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -38,25 +38,19 @@ ht-degree: 0%
 
 （可选）链接到DSP帐户的其他Experience Cloud产品。 产品必须与 [!UICONTROL Adobe IMS IDs] 中。
 
-**[!UICONTROL Adobe Media Optimizer]:** (使用Advertising Cloud Search或使用Advertising Cloud转化像素的广告商)A [!DNL Search] 将与DSP交换归因数据的帐户。
+**[!UICONTROL Attribution services]> [!UICONTROL Adobe Media Optimizer]:** (使用Advertising Cloud Search或使用Advertising Cloud转化像素的广告商)A [!DNL Search] 将与DSP交换归因数据的帐户。
 
-**[!UICONTROL Adobe Device Co-op or 3rd Party Graph]:** (使用Advertising Cloud转换像素的广告商);可选)您可以使用设备图，通过Advertising Cloud Search中广告商的帐户设置进行基于人员的归因测量。
+**[!UICONTROL Report suites]> [!UICONTROL Adobe Analytics]:** (拥有Adobe Analytics的广告商；可选；仅适用于使用Advertising Cloud转化跟踪标记收集的数据，这些标记包括 [!DNL EF Redirect] 和令牌)一个或多个 [!DNL Analytics] DSP会将从发布者和供应方合作伙伴收集的数据发送到的报表包。 Analytics还会将其从客户端网站收集的数据发送至DSP。
 
->[!NOTE]
->
-> * 设备归因仅适用于使用Advertising Cloud转化跟踪服务跟踪的转化，而不适用于Adobe Analytics跟踪的转化。
-> * 您还可以在 [营销活动级别](/help/dsp/campaign-management/campaigns/campaign-settings.md). 然后，您可以在 [投放级别](/help/dsp/campaign-management/placements/placement-settings.md) 再加上频率上限 [包级别](/help/dsp/campaign-management/packages/package-settings.md) 和 [投放级别](/help/dsp/campaign-management/placements/placement-settings.md). 跨设备定位和频率管理不需要广告商级别的归因测量；而是使用营销活动设置中指定的设备图。
-
-
-**[!UICONTROL Adobe Analytics]:** (拥有Adobe Analytics的广告商；可选；仅适用于使用Advertising Cloud转化跟踪标记收集的数据，这些标记包括 [!DNL EF Redirect] 和令牌)一个或多个 [!DNL Analytics] DSP会将从发布者和供应方合作伙伴收集的数据发送到的报表包。 Analytics还会将其从客户端网站收集的数据发送至DSP。
-
-要使数据显示在报表包中， [!DNL Search] 广告商级别设置为“[!UICONTROL Enable tracking for SAINT feeds]必须启用。 此外，广告商 [!DNL Analytics] 帐户必须配置为从Advertising Cloud接收数据。 <!-- from Advertising Cloud or DSP in particular? Add cross-reference to file in Integrations section. -->
+要使数据显示在报表包中， [!DNL Search] 广告商级别设置为“[!UICONTROL Enable tracking for SAINT feeds]必须启用。 此外，广告商 [!DNL Analytics] 帐户必须配置为从Advertising Cloud接收数据。
 
 >[!WARNING]
 >
->如果您删除之前链接的报表包，DSP将不再与该报表包交换数据。 预计会看到数据波动。 <!-- Fluctuations where? Clarify -->
+>如果您删除之前链接的报表包，DSP将不再与该报表包交换数据。 预计会看到数据波动。
 
-**[!UICONTROL Adobe Analytics Cloud]:** (拥有Adobe Audience Manager或Adobe Analytics的广告商；可选)Audience Manager或 [!DNL Analytics] DSP将从中提取所有广告商Adobe受众的区段元数据、层次结构数据和独特受众数据的帐户。 这包括以下数据：
+有关与集成的更多信息 [!DNL Analytics]，请参阅“[概述 [!DNL Analytics for Advertising Cloud]](/help/integrations/analytics/overview.md).&quot;
+
+**[!UICONTROL Audiences]> [!UICONTROL Adobe Analytics Cloud]:** (拥有Adobe Audience Manager或Adobe Analytics的广告商；可选)Audience Manager或 [!DNL Analytics] DSP将从中提取所有广告商Adobe受众的区段元数据、层次结构数据和独特受众数据的帐户。 这包括以下数据：
 
 * Audience Manager区段
 * [!DNL Analytics] 发布到Adobe Experience Cloud的区段

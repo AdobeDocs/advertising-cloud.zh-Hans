@@ -3,9 +3,9 @@ title: 自定义报表设置
 description: 请参阅自定义报表设置的描述。
 feature: DSP Custom Reports
 exl-id: 1d37fc96-0f9b-4eb2-ba8d-9534f627adaf
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 4e389d687f8974028181a03534aff1abf6b43831
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
@@ -88,18 +88,6 @@ ht-degree: 0%
 * *[!UICONTROL With Clicks (CT)]:* 仅包括归因于点击的转化。
 
 * *[!UICONTROL Impressions Only (VT)]:* 仅包括归因于展示次数的转化，因为转化路径中未跟踪任何点击。
-
-**[!UICONTROL Cross Device Level]:**  (全部 [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]和 [!UICONTROL Site] 报告 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 列；仅适用于具有跨设备归因的广告商)跟踪转化的级别： *[!UICONTROL People]* 或 *[!UICONTROL Household]*.
-
-详细了解 [跨设备解决方案](/help/dsp/introduction/features/cross-device-solutions.md).
-
-**[!UICONTROL Cross-Device Breakout]:** (全部 [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]和 [!UICONTROL Site] 报告 [!UICONTROL Conversion Metrics] 或 [!UICONTROL Custom Goals] 列；仅适用于具有跨设备归因的广告商)要包含在报表中的有关跨设备转化的详细信息级别。 如果您想要详细的分组讨论，最多可以选择三个级别，每个级别都将包含在单独的列中。
-
-* *[!UICONTROL Total People (TP)]:* 包括总转化，包括相同设备转化和跨设备转化（如果适用）。 在报表中， &quot;[!UICONTROL (tp)]“ ”会附加到转化量度名称和规则类型中。
-
-* *[!UICONTROL Same Device (SD)]:* 仅包括转化路径中仅跟踪了单个设备的转化。 在报表中， &quot;[!UICONTROL (sd)]“ ”会附加到转化量度名称和规则类型中。
-
-* *[!UICONTROL Cross Device (XD)]:* 仅包括转化路径中跟踪了多个设备的转化。 在报表中， &quot;[!UICONTROL (xd)]“ ”会附加到转化量度名称和规则类型中。
 
 **[!UICONTROL Conversion Reporting Based On]:**  如何报告转化数据：
 

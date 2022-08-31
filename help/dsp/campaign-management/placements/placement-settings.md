@@ -3,9 +3,9 @@ title: 版面设置
 description: 请参阅可用版面设置的描述。
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: ef8e13dc5f94ead81191862dbb37c17ae762682d
+source-git-commit: 04586c87f134deaa9a28f57d6f7587f023fd217a
 workflow-type: tm+mt
-source-wordcount: '3301'
+source-wordcount: '3304'
 ht-degree: 0%
 
 ---
@@ -288,7 +288,7 @@ ht-degree: 0%
 
 **[!UICONTROL Cross Device Targeting]:** (当您至少选择一个区段或受众，并且 [为基于人员的跨设备定位配置了营销活动](/help/dsp/campaign-management/campaigns/campaign-settings.md). 允许您扩展定位，涵盖人员的所有已知设备（根据促销活动设置中指定的设备图），甚至是不在指定区段中的设备。 根据为营销活动指定的图表，可能会收取费用。 设备图数据当前仅在北美地区可用。
 
-**[!UICONTROL Placement Cap]:** （可选）独特设备或人员的次数(取决于指定的 [!UICONTROL Cross Device Level])将在投放中提供广告。 选项包括 *[!UICONTROL Unlimited]* 或每天、每周或每月的特定金额。
+**[!UICONTROL Placement Cap]:** （可选）独特设备或人员的次数(取决于指定的 [!UICONTROL Cross Device Level] （对于促销活动）将在投放中投放广告。 选项包括 *[!UICONTROL Unlimited]* 或每天、每周或每月的特定金额。
 
 >[!NOTE]
 >

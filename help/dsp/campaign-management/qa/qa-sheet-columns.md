@@ -3,9 +3,9 @@ title: 已下载/已上载电子表格中的列
 description: 引用下载和上传的Excel QA电子表格中的列。
 feature: DSP Placements
 exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: 0c3984d755131ad98b7ddecfd9567ff4be54b64e
+source-git-commit: a3ddbe1aed444636e7bf45e7d52c8d5ee8ec1382
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 | [!UICONTROL Audience Targeting] | [!UICONTROL Audience - Included] | 目标受众（如果已指定），或 *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Audience - Excluded] | 排除的受众（如果已指定），或 *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Demographic booster] | 是否 [!DNL Comscore] 为版面（和营销活动中的其他版面）启用了人口统计区段： *[!UICONTROL ON]* 或 *[!UICONTROL OFF]*. 此功能只能为 [!DNL Audience Verification] 的 [!DNL Nielsen] 和/或 [!DNL Comscore].  这会产生额外的费用。 | — |
-| [!UICONTROL Audience Targeting] | [!UICONTROL Extend across screens] | 是否跨设备扩展广告定位： *[!UICONTROL ON]* 或 *[!UICONTROL OFF]*.<!-- Whether or not the Cross Device Targeting setting is enabled for the placement : *ON* or *OFF*. Cross-device targeting extends your targeting across all of a person's known device, per the device graph specified in the campaign settings.--> | — |
+| [!UICONTROL Audience Targeting] | [!UICONTROL Extend across screens] | 是否跨设备扩展广告定位： *[!UICONTROL ON]* 或 *[!UICONTROL OFF]*. 跨设备定位可根据营销活动设置中指定的设备图，将您的定位扩展到人员的所有已知设备。 | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Topic Targeting]  — 包含# | 目标主题代码（如果已指定）的数量，或 *[!UICONTROL All]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Topic Targeting - Excluded #] | 排除的主题代码（如果已指定）的数量，或 *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Device Targeting - Included #] | 目标设备目标（如果已指定）的数量，或 *[!UICONTROL All]*. | — |

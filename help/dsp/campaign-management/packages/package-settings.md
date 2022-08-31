@@ -3,9 +3,9 @@ title: 包设置
 description: 请参阅可用包设置的描述。
 feature: DSP Packages
 exl-id: b4d415d1-86a5-40bd-b645-1709b267c174
-source-git-commit: 4a699912468cd89efec0c1da9fdb6302ca93a3b4
+source-git-commit: 7fe6eb31d3330c5470077ca2766c41ae07c6c67f
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
 >
 >此字段仅作为基准，不用于决策。
 
-**[!UICONTROL Frequency Cap]:** （仅具有包级步调的包）唯一设备或人员的次数(取决于指定的 [!UICONTROL Cross Device Level])可从包中提供广告。 选项包括 *[!UICONTROL Unlimited]* 或每天、每周或每月的特定金额。
+**[!UICONTROL Frequency Cap]:** （仅具有包级步调的包）唯一设备或人员的次数(取决于指定的 [!UICONTROL Cross Device Level] （对于促销活动）可以从包中投放广告。 选项包括 *[!UICONTROL Unlimited]* 或每天、每周或每月的特定金额。
 
 >[!NOTE]
 >
@@ -111,5 +111,5 @@ ht-degree: 0%
 >* [创建资源包](package-create.md)
 >* [编辑资源包](package-edit.md)
 >* [将版面附加到包](package-attach-placement.md)
->* [关于Campaign管理的常见问题解答](/help/dsp/campaign-management/campaign-management-faq.md)
+>* [关于Campaign Management的常见问题解答](/help/dsp/campaign-management/campaign-management-faq.md)
 

@@ -3,7 +3,7 @@ title: 关于平台内报表
 description: 了解营销活动管理视图中包含的报表数据。
 feature: DSP Campaign Data Views
 exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
+source-git-commit: 093902d577cc4af3bb18bbeddc640fe284d3a179
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Frequency]:** 投放的每个广告频度级别的数据，包括：
    * 广告频度级别（如“1”，表示用户曾查看过广告的所有实例）
-   * 设备/浏览器或人员的预计独特数量(取决于指定的 [!UICONTROL Cross Device Level] （在指定频度级别接收展示次数）
+   * 设备/浏览器或人员的预计独特数量(取决于指定的 [!UICONTROL Cross Device Level] （针对在指定频率级别接收展示次数的营销活动）
    * 在指定频率级别的预计展示次数
    * 指定频率级别的估计平均频率。 此值等于（预计展示次数）/（预计独特数）。
 

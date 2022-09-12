@@ -3,9 +3,9 @@ title: 包设置
 description: 请参阅可用包设置的描述。
 feature: DSP Packages
 exl-id: b4d415d1-86a5-40bd-b645-1709b267c174
-source-git-commit: 7fe6eb31d3330c5470077ca2766c41ae07c6c67f
+source-git-commit: 6331166f563e1404c077eb848eed049b4eb0706d
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -88,16 +88,25 @@ ht-degree: 0%
 
 * *[!UICONTROL Impressions]:* 此选项提供展示次数，直到在指定的间隔内达到指定数量为止。 选择此选项时，请指定展示次数和间隔： *总是，* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* 或 *[!UICONTROL Weekly]*.
 
-**[!UICONTROL Pacing Fill Strategy]:** （仅具有包级步调的包）如何调整和交付步调：
+**[!UICONTROL Flight pacing]:** （仅具有包级别步调的包）如何在整个飞行过程中调整和交付：
 
 * *[!UICONTROL Even]:* 在每次飞行中均匀地进行投放，目标是在上半段投放量的50%。
 
 * *[!UICONTROL Slightly Ahead]:* （默认）加快交付速度，以便在飞行时长的一半内完成55-65%的交付。
 
-<!-- replaced with ASAP -->
 * *[!UICONTROL Frontload]:* 加快交付速度，使其在飞行途中完成65-75%。
 
 * *[!UICONTROL Aggressive Frontload]:* 加快交付速度，使其在飞行途中完成75-85%。
+
+**[!UICONTROL Intraday pacing]:** （仅具有包级别步调的包）如何在飞行中按每天的时间来调整和交付：
+
+* *[!UICONTROL Even]:* （默认）根据库存可用性扩展交付。 通常，白天每小时投放的广告越多，拍卖量越高，上午和晚上投放的广告就越少。
+
+* *[!UICONTROL ASAP]:* 将交付速度加快到 *均等*.
+
+   >[!CAUTION]
+   >
+   >此选项可能会对性能产生负面影响。 仅当您完全确定交付的优先级，并在性能优化上花费时间时，才使用它。
 
 ## [!UICONTROL Flighting]
 

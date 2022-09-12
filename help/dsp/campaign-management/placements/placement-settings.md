@@ -3,9 +3,9 @@ title: 版面设置
 description: 请参阅可用版面设置的描述。
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: 04586c87f134deaa9a28f57d6f7587f023fd217a
+source-git-commit: 7bbeb3013ad7cd84bf3a25f5ebf8b16a82a6f591
 workflow-type: tm+mt
-source-wordcount: '3304'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -96,13 +96,25 @@ ht-degree: 0%
 
 **[!UICONTROL Max Bid]:** 最多为1000次展示次数付费。
 
-**[!UICONTROL Pacing Fill Strategy]:** （仅具有包级步调的包）如何调整和交付步调：
+**[!UICONTROL Flight pacing]:** （仅具有投放级别步调的版面）如何调整广告投放的步调：
 
 * *[!UICONTROL Even]:* （默认）在每次飞行中均匀地进行投放，目标是在上半段投放量的50%。
+
+* *[!UICONTROL Slightly Ahead]:* （默认）加快交付速度，以便在飞行时长的一半内完成55-65%的交付。
 
 * *[!UICONTROL Frontload]:* 加快交付速度，使其在飞行途中完成65-75%。
 
 * *[!UICONTROL Aggressive Frontload]:* 加快交付速度，使其在飞行途中完成75-85%。
+
+**[!UICONTROL Intraday pacing]:** （仅具有投放级别步调的版面）如何在投放中对每天的广告投放进行步调：
+
+* *[!UICONTROL Even]:* （默认）根据库存可用性扩展交付。 通常，白天每小时投放的广告越多，拍卖量越高，上午和晚上投放的广告就越少。
+
+* *[!UICONTROL ASAP]:* （默认）将交付速度加快到 *均等*.
+
+   >[!CAUTION]
+   >
+   >此选项可能会对性能产生负面影响。 仅当您完全确定交付的优先级，并在性能优化上花费时间时，才使用它。
 
 **[!UICONTROL Placement Pre-bid Filters]:** （可选）最多必须满足5个过滤器才能进行竞价。 您可以将竞价前过滤器用作优化策略，但请记住，每个规则都可能会限制此投放可以竞价的机会。 添加或编辑过滤器：
 

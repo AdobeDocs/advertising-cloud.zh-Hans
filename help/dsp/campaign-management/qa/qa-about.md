@@ -3,9 +3,9 @@ title: 关于使用电子表格更正促销活动的版面设置
 description: 了解如何使用Excel QA电子表格查看和编辑营销活动的关键位置设置。
 feature: DSP Placements
 exl-id: 9e90488f-157d-4569-8011-da51c5b05c1d
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 051b8b6437a75177e3a4d0425e2b0091d0d22a30
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ QA电子表格功能允许您以XLSX（Excel电子表格）格式下载营销活
 * 投放开始投放，以及停止的时间。
 * 哪些广告附加到版面。
 
-然后，您可以对选择的字段进行更改，并一次将其发布回所有DSP。 可编辑的字段包括版面名称、状态、竞价、预算、步调填充策略和频率上限。
+然后，您可以对选择的字段进行更改，并一次将其发布回所有DSP。 可编辑的字段包括版面名称、状态、竞价、预算、步调策略和频率上限。
 
 >[!TIP]
 >

@@ -3,9 +3,9 @@ title: 设置效果促销活动的最佳实践
 description: 了解设置注重效果的促销活动的最佳实践，包括针对最低CPA或最高ROAS优化的版面。
 feature: DSP Optimization, DSP Best Practices
 exl-id: fc64680d-9d1c-4f74-a8b9-2e9b670c00eb
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 1fd95b3193fba50ce7cd85b2ad6256a0ba346011
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -83,9 +83,11 @@ Advertising Cloud可以以最低的每次客户获取成本(CPA)或最高的广�
    * 如果新包的目标与现有包相同，则可以选择链接现有包，以便算法可以使用现有的机器学习数据。
    * 输入相应的 [!UICONTROL Target CPA] 或 [!UICONTROL Target ROAS].
 
-* **步调填充策略：** 选择 *[!UICONTROL Even]* 通过在整个飞行日期中均匀地步调来最大限度地实现性能目标。
+* **飞行步调和当天步调：** 对于这两种步调类型，请选择 *[!UICONTROL Even]* 通过在每天和整个飞行中都以一致的步调来最大限度地实现您的性能目标。
 
-   使用 *[!UICONTROL FrontLoad]* 和 *[!UICONTROL Aggressive Front Load]* 只有在您将交付的优先级完全排在优先顺序之后，才会采取步调，而不是将精力花在性能优化上，因为这些策略可能会对您期望的性能KPI产生负面影响。
+   >[!CAUTION]
+   >
+   >使用 *[!UICONTROL FrontLoad]* 和 *[!UICONTROL Aggressive Front Load]* 飞行步调和 *[!UICONTROL ASAP]* 只有在您完全确定交付优先级并将精力花在性能优化上时，才会开始进行当天的步调调整，因为这些策略可能会对您期望的性能KPI产生负面影响。
 
 ## 步骤4 — 创建版面结构
 

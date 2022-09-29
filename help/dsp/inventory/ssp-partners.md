@@ -3,9 +3,9 @@ title: SSP合作伙伴
 description: 请参阅可用供应方平台(SSP)和开放式交换合作伙伴的列表。
 feature: DSP Private Inventory
 exl-id: 8487f4ce-0232-4145-ad8b-b0631fd0ab7f
-source-git-commit: c34487bef4504f5187bfe28e87f6114ec01ff489
+source-git-commit: 7674ed62cf0e3f44dabbf153bbb3fadd38495b2e
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 | [!DNL SmartClip] |  | Adobe Advertising Cloud | 否 | 欧洲、中东和非洲 | 所有货币 | x | x | x | x | x |  |  |
 | [!DNL SmartStream] |  | Adobe Advertising Cloud | 否 | 欧洲、中东和非洲 | 欧元、美元 | x | x |  |  |  |  |  |
 | [!DNL Sortable] |  | Adobe Advertising Cloud | 否 | CA | 美元 |  |  |  | x | x |  |  |
-| [!DNL Soundcast Audio] |  |  |  |  |  |  |  |  |  |  |  |  |
+| [!DNL Soundcast] |  | Adobe Advertising Cloud | 是 | 全球 | 欧元、美元 |  |  |  |  |  |  | x |
 | [!DNL SpotX] | [!DNL Magnite] (以前 [!DNL Telaria] 和 [!DNL Tremor]) | [!DNL TubeMogul] 或Adobe Advertising Cloud | 是 | 全球 | 美元 | x | x | x |  |  |  |  |
 | [!DNL Stroer] |  | Adobe Advertising Cloud | 否 | 欧洲、中东和非洲 | 美元 | x | x |  | x | x |  |  |
 | [!DNL Taboola] |  | Adobe Advertising Cloud | 否 | 美国/加利福尼亚州 | 美元 | x | x |  |  |  |  |  |

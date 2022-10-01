@@ -3,25 +3,26 @@ title: 受众区段逻辑的语法
 description: 引用可用于定义受众区段逻辑的语法。
 feature: DSP Audiences
 exl-id: 3a51b1b5-1eef-453b-9be5-0694e27491a8
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: efd04189de975f8f075dec7851a3a06d2d647ded
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
 # 受众区段逻辑的语法
 
-在创建可重用受众时，您可以使用字母数字区段ID和以下语法手动定义区段逻辑：
+在创建可重用受众时，您可以使用字母数字区段ID（键）和以下语法手动定义区段逻辑：
 
 * ()指示一组
-* `||` 表示  [!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
-* [!DNL AND]&amp;
-* ! （对于[!DNL NOT]）（排除）
+* `||` 表示 [!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
+* &amp; [!DNL AND]
+* ! 表示 [!DNL NOT] （排除）
 
 >[!NOTE]
 >
 >* 除非前面有！，否则将包含所有指定的区段组 （不包括这些规则）。
+>* 您可以 [查找受众的区段ID](reusable-audience-clipboard.md) 从 [!UICONTROL Audiences] > [!UICONTROL All audiences].
 
 
 例如，以下逻辑：
@@ -42,6 +43,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
+>* [将可重复使用受众的区段键复制到剪贴板](reusable-audience-clipboard.md)
 >* [关于受众管理](audience-about.md)
 >* [创建可重用受众](reusable-audience-create.md)
 >* [受众设置](audience-settings.md)

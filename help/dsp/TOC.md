@@ -8,9 +8,9 @@ user-guide-title: Advertising Cloud DSP 指南
 user-guide-description: 了解使用 Advertising Cloud DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
+source-git-commit: ea9c5ba9263be2c1607d682ac035caae70621020
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '936'
 ht-degree: 6%
 
 ---
@@ -135,8 +135,19 @@ ht-degree: 6%
          + [关于 [!UICONTROL CCPA Opt-out-of-Sale] 区段](/help/dsp/audiences/ccpa-opt-out-about.md)
          + [创建和实施 [!UICONTROL CCPA Opt-out-of-Sale] 区段](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
          + [检索 [!UICONTROL Consumer Opt-Out-of-Sale] 报表](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
+      + [编辑区段信息](/help/dsp/audiences/segment-edit.md)
+      + [共享或停止共享区段](/help/dsp/audiences/segment-share.md)
+      + [查看区段的跟踪像素](/help/dsp/audiences/segment-view-pixels.md)
+      + [删除区段](/help/dsp/audiences/segment-delete.md)
    + 管理受众 {#reusable-audiences}
       + [创建可重用受众](/help/dsp/audiences/reusable-audience-create.md)
+      + [复制可重用受众](/help/dsp/audiences/reusable-audience-duplicate.md)
+      + [编辑可重用受众](/help/dsp/audiences/reusable-audience-edit.md)
+      + [查看有关可重用受众的详细信息](/help/dsp/audiences/reusable-audience-view-details.md)
+      + [共享可重用受众](/help/dsp/audiences/reusable-audience-share.md)
+      + [导出可重复使用的受众](/help/dsp/audiences/reusable-audience-export.md)
+      + [将可重复使用受众的区段键复制到剪贴板](/help/dsp/audiences/reusable-audience-clipboard.md)
+      + [删除可重用受众](/help/dsp/audiences/reusable-audience-delete.md)
       + [受众设置](/help/dsp/audiences/audience-settings.md)
       + [受众区段逻辑的语法](/help/dsp/audiences/audience-segment-logic-syntax.md)
    + 管理源 {#sources}

@@ -3,9 +3,9 @@ title: 创建和实施自定义区段
 description: 了解如何创建和实施自定义区段，以跟踪展示给广告的用户或访问您网页的用户。
 feature: DSP Segments
 exl-id: 691903e2-773e-4205-837e-822f435f57a7
-source-git-commit: bc8e476e1218681140a1748998c19f1f6c5c0866
+source-git-commit: ea9c5ba9263be2c1607d682ac035caae70621020
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 0%
 
    1. 输入唯一 **[!UICONTROL Segment Name]**.
 
-   1. 对于 [!UICONTROL Segment Type]，选择 **[!UICONTROL Custom]**.
+   1. 对于 **[!UICONTROL Segment Type]**，选择 *[!UICONTROL Custom]*.
 
-   1. 输入区段窗口，即用户的Cookie在区段中停留的天数。
+   1. 输入 **[!UICONTROL Segment Window]**，用户的cookie在区段中停留的天数。
 
       默认窗口为45天。 输入一(1)到365之间的值。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    1. 返回 **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
 
-   2. 将光标悬停在区段行上并单击 **[!UICONTROL Get pixel]**.
+   2. 将光标悬停在区段行上并单击 **[!UICONTROL Get Pixel]**.
 
       * 要跟踪网页的桌面和移动设备访客，请执行以下操作：
 
@@ -51,8 +51,8 @@ ht-degree: 0%
 
          1. 复制标记为“[!UICONTROL Desktop or mobile ads].&quot;
 
-         1. 将标记添加到 [!UICONTROL Pixel] 选项卡 [!UICONTROL Event Pixels] 部分 [[!UICONTROL Tracking] 每个相关版面的设置](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
+1. 将标记添加到 [!UICONTROL Pixel] 选项卡 [!UICONTROL Event Pixels] 部分 [[!UICONTROL Tracking] 每个相关版面的设置](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 实施跟踪标记后，您可以在受众目标或排除项中将该区段用于任何版面。
 
@@ -63,10 +63,12 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [关于受众管理](audience-about.md)
+>* [编辑区段信息](segment-edit.md)
+>* [删除区段](segment-delete.md)
+>* [查看区段的跟踪像素](segment-view-pixels.md)
+>* [共享或停止共享区段](segment-share.md)
 >* [创建和实施 [!UICONTROL CCPA Opt-Out-of-Sale] 区段](ccpa-opt-out-segment-create.md)
 >* [创建可重用受众](reusable-audience-create.md)
->* [受众设置](audience-settings.md)
 >* [可用的第三方数据提供商](third-party-data-providers.md)
 >* [版面设置](/help/dsp/campaign-management/placements/placement-settings.md)
 
-<!-- I'll add x-ref to ad settings later.-->

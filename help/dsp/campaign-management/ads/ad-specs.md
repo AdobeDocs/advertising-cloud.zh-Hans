@@ -3,9 +3,9 @@ title: 广告规范
 description: 参考常规和特定于发布者的广告规范。
 feature: DSP Ads
 exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
-source-git-commit: 3c5a114339c2bf41637027c8580316626656fbba
+source-git-commit: 6f3522d41cf74dfd41d0b4d1adb08b2bd47d8e82
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 #### 连接的电视广告的其他发布者要求
 
-* **斛律：** 参见斛律 [广告规范](https://advertising.hulu.com/ad-products/video-commercial/).
+* **迪士尼(包括 葫芦网):** 观看迪士尼 [广告规范](https://hulu.disneyadsales.com/ad-products/video-commercial/).
 
 * **派拉蒙：** 参见派拉蒙的 [广告规范](https://www.paramount.com/digital-ads).
 
@@ -71,33 +71,6 @@ ht-degree: 0%
    * [实时流](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
 
    * [孔雀](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
-
-* **迪士尼：**
-
-   * ESPN直播：
-
-      **比特率：** > 14000kbps
-      **格式：** .mp4
-      **标记类型：** VAST 2.0
-      **创意大小：** 1280x720或1920x1080
-
-   * 整集节目(FEP):ESPN、ABC、自由格式、Nat Geo和FX
-
-      * **比特率：** > 14000 kbps:
-
-         **格式：** .mp4
-
-         **标记类型：** VAST 2.0
-
-         **创意大小：** 1280x720或1920x1080
-
-      * **比特率：** > 1000 kbps（低分辨率）或15000 kbps（高分辨率）：
-
-         **格式：** .mp4
-
-         **标记类型：** VAST 2.0（仅桌面上的VPAID 1.0）
-
-         **创意大小：** 1280x720或1920x1080
 
 ## 显示广告
 

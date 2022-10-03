@@ -3,7 +3,7 @@ title: 广告规范
 description: 参考常规和特定于发布者的广告规范。
 feature: DSP Ads
 exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
-source-git-commit: 6f3522d41cf74dfd41d0b4d1adb08b2bd47d8e82
+source-git-commit: 40228a7de376cd4884d4cf7141c75516bc1a97ec
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 0%
@@ -54,15 +54,13 @@ ht-degree: 0%
 
 #### 连接的电视广告的其他发布者要求
 
-* **迪士尼(包括 葫芦网):** 观看迪士尼 [广告规范](https://hulu.disneyadsales.com/ad-products/video-commercial/).
-
-* **派拉蒙：** 参见派拉蒙的 [广告规范](https://www.paramount.com/digital-ads).
+* **A+E网络：** 请参阅A+E网络的 [广告规范](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
 
 * **发现：** 请参阅Discovery的 [广告规范](/help/dsp/assets/discovery-networks-ad-specs.pdf).
 
-* **HBO Max:** 观看HBO Max的 [广告规范](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx).
+* **迪士尼(包括 葫芦网):** 观看迪士尼 [广告规范](https://hulu.disneyadsales.com/ad-products/video-commercial/).
 
-* **A+E网络：** 请参阅A+E网络的 [广告规范](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
+* **HBO Max:** 观看HBO Max的 [广告规范](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx).
 
 * **NBC通用：**
 
@@ -71,6 +69,8 @@ ht-degree: 0%
    * [实时流](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
 
    * [孔雀](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
+
+* **派拉蒙：** 参见派拉蒙的 [广告规范](https://www.paramount.com/digital-ads).
 
 ## 显示广告
 

@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: a3f676bd085571392a4add32f69fe0da4d4ae912
+source-git-commit: 3c951d738d5ef571b8f762df1f89ebd0360cd0f6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 有关详细信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2022年10月6日 | 促销活动 | “促销活动”视图提供了与步调相关的新量度列：“昨天的OTS”（目标支出）、“昨天的投放”、“昨天的目标”、“今天的OTS”（目标支出）、“今天的投放”和“今天的目标”。 | 请参阅“[创建自定义列视图](/help/dsp/campaign-management/reports/column-view-create.md)&quot;和&quot;[编辑自定义列视图](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
 | 2022年9月12日 | 包和投放步调 | 现在，可以单独使用步调控制来进行飞行步调和一天内的步调。 以前，单一策略可同时控制这两种策略。 现有包和版面的设置映射如下：<ul><li>旧版 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Even]*  — 现在配置为 **[!UICONTROL Flight pacing]**=*[!UICONTROL Even]* 和 **[!UICONTROL Intraday pacing]**=*[!UICONTROL Even]*</li><li>旧版 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Slightly Ahead]*  — 现在配置为 **[!UICONTROL Flight pacing]**=*[!UICONTROL Slightly Ahead]* 和 **[!UICONTROL Intraday pacing]**=*[!UICONTROL Even]*</li><li>旧版 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Frontload]*  — 现在配置为 **[!UICONTROL Flight pacing]**=*[!UICONTROL Frontload]* 和 **[!UICONTROL Intraday pacing]**=*[!UICONTROL ASAP]*</li><li>旧版 **[!UICONTROL Pacing fill strategy]**=*[!UICONTROL Aggressive Frontload]*  — 现在配置为 **[!UICONTROL Flight pacing]**=*[!UICONTROL Aggressive Frontload]* 和 **[!UICONTROL Intraday pacing]**=*[!UICONTROL ASAP]*</li></ul> | 请参阅“[包设置](/help/dsp/campaign-management/packages/package-settings.md)&quot;和&quot;[版面设置](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2022年7月27日 | 库存 | 拍卖分析是一种新的故障诊断工具，它允许您分析有保证和无保证的私人交易的交易构成。 使用数据可视化图表，此工具显示在特定时间段内关键拍卖属性收到的值的趋势和相对比例。<br><br>借助发布者对竞价请求数据的透明度，您可以避免耗时的疑难解答步骤。 | 请参阅“[查看私人交易的拍卖分析](/help/dsp/inventory/private-deal-auction-insights.md).&quot; |
 | 2022年6月29日 | 库存 | 新 [!UICONTROL Inventory] > [!UICONTROL Deals] 视图包含与 [!UICONTROL Campaigns] 视图，包括其他过滤器、列自定义以及用于保存自定义视图、列排序和数据可视化（图表）视图的选项。 通过单击 [!UICONTROL ...] 交易名称之后。 | 请参阅“[库存功能概述](/help/dsp/inventory/inventory-overview.md).&quot; |

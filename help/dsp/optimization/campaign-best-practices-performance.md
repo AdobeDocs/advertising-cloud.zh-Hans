@@ -3,9 +3,9 @@ title: 设置效果促销活动的最佳实践
 description: 了解设置注重效果的促销活动的最佳实践，包括针对最低CPA或最高ROAS优化的版面。
 feature: DSP Optimization, DSP Best Practices
 exl-id: fc64680d-9d1c-4f74-a8b9-2e9b670c00eb
-source-git-commit: 1fd95b3193fba50ce7cd85b2ad6256a0ba346011
+source-git-commit: 22821c0fe8c2864ab36d7aa1141a7527cc08a35b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -123,6 +123,8 @@ Advertising Cloud可以以最低的每次客户获取成本(CPA)或最高的广�
 * **[!UICONTROL Site Tier]**: [!UICONTROL All sites]
 
 ### 受众定位
+
+<!-- Say something about limiting unnecessary constraints/limitations, including dayparting, which limit your chances for ad exposure. Use only when it's required for your audience. -->
 
 * **[!UICONTROL Included Audiences]:**
    * 对于潜在客户投放，将相似受众类别和相似受众规模分组到一个位置。 然后，根据性能，执行以下操作之一：

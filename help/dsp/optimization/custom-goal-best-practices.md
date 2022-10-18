@@ -3,7 +3,7 @@ title: 构建自定义目标的最佳实践
 description: 了解构建自定义目标以定义成功事件的最佳实践。
 feature: DSP Optimization, DSP Best Practices
 exl-id: 54b16325-4b72-48a3-a2e0-4e342229211c
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 7cb39998041d151ece7809adc8a2e872b922e5fc
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%
@@ -16,19 +16,19 @@ ht-degree: 0%
 
 以下示例显示如何配置定向单个属性（量度）的目标。
 
-### 具有“[!UICONTROL Highest ROAS - Custom Goal]”优化目标的营销活动示例
+### 具有“[!UICONTROL Highest ROAS - Custom Goal]“优化目标
 
-如果您的营销活动目标是收入([!UICONTROL Highest ROAS - Custom Goal])，则您的自定义目标（目标）将包含权重为一(1)的“[!UICONTROL Revenue]”属性。
+如果您的营销活动目标是收入([!UICONTROL Highest ROAS - Custom Goal])，则您的自定义目标（目标）将包括“[!UICONTROL Revenue]“属性，权重为一(1)。
 
 ![单个资产的ROAS自定义目标示例](/help/dsp/assets/custom-goal-roas.png)
 
 >[!NOTE]
 >
-> 一个值[!UICONTROL Property Weight]等于跟踪的收入$1的值为1。
+> A [!UICONTROL Property Weight] 一等于每跟踪1美元收入的值一。
 >
-> 例如，权重为1的250美元转化报告为250美元。 如果为转化量度分配的权重为0.5，则在Advertising Cloud中，250美元的转化将报告为125美元（250美元的转化* 0.5 [!UICONTROL Property Weight] = $125）。
+> 例如，权重为1的250美元转化报告为250美元。 如果为转化量度分配的权重为0.5，则250美元的转化在Advertising Cloud中将报告为125美元（250美元的转化* 0.5） [!UICONTROL Property Weight] = $125)。
 
-### 具有“[!UICONTROL Lowest CPA - Custom Goal]”优化目标的营销活动示例
+### 具有“[!UICONTROL Lowest CPA - Custom Goal]“优化目标
 
 如果您的促销活动目标是每次客户获取(CPA)成本最低，并且只需要一个成功事件，则您将包含一个量度（在以下示例中为“应用程序提交”）。 最佳做法是将权重设置为一(1)。
 
@@ -36,15 +36,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 对于跟踪的每次转化，一的[!UICONTROL Property Weight]等于一个值。
+> A [!UICONTROL Property Weight] 1等于跟踪的每次转化的值为1。
 >
-> 例如，如果跟踪了10个应用程序提交转化，则会报告10个应用程序提交转化。  如果为转化量度分配的权重为0.5，则在Advertising Cloud中，10个转化将报告为五(5)个（10个转化* 0.5 [!UICONTROL Property Weight] = 5）。
+> 例如，如果跟踪了10个应用程序提交转化，则会报告10个应用程序提交转化。  如果为转化量度分配的权重为0.5，则在Advertising Cloud中，10个转化将报告为5(5)个（10个转化* 0.5） [!UICONTROL Property Weight] = 5)。
 
 ## 具有多个属性的自定义目标
 
 在以下两种情况下，您可以在自定义目标中使用多个资产：
 
-* 您的营销活动目标包含多个成功事件。 例如，您可能针对多个现场操作进行了广告发布，并且所有这些内容都归因于您的CPA目标。 以下示例目标包括三个单独的属性（“PDF下载”、“联系我们”和“电子邮件注册”），每个属性的权重为一(1)，用于告知[!DNL Adobe Sensei]算法每个属性的重要性均相同。 如果包含具有不同成本或重要性的属性，则可以相应地调整其相对权重。
+* 您的营销活动目标包含多个成功事件。 例如，您可能正在为多个现场操作进行广告，并且所有这些操作都归因于您的CPA目标。 以下示例目标包括三个不同的属性(“PDF下载”、“联系我们”和“电子邮件注册”)，每个属性的权重为一(1)，用于告知 [!DNL Adobe Sensei] 算法，每个属性具有同等的重要性。 如果包含具有不同成本或重要性的属性，则可以相应地调整其相对权重。
 
    ![具有多个属性的自定义目标示例](/help/dsp/assets/custom-goal-multiple-properties.png)
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
    ![具有多个属性的自定义目标示例](/help/dsp/assets/custom-goal-multiple-properties2.png)
 
-   相反，如果您对提交的登陆页面访问量进行同等的加权，则登陆页面访问量自然会更高，超出您的目标并偏向于登陆页面访问量。<!--reword-->
+   相反，如果您对提交的登陆页面访问量进行同等的加权，则登陆页面访问量自然会更高，从而无法满足您的目标并导致登陆页面访问量出现偏差。<!--reword-->
 
 >[!MORELIKETHIS]
 >

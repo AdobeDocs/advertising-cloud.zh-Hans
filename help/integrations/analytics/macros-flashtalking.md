@@ -2,9 +2,10 @@
 title: 附加 [!DNL Analytics for Advertising Cloud] 宏 [!DNL Flashtalking] 广告标记
 description: 了解添加原因和方法 [!DNL Analytics for Advertising Cloud] 宏 [!DNL Flashtalking] 广告标记
 feature: Integration with Adobe Analytics
-source-git-commit: c95dc72fa42b47ecea0c27bd59a2df4cd9c20233
+exl-id: 4b060668-723c-4cd2-b70e-409501ec67de
+source-git-commit: 7cb39998041d151ece7809adc8a2e872b922e5fc
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 0%
 >
 >JavaScript代码是仅在Cookie仍然可用时用于点击跟踪的解决方案。 停止Cookie后，将需要实施以下宏。
 
-* **网站不使用的广告商 [!DNL Analytics for Advertising Cloud] JavaScript代码，而是依赖 [!DNL Analytics] 仅用于点进数据的服务器端转发** （不含任何显示到达数据）：要报告通过Advertising Cloud购买的广告所驱动的上门点击活动，需要以下宏。
+* **网站不使用的广告商 [!DNL Analytics for Advertising Cloud] JavaScript代码，而是依赖 [!DNL Analytics] 仅用于点进数据的服务器端转发** （不含任何显示到达数据）：要报告由通过Advertising Cloud购买的广告所驱动的网站点击活动，需要以下宏。
 
 ## 显示广告标记
 

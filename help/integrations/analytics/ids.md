@@ -3,7 +3,7 @@ title: Advertising Cloud ID使用者 [!DNL Analytics]
 description: Advertising Cloud ID使用者 [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ed1aab7b-9bd0-4d42-9bfb-9c6fa6db76bc
-source-git-commit: 8f0765251234b09eddaee721018285aee6b44b6a
+source-git-commit: 7cb39998041d151ece7809adc8a2e872b922e5fc
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *适用于Advertising Cloud DSP和Advertising Cloud Search*
 
-Advertising Cloud使用两个ID进行现场性能跟踪：the *EF ID* 和 *AMO ID*.
+Advertising Cloud使用两个ID进行站点内性能跟踪：the *EF ID* 和 *AMO ID*.
 
 在出现广告展示时，Advertising Cloud会创建AMO ID和EF ID值并进行存储。 当访客在未点击广告的情况下进入网站时， [!DNL Analytics] 通过 [!DNL Analytics for Advertising Cloud] JavaScript代码。 对于显示到达流量， [!DNL Analytics] 生成补充ID(`SDID`)，用于将EF ID和AMO ID拼合到 [!DNL Analytics]. 对于点进流量，这些ID会使用 `s_kwcid` 和 `ef_id` 查询字符串参数。
 
@@ -171,7 +171,7 @@ AMO ID示例：AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
 ## 关于Analytics分类
 
-在 [!DNL Analytics], a [分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) 是给定跟踪代码（如帐户、促销活动或广告）的一段元数据。 Advertising Cloud使用分类对Advertising Cloud原始数据进行分类，以便您在生成报表时可以通过不同方式（如按广告类型或促销活动）显示数据。 分类构成Advertising Cloud报表的基础，如 [!DNL Analytics] 和可与AMO量度一起使用，例如 [!UICONTROL AMO Cost], [!UICONTROL AMO Impressions]和 [!UICONTROL AMO Clicks]以及自定义和标准的现场事件(如 [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders]和 [!UICONTROL Revenue].
+在 [!DNL Analytics], a [分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) 是给定跟踪代码（如帐户、促销活动或广告）的一段元数据。 Advertising Cloud使用分类对Advertising Cloud原始数据进行分类，以便您在生成报表时可以通过不同方式（如按广告类型或促销活动）显示数据。 分类构成Advertising Cloud报表的基础，如 [!DNL Analytics] 和可与AMO量度一起使用，例如 [!UICONTROL AMO Cost], [!UICONTROL AMO Impressions]和 [!UICONTROL AMO Clicks]，以及自定义事件和标准网站事件(例如 [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders]和 [!UICONTROL Revenue].
 
 >[!MORELIKETHIS]
 >

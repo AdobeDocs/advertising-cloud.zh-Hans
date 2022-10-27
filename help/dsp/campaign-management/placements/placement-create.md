@@ -3,9 +3,9 @@ title: 创建版面
 description: 了解如何创建版面。
 feature: DSP Placements
 exl-id: 4e37b571-9af4-4897-bff2-035a5f2600a5
-source-git-commit: a30f3bffaf63a79bb7aead69e52524419ed54ed0
+source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '649'
 ht-degree: 1%
 
 ---
@@ -123,6 +123,7 @@ ht-degree: 1%
 >* [编辑版面](placement-edit.md)
 >* [编辑版面的广告计划](placement-edit-ad-schedule.md)
 >* [暂停或激活版面](placement-pause-activate.md)
+>* [查看版面的更改日志](placement-change-log.md)
 >* [版面设置](placement-settings.md)
 >* [键盘快捷键](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 

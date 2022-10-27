@@ -3,9 +3,9 @@ title: 查看版面的详细报表
 description: 了解如何打开版面级别报表，其中包含 [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], [!UICONTROL Audience Performance], [!UICONTROL Notifications]和 [!UICONTROL Ads] 数据。
 feature: DSP Placements, DSP Campaign Data Views
 exl-id: 90cd8030-73a6-4224-9a04-dcee91ce7d78
-source-git-commit: 99db7ed5a7455907204d1387f6ddfe0a644db753
+source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,5 @@ ht-degree: 0%
 >* [查看营销活动的详细报表](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
 >* [关于平台内报表](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [关于自定义报表](/help/dsp/reports/report-about.md)
+>* [查看版面的更改日志](placement-change-log.md)
 

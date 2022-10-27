@@ -3,9 +3,9 @@ title: 关于Advertising Cloud DSP中的版面管理
 description: 了解位置管理。
 feature: DSP Placements
 exl-id: 1d1382d9-b6c8-44bf-a708-8458769a39c6
-source-git-commit: 0d6d5e807053f042e0da1da65fed5e33a34dd4a9
+source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [创建版面](/help/dsp/campaign-management/placements/placement-create.md)
->* [版面设置](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [创建版面](placement-create.md)
+>* [查看版面的更改日志](placement-change-log.md)
+>* [版面设置](placement-settings.md)
 
    >*[性能疑难解答](/help/dsp/optimization/troubleshooting-performance.md)
 

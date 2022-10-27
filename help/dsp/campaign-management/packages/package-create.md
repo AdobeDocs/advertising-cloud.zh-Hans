@@ -3,10 +3,10 @@ title: 创建资源包
 description: 了解如何创建资源包。
 feature: DSP Packages
 exl-id: 009b65b4-0686-46ca-9f47-01ad4c6a4683
-source-git-commit: 19d6a2edf07eecf874537dd9d356737ed9156bd9
+source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 1%
+source-wordcount: '103'
+ht-degree: 0%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 1%
 >* [关于包管理](package-about.md)
 >* [编辑资源包](package-edit.md)
 >* [将版面附加到包](package-attach-placement.md)
+>* [查看包的更改日志](package-change-log.md)
 >* [包设置](package-settings.md)
 >* [视频：如何创建资源包](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/package-create.html)
 

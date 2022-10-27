@@ -3,9 +3,9 @@ title: 关于包管理在Advertising Cloud DSP中
 description: 了解包管理。
 feature: DSP Packages
 exl-id: 06d77698-62ae-466b-8cf7-c9148907ba6d
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 您可以手动创建资源包，也可以通过复制现有资源包来创建资源包。 您还可以编辑版面并将其附加到任何资源包。
 
-## [!UICONTROL Packages]功能板
+## 的 [!UICONTROL Packages] 功能板
 
-[!UICONTROL Packages]功能板集中了所有资源包策略的性能和经济报告，提供了在指定日期范围内资源包执行情况的快速快照。
+的 [!UICONTROL Packages] 功能板可集中显示所有资源包策略的性能和经济报表，从而提供在指定日期范围内资源包执行情况的快速快照。
 
 ![“包”功能板](/help/dsp/assets/package-dashboard.png)
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您可以通过[自定义报表](/help/dsp/reports/report-about.md)进一步自定义包报告的内容和交付。
+>您可以通过进一步自定义资源包报告的内容和交付 [自定义报表](/help/dsp/reports/report-about.md).
 
 要查看包中的所有版面，请单击包名称。
 
@@ -37,5 +37,6 @@ ht-degree: 0%
 >* [创建资源包](package-create.md)
 >* [编辑资源包](package-edit.md)
 >* [将版面附加到包](package-attach-placement.md)
+>* [查看包的更改日志](package-change-log.md)
 >* [包设置](package-settings.md)
 

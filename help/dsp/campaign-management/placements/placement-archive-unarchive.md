@@ -3,9 +3,9 @@ title: 存档或取消存档版面
 description: 了解如何存档或取消存档版面。
 feature: DSP Placements
 exl-id: 3d342f83-1bcb-4f80-b31a-2009bcdde565
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -20,26 +20,27 @@ ht-degree: 0%
 
 ## 存档版面
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
+1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
 1. 单击营销活动的名称。
-1. 在子菜单中，单击&#x200B;**[!UICONTROL Placements]**。
-1. 在版面名称旁边，单击&#x200B;**[!UICONTROL ...]>[!UICONTROL Archive]**。
-1. 在确认消息中，单击&#x200B;**[!UICONTROL Archive]**。
+1. 在子菜单中，单击 **[!UICONTROL Placements]**.
+1. 在版面名称旁边，单击  **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. 在确认消息中，单击 **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->要查看已存档的版面，请筛选[!UICONTROL Placements]视图：单击![过滤器按钮](/help/dsp/assets/filter.png)，单击&#x200B;**[!UICONTROL Placement status]**&#x200B;并选择&#x200B;**[!UICONTROL Archived]**，然后单击&#x200B;**[!UICONTROL Apply]。**
+>要查看存档的版面，请过滤 [!UICONTROL Placements] 视图：单击 ![“过滤器”按钮](/help/dsp/assets/filter.png)，单击 **[!UICONTROL Placement status]** 选择 **[!UICONTROL Archived]**，然后单击 **[!UICONTROL Apply].**
 
 ## 取消存档版面
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
+1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
 1. 单击营销活动的名称。
-1. 在子菜单中，单击&#x200B;**[!UICONTROL Placements]**。
-1. 在版面名称旁边，单击&#x200B;**[!UICONTROL ...]>[!UICONTROL Unarchive]**。
-1. 在确认消息中，单击&#x200B;**[!UICONTROL Unarchive]**。
+1. 在子菜单中，单击 **[!UICONTROL Placements]**.
+1. 在版面名称旁边，单击  **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. 在确认消息中，单击 **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
 >
 >* [暂停或激活版面](placement-pause-activate.md)
 >* [编辑版面](placement-edit.md)
+>* [查看版面的更改日志](placement-change-log.md)
 

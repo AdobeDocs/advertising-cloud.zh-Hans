@@ -3,9 +3,9 @@ title: 版面设置
 description: 请参阅可用版面设置的描述。
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: 7bbeb3013ad7cd84bf3a25f5ebf8b16a82a6f591
+source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '3403'
 ht-degree: 0%
 
 ---
@@ -463,6 +463,7 @@ ht-degree: 0%
 >* [关于版面管理](placement-about.md)
 >* [创建版面](placement-create.md)
 >* [编辑版面](placement-edit.md)
+>* [查看版面的更改日志](placement-change-log.md)
 >* [键盘快捷键](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [关于Campaign Management的常见问题解答](/help/dsp/campaign-management/campaign-management-faq.md)
 

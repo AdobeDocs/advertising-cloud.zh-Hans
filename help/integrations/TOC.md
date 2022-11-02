@@ -3,10 +3,10 @@ user-guide-title: 与 Adobe Experience Cloud 的集成
 user-guide-description: 了解 Advertising Cloud DSP 和 Advertising Cloud Search 与其他 Adobe Experience Cloud 产品和服务的集成。
 breadcrumb-title: 与 Experience Cloud 的集成
 index: true
-source-git-commit: 0ca3c49788cc5f688b72051e55d44b5768fead62
+source-git-commit: cc6042df60950ae09dccce262d6c32deed6bc313
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 14%
+source-wordcount: '201'
+ht-degree: 13%
 
 ---
 
@@ -43,4 +43,5 @@ ht-degree: 14%
       + [从DSP Campaigns中收集展示和点击数据](/help/integrations/audience-manager/media-data-integration/collect.md)
       + [用例](/help/integrations/audience-manager/media-data-integration/use-cases.md)
    + [面向Advertising Cloud客户的AdobeAudience Analytics](/help/integrations/audience-manager/audience-analytics.md)
++ [在Adobe Target中配置Advertising Cloud DSP广告的A/B测试](/help/integrations/target/overview-ab-tests.md)
 + [视频Tutorials关于Advertising Cloud集成](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->

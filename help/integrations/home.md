@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 0808d101-3c6b-4671-b9e3-6f588427f8b5
-source-git-commit: 9d6177c90fb5507b4e1d281847e7ce3fe89ab9d3
+source-git-commit: 136933f5304edd8f16b8dcb649860f0fb07cf3fb
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 有关详细信息 |
 | ---- | ------- | ----------- | -------------------- |
+| 2022年11月1日 | 帮助 | 新文档介绍了如何在Advertising Cloud DSP和Adobe Target之间实施点进和显示信号共享，以及如何在 [!DNL Target] ，以及如何设置Adobe Analytics Analysis Workspace以查看测试数据。 | 请参阅“[在Adobe Target中配置Advertising Cloud DSP广告的A/B测试](/help/integrations/target/overview-ab-tests.md).&quot; |
 | 2022年8月17日 | 帮助 | 新章介绍了Advertising Cloud与Adobe Audience Manager集成的所有方式。 | 请参阅有关“与Adobe Audience Manager集成”的章节，包括“[Advertising Cloud与Adobe Audience Manager集成](/help/integrations/audience-manager/overview.md).&quot; |
 | 2021年4月27日 | [!DNL Analytics for Advertising Cloud] | 了解添加原因和方法 [!DNL Analytics for Advertising Cloud] 宏 [!DNL Google Campaign Manager 360] 用于将点击数据发送到Adobe Analytics的广告标记。 | 请参阅“[附加 [!DNL Analytics for Advertising Cloud] 宏 [!DNL Google Campaign Manager 360] 广告标记](/help/integrations/analytics/macros-google-campaign-manager.md).&quot; |
 | 2021年4月19日 | [!DNL Analytics for Advertising Cloud] | 了解为何以及如何将宏附加到 [!DNL Flashtalking] 用于将点击数据发送到Adobe Analytics的广告标记。 | 请参阅“[附加 [!DNL Analytics for Advertising Cloud] 宏 [!DNL Flashtalking] 广告标记](/help/integrations/analytics/macros-flashtalking.md).&quot; |

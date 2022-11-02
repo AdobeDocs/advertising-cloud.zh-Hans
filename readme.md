@@ -1,34 +1,34 @@
 ---
-source-git-commit: d3e36cef27fce533e9435717d428d54b982fd427
+source-git-commit: 0654347afd1caf5e9bd8ccabf41a8a591e604df5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
 # Advertising Cloud协作文档
 
-这是Adobe Advertising Cloud的文档存储库，包括跨产品、DSP和电视文档。 （稍后，它将包含有关创作和搜索的文档。）
+这是Adobe Advertising Cloud的文档存储库，包括跨产品和DSP文档。 (稍后，它将包含搜索文档，并可能包含(?) )
 
 **注意：此页面未在面向客户的文档中发布。**
 
 ## 目录
 
 + `TOC.md` 位于任意用户指南根目录的提供了指南中包含的主题的组织。
-+ 每个用户指南都有一个唯一的`TOC.md`，您可以在其中根据需要对所有页面/主题进行排序。
++ 每个用户指南都具有一个唯一的 `TOC.md`，您可以根据需要对所有页面/主题进行排序。
 
 
 ## 用户指南
 
-+ 用户指南的简介称为`overview.md`
++ 用户指南的简介称为 `overview.md`
 + 用户指南中的每个主题都有自己的不同目录。
-   + 如果指南中有一个名为&#x200B;*Implementation*&#x200B;的主题，则相应的目录为`/implementation`
-+ 所有图像资产都存储在用户指南根目录的`/assets`中。
-   + `/assets`目录中的所有图像都将进行本地化。
-   + `/no-localize`目录中的任何图像都不会进行本地化（很吃惊吧！）。 这可用于确保在本地化版本中不会复制不必要的特定资产。
+   + 如果指南中有一个主题名为 *实施*，对应的目录为 `/implementation`
++ 所有图像资产都存储在 `/assets` （位于用户指南的根目录）。
+   + 中的所有图像 `/assets` 目录将进行本地化。
+   + 中的任何图像 `/no-localize` 目录将不会本地化（很吃惊吧！）。 这可用于确保在本地化版本中不会复制不必要的特定资产。
 
 ## 用户指南级别元数据
 
-+ 描述用户指南的元数据存储在`TOC.md`中。 这包括：
++ 描述用户指南的元数据存储在 `TOC.md`. 这包括：
    + product — 产品/功能的名称。
    + cloud — 此产品所属的云。
    + audience — 指南所针对的受众或原型。
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 有关更多发布说明、风格指南、示例和其他资源，请参阅：
 
-+ [专门针对Advertising Cloud **的作者准则贡献内容**](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=EfficientFrontier&amp;title=Contributing+Author+Guidelines+for+Advertising+Cloud+Help)
++ [贡献作者准则 **特别是Advertising Cloud**](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=EfficientFrontier&amp;title=Contributing+Author+Guidelines+for+Advertising+Cloud+Help)
 + [为所有Adobe作者进行协作创作](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html)
 
 另请参阅：

@@ -2,9 +2,10 @@
 title: 使用Advertising Cloud ID创建 [!DNL Marketing Channels] 规则
 description: 了解如何使用Advertising Cloud ID为 [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 4fcdd586-e9c5-4405-a6dc-7799d2bac93e
+source-git-commit: d136b1fe6f6fd3861d0850e07efe7c320da4a7cc
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -83,7 +84,7 @@ AMO EF ID(EF ID)是 [!DNL Analytics for Advertising Cloud] 集成。 其主要�
 
 #### 显示显示显示到达规则
 
-要创建显示显示显示显示通览渠道，请创建EF ID以“：i”结尾的规则。 由于访客未点击广告，因此显示到达跟踪不包括 `ef_id` 或 `s_kwcid` 中。 因此，只需要一个条件。
+要创建显示显示显示显示通览渠道，请创建EF ID以“：i”结尾的规则。 由于访客未点击广告，因此显示到达跟踪不包括 `ef_id` 或 `s_kwcid` ，因此规则只需要一个条件。
 
 ![显示显示显示显示到达规则的示例](/help/integrations/assets/a4adc-mc-rule-display-vt.png)
 

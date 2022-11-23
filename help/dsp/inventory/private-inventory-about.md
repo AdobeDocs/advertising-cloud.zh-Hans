@@ -3,9 +3,9 @@ title: 关于专用清单
 description: 关于专用清单
 feature: DSP Private Inventory
 exl-id: 6b3923ca-ccd1-450e-bff0-139e3838c999
-source-git-commit: 82c906c87fd3aad0d7a04d0b0e58e54c5485499a
+source-git-commit: 7feb0e398c416805b376062d9f3dfec819fac2ee
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 您可以通过以下任一方式使用交易ID:
 
-* （需要激活的可选功能）从 [!UICONTROL Deal ID Inbox]，您可以在以下供应方平台(SSP)上查看并快速接受来自发布者的同意的、有保证的和无保证的专用库存交易： [!DNL FreeWheel], [!DNL Google Authorized Buyers] (以前称为 [!DNL AdX])和 [!DNL Magnite DV+] (以前 [!DNL Rubicon]) [!UICONTROL Deal ID inbox].
+* （需要激活的可选功能）从 [!UICONTROL Deal ID Inbox]，您可以在以下供应方平台(SSP)上查看并快速接受来自发布者的同意的有保证和无保证的专用库存交易： [!DNL FreeWheel], [!DNL Google Authorized Buyers] (以前称为 [!DNL AdX])和 [!DNL Magnite DV+] (以前 [!DNL Rubicon]) [!UICONTROL Deal ID inbox].
 
    有关更多信息，请参阅[关于 [!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md).&quot;
 
@@ -36,7 +36,9 @@ ht-degree: 0%
 
 在 [!UICONTROL Inventory] > [!UICONTROL Deals] 视图，您可以创建私有交易设置。 您还可以编辑一些交易设置；列出版面和广告，并在私人交易中附加额外版面和广告；编辑能够获取私人交易的广告商和账户；查看交易绩效报告；查看私人交易的拍卖分析，或存档或取消存档交易。<!-- ; or edit the attribute tags for a deal -->
 
-您可以通过应用过滤器、自定义可见列和（可选）保存自定义视图、对列进行排序以及将数据视为图表，进一步自定义现有交易数据的显示方式。
+“交易运行状况”列指示每个私有交易的运行状况：“成功”、“警告”、“严重”或“不可用”。 您可以单击状态以查看更多详细信息，包括交易未按预期执行或支出的原因，以及排查潜在问题的步骤。
+
+您可以通过应用过滤器、自定义可见列和（可选）保存自定义视图、对列进行排序以及将数据视为图表，来自定义现有交易数据的显示方式。
 
 >[!MORELIKETHIS]
 >

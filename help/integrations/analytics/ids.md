@@ -3,7 +3,7 @@ title: Advertising Cloud ID使用者 [!DNL Analytics]
 description: Advertising Cloud ID使用者 [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ed1aab7b-9bd0-4d42-9bfb-9c6fa6db76bc
-source-git-commit: 7cb39998041d151ece7809adc8a2e872b922e5fc
+source-git-commit: 525bc48104f928ccf9a3bb792b7e33c7e590cf4a
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 0%
@@ -132,19 +132,19 @@ AMO ID示例：AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
 的AMO ID [!DNL Search] 对每个搜索引擎采用不同的格式。 所有搜索引擎的格式以下列内容开头：
 
-```AL!{ef_userid}!{ef_sid}```
+```AL!{userid}!{sid}```
 
 其中：
 
 * `AL` 是搜索渠道的渠道ID。
-* `{ef_userid}` 是Advertising Cloud分配给广告商的唯一数字用户ID。
-* `{ef_sid}` 是Advertising Cloud用于指定搜索引擎的数字ID，例如 `3` 表示 [!DNL Google Ads] 或 `10` 表示 [!DNL Microsoft Advertising].
+* `{userid}` 是Advertising Cloud分配给广告商的唯一数字用户ID。
+* `{sid}` 是Advertising Cloud用于指定搜索引擎的数字ID，例如 `3` 表示 [!DNL Google Ads] 或 `10` 表示 [!DNL Microsoft Advertising].
 
 以下是几个搜索引擎的完整AMO ID格式。 有关其他搜索引擎的AMO ID格式，请联系您的 [!DNL Adobe] 客户团队。
 
 的AMO ID格式 [!DNL Google Ads]:
 
-```AL!{ef_userid}!{ef_sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}```
+```AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}```
 
 其中：
 
@@ -156,7 +156,7 @@ AMO ID示例：AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
 的AMO ID格式 [!DNL Microsoft Advertising]:
 
-```AL!{ef_userid}!{ef_sid}!{AdId}!{OrderItemId}```
+```AL!{userid}!{sid}!{AdId}!{OrderItemId}```
 
 其中：
 

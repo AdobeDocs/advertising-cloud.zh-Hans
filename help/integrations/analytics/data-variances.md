@@ -3,9 +3,9 @@ title: 之间的预期数据差异 [!DNL Analytics] 和Advertising Cloud
 description: 之间的预期数据差异 [!DNL Analytics] 和Advertising Cloud
 feature: Integration with Adobe Analytics
 exl-id: 34685e04-d4f9-4e27-b83e-b56164244b2b
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: 76d6e94d69f4bd47d982c36e6c24a0e7031a823c
 workflow-type: tm+mt
-source-wordcount: '3282'
+source-wordcount: '3285'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 ## 归因于 [!DNL Analytics Marketing Channels]
 
-[[!DNL Analytics Marketing Channels] 报告](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/marketing-channels-admin.html) 允许您配置规则，以便根据点击信息的不同方面来识别不同的营销渠道。 您可以跟踪Advertising Cloud跟踪的渠道([!UICONTROL Display Click Through], [!UICONTROL Display View Through]和 [!UICONTROL Paid Search])作为 [!DNL Marketing Channels] 使用 `ef_id` 查询字符串参数来标识渠道。 <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> 但是，即使 [!DNL Marketing Channels] 报表可以跟踪Advertising Cloud渠道，因此数据可能与Advertising Cloud报表不匹配，原因有多种。 有关更多信息，请参阅以下部分。
+[[!DNL Analytics Marketing Channels] 报告](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html) 允许您配置规则，以便根据点击信息的不同方面来识别不同的营销渠道。 您可以跟踪Advertising Cloud跟踪的渠道([!UICONTROL Display Click Through], [!UICONTROL Display View Through]和 [!UICONTROL Paid Search])作为 [!DNL Marketing Channels] 使用 `ef_id` 查询字符串参数来标识渠道。 <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> 但是，即使 [!DNL Marketing Channels] 报表可以跟踪Advertising Cloud渠道，因此数据可能与Advertising Cloud报表不匹配，原因有多种。 有关更多信息，请参阅以下部分。
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ Advertising Cloud报表仅捕获通过Advertising Cloud贩运的付费媒体(Adv
 
 ## Adobe Analytics中的数据差异 [!DNL Paid Search Detection]
 
-的 [旧版 [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) 功能 [!DNL Analytics] 允许公司 [定义用于跟踪付费和免费搜索流量的规则](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html) 对于指定的搜索引擎。 的 [!DNL Paid Search Detection] 规则使用查询字符串和反向链接域来识别付费和免费搜索流量。 的 [!DNL Paid Search Detection] 报表是 [查找方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html) 报表，在发生指定事件（如购物车结账）或访问结束时过期。
+的 [旧版 [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html) 功能 [!DNL Analytics] 允许公司 [定义用于跟踪付费和免费搜索流量的规则](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html) 对于指定的搜索引擎。 的 [!DNL Paid Search Detection] 规则使用查询字符串和反向链接域来识别付费和免费搜索流量。 的 [!DNL Paid Search Detection] 报表是 [查找方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html) 报表，在发生指定事件（如购物车结账）或访问结束时过期。
 
 下面是用于创建 [!DNL Paid Search Detection] 规则集：
 
@@ -145,7 +145,7 @@ Advertising Cloud报表仅捕获通过Advertising Cloud贩运的付费媒体(Adv
 
 ### 为何配置 [!DNL Paid Search Detection]?
 
-的 [!DNL Paid Search Detection] 利用报表，可识别 [[!DNL Analytics Marketing Channels] 报告](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/marketing-channels-admin.html). 将付费搜索流量与免费搜索流量分开是了解免费搜索为整个营销生态系统带来价值的绝佳途径。
+的 [!DNL Paid Search Detection] 利用报表，可识别 [[!DNL Analytics Marketing Channels] 报告](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html). 将付费搜索流量与免费搜索流量分开是了解免费搜索为整个营销生态系统带来价值的绝佳途径。
 
 ## 点进数据验证 [!DNL Analytics for Advertising Cloud] {#data-validation}
 

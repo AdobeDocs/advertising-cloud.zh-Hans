@@ -3,9 +3,9 @@ title: 关于Advertising Cloud DSP中的广告管理
 description: 了解广告管理。
 feature: DSP Ads
 exl-id: 72c8bbef-d09c-4cf4-994d-99578d043d39
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: 1499d9d86d8c2bafb03b41687c50dbf708c715da
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,15 @@ Advertising Cloud DSP支持通过第三方广告服务标记(如Google、Flashta
 
 * **显示广告（仅限第三方）**:显示广告是在Web浏览器或应用程序中显示的动画或静态图像。 单击广告单元可将用户转到品牌网站或微型网站。 显示功能最适合促进高效CPM、增加消息关联、添加其他品牌或产品接触点，以及推动用户向下访问购买漏斗。 用于显示的关键绩效指标包括 [!UICONTROL Clicks], [!UICONTROL Cost per Click], [!UICONTROL Conversions]和 [!UICONTROL Cost per Conversion]. DSP支持多种显示横幅广告大小。
 
-* **Mobile Ads（仅限第三方）**:Mobile广告可以采用前置视频(VAST、MRAID)或标准显示格式。 移动前置视频可以自动播放或点击播放，最适合用于跨屏幕吸引查看者。 移动标准显示是在移动Web浏览器或应用程序中显示的静态图像，最适合用于补充数字视频购买、促进消息关联，以及添加其他品牌或产品接触点。 Mobile广告还可以用作全屏收购或移动插播式广告，这些广告是全屏、高影响力的移动广告，最适合用于提高移动受众的品牌知名度并促进转化。
+* **移动设备广告（仅限第三方）**:移动广告可以采用前置视频(VAST、MRAID)或标准显示格式。 移动前置视频可以自动播放或点击播放，最适合用于跨屏幕吸引查看者。 移动标准显示是在移动Web浏览器或应用程序中显示的静态图像，最适合用于补充数字视频购买、促进消息关联，以及添加其他品牌或产品接触点。 移动广告还可以用作全屏收购或移动插播式广告，这些是全屏、高影响力的移动广告，最适合用于提高移动受众的品牌知名度并促进转化。
 
 * **本机显示广告（仅限第一方）**:标准显示格式支持本机广告。 本机广告包括标题和/或标题、描述、徽标和图像。 广告元素经过组合和渲染以与发布者的页面样式相匹配，以便广告与发布者的有机内容融合在一起，从而提高参与度。 Native最适用于提高品牌知名度，以及通过有利于查看者的广告提高受众查看率和参与率。 主要业绩指标包括 [!UICONTROL Clicks], [!UICONTROL Cost Per Click], [!UICONTROL Conversions]和 [!UICONTROL Cost Per Conversion].
 
 * **前置广告（仅限第三方）**:前置广告（VAST和VPAID）在优质视频内容之前显示，并提供沉浸式、引人入胜的观看体验。 前置视频可以是交互式的，包含富媒体功能，并且包含叠加图、滚动播放和行动动员。 前置视频广告的关键绩效指标包括 [!UICONTROL Video Completion Rate] 和 [!UICONTROL Viewability Rate].
 
 * **连接的电视广告（仅限第三方）**:连接的电视广告在优质电视视频内容之前和期间显示。 所有连接的电视清单都在电视设备上运行，这意味着视频在观看者无法跳过的精益全屏环境中自动播放。 “连接的电视”是最接近电视广告的数字视频格式。 连接电视的关键绩效指标包括 [!UICONTROL Completion Rate].
+
+* **通用视频广告（仅限第三方）**:通用视频广告将连接的电视、前置广告和移动前置广告（VAST和VPAID）的所有功能整合在一起，并在视频内容之前和期间显示。 在从桌面、移动设备和连接的电视环境定位视频内容时，可以使用通用视频广告，因此无需创建多个视频广告。 通用视频的关键绩效指标包括 [!UICONTROL Completion Rate] 和 [!UICONTROL Viewability Rate].
 
 ## Advertising Cloud DSP广告批准
 

@@ -3,9 +3,9 @@ title: 创建版面
 description: 了解如何创建版面。
 feature: DSP Placements
 exl-id: 4e37b571-9af4-4897-bff2-035a5f2600a5
-source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
+source-git-commit: cb77fd450db1798f190f3b6eb51054553440bac9
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '652'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 1%
 
       1. 单击 **[!UICONTROL Create a New Ad].**
 
-      1. 指定的广告设置 [音频广告](/help/dsp/campaign-management/ads/ad-settings-audio.md), [连接电视](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [展示广告](/help/dsp/campaign-management/ads/ad-settings-display.md), [移动广告](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [本机广告](/help/dsp/campaign-management/ads/ad-settings-native.md)或 [前置广告](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md).
+      1. 指定的广告设置 [音频广告](/help/dsp/campaign-management/ads/ad-settings-audio.md), [连接电视](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [展示广告](/help/dsp/campaign-management/ads/ad-settings-display.md), [移动广告](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [本机广告](/help/dsp/campaign-management/ads/ad-settings-native.md), [前置广告](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)或 [通用视频广告](ad-settings-universal-video.md).
 
       1. 单击 **[!UICONTROL Save & Submit for Review]**.
 
@@ -87,16 +87,25 @@ ht-degree: 1%
    * 要在营销活动中附加现有广告，请执行以下操作：
 
       1. 单击 **[!UICONTROL Select an Ad]**.
+
       1. 执行以下任一操作：
+
          * 要一次添加一个广告，请执行以下操作：
+
             1. 在广告名称旁边，单击 **[!UICONTROL Select].**
+
             1. （可选）对于要附加的每个其他广告，单击 **[!UICONTROL Attach Another Ad]**，然后重复该过程。
          * 要一次最多添加20个广告，请执行以下操作：
+
             1. 选中广告列表上方的复选框。
+
             1. 选中要添加的每个广告旁边的复选框。
+
             1. 单击 **[!UICONTROL Attach]**.
+
             1. 在广告名称旁边，单击 **[!UICONTROL Select]**.
       1. （可选）要覆盖版面中特定广告的默认投放期和广告轮换：
+
          1. 单击 **[!UICONTROL Custom Schedule Ads]**.
 
          1. 执行以下任一操作：
@@ -113,6 +122,8 @@ ht-degree: 1%
          1. 在右上方，单击 **[!UICONTROL Continue]**.
 
          1. 查看投放详细信息，然后单击 **[!UICONTROL Save & Finish]**.
+
+
 
 
 

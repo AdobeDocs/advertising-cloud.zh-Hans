@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: d4b67393-e8c5-4170-92eb-bcf643ba3ec3
-source-git-commit: 678125f88712043fc589aac752e1686be41f2f55
+source-git-commit: c682838f222b99079a5a9d98300e594f82b6c374
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 日期 | 功能 | 描述 | 有关详细信息 |
 | ---- | ------- | ----------- | -------------------- |
-| 2022年12月14日 | 版面、广告 | 新建“[!UICONTROL Universal Video]“利用投放和广告，可使用单个视频投放来定位VPAID和VAST库存的多个设备环境。<br><br>通用视频放置包含“设备环境”设置([!UICONTROL Desktop], [!UICONTROL Mobile]和 [!UICONTROL Connected TV])。 通用视频广告只能链接到通用视频投放。<br><br>自定义报表包括新的置入级别维度“设备环境”。 | 请参阅“[版面设置](/help/dsp/campaign-management/placements/placement-settings.md)&quot;和&quot;[可用报表列](/help/dsp/reports/report-columns.md).&quot;<br><br>另请参阅“[通用视频广告设置](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)&quot;和&quot;[创建广告](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
+| 2022年12月14日 | 版面、广告 | （开放测试版功能）新增“[!UICONTROL Universal Video]“利用投放和广告，可使用单个视频投放来定位VPAID和VAST库存的多个设备环境。<br><br>通用视频放置包含“设备环境”设置([!UICONTROL Desktop], [!UICONTROL Mobile]和 [!UICONTROL Connected TV])。 通用视频广告只能链接到通用视频投放。<br><br>自定义报表包括新的置入级别维度“设备环境”。 | 请参阅“[版面设置](/help/dsp/campaign-management/placements/placement-settings.md)&quot;和&quot;[可用报表列](/help/dsp/reports/report-columns.md).&quot;<br><br>另请参阅“[通用视频广告设置](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)&quot;和&quot;[创建广告](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
 | 2022年11月23日 | 交易 | 的 [!UICONTROL Inventory] > [!UICONTROL Deals] 视图现在包含“[!UICONTROL Deal Health]“ ”列，指示每个私有交易的运行状况：&quot;[!UICONTROL Success], &quot;[!UICONTROL Warning], &quot;[!UICONTROL Critical]，或&quot;[!UICONTROL Unavailable].&quot; 您可以单击状态以查看更多详细信息，包括交易未按预期执行或支出的原因，以及排查潜在问题的步骤。 | — |
 | 2022年10月27日 | [!UICONTROL Campaigns] | 现在，每个资源包和版面都可使用更改日志，该日志显示在选定日期范围内所做的更改。 | 请参阅“[查看包的更改日志](/help/dsp/campaign-management/packages/package-change-log.md)&quot;和&quot;[查看版面的更改日志](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 |  |  | 您现在可以更改 [!UICONTROL Intraday Pacing] 同时设置多个版面。 | 请参阅“[编辑版面](/help/dsp/campaign-management/placements/placement-edit.md#edit-multiple-placements)&quot;和&quot;[版面设置](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |

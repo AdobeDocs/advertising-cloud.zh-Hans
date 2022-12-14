@@ -2,14 +2,16 @@
 title: 通用视频广告设置
 description: 请参阅通用视频广告的可用广告设置描述。
 feature: DSP Ads
-source-git-commit: fa91f2c30841bde2b943dee31d373fec343bdc75
+source-git-commit: 2d344d2ae0438433eb679a5f31f471c2eac4fe26
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
 
 # 通用视频广告设置
+
+*开放测试版功能*
 
 ## [!UICONTROL Insert Ad Tag]
 

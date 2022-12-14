@@ -3,16 +3,16 @@ title: 广告规范
 description: 参考常规和特定于发布者的广告规范。
 feature: DSP Ads
 exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
-source-git-commit: b867ace878a0c1e6391476e267c9161e5ecea921
+source-git-commit: b25521d35134ca453c889fc1a71e4c81f982a77b
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
 
 # 支持的广告类型的规范
 
-## 视频广告（前置广告和CTV）
+## 视频广告（前置广告、CTV和通用视频）
 
 ### 支持的屏幕
 

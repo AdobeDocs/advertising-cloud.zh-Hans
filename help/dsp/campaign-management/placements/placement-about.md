@@ -3,9 +3,9 @@ title: 关于Advertising Cloud DSP中的版面管理
 description: 了解位置管理。
 feature: DSP Placements
 exl-id: 1d1382d9-b6c8-44bf-a708-8458769a39c6
-source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
+source-git-commit: c6a3d9703d06a44e38aae3bc6ec3f5f77e93082d
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 0%
 * 本机
 * 音频
 * 连接的电视
+* 通用视频
 
 ## 的 [!UICONTROL Placements] 功能板
 

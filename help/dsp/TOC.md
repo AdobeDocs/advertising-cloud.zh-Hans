@@ -8,9 +8,9 @@ user-guide-title: Advertising Cloud DSP 指南
 user-guide-description: 了解使用 Advertising Cloud DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 8db395fce0006ce300b3e588c205ca9c87e30fb2
+source-git-commit: 6996de4d7b3ee06bceb99292c4fe03878e7b61c9
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '954'
 ht-degree: 6%
 
 ---
@@ -97,6 +97,7 @@ ht-degree: 6%
          + [移动设备广告设置](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
          + [本机显示广告设置](/help/dsp/campaign-management/ads/ad-settings-native.md)
          + [前置广告设置](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+         + [通用视频广告设置](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [支持的广告类型的规范](/help/dsp/campaign-management/ads/ad-specs.md)
    + 促销活动报表 {#campaign-reports}
       + [关于平台内报表](/help/dsp/campaign-management/reports/campaign-reports-about.md)

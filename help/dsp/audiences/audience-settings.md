@@ -3,7 +3,7 @@ title: 受众设置
 description: 请参阅可用受众设置的描述。
 feature: DSP Audiences
 exl-id: 959c1e04-cb09-42f0-a261-580ff98b86be
-source-git-commit: 505944d534e04da8f903c24e7899e7a80cb836e4
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## 第三方区段
 
-（可选）通过Advertising Cloud的第三方数据分类提供以包含在受众配置中的任何标准区段。
+（可选）通过Adobe广告第三方数据分类提供以包含在受众配置中的任何标准区段。
 
 ## 第一方区段
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 自定义区段
 
-（可选）任何由用户创建的区段(使用自定义Advertising Cloud区段像素捕获)，将其包含在受众配置中。 这可以包括标准自定义区段和CCPA选择退出销售区段。
+（可选）用户创建的任何区段(使用自定义DSP区段像素捕获)，都要包含在受众配置中。 这可以包括标准自定义区段和CCPA选择退出销售区段。
 
 ## 保存的受众
 

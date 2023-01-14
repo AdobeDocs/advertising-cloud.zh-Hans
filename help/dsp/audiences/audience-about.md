@@ -1,18 +1,18 @@
 ---
-title: 关于Advertising Cloud DSP中的受众管理
+title: 关于Advertising DSP中的受众管理
 description: 了解受众管理功能。
 feature: DSP Audiences, DSP Segments
 exl-id: 624d2211-59a2-4791-b8f1-a9a5cecd0b8e
-source-git-commit: 3b44e8e019bfc4bab2ee65ac028313752cb4a0e0
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
 
-# 关于Advertising Cloud DSP中的受众管理
+# 关于Advertising DSP中的受众管理
 
-在Advertising Cloud DSP中，您可以创建和管理受众区段和受众集，并将其用作版面的目标：
+在DSP中，您可以创建和管理受众区段和受众集，并将它们用作版面的目标：
 
 * 您可以通过创建和实施区段来收集您自己的第一方受众数据。 您可以稍后使用广告重新定位区段中的用户，或阻止区段中的用户接收广告。 您可以创建以下类型的区段：
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
    * [CCPA选择退出销售区段](/help/dsp/audiences/ccpa-opt-out-segment-create.md) 要根据《加州消费者隐私法案》(CCPA)，跟踪网站上消费者选择退出销售请求的用户ID。 您可以从选择退出销售请求中检索用户ID的月度报表。
 
-      有关Advertising Cloud对CCPA选择退出销售请求的支持的更多信息，请参阅 [Adobe Advertising Cloud对《加州消费者隐私法案》的支持：消费者选择退出支持](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ad-cloud-ccpa-opt-out-of-sale.html).
+      有关Adobe广告对CCPA选择退出销售请求的支持的更多信息，请参阅 [Adobe对《加州消费者隐私法案》的广告支持：消费者选择退出支持](/help/privacy/ad-cloud-ccpa-opt-out-of-sale.md).
 
 * 您可以创建的受众库 [可重用受众](/help/dsp/audiences/reusable-audience-create.md). 保存的受众由任何可用的受众区段以及任何其他保存的受众组成。 您对已保存受众所做的任何更改都会自动应用于定位或排除该受众的所有版面，以及包含已保存受众的所有其他受众。
 
@@ -60,7 +60,7 @@ DSP还可以导入自定义第三方区段，包括复杂的第三方区段组�
 
    第三方区段会产生额外费用，每个区段名称旁边会显示这些费用。
 
-* (具有Adobe Experience Platform和 [!DNL Real-Time CDP]、Adobe Audience Manager或Adobe Analytics(仅使用Advertising Cloud JavaScript转化标记)在 [!DNL Real-Time CDP]、在Audience Manager中创建，或从Audience Manager或发布到Adobe Experience Cloud [!DNL Analytics].
+* (具有Adobe Experience Platform和 [!DNL Real-Time CDP]、Adobe Audience Manager或Adobe Analytics(仅使用Adobe广告JavaScript转化标记)在 [!DNL Real-Time CDP]、在Audience Manager中创建，或从Audience Manager或发布到Adobe Experience Cloud [!DNL Analytics].
 
    区段使用的定价是预先协商的，在DSP中不可见。
 

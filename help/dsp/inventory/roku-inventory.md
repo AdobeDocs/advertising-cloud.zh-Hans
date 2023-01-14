@@ -1,24 +1,24 @@
 ---
 title: 使用 [!DNL Roku] 库存
-description: '了解DSP与 [!DNL Roku]，包括库存选项、已批准的第三方跟踪供应商以及 [!DNL Roku] — 特定版面。 '
+description: 了解DSP与 [!DNL Roku]，包括库存选项、已批准的第三方跟踪供应商以及 [!DNL Roku] — 特定版面。
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: 0cd42782-f006-4aa8-b879-322f86cfac4b
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
 
 # 使用 [!DNL Roku] 库存
 
-Advertising Cloud DSP提供了 [!DNL Roku].
+Advertising DSP为 [!DNL Roku].
 
-## Advertising Cloud DSP和 [!DNL Roku] 合作伙伴
+## DSP和 [!DNL Roku] 合作伙伴
 
-Roku和Advertising Cloud DSP的合作伙伴关系独特，与您的 [!DNL DSP] 受众 [!DNL Roku] 确定性受众定位的ID(在 [!DNL Roku] 库存。
+Roku和DSP具有与 [!DNL DSP] 受众 [!DNL Roku] 确定性受众定位的ID(在 [!DNL Roku] 库存。
 
-在Roku自己的DSP(OneView)之外，Advertising Cloud DSP拥有这些定位功能的唯一访问权限。 Advertising Cloud DSP也是唯一拥有测量权限的DSP [!DNL Roku] 在所有其他连接的电视(CTV)清单旁提供。 因为 [!DNL Roku] 不共享所有标准的RTB和展示像素信号，其他任何DSP都无法在Roku销售的CTV供应中定位或测量。
+在Roku自己的DSP(OneView)之外，Advertising DSP可以完全访问这些定位功能。 Advertising DSP也是唯一有权测量的DSP [!DNL Roku] 在所有其他连接的电视(CTV)清单旁提供。 因为 [!DNL Roku] 不共享所有标准的RTB和展示像素信号，其他任何DSP都无法在Roku销售的CTV供应中定位或测量。
 
 ## [!DNL Roku] 库存选项
 

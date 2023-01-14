@@ -1,7 +1,7 @@
 ---
 title: 常见问题解答
 description: xx
-source-git-commit: 2e0395dc1e5aa52adc83c1aaea49793fd5555390
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ## 标题
 
-https://adobeadcloud.zendesk.com/agent/tickets/14214默认情况下，Adobe Analytics会报告每个报表中所有捕获的事件。 &quot;[!UICONTROL Unspecified]“事件表示未连接到Advertising Cloud的表单完成事件。 例如，在广告平台报表中，电子邮件促销活动驱动的自然转化或转化将归为“未指定”。
+https://adobeadcloud.zendesk.com/agent/tickets/14214默认情况下，Adobe Analytics会报告每个报表中所有捕获的事件。 &quot;[!UICONTROL Unspecified]“事件表示未与Adobe广告连接的表单完成事件。 例如，在广告平台报表中，电子邮件促销活动驱动的自然转化或转化将归为“未指定”。
 
 您可以使用过滤器通过通过“包括未指定（无）”选项删除复选标记，从报表中删除未指定事件。 <!-- Not sure if this is in DSP or in Analytics Workspace -->
 

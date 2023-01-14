@@ -1,51 +1,51 @@
 ---
-title: Advertising Cloud ID使用者 [!DNL Analytics]
-description: Advertising Cloud ID使用者 [!DNL Analytics]
+title: Adobe使用的广告ID [!DNL Analytics]
+description: Adobe使用的广告ID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ed1aab7b-9bd0-4d42-9bfb-9c6fa6db76bc
-source-git-commit: 525bc48104f928ccf9a3bb792b7e33c7e590cf4a
+source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
 
-# Advertising Cloud ID使用者 [!DNL Analytics]
+# Adobe使用的广告ID [!DNL Analytics]
 
-*仅具有Advertising Cloud-Adobe Analytics集成的广告商*
+*仅具有Adobe广告与Adobe Analytics集成的广告商*
 
-*适用于Advertising Cloud DSP和Advertising Cloud Search*
+*适用于Advertising DSP和[!DNL Advertising Search]*
 
-Advertising Cloud使用两个ID进行站点内性能跟踪：the *EF ID* 和 *AMO ID*.
+Adobe广告使用两个ID进行网站性能跟踪：the *EF ID* 和 *AMO ID*.
 
-在出现广告展示时，Advertising Cloud会创建AMO ID和EF ID值并进行存储。 当访客在未点击广告的情况下进入网站时， [!DNL Analytics] 通过 [!DNL Analytics for Advertising Cloud] JavaScript代码。 对于显示到达流量， [!DNL Analytics] 生成补充ID(`SDID`)，用于将EF ID和AMO ID拼合到 [!DNL Analytics]. 对于点进流量，这些ID会使用 `s_kwcid` 和 `ef_id` 查询字符串参数。
+在出现广告展示时，Adobe广告会创建AMO ID和EF ID值并进行存储。 当访客在未点击广告的情况下进入网站时， [!DNL Analytics] 从Adobe广告通过 [!DNL Analytics for Advertising] JavaScript代码。 对于显示到达流量， [!DNL Analytics] 生成补充ID(`SDID`)，用于将EF ID和AMO ID拼合到 [!DNL Analytics]. 对于点进流量，这些ID会使用 `s_kwcid` 和 `ef_id` 查询字符串参数。
 
-Advertising Cloud使用以下条件区分网站的点进或显示到达条目：
+Adobe广告可使用以下条件区分网站的点进或显示到达条目：
 
 * 当用户在查看广告但未单击广告后访问网站时，即会捕获显示到达条目。 [!DNL Analytics] 如果满足以下两个条件，则记录显示到达：
    * 访客没有 [!DNL DSP] 或 [!DNL Search] 广告时段 [点击回顾窗口](#lookback-a4adc).
    * 访客至少已看到一次 [!DNL DSP] 广告时段 [展示回顾窗口](#lookback-a4adc). 最后一次展示作为显示到达传递。
 * 当网站访客在进入网站之前点击广告时，会捕获点进条目。 [!DNL Analytics] 在发生以下任一情况时捕获点进：
-   * 该URL包含由Advertising Cloud添加到登陆页面URL的EF ID和AMO ID。
-   * URL不包含跟踪代码，但Advertising Cloud JavaScript代码会在过去两分钟内检测到一次点击。
+   * 该URL包含由Adobe广告添加到登陆页面URL的EF ID和AMO ID。
+   * URL不包含跟踪代码，但Adobe广告JavaScript代码会在过去两分钟内检测到一次点击。
 
-![Advertising Cloud视图 [!DNL Analytics] 集成](/help/integrations/assets/a4adc-view-through-process.png)
+![Adobe广告视图 [!DNL Analytics] 集成](/help/integrations/assets/a4adc-view-through-process.png)
 
-*图1:Advertising Cloud视图 [!DNL Analytics] 集成*
+*图1:Adobe广告视图 [!DNL Analytics] 集成*
 
-![Advertising Cloud点击基于URL [!DNL Analytics] 集成](/help/integrations/assets/a4adc-click-through-process.png)
+![Adobe广告点击URL [!DNL Analytics] 集成](/help/integrations/assets/a4adc-click-through-process.png)
 
-*图2:Advertising Cloud点击基于URL [!DNL Analytics] 集成*
+*图2:Adobe广告点击URL [!DNL Analytics] 集成*
 
-## Advertising Cloud EF ID
+## Adobe广告EF ID
 
-EF ID是Advertising Cloud用于将活动与在线点击或广告曝光关联的唯一令牌。 EF ID存储在 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 或rVar(保留eVar)维度(Advertising Cloud EF ID)，并跟踪单个浏览器或设备级别的每次广告点击或曝光。 EF ID主要用作发送密钥 [!DNL Analytics] 数据到Advertising Cloud，以便在Advertising Cloud中进行报告和竞价优化。
+EF ID是Adobe广告用来将活动与在线点击或广告曝光关联的唯一令牌。 EF ID存储在 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 或rVar(保留的eVar)维度(Adobe广告EF ID)，并跟踪单个浏览器或设备级别的每次广告点击或曝光。 EF ID主要用作发送密钥 [!DNL Analytics] Adobe广告中用于Adobe广告中报告和竞价优化的数据。
 
 ### EF ID格式
 
 >[!NOTE]
 >
->EF ID区分大小写。 如果 [!DNL Analytics] 实施会强制将URL跟踪设为小写，然后Advertising Cloud将无法识别EF ID。 这将影响Advertising Cloud的竞价和报告，但不会影响 [!DNL Analytics].
+>EF ID区分大小写。 如果 [!DNL Analytics] 实施会强制将URL跟踪设为小写，然后Adobe广告将无法识别EF ID。 这将影响Adobe广告的竞价和报告，但不会影响 [!DNL Analytics].
 
 #### [!DNL Google Ads] 搜索广告
 
@@ -67,13 +67,11 @@ EF ID是Advertising Cloud用于将活动与在线点击或广告曝光关联的�
 
 #### 在其他搜索引擎上显示广告和搜索广告
 
-```<Advertising Cloud visitor ID>:<timestamp>:<channel type>```
-
-<!-- <*Advertising Cloud visitor ID*>:<*timestamp*>:<*channel type*> -->
+```<Adobe Advertising visitor ID>:<timestamp>:<channel type>```
 
 其中：
 
-* &lt;*Advertising Cloud访客ID*>是每个访客的唯一ID（例如UhKVaAABCKJ0MDt）。 也称为 *冲浪ID*.
+* &lt;*Adobe广告访客ID*>是每个访客的唯一ID（例如UhKVaAABCKJ0MDt）。 也称为 *冲浪ID*.
 
 * &lt;*timestamp*>是格式为YYYYMMDDHHMMSS的时间(例如2019年的20190821192533，月08，第21天，时间19):25:33)。
 
@@ -91,9 +89,9 @@ EF ID是Advertising Cloud用于将活动与在线点击或广告曝光关联的�
 
 EF ID受Analysis Workspace中50万个唯一标识符限制的约束。 达到500k值后，所有新跟踪代码都将报告在单行项目标题“[!UICONTROL Low Traffic].&quot; 由于可能缺少报表保真度，因此不会对EF ID进行分类，您不应将它们用于中的区段或报表 [!DNL Analytics].
 
-## Advertising Cloud AMO ID
+## Adobe广告AMO ID
 
-AMO ID可在较小粒度级别跟踪每个唯一广告组合，用于 [!DNL Analytics] 数据分类和广告量度摄取（如展示次数、点击次数和成本）从Advertising Cloud获取。 AMO ID存储在 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 或rVar维度(AMO ID)，专门用于 [!DNL Analytics].
+AMO ID可在较小粒度级别跟踪每个唯一广告组合，用于 [!DNL Analytics] 数据分类和从Adobe广告中摄取广告量度（例如展示次数、点击次数和成本）。 AMO ID存储在 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 或rVar维度(AMO ID)，专门用于 [!DNL Analytics].
 
 AMO ID也称为 `s_kwcid`，有时发音为“[!DNL the squid].&quot;
 
@@ -105,26 +103,12 @@ AMO ID也称为 `s_kwcid`，有时发音为“[!DNL the squid].&quot;
 
 * &lt;*渠道ID*>可能是：
 
-   * `AC` = Advertising Cloud DSP
-   * `AL` 对于Advertising Cloud Search
+   * `AC` = Advertising DSP
+   * `AL` 表示 [!DNL Advertising Search]
 
-* &lt;*广告ID*>是Advertising Cloud生成的广告唯一标识符。 它用作将Advertising Cloud实体元数据转换为可读数据的键 [!DNL Analytics] 维度。
+* &lt;*广告ID*>用于广告的Adobe广告生成的唯一标识符。 它用作将Adobe广告实体元数据转换为可读的关键 [!DNL Analytics] 维度。
 
-* &lt;*版面ID*>是Advertising Cloud生成的版面唯一标识符。 它用作将Advertising Cloud实体元数据转换为可读数据的键 [!DNL Analytics] 维度。
-
-<!-- <*Channel ID*>!<*Ad ID*>!<*Placement ID*>
-
-where:
-
-* <*Channel ID*> may be:
-
-    * `AC` = Advertising Cloud DSP
-    * `AL` for Advertising Cloud Search
-
-* <*Ad ID*> is used an Advertising Cloud-generated unique identifier for an ad. It serves as a key for translating Advertising Cloud entity metadata into readable [!DNL Analytics] dimensions.
-
-* <*Placement ID*> is an Advertising Cloud-generated unique identifier for an placement. It serves as a key for translating Advertising Cloud entity metadata into readable [!DNL Analytics] dimensions.
- -->
+* &lt;*版面ID*>是Adobe广告生成的版面唯一标识符。 它用作将Adobe广告实体元数据转换为可读的关键 [!DNL Analytics] 维度。
 
 AMO ID示例：AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
@@ -136,11 +120,11 @@ AMO ID示例：AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
 其中：
 
-* `AL` 是搜索渠道的渠道ID。
-* `{userid}` 是Advertising Cloud分配给广告商的唯一数字用户ID。
-* `{sid}` 是Advertising Cloud用于指定搜索引擎的数字ID，例如 `3` 表示 [!DNL Google Ads] 或 `10` 表示 [!DNL Microsoft Advertising].
+* `AL` 是广告网络的渠道ID。
+* `{userid}` 是Adobe广告分配给广告商的唯一数字用户ID。
+* `{sid}` 是Adobe广告用于指定广告网络的数字ID，例如 `3` 表示 [!DNL Google Ads] 或 `10` 表示 [!DNL Microsoft Advertising].
 
-以下是几个搜索引擎的完整AMO ID格式。 有关其他搜索引擎的AMO ID格式，请联系您的 [!DNL Adobe] 客户团队。
+以下是几个广告网络的完整AMO ID格式。 有关其他广告网络的AMO ID格式，请联系您的 [!DNL Adobe] 客户团队。
 
 的AMO ID格式 [!DNL Google Ads]:
 
@@ -167,14 +151,14 @@ AMO ID示例：AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
 在Analytics报表中，您可以通过搜索 [!UICONTROL AMO ID] 维度和使用 [!UICONTROL AMO ID Instance] 量度。 的 [!UICONTROL AMO ID] 维度存储所有捕获的AMO ID值，而 [!UICONTROL AMO ID Instance] 量度指示网站捕获AMO ID值的频率。 例如，如果同一搜索广告被点击四次，而Analytics跟踪了七个网站条目，则 [!UICONTROL AMO ID Instance] 将为七(7)和 [!UICONTROL Clicks] 就是四(4)。
 
-对于 [!DNL Analytics]，最佳实践是将AMO ID及其相应实例一起使用。 有关更多信息，请参阅[的数据验证 [!DNL Analytics for Advertising Cloud]](data-variances.md#data-validation)”中的“预期数据差异” [!DNL Analytics] 和Advertising Cloud。”
+对于 [!DNL Analytics]，最佳实践是将AMO ID及其相应实例一起使用。 有关更多信息，请参阅[的数据验证 [!DNL Analytics for Advertising]](data-variances.md#data-validation)”中的“预期数据差异” [!DNL Analytics] 和Adobe广告。”
 
 ## 关于Analytics分类
 
-在 [!DNL Analytics], a [分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) 是给定跟踪代码（如帐户、促销活动或广告）的一段元数据。 Advertising Cloud使用分类对Advertising Cloud原始数据进行分类，以便您在生成报表时可以通过不同方式（如按广告类型或促销活动）显示数据。 分类构成Advertising Cloud报表的基础，如 [!DNL Analytics] 和可与AMO量度一起使用，例如 [!UICONTROL AMO Cost], [!UICONTROL AMO Impressions]和 [!UICONTROL AMO Clicks]，以及自定义事件和标准网站事件(例如 [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders]和 [!UICONTROL Revenue].
+在 [!DNL Analytics], a [分类](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) 是给定跟踪代码（如帐户、促销活动或广告）的一段元数据。 Adobe广告使用分类对原始Adobe广告数据进行分类，以便在生成报表时以不同方式（例如按广告类型或促销活动）显示数据。 分类构成Adobe广告报告的基础 [!DNL Analytics] 和可与AMO量度一起使用，例如 [!UICONTROL AMO Cost], [!UICONTROL AMO Impressions]和 [!UICONTROL AMO Clicks]，以及自定义事件和标准网站事件(例如 [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders]和 [!UICONTROL Revenue].
 
 >[!MORELIKETHIS]
 >
->* [概述 [!DNL Analytics for Advertising Cloud]](overview.md)
->* [之间的预期数据差异 [!DNL Analytics] 和Advertising Cloud](data-variances.md)
+>* [概述 [!DNL Analytics for Advertising]](overview.md)
+>* [之间的预期数据差异 [!DNL Analytics] 和Adobe广告](data-variances.md)
 

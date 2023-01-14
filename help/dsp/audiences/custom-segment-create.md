@@ -3,16 +3,16 @@ title: 创建和实施自定义区段
 description: 了解如何创建和实施自定义区段，以跟踪展示给广告的用户或访问您网页的用户。
 feature: DSP Segments
 exl-id: 691903e2-773e-4205-837e-822f435f57a7
-source-git-commit: ea9c5ba9263be2c1607d682ac035caae70621020
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
 
 # 创建和实施自定义区段
 
-您可以通过创建和实施自定义Advertising Cloud区段来收集您自己的第一方受众数据。 您可以使用该区段来跟踪a)从桌面、移动设备和CTV设备显示广告的用户以及b)访问特定网页的用户。 您可以稍后使用其他广告重新定位区段中的用户，或阻止区段中的用户接收其他广告。
+您可以通过创建和实施自定义DSP区段来收集您自己的第一方受众数据。 您可以使用该区段来跟踪a)从桌面、移动设备和CTV设备显示广告的用户以及b)访问特定网页的用户。 您可以稍后使用其他广告重新定位区段中的用户，或阻止区段中的用户接收其他广告。
 
 >[!NOTE]
 >

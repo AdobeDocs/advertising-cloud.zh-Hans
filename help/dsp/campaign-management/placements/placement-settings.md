@@ -3,9 +3,9 @@ title: 版面设置
 description: 请参阅可用版面设置的描述。
 feature: DSP Placements
 exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: 0f5bdf041c0de60730efe5190d438a6d29752034
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '3422'
+source-wordcount: '3418'
 ht-degree: 0%
 
 ---
@@ -169,7 +169,7 @@ ht-degree: 0%
 
 **[!UICONTROL Inventory Sources]:** 要包含或排除的库存来源作为目标。 对于大多数版面类型，默认包含所有库存类型和每种类型的所有来源。 对于 [!DNL Roku] 版面，您必须指定库存类型和来源。 您可以从以下类型的库存中进行选择：
 
-* [!UICONTROL Public]:（除Roku之外的所有版面类型）Advertising Cloud有权访问的所有开放式Exchange库存。 您可以包含和排除公共库存。
+* [!UICONTROL Public]:（除Roku之外的所有版面类型）DSP有权访问的所有打开的Exchange库存。 您可以包含和排除公共库存。
 
    您可以按源或按信息源查看列表。 在按信息源查看列表时，可以按信息源名称、信息源密钥或选定的特征标记进行搜索。
 
@@ -226,7 +226,7 @@ ht-degree: 0%
 >
 >对于效果促销活动，最佳做法是选择 *[!UICONTROL All Sites]*.
 
-**[!UICONTROL Site Categories]:** (可选；可用时间 **[!UICONTROL Paste list of targeted sites]** is *[!UICONTROL Off]*)选定网站层中的网站类别，以包含或排除（但不同时排除）为目标。 从Advertising Cloud根据网站主题映射的垂直网站列表中进行选择：
+**[!UICONTROL Site Categories]:** (可选；可用时间 **[!UICONTROL Paste list of targeted sites]** is *[!UICONTROL Off]*)选定网站层中的网站类别，以包含或排除（但不同时排除）为目标。 从DSP根据网站主体映射的垂直网站列表中进行选择：
 
 1. 单击 ![编辑](/help/dsp/assets/edit.png).
 1. 指定要包含或排除的网站类别：
@@ -257,7 +257,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 除了Advertising Cloud DSP之外，还应用帐户级别和广告商级别的阻止网站列表 [全局阻止的站点列表](/help/dsp/introduction/features/brand-safety-media-quality.md)，包括被视为对广告不安全的网站。
+>* 除了DSP之外，还会应用帐户级别和广告商级别的阻止网站列表 [全局阻止的站点列表](/help/dsp/introduction/features/brand-safety-media-quality.md)，包括被视为对广告不安全的网站。
 >* 阻止的站点列表始终会覆盖目标站点列表。 如果版面同时排除和包含广告的相同目标，则会排除该目标。
 
 

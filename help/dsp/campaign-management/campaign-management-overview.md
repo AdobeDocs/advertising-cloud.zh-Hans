@@ -1,18 +1,18 @@
 ---
-title: Campaign Management在Advertising Cloud DSP概述
+title: Campaign Management在Advertising DSP中的概述
 description: 了解营销活动管理层次结构和组件。
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: c94e08d0-0dd5-4cf9-8df2-9eb4c591375c
-source-git-commit: d180b91f7bf5ae72a51e5335638a98c5fc4b4e86
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
 
-# Campaign Management在Advertising Cloud DSP概述
+# Campaign Management在Advertising DSP中的概述
 
-Advertising Cloud DSP营销活动具有以下层次结构：
+DSP促销活动具有以下层次结构：
 
 * Campaign
    * 包
@@ -20,7 +20,7 @@ Advertising Cloud DSP营销活动具有以下层次结构：
          * 广告
 
 <!-- Do clients think in terms of insertion orders? If yes, then work in the following info.:
-In Advertising Cloud DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package will include placements, which can use different strategies and tactics to deliver the line item requirements.
+In Advertising DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package will include placements, which can use different strategies and tactics to deliver the line item requirements.
 -->
 
 ## [!UICONTROL Campaigns]

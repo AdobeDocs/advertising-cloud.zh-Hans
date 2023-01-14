@@ -1,22 +1,23 @@
 ---
-title: 在Adobe Target中为Advertising Cloud DSP广告配置A/B测试
-description: 了解如何在 [!DNL Target] 的DSP广告。
-source-git-commit: 465f3c18a7d85d54bca5ff2f565694a9b211a7ed
+title: 在Adobe Target中配置Adobe广告的A/B测试
+description: 了解如何在 [!DNL Target] 用于您的DSP和 [!DNL Search] 广告。
+exl-id: 97055645-4b2f-4795-830d-9ce89ae2ad15
+source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1654'
 ht-degree: 0%
 
 ---
 
-# 在Adobe Target中配置Advertising Cloud DSP广告的A/B测试
+# 在Adobe Target中配置A/B测试以用于Advertising DSP和 [!DNL Advertising Search] 广告
 
 <!-- Add [!UICONTROL and [!DNL tags throughout as needed. -->
 
 <!-- Break into sub-files, or just leave as one? -->
 
-*仅使用Advertising Cloud DSP的广告商*
+*仅使用Advertising DSP的广告商*
 
-Adobe Advertising Cloud DSP和Adobe Target使营销人员能够更轻松地通过付费媒体和网站消息传递提供个性化且连接的体验。 通过在两个产品之间共享信号，您可以：
+Adobe广告和Adobe Target使营销人员能够更轻松地跨付费媒体和网站消息传送提供个性化且连接的体验。 通过在产品之间共享信号，您可以：
 
 * 通过将客户的广告曝光量从DSP促销活动关联到其网站上体验，降低网站落后率。
 
@@ -34,7 +35,7 @@ Adobe Advertising Cloud DSP和Adobe Target使营销人员能够更轻松地通�
 
 * [!DNL Target]
 
-* [[!DNL Analytics] 对于Advertising Cloud](/help/integrations/analytics/overview.md) 集成<!-- necessary for testing view-throughs, which most advertisers want to do -->
+* [[!DNL Analytics] （广告）](/help/integrations/analytics/overview.md) 集成<!-- necessary for testing view-throughs, which most advertisers want to do -->
 
 * [[!DNL Analytics] 表示 [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) 集成
 
@@ -50,15 +51,15 @@ Adobe Advertising Cloud DSP和Adobe Target使营销人员能够更轻松地通�
 
 ![附加到登陆页面URL的点进URL](/help/integrations/assets/target-ct-url.jpg)
 
-### 将DSP宏添加到点进URL
+### (仅限DSP)将DSP宏添加到点进URL中
 
 <!-- If we ever write instructions for ads on other ad servers (such as Sizmek ads in DCO), then work that into the following section. -->
 
 在Flash谈话或Google Campaign Manager 360中，手动更新每个广告的点进URL，以包含捕获AMO ID变量所需的宏。 AMO ID变量用于将点击数据发送到Adobe Analytics和共享用于A/B测试的放置键。 有关说明，请参阅以下页面：
 
-* [附加 [!DNL Analytics for Advertising Cloud] 宏 [!DNL Flashtalking] 广告标记](/help/integrations/analytics/macros-flashtalking.md)
+* [附加 [!DNL Analytics for Advertising] 宏 [!DNL Flashtalking] 广告标记](/help/integrations/analytics/macros-flashtalking.md)
 
-* [附加 [!DNL Analytics for Advertising Cloud] 宏 [!DNL Google Campaign Manager 360] 广告标记](/help/integrations/analytics/macros-google-campaign-manager.md)
+* [附加 [!DNL Analytics for Advertising] 宏 [!DNL Google Campaign Manager 360] 广告标记](/help/integrations/analytics/macros-google-campaign-manager.md)
 
 请联系您的DSP客户团队和广告解决方案组(aac-advertising-solutions-group@adobe.com)以检索所需的版面密钥并完成设置，并确保每个点进URL都填充了版面密钥。
 
@@ -72,7 +73,7 @@ Adobe Advertising Cloud DSP和Adobe Target使营销人员能够更轻松地通�
 
 1. 在广告标签和DSP位置设置中实施Audience Manager展示事件像素。
 
-   有关说明，请参阅[从Advertising Cloud DSP促销活动中收集媒体曝光数据](/help/integrations/audience-manager/media-data-integration/collect.md).&quot;
+   有关说明，请参阅[从Advertising DSP Campaigns中收集媒体曝光数据](/help/integrations/audience-manager/media-data-integration/collect.md).&quot;
 
    确保添加 [DSP宏](/help/dsp/campaign-management/macros.md) 捕获您希望展示事件像素要传递的所有数据，包括 `${TM_PLACEMENT_ID_NUM}` ，用于数字版面ID。
 
@@ -181,11 +182,11 @@ Adobe Advertising Cloud DSP和Adobe Target使营销人员能够更轻松地通�
 
 #### 量度
 
-* 在工作区中创建一个面板，该面板专用于运行测试的Advertising Cloud营销活动、包或版面。 使用概要可视化图表，在与Target测试性能相同的报表中显示Advertising Cloud量度。
+* 在工作区中创建一个面板，该面板专用于运行测试的Adobe广告促销活动、包或版面。 使用概要可视化图表，在与Target测试性能相同的报表中显示Adobe广告量度。
 
 * 优先使用网站上的量度（如访问次数和转化次数）来衡量性能。
 
-* 了解来自Advertising Cloud的聚合媒体量度（例如展示次数、点击次数和成本）无法与Target量度相匹配。
+* 了解来自Adobe广告的聚合媒体量度（例如展示次数、点击次数和成本）无法与Target量度相匹配。
 
 #### Dimension
 
@@ -219,7 +220,7 @@ Adobe Advertising Cloud DSP和Adobe Target使营销人员能够更轻松地通�
 * [A/B测试概述](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html)  — 描述可用于DSP广告的A/B测试活动。
 * [体验和选件](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html)  — 说明 [!DNL Target] 用于确定DSP测试用户所接触到的现场内容的工具。
 * [信号、特征和区段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html)  — 定义一些可帮助进行DSP查看测试的Audience Manager工具。
-* [Analytics for Advertising Cloud概述](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)  — 引入了Analytics for Advertising Cloud，它允许您跟踪Analytics实例中的点进和显示到达网站交互。
+* [用于广告的Analytics概述](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)  — 引入了Analytics for Advertising，它允许您跟踪Analytics实例中的点进和显示到达网站的交互。
 
 <!-- 
 >[!MORELIKETHIS]

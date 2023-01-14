@@ -1,13 +1,13 @@
 ---
-source-git-commit: 0654347afd1caf5e9bd8ccabf41a8a591e604df5
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
-# Advertising Cloud协作文档
+# Adobe广告的协作文档
 
-这是Adobe Advertising Cloud的文档存储库，包括跨产品和DSP文档。 (稍后，它将包含搜索文档，并可能包含(?) )
+这是Adobe广告的文档存储库，包括跨产品和DSP文档。 (稍后，它将包含搜索文档，并可能包含(?) )
 
 **注意：此页面未在面向客户的文档中发布。**
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 有关更多发布说明、风格指南、示例和其他资源，请参阅：
 
-+ [贡献作者准则 **特别是Advertising Cloud**](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=EfficientFrontier&amp;title=Contributing+Author+Guidelines+for+Advertising+Cloud+Help)
++ [贡献作者准则 **专门用于Adobe广告**](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=EfficientFrontier&amp;title=Contributing+Author+Guidelines+for+Advertising+Cloud+Help)
 + [为所有Adobe作者进行协作创作](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html)
 
 另请参阅：

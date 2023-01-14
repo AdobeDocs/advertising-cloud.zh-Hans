@@ -3,9 +3,9 @@ title: '"创建 [!UICONTROL Simple Ad Serving] 交易”'
 description: “了解如何为 [!UICONTROL Simple Ad Serving] 交易。”
 feature: DSP Simple Ad Serving
 exl-id: d8de85ec-616c-44ed-9a1a-cc25713ad4a4
-source-git-commit: 089d91f7d1b06e29d27ac95a46834127d19c141d
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
       1. 单击 **[!UICONTROL Next]**.
    1. 在馈送详细信息中，编辑馈送详细信息，然后单击 **[!UICONTROL Next]**.
 
-      Advertising Cloud DSP会自动生成名为“SAS放置 — &lt;”的放置&#x200B;*交易名称*>，”。 在版面中，交易会在 [!UICONTROL Inventory Targets] 中。 所有其他定位选项均不适用。
+      DSP会自动生成名为“SAS放置 — &lt;*交易名称*>，”。 在版面中，交易会在 [!UICONTROL Inventory Targets] 中。 所有其他定位选项均不适用。
 
 
 

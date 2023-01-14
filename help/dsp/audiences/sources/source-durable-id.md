@@ -1,10 +1,11 @@
 ---
-title: '从持久ID合作伙伴激活经过身份验证的区段 '
+title: 从持久ID合作伙伴激活经过身份验证的区段
 description: 了解如何通过持久ID解决方案激活经过验证的受众。
 feature: DSP Audiences
-source-git-commit: 155ab740084bebfba5fd992a23706129668fcc90
+exl-id: 44635b74-1874-4781-bd1a-a4dadae049e0
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *测试版功能*
 
-要通过Advertising Cloud DSP内的持久ID解决方案激活经过验证的受众，您的区段必须转换为 [!DNL RampIDs]，可在可买的环境中识别。 您可以通过以下任一方式实现此目的：
+要通过Advertising DSP内的持久ID解决方案激活经过验证的受众，您的区段必须转换为 [!DNL RampIDs]，可在可买的环境中识别。 您可以通过以下任一方式实现此目的：
 
 * 利用DSP与 [!DNL Adobe Real-Time Customer Data Profile (CDP)] 和 [!DNL Adobe-LiveRamp Retrieval API].
 
@@ -49,7 +50,7 @@ ht-degree: 0%
 
    * 定位从中共享的区段 [!DNL LiveRamp] 使用标准区段激活流程。
 
-   * 与您的Advertising Cloud支持团队合作，以验证正确的数据分发。
+   * 与您的Adobe广告支持团队合作，以验证正确的数据分发。
 
 详细了解DSP与 [!DNL LiveRamp]，联系 `adcloud-support@adobe.com`.
 
@@ -58,6 +59,6 @@ ht-degree: 0%
 >* [关于从受众源激活经过身份验证的区段](source-about.md)
 >* [创建受众源以激活第一方受众](source-create.md)
 >* [受众源设置](source-settings.md)
->* [Adobe Advertising Cloud DSP连接](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [AdobeAdvertising DSP Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [关于受众管理](/help/dsp/audiences/audience-about.md)
 

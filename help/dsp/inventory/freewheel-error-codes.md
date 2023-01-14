@@ -3,18 +3,18 @@ title: 的错误代码 [!DNL FreeWheel] 广告提交
 description: 引用为广告提交返回的错误代码 [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 2eb93971-ba82-4de8-96c5-48524d628b70
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '677'
 ht-degree: 2%
 
 ---
 
 # 的错误代码 [!DNL FreeWheel] 广告提交
 
-失败广告提交的错误消息可能来自Advertising Cloud DSP或 [!DNL FreeWheel]. 错误消息显示在 [!UICONTROL API Response] 列 [[!UICONTROL Freewheel Status] 对话框](freewheel-check-status.md).
+失败广告提交的错误消息可能来自Advertising DSP或 [!DNL FreeWheel]. 错误消息显示在 [!UICONTROL API Response] 列 [[!UICONTROL Freewheel Status] 对话框](freewheel-check-status.md).
 
-## Advertising Cloud DSP内部错误
+## Advertising DSP内部错误
 
 | 错误消息 | 描述 | 后续步骤 |
 |--- |--- |--- |

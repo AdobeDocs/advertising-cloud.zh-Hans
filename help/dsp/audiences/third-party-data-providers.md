@@ -1,20 +1,20 @@
 ---
-title: Advertising Cloud DSP中可用的第三方数据提供商
+title: Advertising DSP中可用的第三方数据提供商
 description: 请参阅所有可用第三方数据提供商的列表。
 feature: DSP Audiences
 exl-id: f67d81a0-bd31-48d8-9bcf-1888afd43894
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
 
 <!-- feature: audiences -->
 
-# Advertising Cloud DSP中可用的第三方数据提供商
+# Advertising DSP中可用的第三方数据提供商
 
-以下第三方数据提供商的数据类别和区段可用作 [!DNL DSP]. 这些区段主要适用于美国受众。
+以下第三方数据提供商的数据类别和区段可用作DSP中的版面目标。 这些区段主要适用于美国受众。
 
 在版面设置和已保存的受众设置中，每个区段的使用费用都显示在区段名称旁边。
 

@@ -3,9 +3,9 @@ title: 连接的电视广告设置
 description: 请参阅连接的电视广告的可用广告设置描述。
 feature: DSP Ads
 exl-id: 4daae9e4-27eb-4496-9186-f33aebd8daae
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL VAST Tag]:** (仅使用VAST标记的广告；只读)作为广告源输入的第三方VAST标记。
 
-**[!UICONTROL Final VAST Tag]:** (仅使用VAST标记的广告；只读)您作为广告源输入的第三方VAST标记，且 [Advertising Cloud DSP跟踪宏](/help/dsp/campaign-management/macros.md) 插入（如果适用）。
+**[!UICONTROL Final VAST Tag]:** (仅使用VAST标记的广告；只读)您作为广告源输入的第三方VAST标记，且 [Advertising DSP跟踪宏](/help/dsp/campaign-management/macros.md) 插入（如果适用）。
 
 **[!UICONTROL Clock Number]**:(仅在英国使用；仅供具有权限的用户使用)用于确保广播正确广告的唯一标识符。 如果此设置不适用，请将其留空。
 
@@ -84,5 +84,5 @@ ht-degree: 0%
 >* [创建单个广告](ad-create.md)
 >* [列出与广告关联的版面](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [广告规范](ad-specs.md)
->* [Advertising Cloud DSP宏](/help/dsp/campaign-management/macros.md)
+>* [DSP宏](/help/dsp/campaign-management/macros.md)
 

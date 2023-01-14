@@ -2,9 +2,10 @@
 title: 通用视频广告设置
 description: 请参阅通用视频广告的可用广告设置描述。
 feature: DSP Ads
-source-git-commit: 2d344d2ae0438433eb679a5f31f471c2eac4fe26
+exl-id: 0be86b84-78f9-4429-a8b7-8195891875ca
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -43,7 +44,7 @@ ht-degree: 0%
 
 **[!UICONTROL VAST Tag]:** (仅使用VAST标记的广告；只读)作为广告源输入的第三方VAST标记。
 
-**[!UICONTROL Final VAST Tag]:** (仅使用VAST标记的广告；只读)您作为广告源输入的第三方VAST标记，且 [Advertising Cloud DSP跟踪宏](/help/dsp/campaign-management/macros.md) 插入（如果适用）。
+**[!UICONTROL Final VAST Tag]:** (仅使用VAST标记的广告；只读)您作为广告源输入的第三方VAST标记，且 [Advertising DSP跟踪宏](/help/dsp/campaign-management/macros.md) 插入（如果适用）。
 
 **[!UICONTROL Wmode]:** 窗口模式： *[!UICONTROL window]*, *[!UICONTROL transparent]*&#x200B;或 *[!UICONTROL opaque]*. 如果此设置不适用，请将其留空。
 
@@ -75,5 +76,5 @@ ht-degree: 0%
 >* [创建单个广告](ad-create.md)
 >* [列出与广告关联的版面](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [广告规范](ad-specs.md)
->* [Advertising Cloud DSP宏](/help/dsp/campaign-management/macros.md)
+>* [DSP宏](/help/dsp/campaign-management/macros.md)
 

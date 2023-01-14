@@ -3,9 +3,9 @@ title: 音频广告设置
 description: 请参阅音频广告的可用广告设置的描述。
 feature: DSP Ads
 exl-id: 746b6f40-ff59-4bbe-bfc0-3579d4461e4a
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 **[!UICONTROL VAST Tag]:** （仅使用VAST标记的广告）第三方广告源的URL。 确保VAST标记仅包含音频媒体文件。
 
-**[!UICONTROL Final VAST Tag]:** （仅使用VAST标记的广告）第三方广告源的URL，其中必需 [Advertising Cloud DSP跟踪宏](/help/dsp/campaign-management/macros.md) 插入（如果适用）。
+**[!UICONTROL Final VAST Tag]:** （仅使用VAST标记的广告）第三方广告源的URL，其中必需 [Advertising DSP跟踪宏](/help/dsp/campaign-management/macros.md) 插入（如果适用）。
 
 **[!UICONTROL Select Rate]:** （仅限具有权限的用户）通过Adobe计费的预协商费率，或您已协商并将通过供应商计费的费率之一。 要添加费率，请联系您的 [!DNL Adobe] 客户团队。
 
@@ -68,5 +68,5 @@ ht-degree: 0%
 >* [创建单个广告](ad-create.md)
 >* [列出与广告关联的版面](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [广告规范](ad-specs.md)
->* [Advertising Cloud DSP宏](/help/dsp/campaign-management/macros.md)
+>* [DSP宏](/help/dsp/campaign-management/macros.md)
 

@@ -2,16 +2,16 @@
 title: 特定于发布者的广告规范
 description: 引用受支持发布者的广告规范。
 feature: DSP Ads
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
 
 # 特定于发布者的广告规范
 
-一些发布者的广告规范比Advertising Cloud的更严格 [一般广告规范](/help/dsp/campaign-management/ads/ad-specs.md).  当发布者规范比Advertising Cloud的更严格时，请确保遵循发布者规范。
+一些出版商的广告规范比Adobe广告更严格 [一般广告规范](/help/dsp/campaign-management/ads/ad-specs.md). 当发布者规范比Adobe广告规范更严格时，请确保遵循发布者规范。
 
 以下链接将引导您查看一些要求更严格的发布者的广告规范。
 

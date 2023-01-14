@@ -1,16 +1,16 @@
 ---
-title: 关于Advertising Cloud DSP中的促销活动管理
+title: 关于Campaign Management在Advertising DSP中
 description: 了解营销活动管理。
 feature: DSP Campaigns
 exl-id: f9f3aba2-995c-45df-8e65-52999f9cc539
-source-git-commit: 19d6a2edf07eecf874537dd9d356737ed9156bd9
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
-# 关于Advertising Cloud DSP中的促销活动管理
+# 关于Campaign Management在Advertising DSP中
 
 营销活动是飞行设置的总体框架。 所有营销活动级别设置都会自动应用于营销活动中的每个包和版面。 每个营销活动都与特定的广告商关联。
 

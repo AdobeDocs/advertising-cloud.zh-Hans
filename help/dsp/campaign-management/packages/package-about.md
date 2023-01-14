@@ -1,16 +1,16 @@
 ---
-title: 关于包管理在Advertising Cloud DSP中
+title: 关于Advertising DSP中的包管理
 description: 了解包管理。
 feature: DSP Packages
 exl-id: 06d77698-62ae-466b-8cf7-c9148907ba6d
-source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
 
-# 关于包管理在Advertising Cloud DSP中
+# 关于Advertising DSP中的包管理
 
 使用包对投放进行分组，以便交付到设定的预算、性能目标和自定义步调策略。 DSP通过将预算转移到包中性能最佳的版面来优化包。 您可以按版面格式、库存类型、数据提供商、角色或其他可识别特性来组织包。 包是可选的。
 

@@ -3,14 +3,14 @@ title: 移动设备广告设置
 description: 请参阅移动广告的可用广告设置描述。
 feature: DSP Ads
 exl-id: f67c4ba0-1011-4ad6-bd36-98c312b81b67
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
 
-# Mobile广告设置
+# 移动设备广告设置
 
 ## [!UICONTROL Insert Ad Tag]
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 **[!UICONTROL Display Code]:** 第三方创意资产的URL。 任意 [timestamp] 和[[timestamp]]参数将被实际值替换。
 
-**[!UICONTROL Final Display Code]:** 第三方创意资产的URL，必需 [Advertising Cloud DSP跟踪宏](/help/dsp/campaign-management/macros.md) 插入（如果适用）。
+**[!UICONTROL Final Display Code]:** 第三方创意资产的URL，必需 [Advertising DSP跟踪宏](/help/dsp/campaign-management/macros.md) 插入（如果适用）。
 
 ### [!UICONTROL Basic]:视频广告
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 **[!UICONTROL VAST Tag]:** (仅使用VAST标记的广告；只读)作为创意资产输入的第三方VAST标记。
 
-**[!UICONTROL Final VAST Tag]:** (仅使用VAST标记的广告；只读)您输入的第三方VAST标记作为创意资产，且必要 [Advertising Cloud DSP跟踪宏](/help/dsp/campaign-management/macros.md) 插入（如果适用）。
+**[!UICONTROL Final VAST Tag]:** (仅使用VAST标记的广告；只读)您输入的第三方VAST标记作为创意资产，且必要 [Advertising DSP跟踪宏](/help/dsp/campaign-management/macros.md) 插入（如果适用）。
 
 **[!UICONTROL Wmode]:** （某些广告类型）窗口模式： *[!UICONTROL window]*, *[!UICONTROL transparent]*&#x200B;或 *[!UICONTROL opaque]*.
 
@@ -106,5 +106,5 @@ ht-degree: 0%
 >* [创建单个广告](ad-create.md)
 >* [列出与广告关联的版面](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [广告规范](ad-specs.md)
->* [Advertising Cloud DSP宏](/help/dsp/campaign-management/macros.md)
+>* [DSP宏](/help/dsp/campaign-management/macros.md)
 

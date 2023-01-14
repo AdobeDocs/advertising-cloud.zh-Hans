@@ -1,16 +1,16 @@
 ---
-title: 从营销活动管理视图导出数据
+title: 从Campaign Management视图导出数据
 description: 了解如何将数据从任何类型的营销活动管理视图导出到电子表格文件。
 feature: DSP Campaign Data Views
 exl-id: 393b0726-d26c-4d0b-8926-98fc27259286
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
 
 ---
 
-# 从营销活动管理视图导出数据
+# 从Campaign Management视图导出数据
 
 您可以将当前已过滤的营销活动管理视图的快照导出为Microsoft Excel电子表格(XLSX)格式的文件。 您可以导出以下数据：
 
@@ -22,9 +22,11 @@ ht-degree: 0%
 * 所有版面
 * 所有广告
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**&#x200B;并打开要导出的视图。
-1. 在右上方的工具栏中，单击&#x200B;**[!UICONTROL ...]>[!UICONTROL Export]**。
-该文件将保存到浏览器的默认Downloads文件夹中。
+1. 在主菜单中，单击 **[!UICONTROL Campaigns]** 并打开要导出的视图。
+
+1. 在右上方的工具栏中，单击  **[!UICONTROL ...]>[!UICONTROL Export]**.
+
+   该文件将保存到浏览器的默认Downloads文件夹中。
 
 >[!MORELIKETHIS]
 >

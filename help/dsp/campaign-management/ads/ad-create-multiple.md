@@ -3,7 +3,7 @@ title: 创建多个第三方广告
 description: 了解如何一次创建多个第三方广告。
 feature: DSP Ads
 exl-id: 83d35d27-1ab6-4fcf-877f-650a2dc6975a
-source-git-commit: bcece4bfec6f8a765cced3ee230fd8cbf3055b7b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -41,9 +41,13 @@ ht-degree: 0%
 1. 查看每个广告的详细信息和状态：
 
    1. 根据对上传标记的验证检查，查看每个广告的状态。
+
    1. （可选）对每个广告执行以下任意操作：
+
       * 要预览广告，请单击 ![play](/help/dsp/assets/play.png) 在广告行中。
+
       * 要编辑广告详细信息，请单击 ![编辑](/help/dsp/assets/edit.png)，编辑详细信息，然后单击 **保存**.
+
       * 要删除广告，请单击 **[!UICONTROL X]** 在广告行中。
 
 1. 单击 **[!UICONTROL Create *N *广告]**.
@@ -53,8 +57,11 @@ ht-degree: 0%
    * 单击 **[!UICONTROL Done]**.
 
    * (如果广告被拒绝；（可选）要编辑广告记录并重新提交广告以供审核，请执行以下操作：
+
       1. 单击广告名称。
+
       1. 编辑广告设置。
+
       1. 单击 **[!UICONTROL Save & submit for review]**.
 
 >[!MORELIKETHIS]

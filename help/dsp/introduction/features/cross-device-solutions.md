@@ -3,16 +3,16 @@ title: 跨设备解决方案
 description: 进一步了解跨设备功能。
 feature: DSP Introduction
 exl-id: 29f8ec41-35a6-4a29-a638-82a2929a8fe6
-source-git-commit: d7afcc2200adc41e583d21712226cb25f35aab66
+source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
 
 # 跨设备解决方案
 
-Advertising Cloud DSP与 [!DNL LiveRamp] 允许您将受众扩展到用户的所有已知设备，而不仅是品牌跟踪的设备。 该集成还提供跨所有设备的频率上限和归因测量。
+Advertising DSP与 [!DNL LiveRamp] 允许您将受众扩展到用户的所有已知设备，而不仅是品牌跟踪的设备。 该集成还提供跨所有设备的频率上限和归因测量。
 
 使用受支持的基于人员的设备图时，您可以：
 
@@ -76,9 +76,9 @@ Advertising Cloud DSP与 [!DNL LiveRamp] 允许您将受众扩展到用户的所
 
 ## 基于人员的归因测量
 
-*仅具有Advertising Cloud转化跟踪的广告商*
+*仅具有Adobe广告转化跟踪的广告商*
 
-通过基于人员的归因，您可以将发生在媒体曝光设备以外的设备上的转化归因。 基于人员的归因测量可在DSP、Advertising Cloud Search和Advertising Cloud Creative中提供，供在其网站上实施了Advertising Cloud转化像素的广告商使用。
+通过基于人员的归因，您可以将发生在媒体曝光设备以外的设备上的转化归因。 基于人员的归因测量可在DSP中使用， [!DNL Adobe Advertising Creative]和 [!DNL Adobe Advertising Search] 适用于在其网站上实施了Adobe广告转换像素的广告商。
 
 ### 启用基于人员的归因测量
 

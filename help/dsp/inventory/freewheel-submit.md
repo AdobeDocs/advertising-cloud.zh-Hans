@@ -2,9 +2,10 @@
 title: 将PG交易的广告提交到 [!DNL FreeWheel]
 description: 了解如何请求批准广告，以便与发布者在 [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 6cb41f3b-29e4-4feb-9c31-578ab40bd4f7
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -22,8 +23,11 @@ ht-degree: 0%
 1. 复制与 [!DNL Freewheel] 交易：
 
    1. 单击营销活动的名称。
+
    1. 在子菜单中，单击 **[!UICONTROL Ads]**.
+
    1. 单击  **[!UICONTROL ...]>[!UICONTROL Edit]** 广告名称旁边。
+
    1. 打开广告设置后，复制URL中显示在浏览器地址栏中的字母数字广告键。
 
       例如，在以下URL中，广告键为 `3NtNC5ZbaGZtqbei8jD3`
@@ -35,6 +39,7 @@ ht-degree: 0%
    1. 执行以下任一操作：
 
       * 在广告名称旁边，单击  **[!UICONTROL ...]** > **[!UICONTROL submit to FreeWheel]**.
+
       * 在主菜单中，单击 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**. 在交易行中，单击 ![“选项”菜单](/help/dsp/assets/options-menu.png) > **[!UICONTROL submit to FreeWheel]**.
    1. 验证交易ID，输入 **[!UICONTROL Ad Key]** 在步骤1中复制，然后单击 **[!UICONTROL Submit]**.
 

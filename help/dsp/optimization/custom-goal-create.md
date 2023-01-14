@@ -3,24 +3,24 @@ title: 创建自定义目标
 description: 创建自定义目标
 feature: DSP Optimization
 exl-id: 440ded21-92d3-41ad-839f-ebc8376aa932
-source-git-commit: 8aea9eb1358e23a5b25e0353ced80c1550fa0057
+source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
 
 # 创建自定义目标
 
-您可以将自定义目标创建为 *目标* 在Advertising Cloud Search。
+您可以将自定义目标创建为 *目标* within [!DNL Adobe Advertising Search].
 
-要创建自定义目标，Advertising Cloud DSP帐户必须关联到 [!DNL Search] 帐户中具有相同的Adobe Experience Cloud组织ID [!DNL Search] 客户端设置。 如果您的DSP帐户未关联到 [!DNL Search] 帐户，联系 [!DNL Adobe] 客户团队。
+要创建自定义目标，DSP帐户必须关联到 [!DNL Search] 帐户中具有相同的Adobe Experience Cloud组织ID [!DNL Search] 客户端设置。 如果您的DSP帐户未关联到 [!DNL Search] 帐户，联系 [!DNL Adobe] 客户团队。
 
 >[!TIP]
 >
 >请参阅 [创建自定义目标的最佳实践](custom-goal-best-practices.md) 以获取有关如何配置自定义目标的提示。
 
-1. 登录Advertising Cloud Search（美国公司） [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) 或（所有其他国家/地区的公司） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
+1. 登录 [!DNL Adobe Advertising Search] （美国公司） [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) 或（所有其他国家/地区的公司） [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. 确保您要包含在目标中的量度已被跟踪，在产品中可用，并包含显示名称：
    1. 在主菜单中，单击 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Transaction Properties]**.
    1. 找到量度，并确保 **[!UICONTROL Show in UI and Reports]** 为量度启用。
@@ -65,7 +65,7 @@ ht-degree: 0%
       1. 在设置的底部，单击 **[!UICONTROL Save]**.
 
 
-创建目标后，当优化目标为“ ”时，您可以将其分配给Advertising Cloud DSP包作为自定义目标[!UICONTROL Highest ROAS - Custom Goal]&quot;或&quot;[!UICONTROL Lowest CPA - Custom Goal].&quot;
+在创建目标后，当优化目标为“ ”时，您可以将其分配给DSP包作为自定义目标[!UICONTROL Highest ROAS - Custom Goal]&quot;或&quot;[!UICONTROL Lowest CPA - Custom Goal].&quot;
 
 >[!TIP]
 >

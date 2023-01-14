@@ -1,21 +1,22 @@
 ---
 title: 用例
-description: 了解与Advertising Cloud DSP共享媒体数据的用例Audience Manager
+description: 了解与Audience Manager共享Advertising DSP媒体数据的用例
 feature: Integration with Adobe Audience Manager
-source-git-commit: 3980af19efa785c437cacbf479ca3eabbed73b1b
+exl-id: 21d80cf6-f817-495a-bae4-fc9e44f1eda4
+source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
 
 # 在Adobe Audience Manager中捕获媒体曝光数据的用例
 
-*仅使用Advertising Cloud DSP的广告商*
+*仅使用Advertising DSP的广告商*
 
-*仅具有Advertising Cloud-Adobe Audience Manager集成的广告商*
+*仅具有Adobe广告与Adobe Audience Manager集成的广告商*
 
-以下是从捕获Advertising Cloud DSP媒体曝光数据中获益的一些方法 <!-- ad impression data? --> Audience Manager。
+以下是从捕获Advertising DSP媒体曝光数据中受益的一些方法 <!-- ad impression data? --> Audience Manager。
 
 ## 回访间隔和频度管理
 
@@ -51,7 +52,7 @@ ht-degree: 0%
 
 在Audience Manager中提供营销活动展示和点击数据后，您可以为接触特定营销活动或策略或与之进行交互的用户创建特征和区段。 使用 [[!DNL Audience Analytics] 集成](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)，则您的Audience Manager区段可以与 [!DNL Analytics] 供进一步分析。 潜在用例包括：
 
-* **DSP和Advertising Cloud Search广告之间的交互分析：** 标准 [[!DNL Analytics for Advertising Cloud] 集成](/help/integrations/analytics/overview.md) 无法深入分析DSP与 [!DNL Search] 因为两个渠道都使用遵循AMO ID归因规则的AMO ID，搜索点击会覆盖该规则的显示显示显示到达。 通过在Audience Manager中创建DSP曝光区段，您可以使用 [!DNL Audience Analytics] 分析DSP与 [!DNL Search] 广告 [!DNL Analytics].
+* **DSP与 [!DNL Adobe Advertising Search] 广告：** 标准 [[!DNL Analytics for Advertising] 集成](/help/integrations/analytics/overview.md) 无法深入分析DSP与[!DNL之间的交互 [!DNL Search]]因为两个渠道都使用遵循AMO ID归因规则的AMO ID，搜索点击会覆盖该规则的显示显示显示到达。 通过在Audience Manager中创建DSP曝光区段，您可以使用 [!DNL Audience Analytics] 分析DSP与[!DNL的交互 [!DNL Search]]广告输入 [!DNL Analytics].
 
 * **频率分析：** 您可以在Audience Manager中创建区段，具体内容取决于用户在某个特定广告或营销策划中被显示的次数。 然后，您可以在Analytics中分析不同的曝光区段，以了解用户行为如何根据DSP的曝光数量而发生更改。
 
@@ -81,5 +82,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [将DSP媒体曝光数据发送到Adobe Audience Manager概述](overview.md)
->* [从Advertising Cloud DSP促销活动中收集点击和展示数据](collect.md)
+>* [从Advertising DSP Campaigns中收集点击和展示数据](collect.md)
 

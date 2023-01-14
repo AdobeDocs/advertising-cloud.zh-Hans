@@ -1,16 +1,17 @@
 ---
 title: 关于帐户级别和广告商级别的阻止网站列表
 description: 进一步了解帐户或广告商的阻止网站列表。
-source-git-commit: 490147fb8479474ce95c17d59b512254596746c2
+exl-id: 1216d671-0cce-4401-a71e-948279a03845
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
 # 关于帐户级别和广告商级别的阻止网站列表
 
-您可以编辑用于整个Advertising Cloud帐户的阻止的网站列表以及该帐户中各个广告商的其他列表。
+您可以编辑用于整个DSP帐户的阻止站点列表以及该帐户中各个广告商的其他列表。
 
 阻止的网站列表定义了要为您的版面排除的目标集。 每个列表都可以由顶级网站域和任何级别的子域（例如example.com、my.example.com或my.new.example.com）以及移动设备应用程序ID或包名称（例如com.example.app123）组成。
 
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 除了Advertising Cloud DSP之外，还会应用帐户级别和广告商级别的阻止网站列表 [全局阻止的站点列表](/help/dsp/introduction/features/brand-safety-media-quality.md#global-blocked-sites)，包括认为对广告不安全的网站。
+>* 除了DSP之外，还会应用帐户级别和广告商级别阻止的网站列表 [全局阻止的站点列表](/help/dsp/introduction/features/brand-safety-media-quality.md#global-blocked-sites)，包括认为对广告不安全的网站。
 >* 用户还可以将目标网站添加到任何版面。
 >* 阻止的站点列表始终会覆盖目标站点列表。 如果版面同时排除和包含广告的相同目标，则会排除该目标。
 

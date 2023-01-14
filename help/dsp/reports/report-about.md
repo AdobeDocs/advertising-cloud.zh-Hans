@@ -3,7 +3,7 @@ title: 关于自定义报表
 description: 了解手动创建自定义报表或使用预配置报表模板的选项。
 feature: DSP Custom Reports
 exl-id: 59fc1894-1c9d-451d-b644-5640dd311547
-source-git-commit: b40c6f08b94e546e5fc068c46b279292a4d8a14f
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
       >
       >此报表包含有关账单区段的数据。 如果向用户或设备提供属于多个区段的展示，则仅有一个可计费区段会计入展示。
 
-   * **[!UICONTROL Conversion]:** 使用此报表可了解您的促销活动如何根据使用Advertising Cloud转化跟踪捕获的转化量度执行。 此报表包含多接触点归因。
+   * **[!UICONTROL Conversion]:** 使用此报表可了解您的促销活动如何根据使用Adobe广告转化跟踪捕获的转化量度执行。 此报表包含多接触点归因。
 
    * **[!UICONTROL Device]:** 使用此预填充模板可按设备相关维度查看关键量度。
 

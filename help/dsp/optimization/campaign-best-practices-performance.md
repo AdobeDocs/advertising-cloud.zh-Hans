@@ -3,16 +3,16 @@ title: 设置效果促销活动的最佳实践
 description: 了解设置注重效果的促销活动的最佳实践，包括针对最低CPA或最高ROAS优化的版面。
 feature: DSP Optimization, DSP Best Practices
 exl-id: fc64680d-9d1c-4f74-a8b9-2e9b670c00eb
-source-git-commit: 22821c0fe8c2864ab36d7aa1141a7527cc08a35b
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
 
 # 设置效果促销活动的最佳实践
 
-Advertising Cloud可以以最低的每次客户获取成本(CPA)或最高的广告支出回报(ROAS)来优化注重效果的促销活动。
+DSP可以通过最低的每次客户获取成本(CPA)或最高的广告支出回报(ROAS)，为投放优化注重效果的促销活动。
 
 请参阅以下效果促销活动的最佳实践：
 
@@ -55,7 +55,7 @@ Advertising Cloud可以以最低的每次客户获取成本(CPA)或最高的广�
 
 #### 用于重定位的推荐版面策略
 
-* 如果广告商是Adobe Analytics或Adobe Audience Manager客户，则您可以构建第一方区段（例如主页访客、产品页面或购物车放弃者），并将它们用作Advertising Cloud中的版面目标。
+* 如果广告商是Adobe Analytics或Adobe Audience Manager客户，则您可以构建第一方区段（例如主页访客、产品页面或购物车放弃者），并将它们用作DSP中的版面目标。
 
 * 避免为定向受众的版面分配过多预算。 一般情况下，每月每1 000个用户预算30美元。
 

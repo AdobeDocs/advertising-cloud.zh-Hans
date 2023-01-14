@@ -1,22 +1,22 @@
 ---
-title: 从Advertising Cloud DSP促销活动中收集点击和展示数据
-description: 了解如何使用Audience Manager像素从Advertising Cloud DSP广告中捕获基于Cookie的展示和点击事件
+title: 从Advertising DSP Campaigns中收集点击和展示数据
+description: 了解如何使用Audience Manager像素从Advertising DSP广告中捕获基于Cookie的展示和点击事件
 feature: Integration with Adobe Audience Manager
 exl-id: eb717148-00ab-428a-97b9-e8396a5c47b0
-source-git-commit: 8de057df8bf2b67f20a915e6e711902f11176747
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
 
-# 从Advertising Cloud DSP促销活动中收集媒体曝光数据
+# 从Advertising DSP Campaigns中收集媒体曝光数据
 
-*仅使用Advertising Cloud DSP的广告商*
+*仅使用Advertising DSP的广告商*
 
-*仅具有Advertising Cloud-Adobe Audience Manager集成的广告商*
+*仅具有Adobe广告与Adobe Audience Manager集成的广告商*
 
-本文档介绍如何标记Advertising Cloud DSP广告，以使用Audience Manager像素捕获基于Cookie的展示和点击事件，以及使用数据所需的其他任务。
+本文档介绍如何标记Advertising DSP广告，以使用Audience Manager像素捕获基于Cookie的展示和点击事件，以及使用数据所需的其他任务。
 
 事件像素不会捕获在无Cookie环境(如移动设备应用程序和连接的电视(CTV))中发生的事件。
 
@@ -77,7 +77,7 @@ with [可选的其他参数](#parameters) 前缀为 `&`
 
 这两种类型的像素可以包含其他参数，如 *键值对* 为其他报表收集特征或提供营销活动元数据（如版面名称或营销活动名称）。 键值对由两个相关元素组成：a *key*，它是定义数据集的常量，以及 *值*，属于集的变量。
 
-在键值对中，值变量可以是硬编码ID，也可以是 *宏*，这是一小块自包含代码，在加载广告标记以用于促销活动和用户跟踪时，会将其动态替换为相应值。 对于与促销活动相关的参数，您可以使用 [DSP宏](/help/dsp/campaign-management/macros.md) 使用单个像素在所有广告中发送促销活动属性，而不是Audience Manager宏，将促销活动属性与相应展示次数或点击数据一起发送到Audience Manager。 插入到事件像素中的DSP宏必须是包含在像素中的键值对的合适值。 例如，对于 `d_placement` 键，您将使用DSP宏 `${TM_PLACEMENT_ID_NUM}` 作为捕获由Advertising Cloud宏生成的版面ID的值。
+在键值对中，值变量可以是硬编码ID，也可以是 *宏*，这是一小块自包含代码，在加载广告标记以用于促销活动和用户跟踪时，会将其动态替换为相应值。 对于与促销活动相关的参数，您可以使用 [DSP宏](/help/dsp/campaign-management/macros.md) 使用单个像素在所有广告中发送促销活动属性，而不是Audience Manager宏，将促销活动属性与相应展示次数或点击数据一起发送到Audience Manager。 插入到事件像素中的DSP宏必须是包含在像素中的键值对的合适值。 例如，对于 `d_placement` 键，您将使用DSP宏 `${TM_PLACEMENT_ID_NUM}` 作为捕获由Adobe广告宏生成的版面ID的值。
 
 有关Audience Manager支持展示事件像素的宏列表，请参阅[通过像素调用捕获营销活动展示数据](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs).&quot;
 
@@ -87,7 +87,7 @@ with [可选的其他参数](#parameters) 前缀为 `&`
 >
 >* 最佳实践是包含营销活动、版面、创意（广告）和网站ID，以便您可以使用营销活动属性创建Audience Manager特征。
 >* 要创建Audience Optimization报表，需要其他参数。
->* 在键值对中，将这些值替换为 [DSP宏](/help/dsp/campaign-management/macros.md) 这样，您就可以在所有营销活动的所有广告中使用单个像素。 例如，更改 `d_campaign=[%campaignID%]`to `d_campaign=${TM_CAMPAIGN_ID_NUM}` 用于捕获由Advertising Cloud宏生成的促销活动ID。
+>* 在键值对中，将这些值替换为 [DSP宏](/help/dsp/campaign-management/macros.md) 这样，您就可以在所有营销活动的所有广告中使用单个像素。 例如，更改 `d_campaign=[%campaignID%]`to `d_campaign=${TM_CAMPAIGN_ID_NUM}` 用于捕获由Adobe广告宏生成的促销活动ID。
 >* 您可以根据需要使用硬编码值创建自己的参数。 示例： `d_DSP=AdCloud`
 
 
@@ -132,7 +132,7 @@ with [可选的其他参数](#parameters) 前缀为 `&`
 
 >[!MORELIKETHIS]
 >
->* [Advertising Cloud DSP宏](/help/dsp/campaign-management/macros.md)
+>* [DSP宏](/help/dsp/campaign-management/macros.md)
 >* [将DSP媒体曝光数据发送到Adobe Audience Manager概述](overview.md)
 >* [用例](use-cases.md)
 

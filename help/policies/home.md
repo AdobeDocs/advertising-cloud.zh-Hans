@@ -1,19 +1,19 @@
 ---
-title: Advertising Cloud政策和准则
-description: 了解Advertising Cloud DSP和Advertising Cloud Search的政策和准则。
+title: Adobe Advertising 策略和指南
+description: 了解Advertising DSP和Advertising Search的策略和准则。
 index: true
 cloud: Experience Cloud
 product: advertising cloud
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '43'
+ht-degree: 23%
 
 ---
 
-# Advertising Cloud政策和准则
+# Adobe Advertising 策略和指南
 
-了解Advertising Cloud DSP和Advertising Cloud Search的政策和准则：
+了解Advertising DSP和Advertising Search的策略和准则：
 
 * [广告要求策略](/help/policies/ad-requirements-policy.md)
 * [可接受的健康区段指南](/help/policies/health-segment-guidelines.md)

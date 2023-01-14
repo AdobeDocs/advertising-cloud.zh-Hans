@@ -3,7 +3,7 @@ title: 复制版面
 description: 了解如何复制一个或多个版面。
 feature: DSP Placements
 exl-id: d22a61a8-4f1b-41ee-b4fb-3124bec81a2f
-source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -24,16 +24,27 @@ ht-degree: 0%
 请参阅“[未复制的内容](#placement-not-duplicated)“ ”，查看未复制的版面设置列表。
 
 1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+
 1. 单击营销活动的名称。
+
 1. 在子菜单中，单击 **[!UICONTROL Placements]**.
+
 1. 执行以下任一操作：
+
    * 要复制一个版面，请单击  **[!UICONTROL ...]>[!UICONTROL Duplicate]** 包名称旁边的。
+
    * 要复制多个版面，请执行以下操作：
+
       1. 选中要复制的每个版面旁边的复选框。
+
       1. 在批量操作工具栏中，单击 **[!UICONTROL Duplicate]**.
+
 1. 指定新的版面设置：
+
    1. （单个版面）输入新版面名称。
+
    1. 在 **[!UICONTROL Choose Package (Required)]** 菜单，选择父包或**[!UICONTROL No package]*.
+
    1. （可选）更改默认设置。
 
    设置适用于所有选定的版面。

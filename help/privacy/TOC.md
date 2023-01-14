@@ -4,21 +4,21 @@ role: User, Admin
 cloud: Experience Cloud
 solution: Advertising Cloud
 product: advertising cloud
-user-guide-title: Adobe Advertising Cloud 支持保护消费者的隐私
-user-guide-description: 了解 Advertising Cloud 提供的安全和隐私控制措施，以帮助广告商客户遵守消费者隐私法。
+user-guide-title: Adobe Advertising 支持保护消费者的隐私
+user-guide-description: 了解Adobe广告为帮助广告商客户遵守消费者隐私法而提供的安全和隐私控制。
 breadcrumb-title: 对消费者隐私的支持
 index: true
-source-git-commit: 2866eb13b5ddcd485e6817fb2ebe6ea3cbb43b5c
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 56%
+source-wordcount: '64'
+ht-degree: 25%
 
 ---
 
 
-# Advertising Cloud 支持保护消费者的隐私 {#privacy}
+# Adobe Advertising 支持保护消费者的隐私 {#privacy}
 
-+ [关于Advertising Cloud对消费者隐私的支持](/help/privacy/home.md)
++ [关于Adobe广告对消费者隐私的支持](/help/privacy/home.md)
 + [支持GDPR](/help/privacy/ad-cloud-gdpr.md)
 + 支持CCPA {#ccpa}
    + [支持CCPA:消费者数据访问和删除](/help/privacy/ad-cloud-ccpa-access-delete.md)

@@ -3,9 +3,9 @@ title: 品牌安全与媒体质量
 description: 进一步了解品牌安全和媒体质量功能。
 feature: DSP Introduction
 exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: b436936e3a0edcb78497fadb6f3c4086412baaa5
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1350'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 <!-- Check on logo sizes in staging environment -- I made them all 100 pixels high except for DoubleVerify, which is 150 (harder to see at 100), but some instances look larger in VS Code. -->
 
-Advertising Cloud DSP提供一套品牌保护功能，以确保您的每个营销活动在品牌安全的环境中面向实际用户。
+Advertising DSP提供一套品牌保护功能，以确保您的每个营销活动在品牌安全的环境中接触到真正的用户。
 
 我们的欺诈监控团队与行业领先的合作伙伴(例如 [!DNL Interactive Advertising Bureau], [!DNL Trust and Accountability Group] [!DNL (TAG)]和 [!DNL WhiteOps]，以仔细策划我们平台上的清单。 通过主动预防性地管理我们的供应， DSP可确保平台中的所有广告商都免受非人类流量（机器人、爬网程序、数据中心流量和欺诈）的影响，并仅在品牌安全的环境中提供。
 
-除提供中央质量管理外，我们相信增强广告商的能力，使其能够设计与其品牌相符的控制。 Adobe Advertising Cloud提供与 [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], [!DNL Oracle Data Cloud]和 [!DNL Peer39]，确保每个广告商都可以选择所需的欺诈保护级别、情境过滤和关键词定位。
+除提供中央质量管理外，我们相信增强广告商的能力，使其能够设计与其品牌相符的控制。 DSP选件与 [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], [!DNL Oracle Data Cloud]和 [!DNL Peer39]，确保每个广告商都可以选择所需的欺诈保护级别、情境过滤和关键词定位。
 
-## Advertising Cloud DSP质量计划
+## 质量计划
 
 ### 库存验证 [!DNL Ads.txt] 支持
 
@@ -66,17 +66,17 @@ DSP已构建了强大的内部工具和系统来管理我们整个平台中的�
 
    * **[!UICONTROL T3]**  — 用户生成的内容和小众内容
 
-* **网站分类：** 为确保轻松定位和阻止内容，我们会根据属性的内容，使用Advertising Cloud定义的网站类别来标记每个属性。 您可以 [定位或排除每个版面的这些网站类别](/help/dsp/campaign-management/placements/placement-settings.md) 基于投放目标。
+* **网站分类：** 为确保轻松定位和阻止内容，我们会根据属性的内容，使用DSP定义的网站类别标记每个属性。 您可以 [定位或排除每个版面的这些网站类别](/help/dsp/campaign-management/placements/placement-settings.md) 基于投放目标。
 
 ### 全面支持站点阻止
 
-Advertising Cloud DSP提供了全局阻止的网站列表以及为广告商和帐户创建自定义阻止的网站列表的选项。
+DSP提供了全局阻止的站点列表以及为广告商和帐户创建自定义阻止的站点列表的选项。
 
-#### Advertising Cloud DSP全局阻止的站点列表 {#global-blocked-sites}
+#### DSP全局阻止的站点列表 {#global-blocked-sites}
 
-Advertising Cloud DSP维护一个在全球被阻止的网站列表，其中列出了在上运行广告时被认为不安全的网站。 此列表包含具有令人反感的内容（如仇恨或恐怖）的网站，以及受机器人、假前置、不匹配的域和其他欺诈活动感染的网站。
+DSP维护一个在全球被阻止的网站列表，其中列出了在上运行广告时被认为不安全的网站。 此列表包含具有令人反感的内容（如仇恨或恐怖）的网站，以及受机器人、假前置、不匹配的域和其他欺诈活动感染的网站。
 
-作为“品牌安全”计划的一部分，我们会使用阻止的网站列表中的措施来筛选所有网站，以根除欺骗广告商的活动。 未通过品牌安全检查的所有网站都会添加到全局阻止的网站列表中。 由于Advertising Cloud DSP会动态管理此列表，因此网站可能会根据最新的品牌安全分析随时在列表上移动或移出。
+作为“品牌安全”计划的一部分，我们会使用阻止的网站列表中的措施来筛选所有网站，以根除欺骗广告商的活动。 未通过品牌安全检查的所有网站都会添加到全局阻止的网站列表中。 由于DSP会动态管理此列表，因此网站可能会根据最新的品牌安全分析随时在列表上移动或移出。
 
 当您在全局阻止的网站列表中将某个网站添加为版面目标时，该网站会带有红色的感叹号(!)。 这表示广告不会在标记网站上运行。
 

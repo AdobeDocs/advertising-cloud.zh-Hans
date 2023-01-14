@@ -1,20 +1,20 @@
 ---
-title: 关于Advertising Cloud DSP中的广告管理
+title: 关于Advertising DSP中的广告管理
 description: 了解广告管理。
 feature: DSP Ads
 exl-id: 72c8bbef-d09c-4cf4-994d-99578d043d39
-source-git-commit: 1499d9d86d8c2bafb03b41687c50dbf708c715da
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
 
-# 关于Advertising Cloud DSP中的广告管理
+# 关于Advertising DSP中的广告管理
 
 <!-- add "The Ads View (Dashboard?)" section -->
 
-Advertising Cloud DSP支持通过第三方广告服务标记(如Google、Flashtalking或Sizmek)来交付各种广告类型的广告，以及通过本机显示广告的直接资产上传。 您可以单独或批量上传第三方标记。 批量上载使用合作伙伴标签表或批量标记模板。
+DSP支持通过第三方广告服务标记(如Google、Flashtalking或Sizmek)来交付各种广告类型的广告，以及通过本机显示广告的直接资产上传。 您可以单独或批量上传第三方标记。 批量上载使用合作伙伴标签表或批量标记模板。
 
 <!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
 <!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
@@ -23,7 +23,7 @@ Advertising Cloud DSP支持通过第三方广告服务标记(如Google、Flashta
 
 ## 可用广告类型 {#ad-types}
 
-以下所有广告类型在Advertising Cloud DSP中均可用。 有关每种广告类型的完整规范，请参阅 [广告规范](ad-specs.md).
+DSP中提供了以下所有广告类型。 有关每种广告类型的完整规范，请参阅 [广告规范](ad-specs.md).
 
 * **音频广告（仅限第三方）**:音频广告在数字出版商网站上的内容之间播放，并且可以作为音频文件或与伴随横幅一起独立运行。 音频最适用于提高品牌知名度和吸引现成受众。 音频的关键绩效指标包括 [!UICONTROL Completion Rate] 和 [!UICONTROL Cost per Completion].
 
@@ -39,9 +39,9 @@ Advertising Cloud DSP支持通过第三方广告服务标记(如Google、Flashta
 
 * **通用视频广告（仅限第三方）**:通用视频广告将连接的电视、前置广告和移动前置广告（VAST和VPAID）的所有功能整合在一起，并在视频内容之前和期间显示。 在从桌面、移动设备和连接的电视环境定位视频内容时，可以使用通用视频广告，因此无需创建多个视频广告。 通用视频的关键绩效指标包括 [!UICONTROL Completion Rate] 和 [!UICONTROL Viewability Rate].
 
-## Advertising Cloud DSP广告批准
+## DSP Ad Approvals
 
-创建广告时，Advertising Cloud DSP会针对敏感类别对其进行审核，单击URL功能并预览渲染。
+在创建广告时，DSP会检查广告的敏感类别，单击URL功能并预览渲染。
 
 最初，您会在 [!UICONTROL Status] 列。 审核过程通常需要24-48小时。 但是，损坏的广告可能具有超过48小时的待决状态，因此您有时间在广告被拒绝之前修复错误。 被拒绝的广告包括拒绝的原因。
 

@@ -3,7 +3,7 @@ title: 复制资源包
 description: 了解如何复制资源包。
 feature: DSP Packages
 exl-id: 4c37883f-5feb-4513-9573-ed4e32606132
-source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -22,18 +22,27 @@ ht-degree: 0%
 请参阅“[未复制的内容](#package-not-duplicated)“ ”，查看未复制的版面设置列表。
 
 1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
+
 1. 单击营销活动的名称以打开 [!UICONTROL Packages] 中。
+
 1. 在包名称旁边，单击  **[!UICONTROL ...]>[!UICONTROL Duplicate]**.
+
 1. 指定新包设置：
+
    1. 输入新包名称。
+
    1. （可选）更改默认设置。
 
       默认情况下：
 
       * 新资源包已分配给原始广告商和营销活动。
+
       * 新资源包在当天变为活动状态。<!-- and the flight continues for NN  days. -->
+
       * 原始资源包中的版面将会复制到新资源包中。
+
       * 广告和位置级别的事件像素将不会复制到新包中。
+
 1. 单击 **[!UICONTROL Submit]**.
 
 ## 未复制的内容 {#package-not-duplicated}

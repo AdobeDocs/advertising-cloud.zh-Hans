@@ -1,16 +1,16 @@
 ---
-title: 关于Advertising Cloud DSP中的版面管理
+title: 关于Advertising DSP中的版面管理
 description: 了解位置管理。
 feature: DSP Placements
 exl-id: 1d1382d9-b6c8-44bf-a708-8458769a39c6
-source-git-commit: c6a3d9703d06a44e38aae3bc6ec3f5f77e93082d
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
 
-# 关于Advertising Cloud DSP中的版面管理
+# 关于Advertising DSP中的版面管理
 
 版面包括同一广告类型的一个或多个广告的定位参数。 您可以为单个促销活动或包创建版面，然后为其分配广告。 每个营销活动或版面可以包含多个版面，且具有指定的广告轮换。 默认情况下，广告会均匀旋转。
 

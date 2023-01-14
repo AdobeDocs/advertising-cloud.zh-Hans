@@ -2,21 +2,21 @@
 title: 支持的货币
 description: 请参阅受支持货币的列表。
 feature: DSP Custom Reports, DSP Campaign Data Views
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+exl-id: 7cbce17b-12f0-49e5-8acd-adf9b7d01557
+source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
+# Adobe广告中支持的货币
 
-# Adobe Advertising Cloud支持的货币
-
-Advertising Cloud支持以下货币。
+Adobe广告支持以下货币。
 
 >[!NOTE]
 >
->Adobe Analytics支持[一组更大的货币](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/currency.html)。
+>Adobe Analytics支持 [更多货币](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/currency.html).
 
 ## DSP和Creative
 
@@ -46,6 +46,6 @@ Advertising Cloud支持以下货币。
 >
 > [!DNL DSP] 仅以下货币提供帐单：CAD、DKK、EUR、GBP、HKD、JPY、NZD、SGD和USD。
 
-## 搜索
+## [!DNL Adobe Advertising Search]
 
-支持的搜索引擎支持的所有货币。 与 [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes)支持的[相同。
+支持的搜索引擎支持的所有货币。 这与 [支持 [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes).

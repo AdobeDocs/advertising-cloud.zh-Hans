@@ -3,7 +3,7 @@ title: 构建自定义目标的最佳实践
 description: 了解构建自定义目标以定义成功事件的最佳实践。
 feature: DSP Optimization, DSP Best Practices
 exl-id: 54b16325-4b72-48a3-a2e0-4e342229211c
-source-git-commit: 7cb39998041d151ece7809adc8a2e872b922e5fc
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 > A [!UICONTROL Property Weight] 一等于每跟踪1美元收入的值一。
 >
-> 例如，权重为1的250美元转化报告为250美元。 如果为转化量度分配的权重为0.5，则250美元的转化在Advertising Cloud中将报告为125美元（250美元的转化* 0.5） [!UICONTROL Property Weight] = $125)。
+> 例如，权重为1的250美元转化报告为250美元。 如果为转化量度分配的权重为0.5，则在“Adobe广告”中，250美元的转化将报告为125美元（250美元的转化* 0.5） [!UICONTROL Property Weight] = $125)。
 
 ### 具有“[!UICONTROL Lowest CPA - Custom Goal]“优化目标
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 >
 > A [!UICONTROL Property Weight] 1等于跟踪的每次转化的值为1。
 >
-> 例如，如果跟踪了10个应用程序提交转化，则会报告10个应用程序提交转化。  如果为转化量度分配的权重为0.5，则在Advertising Cloud中，10个转化将报告为5(5)个（10个转化* 0.5） [!UICONTROL Property Weight] = 5)。
+> 例如，如果跟踪了10个应用程序提交转化，则会报告10个应用程序提交转化。  如果为转化量度分配了0.5的权重，则在Adobe广告（10次转化* 0.5）中，10次转化将被报告为五(5)次 [!UICONTROL Property Weight] = 5)。
 
 ## 具有多个属性的自定义目标
 

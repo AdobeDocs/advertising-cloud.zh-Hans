@@ -3,16 +3,16 @@ title: 关于程序化保证交易
 description: 了解程序化保证(PG)交易以及哪些SSP经认证可提供这些交易。
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8cf85ae3-027d-4d9d-95a0-ac39d651627a
-source-git-commit: 96f756b0f5239e2378d0a4da18335d909f96ab94
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
 
 # 关于程序化保证交易
 
-程序化保证(PG)交易是通过交易ID（而不是通过广告服务器标记）直接与发布者进行的有保证的购买。 PG对您和您的发布者来说管理更灵活，而且它比常规标记购买提供更高的透明度。 帐单和报表通过Advertising Cloud DSP进行整合，从而节省您的时间。
+程序化保证(PG)交易是通过交易ID（而不是通过广告服务器标记）直接与发布者进行的有保证的购买。 PG对您和您的发布者来说管理更灵活，而且它比常规标记购买提供更高的透明度。 账单和报表通过DSP进行整合，从而节省您的时间。
 
 ## PG交易的特性
 

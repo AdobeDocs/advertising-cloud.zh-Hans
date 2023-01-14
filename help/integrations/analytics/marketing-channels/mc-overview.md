@@ -1,19 +1,20 @@
 ---
 title: 的基本原理 [!DNL Marketing Channels]
-description: 了解有关 [!DNL Analytics Marketing Channels] that [!DNL Analytics for Advertising Cloud] 用户应该理解。
+description: 了解有关 [!DNL Analytics Marketing Channels] the [!DNL Analytics for Advertising] 用户应该理解。
 feature: Integration with Adobe Analytics
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 27b6fb07-0b63-4ff1-a316-20b9a2b60fe9
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
 
 # 的基本原理 [!DNL Analytics Marketing Channels]
 
-*仅具有Advertising Cloud-Adobe Analytics集成的广告商*
+*仅具有Adobe广告与Adobe Analytics集成的广告商*
 
-本页介绍有关 [!DNL Analytics Marketing Channels] the [!DNL Analytics for Advertising Cloud] 用户需要了解。
+本页介绍有关 [!DNL Analytics Marketing Channels] the [!DNL Analytics for Advertising] 用户需要了解。
 
 有关 [!DNL Marketing Channels]，请参阅“[入门 [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html).&quot;
 
@@ -37,13 +38,13 @@ ht-degree: 0%
 
 Adobe建议与您的分析团队合作，构建一个 [!DNL Marketing Channels] 处理规则来跟踪与您的业务相关的所有渠道。 这样，您就可以创建功能强大的归因报表。
 
-要了解Advertising Cloud如何对创建自定义营销渠道所需的信号做出贡献，请参阅[使用广告ID创建 [!DNL Marketing Channels] 规则](mc-ids.md).&quot;
+要了解Adobe广告如何对创建自定义营销渠道所需的信号做出贡献，请参阅[使用广告ID创建 [!DNL Marketing Channels] 规则](mc-ids.md).&quot;
 
 >[!MORELIKETHIS]
 >
->* [使用Advertising Cloud ID创建 [!DNL Marketing Channels] 处理规则](mc-ids.md)
->* [为何渠道数据在Advertising Cloud和 [!DNL Marketing Channels]](mc-data-variances.md)
->* [使用 [!DNL Analytics Marketing Channels] 使用Advertising Cloud数据](mc-ac-data.md)
->* [视频：使用Advertising Cloud报告 [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-reporting-a4adc.html)
->* [概述 [!DNL Analytics for Advertising Cloud]](/help/integrations/analytics/overview.md)
+>* [使用Adobe广告ID创建 [!DNL Marketing Channels] 处理规则](mc-ids.md)
+>* [渠道数据为何会因Adobe广告和 [!DNL Marketing Channels]](mc-data-variances.md)
+>* [使用 [!DNL Analytics Marketing Channels] 使用Adobe广告数据](mc-ac-data.md)
+>* [视频：使用 [!DNL Marketing Channels] (用于Adobe广告报告)](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [概述 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
 

@@ -1,21 +1,22 @@
 ---
-title: Adobe Advertising Cloud DSP数据使用准则
+title: Adobe广告DSP数据使用指南
 description: 请参阅数据使用准则。
 feature: Policies
-source-git-commit: 1ae45d0ceee2efc4fc52b86fd6737d4c7467a6ca
+exl-id: 6b646988-4a53-4092-8bc6-bcd350ee4096
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
 
-# Adobe Advertising Cloud DSP数据使用准则
+# Adobe广告DSP数据使用指南
 
 *上次更新时间：2019年9月5日*
 
-*对于Adobe Advertising Cloud DSP*
+*对于Adobe广告DSP*
 
-这些数据使用准则（“数据准则”）规定了使用通过Adobe的Advertising Cloud按需服务（“服务”）访问的特定数据的要求。 本准则经参考后纳入了Adobe与客户之间使用按需服务的协议中。 本准则中使用但未在此定义的大写术语将具有本协议中所述的含义。
+这些数据使用准则（“数据准则”）规定了使用通过Adobe的Advertising DSP按需服务（“服务”）访问的特定数据的要求。 本准则经参考后纳入了Adobe与客户之间使用按需服务的协议中。 本准则中使用但未在此定义的大写术语将具有本协议中所述的含义。
 
 Adobe保留自行判断客户使用数据是否违反本准则的权利。
 

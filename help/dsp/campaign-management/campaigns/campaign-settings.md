@@ -3,9 +3,9 @@ title: 营销活动设置
 description: 请参阅可用营销活动设置的描述。
 feature: DSP Campaigns
 exl-id: ff2e22ff-8073-4532-884b-36e0c1f22641
-source-git-commit: d7afcc2200adc41e583d21712226cb25f35aab66
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Margin Type]:** 边距的类型。 启用边距管理并保存营销活动后，便无法更改边距类型。
 
-   * *[!UICONTROL Fixed]:* （默认）允许Advertising Cloud DSP根据 [!UICONTROL Gross Budget].
+   * *[!UICONTROL Fixed]:* （默认）允许DSP根据 [!UICONTROL Gross Budget].
 
-   * *[!UICONTROL Dynamic]:* 用于通过指定 [!UICONTROL Budget Reserve %] 和 [!UICONTROL Gross Budget] ，用于营销活动中的每个包和版面。 Advertising Cloud DSP会根据每次投放的财务效率进行优化，而无需保证特定的利润。 对于由多个行项目组成的插入订单，您同意以固定费率交付固定数量的件数或件数类型。
+   * *[!UICONTROL Dynamic]:* 用于通过指定 [!UICONTROL Budget Reserve %] 和 [!UICONTROL Gross Budget] ，用于营销活动中的每个包和版面。 DSP会根据每次投放的财务效率进行优化，而无需保证特定的利润。 对于由多个行项目组成的插入订单，您同意以固定费率交付固定数量的件数或件数类型。
 
 * **[!UICONTROL Fixed Margin %]:** （仅具有固定边距的促销活动）每个插入顺序的默认标记 <!-- impression? -->，以百分比表示。 此金额从 [!UICONTROL Gross Budget] 定义净促销活动预算。
 
@@ -64,11 +64,11 @@ ht-degree: 0%
 
 1. 选中要预缴税金的每个费用类型旁边的复选框。 收费类型包括：
 
-   * *[!UICONTROL Include estimated tax - ads fee]:* 适用于所有Advertising Cloud DSP媒体支出，包括对促销活动管理费的税。
+   * *[!UICONTROL Include estimated tax - ads fee]:* 适用于所有Advertising DSP媒体支出，包括促销活动管理费用税。
 
-   * *[!UICONTROL Include estimated tax - ad serving fee]:* 适用于除媒体和数据外的所有在Advertising Cloud DSP上的花费。 它不包括促销活动管理费的税
+   * *[!UICONTROL Include estimated tax - ad serving fee]:* 适用于除媒体和数据之外的所有在Advertising DSP上的支出。 它不包括促销活动管理费的税
 
-   * *[!UICONTROL Include estimated tax - data fee]:* 适用于所有在Advertising Cloud DSP上花费的数据。
+   * *[!UICONTROL Include estimated tax - data fee]:* 适用于Advertising DSP上的所有数据支出。
 
 1. 单击 **[!UICONTROL Submit]**.
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 >* 您还可以在帐户的费用设置中配置这些值。<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
 
-**[!UICONTROL Cross Device Level]:** (自2020年6月22日起创建的现有营销活动为只读；不适用于2020年6月22日之前创建的促销活动)Advertising Cloud将定位广告并应用频率上限的级别： *同一设备* 以设备或 *人员* 以在其所有已知设备中定位人员。
+**[!UICONTROL Cross Device Level]:** (自2020年6月22日起创建的现有营销活动为只读；不适用于2020年6月22日之前创建的促销活动)DSP将定位广告并应用频率上限的级别： *同一设备* 以设备或 *人员* 以在其所有已知设备中定位人员。
 
 **[!UICONTROL Device Graph]:** (现有促销活动为只读；仅使用基于人员的跨设备定位的促销活动)用于跨设备定位和频率管理的设备图：
 

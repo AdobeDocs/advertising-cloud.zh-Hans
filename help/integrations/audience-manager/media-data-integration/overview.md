@@ -1,21 +1,22 @@
 ---
 title: 将DSP媒体曝光数据发送到Adobe Audience Manager概述
-description: 了解如何使用Audience Manager事件像素从Advertising Cloud DSP促销活动中捕获展示级和点击级数据
+description: 了解如何使用Audience Manager事件像素从Advertising DSP促销活动中捕获展示级和点击级数据
 feature: Integration with Adobe Audience Manager
-source-git-commit: e861fc53ba14d783c763b291cdc618e5f1d4124f
+exl-id: 916b7deb-511e-4fbf-96d9-b274a48dc748
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
 # 将DSP媒体曝光数据发送到Adobe Audience Manager概述
 
-*仅使用Advertising Cloud DSP的广告商*
+*仅使用Advertising DSP的广告商*
 
-*仅具有Advertising Cloud-Adobe Audience Manager集成的广告商*
+*仅具有Adobe广告与Adobe Audience Manager集成的广告商*
 
-具有Adobe Audience Manager的Advertising Cloud DSP客户可以使用Audience Manager事件像素从DSP促销活动中捕获展示级数据和点击级数据。 事件像素将数据作为可操作信号发送到Audience Manager。 这些信号可支持各种DSP用例，例如更高级的分段、频率管理、营销分析和报表分析。
+使用Adobe Audience Manager的DSP Advertising客户可以使用Audience Manager事件像素从DSP促销活动中捕获展示级数据和点击级数据。 事件像素将数据作为可操作信号发送到Audience Manager。 这些信号可支持各种DSP用例，例如更高级的分段、频率管理、营销分析和报表分析。
 
 DSP不会向您收取发送这些信号的费用，而是Audience Manager。 但是，您需要根据您的Audience Manager合同，根据服务器调用支付标准Audience Manager摄取成本。 Audience Manager会删除以两种不同方式跟踪的重复事件，以便每个事件只计费一次。
 
@@ -51,6 +52,6 @@ Audience Manager跟踪的点击次数与展示次数类似，不同之处在于�
 
 >[!MORELIKETHIS]
 >
->* [从Advertising Cloud DSP促销活动中收集点击和展示数据](collect.md)
+>* [从Advertising DSP Campaigns中收集点击和展示数据](collect.md)
 >* [用例](use-cases.md)
 

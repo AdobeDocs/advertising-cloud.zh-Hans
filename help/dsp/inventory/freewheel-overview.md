@@ -3,7 +3,7 @@ title: 在中设置PG交易概述 [!DNL Freewheel]
 description: 了解在以下方面运行广告所需的先决条件和额外步骤：与发布者进行编程保证交易 [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: acf8351b-88fb-4f18-8fca-9a2d6674cdec
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 >[!PREREQUISITES]
 >
->使用 [!DNL Adobe] 帐户团队来确保 [!DNL DSP] 帐户具有以下权限。
+>使用 [!DNL Adobe] 帐户团队来确保 [!DNL DSP] 帐户具有以下权限：
 >
->1. 使用 [!DNL FreeWheel] 程序化保证工作流，它需要为程序化保证交易提交广告，以 [!DNL FreeWheel].
+>* 使用 [!DNL FreeWheel] 程序化保证工作流，它需要为程序化保证交易提交广告，以 [!DNL FreeWheel].
 >
->1. (如果您与需要 [!DNL Clearcast] 每个广告的时钟编号)在广告中包含时钟编号的权限。
+>* (如果您与需要 [!DNL Clearcast] 每个广告的时钟编号)在广告中包含时钟编号的权限。
 
 
 ## 工作流

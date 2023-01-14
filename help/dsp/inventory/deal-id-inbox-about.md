@@ -3,20 +3,20 @@ title: 关于 [!UICONTROL Deal ID Inbox]
 description: 了解 [!UICONTROL Deal ID inbox] 功能，允许您接受已与 [!DNL FreeWheel], [!DNL Google Authorized Buyers] (以前称为 [!DNL AdX]), and [!DNL Magnite DV+] (以前 [!DNL Rubicon])。
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 959ad1d4-4671-4967-9f73-ec5b0464d0cd
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
 
 # 关于 [!UICONTROL Deal ID Inbox]
 
-DSP [!UICONTROL Deal ID inbox] 允许您快速设置Advertising Cloud DSP通过供应方平台(SSP)从发布商导入的交易，这样您就不必手动设置每笔交易。 您可以接受您已与发布者协商的有保证和无保证的专用库存协议 [!DNL FreeWheel], [!DNL Google Authorized Buyers] (以前称为 [!DNL AdX])和 [!DNL Magnite DV+] (以前 [!DNL Rubicon]) [!UICONTROL Deal ID inbox].
+Advertising DSP [!UICONTROL Deal ID inbox] 允许您快速设置DSP通过供应方平台(SSP)从发布者导入的交易，这样您就不必手动设置每笔交易。 您可以接受您已与发布者协商的有保证和无保证的专用库存协议 [!DNL FreeWheel], [!DNL Google Authorized Buyers] (以前称为 [!DNL AdX])和 [!DNL Magnite DV+] (以前 [!DNL Rubicon]) [!UICONTROL Deal ID inbox].
 
 >[!NOTE]
 >
->Advertising Cloud DSP是第一个与集成的DSP [!DNL FreeWheel] API。
+>Advertising DSP是第一个与 [!DNL FreeWheel] API。
 
 在 [!UICONTROL Deal ID inbox]，您可以在发布者看到交易详细信息时查看交易详细信息，加快交易设置，并避免手动输入错误。
 

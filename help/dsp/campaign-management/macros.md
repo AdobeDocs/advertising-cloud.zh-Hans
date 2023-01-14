@@ -1,18 +1,18 @@
 ---
-title: Advertising Cloud DSP宏
+title: Advertising DSP宏
 description: 引用可用的宏以进行常规跟踪和跟踪第三方显示广告的点击量。
 feature: DSP Ads
 exl-id: e31cc2e5-ad1f-4555-a87b-0e4c3731fe5f
-source-git-commit: b3fc18cf84713adcff5a4208db537b03904cfa08
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
 
-# Advertising Cloud DSP宏
+# Advertising DSP宏
 
-宏是指令的短命令或简写，通常遵循格式 `${MACRO_NAME}`. 创意代码或点进URL中包含的宏会展开为广告服务器可以理解的较长代码字符串。 Advertising Cloud DSP广告服务器在提供或单击广告时执行宏。
+宏是指令的短命令或简写，通常遵循格式 `${MACRO_NAME}`. 创意代码或点进URL中包含的宏会展开为广告服务器可以理解的较长代码字符串。 DSP广告服务器在提供或单击广告时执行宏。
 
 广告服务器宏对于将重要信息传递到DSP或第三方广告服务器非常有用。 宏最常用于跟踪第三方和自定义创作代码或元数据（如第三方像素）。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 当您执行以下操作时，DSP会自动将显示点击宏插入第三方显示标记中：
 
-* 从Advertising Cloud广告服务器合作伙伴导出广告标记 <!-- [Needs PM confirmation.] -->
+* 从广告服务器合作伙伴导出广告标记 <!-- [Needs PM confirmation.] -->
 * 批量上传 [!DNL Flashtalking] 或 [!DNL Google DoubleClick for Advertisers] 直接在DSP中添加标记
 
 如果在构建显示广告时缺少点击宏，则DSP会显示一条警告消息，提示您在正确的标记区域中手动插入相应的显示点击宏。

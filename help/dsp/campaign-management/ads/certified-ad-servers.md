@@ -3,7 +3,7 @@ title: 经认证的广告服务合作伙伴
 description: 查看所有经认证的广告服务器和广告单元。
 feature: DSP Ads
 exl-id: 084b4c04-a876-4770-9efc-57268c333aa6
-source-git-commit: ffd88b7f3274740db2d91697b0e208f61b2260d5
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 | [!DNL Spirable] |  | X |  |  |  |
 | [!DNL SUBLIME] |  |  | X |  |  |
 | [!DNL SundaySky] |  |  |  | X |  |
-| [!DNL Teads] |  | X |  |  | Advertising Cloud DSP不支持对发送流清单使用VPAID。 |
+| [!DNL Teads] |  | X |  |  | VPAID在发送流清单上不支持。 |
 | [!DNL Trueffect] |  | X |  |  |  |
 | [!DNL Undertone] |  |  | X |  | 在DSP中以180x150方式上传的自定义页面抓取器广告单元</br></br>当Index Exchange通过180x150的拍卖和DSP竞价并提供展示时，创意扩展为全页展示广告。</br></br>最初针对页面抓取器、可扩展粘合和屏幕移动广告单元进行认证。 需要重新验证这一点，并为流程标记步骤。 |
 | [!DNL Vox] |  |  | X |  | [!DNL Athena] 广告单位 |

@@ -3,9 +3,9 @@ title: 关于 [!DNL On Demand] Premium Inventory
 description: 了解DSP与高级出版商合作伙伴预先协商的交易。
 feature: DSP On Demand Inventory
 exl-id: d23d4e4e-f29f-4dba-afe3-7198ef4ee544
-source-git-commit: 39f491a39bdc9d8dd820eb4c69594dda71d8b3c2
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -14,19 +14,24 @@ ht-degree: 0%
 
 *对于具有帐户类型的用户不可用 [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension]和 [!UICONTROL Other];具有类别的广告商 [!UICONTROL Other];和转销商*
 
-的 [!DNL On Demand] Gallery是一款高级库存发现工具，用于探索Advertising Cloud DSP与高级出版商合作伙伴策划的预先协商的交易。 它允许您从区域内顶级出版商访问无保证库存，而无需进行1:1谈判或合同。 您可以请求单笔交易，并且可以订阅发布者以同时请求发布者的所有交易。
+的 [!DNL On Demand] Gallery是一款高级库存发现工具，用于探索DSP与高级出版商合作伙伴策划的预先协商的交易。 它允许您从区域内顶级出版商访问无保证库存，而无需进行1:1谈判或合同。 您可以请求单笔交易，并且可以订阅发布者以同时请求发布者的所有交易。
 
-通过Advertising Cloud DSP Premium市场，您可以：
+DSP Premium Marketplace允许您：
 
 * 快速、轻松地激活新库存，以提高规模和效率
 
    研究表明，在 [!DNL DSP] 平台可节省时间，效率更高。
 
 * 探索新的发布者和格式
+
 * 发现新受众和策略
+
 * 扩展独特访问
+
 * 自动访问公开市场中不可用的发布者
+
 * 自动访问现场活动（如NBA、NFL和NHL活动）
+
 * 通过整合的报表跟踪性能
 
 交易获得批准后，即可用作现有版面的目标，并自动包含为新版面的目标，以定位所有 [!DNL On Demand] 库存。 如果交易请求被拒绝，您可以使用 [!DNL Adobe] 客户团队解决问题，然后重新请求交易。

@@ -3,9 +3,9 @@ title: 已下载/已上载电子表格中的列
 description: 引用下载和上传的Excel QA电子表格中的列。
 feature: DSP Placements
 exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: 12056598ae436123a867e6eaefde47657242dc73
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 | [!UICONTROL Basic] | [!UICONTROL Package Name] | 父包的名称（如果适用）。 | — |
 | [!UICONTROL Goals] | [!UICONTROL Start Date] | 版面的开始日期。 | — |
 | [!UICONTROL Goals] | [!UICONTROL End Date] | 版面的结束日期。 | — |
-| [!UICONTROL Goals] | [!UICONTROL Day parting] | 分时段是否为 *[!UICONTROL ON]* 或 *[!UICONTROL OFF]*.<br><b>注意：</b> 要检查实际的分时段计划，请在 [!DNL DSP]. | — |
+| [!UICONTROL Goals] | [!UICONTROL Day parting] | 分时段是否为 *[!UICONTROL ON]* 或 *[!UICONTROL OFF]*.<br><b>注意：</b> 要检查实际的分时段计划，请在DSP中打开版面设置。 | — |
 | [!UICONTROL Goals] | [!UICONTROL Budget] | 版面预算（如果有）。 | 是 |
 | [!UICONTROL Goals] | [!UICONTROL Budget Interval] | 预算间隔： &lt;i span=&quot;&quot; id=&quot;0&quot; translate=&quot;no&quot; />*、 *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*&#x200B;或 *[!UICONTROL All Time]*.[!UICONTROL >Daily] | 是 |
 | [!UICONTROL Goals] | [!UICONTROL Optimization Goal] | 包的目标。 | — |

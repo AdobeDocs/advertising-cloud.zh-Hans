@@ -1,18 +1,18 @@
 ---
-title: Advertising Cloud DSP中的库存功能概述
+title: Advertising DSP中的库存功能概述
 description: 了解可用的清单功能。
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: b3d0b96e-e638-4bd2-ba14-d348a8fc030b
-source-git-commit: e80eccbf2f87c1ad86a2cb689b44ca67e08248be
+source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
 
-# Advertising Cloud DSP中的库存功能概述
+# Advertising DSP中的库存功能概述
 
-Advertising Cloud DSP可以支持您的库存需求，无论您是否希望通过公共库存来发现规模，还是在具有 [!DNL On Demand]，或与发布者设置1:1私有市场(PMP)交易以针对特定受众或网站激活。 营销活动目标有助于规定哪种类型的库存最适合营销活动的性能需求。 与顶级供应方平台(SSP)的集成，可无缝设置和激活您的PMP。
+DSP可以支持您的库存需求，无论您是否希望通过公共库存找到规模，还是在具有 [!DNL On Demand]，或与发布者设置1:1私有市场(PMP)交易以针对特定受众或网站激活。 营销活动目标有助于规定哪种类型的库存最适合营销活动的性能需求。 与顶级供应方平台(SSP)的集成，可无缝设置和激活您的PMP。
 
 在DSP中访问或确定库存交易后，即可将它们用作促销活动的版面目标。
 

@@ -3,7 +3,7 @@ title: 概述 [!DNL Analytics for Advertising]
 description: 概述 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 31367c8b-3410-4110-9ae6-11defe625355
-source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 [Adobe广告ID(位于 [!DNL Analytics]](ids.md) 与其他eVar类似，具有自定义的永久过期时间。 默认情况下，归因回顾窗口会在Adobe广告实施期间设置为60天。 要更改此设置，请使用 [!DNL Adobe] 客户团队。
 
-Adobe广告维度会附加后缀“(AMO ID)”(例如“广告类型(AMO ID)”)。 请参阅“[Adobe广告量度在Analysis Workspace中](advertising-cloud-metrics-in-analytics.md)“ ”，以查看可用维度的列表。
+Adobe广告维度会附加后缀“(AMO ID)”(例如“广告类型(AMO ID)”)。 请参阅“[Adobe广告量度在Analysis Workspace中](advertising-metrics-in-analytics.md)“ ”，以查看可用维度的列表。
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ Adobe广告维度会附加后缀“(AMO ID)”(例如“广告类型(AMO ID)”)
 
 您的Adobe广告团队将帮助您识别适用于付费媒体表现的事件并将其映射到Adobe广告中，这些事件将显示在 [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Transaction Properties].
 
-请参阅“[Adobe广告中的Analytics量度](analytics-data-in-advertising-cloud.md)“ ”，以获取可用量度列表。
+请参阅“[Adobe广告中的Analytics量度](analytics-data-in-advertising.md)“ ”，以获取可用量度列表。
 
 ### 用于网站重定位的Analytics区段
 
@@ -111,6 +111,6 @@ Adobe广告可以 [!DNL Analytics] 区段，用于再营销DSP和 [!DNL Search] 
 >* [AdobeAnalytics使用的广告ID](ids.md)
 >* [适用于Analytics for Advertising的JavaScript代码](/help/integrations/analytics/javascript.md)
 >* [之间的预期数据差异 [!DNL Analytics] 和Adobe广告](data-variances.md)
->* [Adobe广告量度在Analysis Workspace中](/help/integrations/analytics/advertising-cloud-metrics-in-analytics.md)
->* [[!DNL Analytics] Adobe广告中的数据](/help/integrations/analytics/analytics-data-in-advertising-cloud.md)
+>* [Adobe广告量度在Analysis Workspace中](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+>* [[!DNL Analytics] Adobe广告中的数据](/help/integrations/analytics/analytics-data-in-advertising.md)
 

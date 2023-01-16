@@ -2,13 +2,13 @@
 title: 报表目标设置
 description: 按目标类型查看报表目标所需的详细信息。
 feature: DSP Custom Reports
-source-git-commit: ff14691fd2b6fa56c303dca3ac0e4c897c322f72
+exl-id: 584c9c69-7b94-4e5c-bcc1-277ac2689d8e
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
 
 ---
-
 
 # 报表目标设置
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]:** 用于帮助您识别目标的名称。
 
-**[!UICONTROL S3 Bucket URL]:** 上文件夹的完整路径 [!DNL Amazon Simple Storage Service] (S3)将报表上传到的存储段。 示例： `s3://adcloud_account/reports`
+**[!UICONTROL S3 Bucket URL]:** 上文件夹的完整路径 [!DNL Amazon Simple Storage Service] (S3)将报表上传到的存储段。 示例： `s3://dsp_account/reports`
 
 **[!UICONTROL Access Key ID]:** 对([!DNL Amazon S3])存储段(提供者 [!DNL Amazon])。
 

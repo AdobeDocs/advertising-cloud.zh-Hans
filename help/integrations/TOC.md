@@ -3,7 +3,7 @@ user-guide-title: 与 Adobe Experience Cloud 的集成
 user-guide-description: 了解 Advertising DSP 和 Advertising Search 与其他 Adobe Experience Cloud 产品和服务的集成。
 breadcrumb-title: 与 Experience Cloud 的集成
 index: true
-source-git-commit: b00fd99b90efe7eff3e8d633422917a74ebbb66e
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 12%
@@ -27,8 +27,8 @@ ht-degree: 12%
          + [附加 [!DNL Analytics for Advertising] 宏 [!DNL Flashtalking] 广告标记](/help/integrations/analytics/macros-flashtalking.md)
          + [附加 [!DNL Analytics for Advertising] 宏 [!DNL Google Campaign Manager 360] 广告标记](/help/integrations/analytics/macros-google-campaign-manager.md)
    + 交换的数据 {#data}
-      + [Adobe广告量度在Analysis Workspace中](/help/integrations/analytics/advertising-cloud-metrics-in-analytics.md)
-      + [[!DNL Analytics] Adobe广告中的数据](/help/integrations/analytics/analytics-data-in-advertising-cloud.md)
+      + [Adobe广告量度在Analysis Workspace中](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+      + [[!DNL Analytics] Adobe广告中的数据](/help/integrations/analytics/analytics-data-in-advertising.md)
       + [之间的预期数据差异 [!DNL Analytics] 和Adobe广告](/help/integrations/analytics/data-variances.md)
    + 使用 [!DNL Analytics Marketing Channels] {#mc}
       + [的基本原理 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-overview.md)

@@ -3,9 +3,9 @@ title: 创建和实施CCPA选择退出销售区段
 description: 了解如何创建和实施区段以跟踪用户ID，使其免受消费者选择退出销售请求的影响。
 feature: CCPA, DSP Segments
 exl-id: aebe0c5b-382f-4e4a-b145-c32f32d216ca
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 有关如何使用Adobe Experience Platform Privacy Service API传达CCPA选择退出销售请求以Adobe广告的信息，请参阅 [https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ad-cloud-ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ad-cloud-ccpa-opt-out-of-sale.html).
+>* 有关如何使用Adobe Experience Platform Privacy Service API传达CCPA选择退出销售请求以Adobe广告的信息，请参阅 [https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa-opt-out-of-sale.html).
 >* 要跟踪出于与跟踪CCPA选择退出销售事件无关的目的访问网页的用户，以及从桌面、移动设备和CTV设备接触广告的用户，请创建 [自定义区段](/help/dsp/audiences/custom-segment-create.md).
 
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Adobe对《加州消费者隐私法案》的广告支持：消费者选择退出支持](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ad-cloud-ccpa-opt-out-of-sale.html)
+>* [Adobe对《加州消费者隐私法案》的广告支持：消费者选择退出支持](/help/privacy/ccpa-opt-out-of-sale.md)
 >* [关于 [!UICONTROL CCPA Opt-out-of-Sale] 区段和报表](ccpa-opt-out-about.md)
 >* [检索消费者选择退出销售报表](ccpa-opt-out-segment-report-retrieve.md)
 >* [创建和实施自定义区段](custom-segment-create.md)

@@ -3,9 +3,9 @@ title: 导入Adobe Audience Manager区段以进行广告定位
 description: 了解如何导入 [!DNL Adobe] 使用Adobe Audience Manager将受众导入DSP和搜索
 feature: Integration with Adobe Audience Manager
 exl-id: 08a40148-b7d2-442b-81e8-f3aec4fca7df
-source-git-commit: ad4ab8b9b0a4b5b1cc4aab540900363d2fe671c2
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ Segment membership data is sent only after one of the following events occurs:
 
 在DSP中，区段名称由Audience Manager分类组织，并可与中相应的区段成员资格计数一起使用：
 
-* [版面设置](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/campaign-management/placements/placement-settings.html?#audience-targeting):在 [!UICONTROL Adobe Segments] 选项卡 [!UICONTROL Audience Targeting] 中。
+* [版面设置](/help/dsp/campaign-management/placements/placement-settings.md#audience-targeting):在 [!UICONTROL Adobe Segments] 选项卡 [!UICONTROL Audience Targeting] 中。
 
 * 在 [受众设置](/help/dsp/audiences/audience-settings.md):在 [!UICONTROL Adobe Segments] 选项卡。
 

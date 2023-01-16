@@ -3,9 +3,9 @@ title: 关于 [!UICONTROL CCPA Opt-out-of-Sale] 区段和报表
 description: 了解如何创建区段以跟踪CCPA选择退出销售请求中的ID，以及如何检索ID报表。
 feature: CCPA, DSP Segments
 exl-id: 9256d34e-d0dd-4abf-bc96-2b599caf2a8e
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Adobe广告会生成客户为帐户的选择退出销售请求提交的ID的月�
 
 >[!MORELIKETHIS]
 >
->* [Adobe对《加州消费者隐私法案》的广告支持：消费者选择退出支持](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ad-cloud-ccpa-opt-out-of-sale.html)
+>* [Adobe对《加州消费者隐私法案》的广告支持：消费者选择退出支持](/help/privacy/ccpa-opt-out-of-sale.md)
 >* [创建和实施 [!UICONTROL CCPA Opt-Out-of-Sale] 区段](ccpa-opt-out-segment-create.md)
 >* [检索消费者选择退出销售报表](ccpa-opt-out-segment-report-retrieve.md)
 >* [关于受众管理](audience-about.md)

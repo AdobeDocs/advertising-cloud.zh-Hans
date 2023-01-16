@@ -8,7 +8,7 @@ user-guide-title: Advertising DSP指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 5%
@@ -36,10 +36,10 @@ ht-degree: 5%
    + [帐户资金](/help/dsp/introduction/billing/account-funding.md)
    + [支持的货币](/help/dsp/currency.md)
    + 对消费者隐私的支持 {#privacy}
-      + [支持《通用数据保护条例》](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ad-cloud-gdpr.html)
+      + [支持《通用数据保护条例》](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/gdpr.html)
       + 支持CCPA {#ccpa}
-         + [对《加州消费者隐私法案》的支持：消费者数据访问和删除](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ad-cloud-ccpa-access-delete.html)
-         + [对《加州消费者隐私法案》的支持：消费者选择退出销售](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ad-cloud-ccpa-opt-out-of-sale.html)
+         + [对《加州消费者隐私法案》的支持：消费者数据访问和删除](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-access-delete.html)
+         + [对《加州消费者隐私法案》的支持：消费者选择退出销售](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-opt-out-of-sale.html)
    + 策略和指南 {#policies}
       + [广告要求策略](https://experienceleague.adobe.com/docs/advertising-cloud/policies/ad-requirements-policy.html)
       + [可接受的健康区段指南](https://experienceleague.adobe.com/docs/advertising-cloud/policies/health-segment-guidelines.html)

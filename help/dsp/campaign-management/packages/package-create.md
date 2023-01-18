@@ -2,8 +2,7 @@
 title: 创建资源包
 description: 了解如何创建资源包。
 feature: DSP Packages
-exl-id: 009b65b4-0686-46ca-9f47-01ad4c6a4683
-source-git-commit: 5ed402a7c83072a7af6a06757050486c6d7d7080
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%

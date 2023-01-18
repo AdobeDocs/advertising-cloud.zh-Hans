@@ -2,8 +2,7 @@
 title: 关于平台内报表
 description: 了解营销活动管理视图中包含的报表数据。
 feature: DSP Campaign Data Views
-exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 093902d577cc4af3bb18bbeddc640fe284d3a179
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%

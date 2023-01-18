@@ -2,7 +2,7 @@
 title: 导出有关可重用受众的详细信息
 description: 了解如何查看可重复使用受众的配置、受众大小和定位版面。
 feature: DSP Audiences
-source-git-commit: 0a437213957f914643b4eff63aba65cf582824c6
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%

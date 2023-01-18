@@ -1,16 +1,15 @@
 ---
-title: 关于Campaign管理的常见问题解答
+title: 关于Campaign Management的常见问题解答
 description: 进一步了解营销活动管理，包括更改的延迟期以及在投放期间进行预算更改时所发生的情况。
 feature: DSP Packages, DSP Placements
-exl-id: 9034ab2c-b8b0-4759-bc87-5f73857bb062
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
-# 关于Campaign管理的常见问题解答
+# 关于Campaign Management的常见问题解答
 
 <!-- Most of this information should be moved into the relevant topics (especially editing topics). -->
 
@@ -40,7 +39,7 @@ ht-degree: 0%
 
 * 在飞行的最后一天，包裹的步调如何变化？
 
-   在飞行的最后一天，将日期从24小时缩短到23小时，以便不超出包预算。 此外，包的步调填充策略会自动更改为“[!UICONTROL Frontload]”，即使它设置为“[!UICONTROL even]”也是如此。 这意味着65%的每日预算应在东部标准时间上午11:30前交付。
+   在飞行的最后一天，将日期从24小时缩短到23小时，以便不超出包预算。 此外，包的步调填充策略会自动更改为“[!UICONTROL Frontload]，即使将其设置为“[!UICONTROL even].&quot; 这意味着65%的每日预算应在东部标准时间上午11:30前交付。
 
 >[!MORELIKETHIS]
 >

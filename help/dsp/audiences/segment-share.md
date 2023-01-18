@@ -2,7 +2,7 @@
 title: 共享或停止共享区段
 description: 了解如何与其他DSP用户帐户共享或停止共享自定义或CCPA选择退出销售区段。
 feature: DSP Segments
-source-git-commit: a29258fd09efabafa0d9b44ac3c52506ac835167
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%

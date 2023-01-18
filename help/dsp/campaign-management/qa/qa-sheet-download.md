@@ -2,8 +2,7 @@
 title: 下载营销活动的版面设置
 description: 了解如何使用Excel QA电子表格下载营销活动的版面设置。
 feature: DSP Placements
-exl-id: c3b0cbf2-7095-4608-977a-9a5dd0bbd585
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -14,24 +13,24 @@ ht-degree: 0%
 
 您可以以XLSX（Excel电子表格）格式下载促销活动的版面设置。
 
-如有必要，您稍后可以编辑下载文件中的[选择字段](qa-sheet-columns.md)，并将更改](qa-sheet-upload.md)上传到DSP。[
+如有必要，您稍后可以编辑 [选择字段](qa-sheet-columns.md) 和 [上传更改](qa-sheet-upload.md) 到DSP。
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Campaigns]**。
+1. 在主菜单中，单击 **[!UICONTROL Campaigns]**.
 
 1. 执行以下任一操作：
 
-   * 在营销活动名称旁边，单击&#x200B;**[!UICONTROL ...]>[!UICONTROL Download Excel QA sheet]**。
+   * 在营销活动名称旁边，单击 **[!UICONTROL ...]>[!UICONTROL Download Excel QA sheet]**.
 
-   * 单击促销活动名称可查看促销活动详细信息。 单击右上角的&#x200B;**[!UICONTROL ...]>[!UICONTROL Download Excel QA sheet]**。
+   * 单击促销活动名称可查看促销活动详细信息。 在右上方，单击 **[!UICONTROL ...]>[!UICONTROL Download Excel QA sheet]**.
 
    通知消息指示何时可下载文件。
 
 1. 执行以下任一操作：
 
-   * 在通知消息中，单击&#x200B;**[!UICONTROL Download]。**
+   * 在通知消息中，单击 **[!UICONTROL Download].**
 
-   * 在顶部菜单栏的右侧，单击![作业](/help/dsp/assets/downloads.png)。 单击作业旁边的&#x200B;**[!UICONTROL Download]**。
-   文件将保存到浏览器的Download文件夹中。 有关包含的列的列表，请参阅“已下载/已上载电子表格中的列](qa-sheet-columns.md)”。[
+   * 在顶部菜单栏的右侧，单击 ![作业](/help/dsp/assets/downloads.png). 单击 **[!UICONTROL Download]** 在工作旁边。
+   文件将保存到浏览器的Download文件夹中。 请参阅“[已下载/已上载电子表格中的列](qa-sheet-columns.md)“ ”，查看包含的列列表。
 
 >[!MORELIKETHIS]
 >

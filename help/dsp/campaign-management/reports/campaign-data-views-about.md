@@ -2,8 +2,7 @@
 title: 关于Campaign数据视图
 description: 了解如何自定义营销活动、包、版面和广告的数据视图。
 feature: DSP Campaign Data Views
-exl-id: acc312b9-2de4-4e2f-9b59-b91f23d82357
-source-git-commit: 19d6a2edf07eecf874537dd9d356737ed9156bd9
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
@@ -45,6 +44,6 @@ ht-degree: 0%
 >* [管理数据可视化图表](campaign-data-visualization-manage.md)
 >* [查看版面的网站、广告和频度详细信息](placement-details-view.md)
 >* [查看版面诊断报告](placement-diagnostics.md)
->* [从营销活动管理视图导出数据](campaign-export-data.md)
+>* [从Campaign Management视图导出数据](campaign-export-data.md)
 >* [视频：DSP帐户结构和用户界面](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/ui.html)
 

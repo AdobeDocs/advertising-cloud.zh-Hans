@@ -2,8 +2,7 @@
 title: 创建可重用受众
 description: 了解如何创建由受众区段和其他已保存受众组成的可重复使用受众。
 feature: DSP Audiences
-exl-id: 48e3dc4c-6e2d-452c-8d69-7e6211d808e0
-source-git-commit: 37e5a4fbb7e2ccda77ab0afd49054ec4d1dabf76
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%

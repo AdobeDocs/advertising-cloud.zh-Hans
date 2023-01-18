@@ -1,7 +1,7 @@
 ---
 title: 取消邀请待定用户
 description: 了解如何撤销待决的用户邀请。
-source-git-commit: 315fd6189e1805f9f1f4184cc0aa47d12740616a
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%

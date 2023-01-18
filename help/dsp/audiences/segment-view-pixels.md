@@ -2,7 +2,7 @@
 title: 查看区段的跟踪像素
 description: 了解如何查看自定义或CCPA选择退出销售区段的跟踪像素。
 feature: DSP Segments
-source-git-commit: 06f42a23c84b2dd02b7c37a660a1d31bdd92ae5c
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%

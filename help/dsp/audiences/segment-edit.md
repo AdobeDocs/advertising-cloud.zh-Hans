@@ -2,7 +2,7 @@
 title: 编辑区段信息
 description: 了解如何编辑有关自定义或CCPA选择退出销售区段的信息。
 feature: DSP Segments
-source-git-commit: d7dbc81caecf515ed719da5cb5893e015213a1b1
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%

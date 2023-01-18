@@ -2,8 +2,7 @@
 title: Adobe对《加州消费者隐私法案》的广告支持：消费者选择退出销售支持
 description: 了解对捕获消费者选择退出销售请求的支持。
 feature: CCPA
-exl-id: 2c0cd4f5-798f-479a-99cd-f555cd676766
-source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 0%

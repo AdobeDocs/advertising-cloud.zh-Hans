@@ -2,8 +2,7 @@
 title: 编辑版面的广告计划
 description: 了解如何更改附加到版面的广告的广告时间表。
 feature: DSP Placements
-exl-id: 880522d3-efcd-4ff9-8cef-bf6be626869c
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%

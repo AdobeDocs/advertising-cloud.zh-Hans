@@ -1,7 +1,7 @@
 ---
 title: 重新发送待决用户邀请
 description: 了解如何重新发送待决用户邀请。
-source-git-commit: e3d4c2010255ccf821f3a1ae5278bb3414b8783e
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%

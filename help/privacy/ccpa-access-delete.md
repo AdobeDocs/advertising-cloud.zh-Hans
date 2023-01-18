@@ -2,8 +2,7 @@
 title: Adobe对《加州消费者隐私法案》的广告支持：消费者数据访问和删除支持
 description: 了解支持的数据请求类型、必需的设置和字段值，以及使用旧版产品ID和返回的数据字段的API访问请求示例。
 feature: CCPA
-exl-id: 1330da6c-a944-4bb5-8539-488d97f56175
-source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 0%

@@ -2,8 +2,7 @@
 title: 创建自定义报表
 description: 了解如何创建自定义报表。
 feature: DSP Custom Reports
-exl-id: 07ab797f-4c9e-4241-a9a5-fd7d006b5e5a
-source-git-commit: d10e1c24ee7c93eaab3fd4fefe853860226cc8e2
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 4%
@@ -12,9 +11,9 @@ ht-degree: 4%
 
 # 创建自定义报表
 
-1. 在主菜单中，单击&#x200B;**[!UICONTROL Reports]**。
+1. 在主菜单中，单击 **[!UICONTROL Reports]**.
 1. 单击 **[!UICONTROL New Custom Report]**.
-1. 指定[报表设置](/help/dsp/reports/report-settings.md)。
+1. 指定 [报表设置](/help/dsp/reports/report-settings.md).
 1. 单击 **[!UICONTROL Create Custom Report]**.
 
 >[!MORELIKETHIS]

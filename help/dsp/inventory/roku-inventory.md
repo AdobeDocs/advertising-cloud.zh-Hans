@@ -2,8 +2,7 @@
 title: 使用 [!DNL Roku] 库存
 description: 了解DSP与 [!DNL Roku]，包括库存选项、已批准的第三方跟踪供应商以及 [!DNL Roku] — 特定版面。
 feature: DSP On Demand Inventory, DSP Private Inventory
-exl-id: 0cd42782-f006-4aa8-b879-322f86cfac4b
-source-git-commit: ad978a021c063377e4c91ed41e902d98a03749e4
+source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%

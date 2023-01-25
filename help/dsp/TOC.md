@@ -8,10 +8,10 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: d928b19b868ffc87d5962391f06d765f9da7c13a
+source-git-commit: 62966cd8d903d20b42444ac65d7c70a3a3806a1e
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 5%
+source-wordcount: '881'
+ht-degree: 6%
 
 ---
 
@@ -35,15 +35,8 @@ ht-degree: 5%
       + [跨设备解决方案](/help/dsp/introduction/features/cross-device-solutions.md)
    + [帐户资金](/help/dsp/introduction/billing/account-funding.md)
    + [支持的货币](/help/dsp/currency.md)
-   + 对消费者隐私的支持 {#privacy}
-      + [支持《通用数据保护条例》](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/gdpr.html)
-      + 支持CCPA {#ccpa}
-         + [对《加州消费者隐私法案》的支持：消费者数据访问和删除](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-access-delete.html)
-         + [对《加州消费者隐私法案》的支持：消费者选择退出销售](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-opt-out-of-sale.html)
-   + 策略和指南 {#policies}
-      + [广告要求策略](/help/policies/ad-requirements-policy.md)
-      + [可接受的健康区段指南](/help/policies/health-segment-guidelines.md)
-      + [[!DNL DSP] 数据使用指南](/help/policies/data-usage-guidelines.md)
+   + [对消费者隐私的支持](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [策略和指南](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [高级测量解决方案](/help/dsp/introduction/advanced-measurement-services.md)
 + Campaign Management {#campaign-management}
    + [Campaign Management结构概述](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -231,6 +224,6 @@ ht-degree: 5%
    + 通知 {#notifications}
       + [关于警报订阅](/help/dsp/admin/alerts-about.md)
       + [管理警报订阅](/help/dsp/admin/alerts-manage.md)
-+ [与 Adobe Experience Cloud 的集成](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/home.html)<!-- Dupe link to this file, so need to use an absolute link in one of the listings -->
++ [与 Adobe Experience Cloud 的集成](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [客户支持](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html)
 + [Adobe Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)

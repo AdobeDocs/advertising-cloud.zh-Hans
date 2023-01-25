@@ -2,7 +2,8 @@
 title: 关于Advertising DSP中的受众管理
 description: 了解受众管理功能。
 feature: DSP Audiences, DSP Segments
-source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
+exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
+source-git-commit: e9d9d51302d32b06af805917db2f46e5f6daee62
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 
    * [CCPA选择退出销售区段](/help/dsp/audiences/ccpa-opt-out-segment-create.md) 要根据《加州消费者隐私法案》(CCPA)，跟踪网站上消费者选择退出销售请求的用户ID。 您可以从选择退出销售请求中检索用户ID的月度报表。
 
-      有关Adobe广告对CCPA选择退出销售请求的支持的更多信息，请参阅 [Adobe对《加州消费者隐私法案》的广告支持：消费者选择退出支持](/help/privacy/ccpa-opt-out-of-sale.md).
+      有关Adobe广告对CCPA选择退出销售请求的支持的更多信息，请参阅 [Adobe对《加州消费者隐私法案》的广告支持：消费者选择退出支持](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
 * 您可以创建的受众库 [可重用受众](/help/dsp/audiences/reusable-audience-create.md). 保存的受众由任何可用的受众区段以及任何其他保存的受众组成。 您对已保存受众所做的任何更改都会自动应用于定位或排除该受众的所有版面，以及包含已保存受众的所有其他受众。
 

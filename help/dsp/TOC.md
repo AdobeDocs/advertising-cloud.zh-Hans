@@ -8,7 +8,7 @@ user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: f04fdb7f4f9787804e526b49da2aad0f4e15679a
+source-git-commit: e9d9d51302d32b06af805917db2f46e5f6daee62
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 6%
@@ -36,10 +36,10 @@ ht-degree: 6%
    + [帐户资金](/help/dsp/introduction/billing/account-funding.md)
    + [支持的货币](/help/dsp/currency.md)
    + 对消费者隐私的支持 {#privacy}
-      + [支持《通用数据保护条例》](/help/privacy/advertising-gdpr.md)
+      + [支持《通用数据保护条例》](/help/privacy/gdpr.md)
       + 支持CCPA {#ccpa}
-         + [对《加州消费者隐私法案》的支持：消费者数据访问和删除](/help/privacy/ccpa-access-delete.md)
-         + [对《加州消费者隐私法案》的支持：消费者选择退出销售](/help/privacy/ccpa-opt-out-of-sale.md)
+         + [对《加州消费者隐私法案》的支持：消费者数据访问和删除](/help/privacy/ccpa/ccpa-access-delete.md)
+         + [对《加州消费者隐私法案》的支持：消费者选择退出销售](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
    + 策略和指南 {#policies}
       + [广告要求策略](/help/policies/ad-requirements-policy.md)
       + [可接受的健康区段指南](/help/policies/health-segment-guidelines.md)

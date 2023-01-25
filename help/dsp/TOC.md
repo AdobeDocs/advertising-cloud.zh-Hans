@@ -4,19 +4,19 @@ role: User, Admin
 cloud: Experience Cloud
 solution: Advertising Cloud
 product: advertising cloud
-user-guide-title: Advertising DSP指南
+user-guide-title: Advertising DSP 指南
 user-guide-description: 了解使用 Advertising DSP 管理、优化和汇报显示广告策略所需的主要功能、任务、设置和其他资源。
 breadcrumb-title: DSP 指南
 index: true
-source-git-commit: 17482b831c5db7ef6c211f87b2e408443180746e
+source-git-commit: f04fdb7f4f9787804e526b49da2aad0f4e15679a
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 5%
+source-wordcount: '910'
+ht-degree: 6%
 
 ---
 
 
-# Advertising DSP指南 {#dsp}
+# Advertising DSP 指南 {#dsp}
 
 <!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
       + [Edit the Attribute Tags for a Deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
@@ -36,14 +36,14 @@ ht-degree: 5%
    + [帐户资金](/help/dsp/introduction/billing/account-funding.md)
    + [支持的货币](/help/dsp/currency.md)
    + 对消费者隐私的支持 {#privacy}
-      + [支持《通用数据保护条例》](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/gdpr.html)
+      + [支持《通用数据保护条例》](/help/privacy/advertising-gdpr.md)
       + 支持CCPA {#ccpa}
-         + [对《加州消费者隐私法案》的支持：消费者数据访问和删除](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-access-delete.html)
-         + [对《加州消费者隐私法案》的支持：消费者选择退出销售](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-opt-out-of-sale.html)
+         + [对《加州消费者隐私法案》的支持：消费者数据访问和删除](/help/privacy/ccpa-access-delete.md)
+         + [对《加州消费者隐私法案》的支持：消费者选择退出销售](/help/privacy/ccpa-opt-out-of-sale.md)
    + 策略和指南 {#policies}
-      + [广告要求策略](https://experienceleague.adobe.com/docs/advertising-cloud/policies/ad-requirements-policy.html)
-      + [可接受的健康区段指南](https://experienceleague.adobe.com/docs/advertising-cloud/policies/health-segment-guidelines.html)
-      + [[!DNL DSP] 数据使用指南](https://experienceleague.adobe.com/docs/advertising-cloud/policies/data-usage-guidelines.html)
+      + [广告要求策略](/help/policies/ad-requirements-policy.md)
+      + [可接受的健康区段指南](/help/policies/health-segment-guidelines.md)
+      + [[!DNL DSP] 数据使用指南](/help/policies/data-usage-guidelines.md)
    + [高级测量解决方案](/help/dsp/introduction/advanced-measurement-services.md)
 + Campaign Management {#campaign-management}
    + [Campaign Management结构概述](/help/dsp/campaign-management/campaign-management-overview.md)

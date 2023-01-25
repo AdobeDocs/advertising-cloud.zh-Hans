@@ -2,9 +2,10 @@
 title: 手动创建交易ID详细信息
 description: 了解如何手动输入交易ID的详细信息。
 feature: DSP Private Inventory, DSP Deal IDs
-source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
+exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
+source-git-commit: 3f80cdd81b1ba28519d3075922f57a1155e55dbd
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 1. 输入 [交易设置](deal-id-settings.md):
 
-   1. 在 [!UICONTROL Deal ID basics] 部分，指定交易详细信息和可访问交易的广告商。 对于有保证的交易，您还必须指定计划的投放日期和预计展示次数，以便仅用于跟踪。
+   1. 在 [!UICONTROL Deal ID basics] 部分，指定交易详细信息和可访问交易的广告商。 对于有保证的交易，您还必须指定计划的投放日期和预计展示次数，以便仅用于跟踪。 在“交易”页面上跟踪有保证的交易步调和PG展示步调量度。
 
    1. (仅管理员用户；可选)在 [!UICONTROL Technical] 部分，根据需要编辑默认设置。
 

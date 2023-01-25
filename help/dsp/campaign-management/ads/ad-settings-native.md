@@ -2,9 +2,10 @@
 title: 本机显示广告设置
 description: 请参阅对本机显示广告的可用广告设置的描述。
 feature: DSP Ads
-source-git-commit: 3059a5b211a8a219b02930f7f5763d5ec1467b8e
+exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
+source-git-commit: ca4be4d13d5ce818aeb66c011f3af8c8fd87c2e4
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -45,7 +46,7 @@ ht-degree: 0%
 
 以下设置适用于您创建或编辑的每个像素。
 
-**[!UICONTROL Integration Event]:** 触发像素的事件。 对于此广告类型，请使用 *[!UICONTROL Impression]* 或 *[!UICONTROL Click-through]*.
+**[!UICONTROL Integration Event]:** 触发像素的事件。 对于此广告类型，唯一的选项是 *[!UICONTROL Impression]*.
 
 **[!UICONTROL Pixel Type]:** 像素是否为 *[!UICONTROL IMG URL]* （1x1像素图像文件）， *[!UICONTROL HTML]*&#x200B;或 *[!UICONTROL JavaScript URL]*.
 
